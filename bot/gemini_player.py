@@ -56,7 +56,7 @@ class GeminiPlayer(Player):
             raise ValueError("Please set GEMINI_API_KEY environment variable.")
 
         self.client = genai.Client()
-        self.model  = "gemini-2.5-flash-preview-04-17"
+        self.model  = "gemini-3.1-flash-lite-preview"
 
         # Pre-build the first team synchronously so it's ready before the event loop starts.
         print("[Gemini] Building first team (this may take a few seconds)...")
