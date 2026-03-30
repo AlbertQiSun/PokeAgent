@@ -8,7 +8,7 @@ BOT_DIR="$SCRIPT_DIR/bot"
 PYTHON="$BOT_DIR/venv/bin/python"
 
 # ── Environment ──────────────────────────────────────────────────────────────
-export GEMINI_API_KEY="AIzaSyAakYR2xFoXF6BU1TNP2MAh92U8gVVgCL8"
+# Ensure your GEMINI_API_KEY is set in the .env file instead of hardcoding it here.
 
 # ── Mode selection ───────────────────────────────────────────────────────────
 MODE="${1:-bot}"      # bot | user | eval
