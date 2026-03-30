@@ -21,27 +21,24 @@ PokeAgent utilizes Google's state-of-the-art **Gemini 3.1 Pro Preview** model to
 ### Installation & Setup
 
 1. **Clone the Directory**
-   Ensure you clone the submodule for the local server as well!
    ```bash
-   git clone --recurse-submodules https://github.com/AlbertQiSun/PokeAgent.git
+   git clone https://github.com/AlbertQiSun/PokeAgent.git
    cd PokeAgent
    ```
 
-2. **Install Python Dependencies**
-   Install the required libraries to interface with the bot and the AI model:
+2. **Run Setup Script**
+   An automated setup script is provided to initialize submodules, install showdown's Node.js dependencies, and build a Python virtual environment automatically:
    ```bash
-   pip install poke-env google-genai python-dotenv
+   chmod +x setup.sh
+   ./setup.sh
    ```
-   
+
 3. **Set Up the API Key**
-   Create a `.env` file at the root of the project and add your Gemini API Key:
-   ```bash
-   GEMINI_API_KEY=your_genai_key_here
-   ```
+   The `setup.sh` script generates a `.env` file for you automatically. Open `.env` at the root of the project and paste in your Gemini API Key safely.
 
 ### Running the Bot
 
-First, start your local Pokémon Showdown instance. You can use the provided script (make sure `pokemon-showdown` is set up!):
+First, start your local Pokémon Showdown instance. You can use the provided script (make sure `pokemon-showdown` is set up via `./setup.sh`!):
 ```bash
 ./start_server.sh
 ```
