@@ -26,14 +26,20 @@ from rl_env import make_env, OBS_SIZE, N_ACTIONS
 
 
 def get_device() -> str:
-    """Return the best available device string for stable-baselines3."""
+    """Return the best device for stable-baselines3.
+    MLP policies (no CNN) run faster on CPU than MPS/CUDA due to small batch sizes.
+    CUDA is worthwhile only for CNN policies or very large networks.
+    """
     if torch.cuda.is_available():
-        device = "cuda"
-    elif torch.backends.mps.is_available():
-        device = "mps"
+        # Only use CUDA for MLP if the user explicitly sets FORCE_GPU=1
+        import os
+        if os.environ.get("FORCE_GPU"):
+            device = "cuda"
+        else:
+            device = "cpu"
     else:
         device = "cpu"
-    print(f"Using device: {device}")
+    print(f"Using device: {device}  (set FORCE_GPU=1 to override)")
     return device
 
 
@@ -115,7 +121,7 @@ def train(args):
     if args.bc_weights:
         load_bc_weights(model, args.bc_weights)
 
-    callback = WinRateCallback(log_freq=500)
+    callback = WinRateCallback(log_freq=50)
 
     print(f"Training PPO for {args.steps:,} steps...")
     model.learn(total_timesteps=args.steps, callback=callback, progress_bar=True)

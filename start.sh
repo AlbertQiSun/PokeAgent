@@ -11,7 +11,8 @@ PYTHON="$BOT_DIR/venv/bin/python"
 # Ensure your GEMINI_API_KEY is set in the .env file instead of hardcoding it here.
 
 # ── Mode selection ───────────────────────────────────────────────────────────
-MODE="${1:-bot}"      # bot | user | eval
+MODE="${1:-bot}"      # bot | user | eval | train | train-team | bc
+PLAYER="${2:-gemini}" # gemini | ppo | ppo-team  (for user/bot modes)
 BATTLES="${2:-5}"    # number of battles per matchup (eval mode only)
 
 echo "============================================"
@@ -53,8 +54,11 @@ cleanup() {
 trap cleanup EXIT
 
 if [ "$MODE" = "user" ]; then
-    echo "      Open http://localhost:8000 and challenge 'Gemini Bot'"
-    "$PYTHON" play_user.py
+    echo "      Open http://localhost:8000 and challenge the bot (--player $PLAYER)"
+    "$PYTHON" play_user.py --player "$PLAYER"
+elif [ "$MODE" = "bot" ] && [ "$PLAYER" != "gemini" ]; then
+    echo "      Running $PLAYER bot vs random..."
+    "$PYTHON" main.py --player "$PLAYER" --opponent random --battles 1
 elif [ "$MODE" = "eval" ]; then
     echo "      Running evaluation ($BATTLES battles per matchup)..."
     "$PYTHON" evaluate.py --battles "$BATTLES"
@@ -71,6 +75,11 @@ elif [ "$MODE" = "train" ]; then
     else
         "$PYTHON" train_rl.py --steps "$STEPS" --opponent "$OPPONENT"
     fi
+elif [ "$MODE" = "train-team" ]; then
+    OPPONENT="${2:-random}"
+    STEPS="${3:-300000}"
+    echo "      Training PPO team-builder ($STEPS steps vs $OPPONENT)..."
+    "$PYTHON" train_rl_team.py --steps "$STEPS" --opponent "$OPPONENT" --format gen9anythinggoes
 else
     "$PYTHON" main.py
 fi
