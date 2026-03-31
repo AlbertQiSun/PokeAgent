@@ -7,7 +7,7 @@ SERVER_DIR="$SCRIPT_DIR/pokemon-showdown"
 BOT_DIR="$SCRIPT_DIR/bot"
 PYTHON="$BOT_DIR/venv/bin/python"
 
-MODE="${1:-bot}"   # bot | user | eval | train | train-team | bc
+MODE="${1:-bot}"   # bot | user | arena | eval | train | train-team | bc
 
 echo "============================================"
 echo "  Pokemon Showdown Bot Launcher  |  $MODE"
@@ -74,6 +74,17 @@ elif [ "$MODE" = "bot" ]; then
     echo "      $PLAYER vs $OPPONENT ($BATTLES battles)"
     "$PYTHON" main.py --player "$PLAYER" --opponent "$OPPONENT" --battles "$BATTLES"
 
+# ── arena: bot vs bot with detailed logging ───────────────────────────────────
+elif [ "$MODE" = "arena" ]; then
+    P1="${2:-gemini}"
+    P2="${3:-ppo-team}"
+    BATTLES="${4:-10}"
+    FORMAT="${5:-gen9bssregj}"
+    cleanup() { kill $SERVER_PID 2>/dev/null; }
+    trap cleanup EXIT
+    echo "      $P1 vs $P2  ($BATTLES battles, $FORMAT)"
+    "$PYTHON" arena.py --p1 "$P1" --p2 "$P2" --battles "$BATTLES" --format "$FORMAT"
+
 # ── eval ──────────────────────────────────────────────────────────────────────
 elif [ "$MODE" = "eval" ]; then
     BATTLES="${2:-5}"
@@ -86,24 +97,21 @@ elif [ "$MODE" = "eval" ]; then
 elif [ "$MODE" = "train" ]; then
     OPPONENT="${2:-random}"
     STEPS="${3:-200000}"
-    BC_WEIGHTS="${4:-}"
+    EXTRA_ARGS="${@:4}"
     cleanup() { kill $SERVER_PID 2>/dev/null; }
     trap cleanup EXIT
-    echo "      Training PPO ($STEPS steps vs $OPPONENT)"
-    if [ -n "$BC_WEIGHTS" ]; then
-        "$PYTHON" train_rl.py --steps "$STEPS" --opponent "$OPPONENT" --bc-weights "$BC_WEIGHTS"
-    else
-        "$PYTHON" train_rl.py --steps "$STEPS" --opponent "$OPPONENT"
-    fi
+    echo "      Training PPO ($STEPS steps vs $OPPONENT) $EXTRA_ARGS"
+    "$PYTHON" train_rl.py --steps "$STEPS" --opponent "$OPPONENT" $EXTRA_ARGS
 
 # ── train-team ────────────────────────────────────────────────────────────────
 elif [ "$MODE" = "train-team" ]; then
     OPPONENT="${2:-random}"
     STEPS="${3:-300000}"
+    EXTRA_ARGS="${@:4}"
     cleanup() { kill $SERVER_PID 2>/dev/null; }
     trap cleanup EXIT
-    echo "      Training PPO team-builder ($STEPS steps vs $OPPONENT)"
-    "$PYTHON" train_rl_team.py --steps "$STEPS" --opponent "$OPPONENT" --format gen9anythinggoes
+    echo "      Training PPO team-builder ($STEPS steps vs $OPPONENT) $EXTRA_ARGS"
+    "$PYTHON" train_rl_team.py --steps "$STEPS" --opponent "$OPPONENT" --format gen9anythinggoes $EXTRA_ARGS
 
 # ── bc ────────────────────────────────────────────────────────────────────────
 elif [ "$MODE" = "bc" ]; then

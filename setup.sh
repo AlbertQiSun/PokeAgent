@@ -27,19 +27,23 @@ pip install --upgrade pip
 pip install -r bot/requirements.txt
 
 # Create .env template if not exists
-if [ ! -f ".env" ]; then
-    echo "GEMINI_API_KEY=your_api_key_here" > .env
+if [ ! -f "bot/.env" ]; then
+    echo "GEMINI_API_KEY=your_api_key_here" > bot/.env
     echo ""
-    echo "⚠️ NOTE: We created a .env file for you."
-    echo "Please open the .env file and paste your Gemini API Key there."
+    echo "NOTE: Created bot/.env — add your Gemini API key there"
+    echo "      (or export GEMINI_API_KEY in your shell profile)."
 fi
 
 echo ""
 echo "============================================"
-echo " Setup Complete! 🎉"
-echo " "
-echo " Remember to:"
-echo " 1. Add your GEMINI_API_KEY to the .env file."
-echo " 2. Run ./start_server.sh to start the local server"
-echo " 3. Run ./start.sh to launch the bot!"
+echo " Setup Complete!"
+echo ""
+echo " Make sure GEMINI_API_KEY is set (in bot/.env or shell profile)."
+echo ""
+echo " Usage:"
+echo "   ./start.sh user gemini ppo ppo-team   # play vs bots"
+echo "   ./start.sh arena gemini ppo-team 20   # bot vs bot arena"
+echo "   ./start.sh train random 200000 --history      # train PPO"
+echo "   ./start.sh train-team random 300000 --history  # train team PPO"
+echo "   ./start.sh bc 50000 10                # BC pretrain from replays"
 echo "============================================"

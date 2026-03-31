@@ -58,10 +58,15 @@ class GeminiPlayer(Player):
         self.client = genai.Client()
         self.model  = "gemini-3.1-flash-lite-preview"
 
+        # Battle history: track last N turns per battle for context
+        self._turn_history: dict[str, list[dict]] = {}
+        self.history_len = 5
+
         # Pre-build the first team synchronously so it's ready before the event loop starts.
         print("[Gemini] Building first team (this may take a few seconds)...")
         self._packed_team: str = self._build_team_sync()
         self._building_next: bool = False  # guard against concurrent rebuilds
+        self._battle_count: int = 0  # for team variety prompts
 
     # ── Gemini helpers ────────────────────────────────────────────────────────
 
@@ -78,20 +83,28 @@ class GeminiPlayer(Player):
         )
         return self._clean(resp.text)
 
-    async def _async_call(self, prompt: str, system: str) -> str:
+    async def _async_call(self, prompt: str, system: str, temperature: float = 0.3) -> str:
         resp = await self.client.aio.models.generate_content(
             model=self.model,
             contents=prompt,
-            config=types.GenerateContentConfig(system_instruction=system, temperature=0.3),
+            config=types.GenerateContentConfig(system_instruction=system, temperature=temperature),
         )
         return self._clean(resp.text)
 
     # ── Phase 1: build team of 6 ──────────────────────────────────────────────
 
     def _team_prompt(self) -> str:
+        variety = ""
+        if self._battle_count > 0:
+            variety = (
+                f"\nThis is battle #{self._battle_count + 1}. "
+                "Try a DIFFERENT team composition than before — explore new synergies, "
+                "different cores, and alternative win conditions.\n"
+            )
         return (
             "From the pool below, pick exactly 6 Pokemon to form the strongest BSS Reg J team.\n"
-            "Consider: type coverage, speed control, win conditions, and team synergy.\n\n"
+            "Consider: type coverage, speed control, win conditions, and team synergy.\n"
+            f"{variety}\n"
             f"Pool:\n{_pool_summary()}\n\n"
             'Return JSON: {"picks": [i, i, i, i, i, i], "reasoning": "..."}\n'
             "picks must be exactly 6 unique integers from 0 to 19."
@@ -129,13 +142,14 @@ class GeminiPlayer(Player):
             return self._apply_picks(list(range(6)))
 
     async def _build_team_async(self) -> None:
-        """Non-blocking rebuild called after each battle."""
+        """Non-blocking rebuild called after each battle with higher temperature for variety."""
         if self._building_next:
             return
         self._building_next = True
         try:
+            self._battle_count += 1
             print("[Gemini] Rebuilding team for next battle...")
-            text  = await self._async_call(self._team_prompt(), TEAM_SYSTEM)
+            text  = await self._async_call(self._team_prompt(), TEAM_SYSTEM, temperature=0.7)
             picks = self._parse_team_picks(text)
             self._packed_team = self._apply_picks(picks)
             print("[Gemini] Next team ready.")
@@ -190,15 +204,54 @@ class GeminiPlayer(Player):
             print(f"[Gemini] Teampreview failed ({e}), using default order.")
             return "/team 123"
 
+    # ── Battle history tracking ─────────────────────────────────────────────────
+
+    def _record_turn(self, battle: Battle) -> None:
+        """Record what happened this turn for history context."""
+        tag = battle.battle_tag
+        if tag not in self._turn_history:
+            self._turn_history[tag] = []
+
+        entry = {"turn": battle.turn}
+        if battle.active_pokemon:
+            entry["our_active"] = battle.active_pokemon.species
+            entry["our_hp"] = f"{battle.active_pokemon.current_hp_fraction*100:.0f}%"
+        if battle.opponent_active_pokemon:
+            entry["opp_active"] = battle.opponent_active_pokemon.species
+            entry["opp_hp"] = f"{battle.opponent_active_pokemon.current_hp_fraction*100:.0f}%"
+        self._turn_history[tag].append(entry)
+
+    def _format_history(self, battle: Battle) -> str:
+        """Format recent turn history for the prompt."""
+        tag = battle.battle_tag
+        history = self._turn_history.get(tag, [])
+        if not history:
+            return ""
+        recent = history[-self.history_len:]
+        lines = ["\n-- Recent Battle History (last few turns) --"]
+        for h in recent:
+            parts = [f"Turn {h.get('turn', '?')}:"]
+            if "our_active" in h:
+                parts.append(f"Our {h['our_active']} ({h['our_hp']})")
+            if "opp_active" in h:
+                parts.append(f"vs {h['opp_active']} ({h['opp_hp']})")
+            lines.append("  " + " | ".join(parts))
+        return "\n".join(lines)
+
     # ── After each battle: rebuild team in background ─────────────────────────
 
     def _battle_finished_callback(self, battle: AbstractBattle) -> None:
         super()._battle_finished_callback(battle)
+        # Clean up history for finished battle
+        tag = getattr(battle, "battle_tag", None)
+        if tag and tag in self._turn_history:
+            del self._turn_history[tag]
         asyncio.create_task(self._build_team_async())
 
     # ── Phase 3: battle moves ─────────────────────────────────────────────────
 
     def choose_move(self, battle: Battle):
+        self._record_turn(battle)
         prompt = self._format_battle_state(battle)
         available_moves   = battle.available_moves
         available_switches = battle.available_switches
@@ -274,5 +327,11 @@ class GeminiPlayer(Player):
             ))
         else:
             state.append("Switches: None")
-        state.append("\nBased on this game state, determine the single best action.")
+
+        # Add battle history context
+        history_text = self._format_history(battle)
+        if history_text:
+            state.append(history_text)
+
+        state.append("\nBased on this game state and battle history, determine the single best action.")
         return "\n".join(state)

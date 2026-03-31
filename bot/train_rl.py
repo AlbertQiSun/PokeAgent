@@ -18,28 +18,25 @@ import argparse
 import numpy as np
 import torch
 import torch.nn as nn
-from stable_baselines3 import PPO
+from sb3_contrib import MaskablePPO
 from stable_baselines3.common.callbacks import BaseCallback
-from stable_baselines3.common.monitor import Monitor
 
-from rl_env import make_env, OBS_SIZE, N_ACTIONS
+from rl_env import make_env, make_masked_env, OBS_SIZE, OBS_SIZE_HIST, N_ACTIONS
 
 
 def get_device() -> str:
-    """Return the best device for stable-baselines3.
-    MLP policies (no CNN) run faster on CPU than MPS/CUDA due to small batch sizes.
-    CUDA is worthwhile only for CNN policies or very large networks.
-    """
+    """Return the best available device for stable-baselines3."""
+    import os
     if torch.cuda.is_available():
-        # Only use CUDA for MLP if the user explicitly sets FORCE_GPU=1
-        import os
-        if os.environ.get("FORCE_GPU"):
-            device = "cuda"
-        else:
-            device = "cpu"
+        device = "cuda"
+    elif torch.backends.mps.is_available():
+        device = "mps"
     else:
         device = "cpu"
-    print(f"Using device: {device}  (set FORCE_GPU=1 to override)")
+    # Allow override via env var
+    if os.environ.get("FORCE_CPU"):
+        device = "cpu"
+    print(f"Using device: {device}  (set FORCE_CPU=1 to override)")
     return device
 
 
@@ -66,7 +63,7 @@ class WinRateCallback(BaseCallback):
 
 
 # ── Optional: load BC weights into PPO policy ────────────────────────────────
-def load_bc_weights(model: PPO, bc_path: str):
+def load_bc_weights(model: MaskablePPO, bc_path: str):
     """Copy BC policy network weights into the PPO actor network."""
     from bc_pretrain import PolicyNet
     bc = PolicyNet(OBS_SIZE, N_ACTIONS)
@@ -99,10 +96,12 @@ def load_bc_weights(model: PPO, bc_path: str):
 # ── Train ─────────────────────────────────────────────────────────────────────
 def train(args):
     device = get_device()
-    print(f"Setting up environment (opponent={args.opponent})...")
-    env = Monitor(make_env(opponent_type=args.opponent))
+    use_hist = args.history
+    obs_dim = OBS_SIZE_HIST if use_hist else OBS_SIZE
+    print(f"Setting up environment (opponent={args.opponent}, history={use_hist}, obs={obs_dim})...")
+    env = make_masked_env(opponent_type=args.opponent, use_history=use_hist)
 
-    model = PPO(
+    model = MaskablePPO(
         "MlpPolicy",
         env,
         verbose=0,
@@ -123,7 +122,7 @@ def train(args):
 
     callback = WinRateCallback(log_freq=50)
 
-    print(f"Training PPO for {args.steps:,} steps...")
+    print(f"Training MaskablePPO for {args.steps:,} steps...")
     model.learn(total_timesteps=args.steps, callback=callback, progress_bar=True)
 
     model.save(args.model_path)
@@ -136,7 +135,7 @@ def evaluate(args):
     device = get_device()
     print(f"Loading model from {args.model_path}.zip ...")
     env = make_env(opponent_type=args.opponent)
-    model = PPO.load(args.model_path, env=env, device=device)
+    model = MaskablePPO.load(args.model_path, env=env, device=device)
 
     wins = 0
     n = args.eval_episodes
@@ -146,7 +145,8 @@ def evaluate(args):
 
     print(f"Evaluating over {n} episodes...")
     while episode_count < n:
-        action, _ = model.predict(obs, deterministic=True)
+        action_masks = env.action_masks() if hasattr(env, 'action_masks') else None
+        action, _ = model.predict(obs, deterministic=True, action_masks=action_masks)
         obs, reward, terminated, truncated, info = env.step(action)
         episode_reward += reward
         if terminated or truncated:
@@ -170,6 +170,8 @@ if __name__ == "__main__":
     parser.add_argument("--model-path",    type=str,   default="ppo_pokemon")
     parser.add_argument("--eval",          action="store_true")
     parser.add_argument("--eval-episodes", type=int,   default=100)
+    parser.add_argument("--history",       action="store_true",
+                        help="Use 5-frame history stacking (400-dim obs)")
     args = parser.parse_args()
 
     if args.eval:

@@ -3,5 +3,7 @@ google-genai>=0.1.0
 colorama
 python-dotenv
 stable-baselines3
+sb3-contrib
 torch
 datasets
+tqdm

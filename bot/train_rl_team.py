@@ -18,19 +18,25 @@ Usage:
 import argparse
 import torch
 import torch.nn as nn
-from stable_baselines3 import PPO
+from sb3_contrib import MaskablePPO
 from stable_baselines3.common.callbacks import BaseCallback
-from stable_baselines3.common.monitor import Monitor
 
-from rl_env_team import make_team_env, OBS_TEAM_SIZE
+from rl_env_team import make_team_env, make_masked_team_env, OBS_TEAM_SIZE, OBS_TEAM_SIZE_HIST
 from pokemon_pool import POOL_SIZE
 
 
 def get_device() -> str:
+    import os
     if torch.cuda.is_available():
-        import os
-        return "cuda" if os.environ.get("FORCE_GPU") else "cpu"
-    return "cpu"
+        device = "cuda"
+    elif torch.backends.mps.is_available():
+        device = "mps"
+    else:
+        device = "cpu"
+    if os.environ.get("FORCE_CPU"):
+        device = "cpu"
+    print(f"Using device: {device}  (set FORCE_CPU=1 to override)")
+    return device
 
 
 class WinRateCallback(BaseCallback):
@@ -57,12 +63,18 @@ class WinRateCallback(BaseCallback):
 
 def train(args):
     device = get_device()
+    use_hist = args.history
+    obs_dim = OBS_TEAM_SIZE_HIST if use_hist else OBS_TEAM_SIZE
     print(f"Using device: {device}")
-    print(f"Setting up team-building env (opponent={args.opponent}, format={args.format})...")
+    print(f"Setting up team-building env (opponent={args.opponent}, format={args.format}, history={use_hist}, obs={obs_dim})...")
 
-    env = Monitor(make_team_env(opponent_type=args.opponent, battle_format=args.format))
+    env = make_masked_team_env(
+        opponent_type=args.opponent,
+        battle_format=args.format,
+        use_history=use_hist,
+    )
 
-    model = PPO(
+    model = MaskablePPO(
         "MlpPolicy",
         env,
         verbose=0,
@@ -78,11 +90,12 @@ def train(args):
         device=device,
     )
 
+    battle_obs_str = f"400 history" if use_hist else "80 battle"
     print(
-        f"Obs size: {OBS_TEAM_SIZE}  "
-        f"(1 phase + {POOL_SIZE} pool flags + 80 battle)\n"
+        f"Obs size: {obs_dim}  "
+        f"(1 phase + {POOL_SIZE} pool flags + {battle_obs_str})\n"
         f"Action size: 26  (0-{POOL_SIZE-1} = pool picks, 0-25 = battle actions)\n"
-        f"Training for {args.steps:,} steps..."
+        f"Training MaskablePPO for {args.steps:,} steps..."
     )
 
     model.learn(
@@ -98,8 +111,9 @@ def train(args):
 def evaluate(args):
     device = get_device()
     print(f"Loading model from {args.model_path}.zip ...")
-    env = make_team_env(opponent_type=args.opponent, battle_format=args.format)
-    model = PPO.load(args.model_path, env=env, device=device)
+    env = make_team_env(opponent_type=args.opponent, battle_format=args.format,
+                        use_history=args.history)
+    model = MaskablePPO.load(args.model_path, env=env, device=device)
 
     wins, n = 0, args.eval_episodes
     obs, _ = env.reset()
@@ -108,7 +122,8 @@ def evaluate(args):
 
     print(f"Evaluating {n} episodes vs {args.opponent}...")
     while episode_count < n:
-        action, _ = model.predict(obs, deterministic=True)
+        action_masks = env.action_masks() if hasattr(env, 'action_masks') else None
+        action, _ = model.predict(obs, deterministic=True, action_masks=action_masks)
         obs, reward, terminated, truncated, _ = env.step(action)
         episode_reward += reward
         if terminated or truncated:
@@ -132,6 +147,8 @@ if __name__ == "__main__":
     parser.add_argument("--model-path",    type=str, default="ppo_team_builder")
     parser.add_argument("--eval",          action="store_true")
     parser.add_argument("--eval-episodes", type=int, default=50)
+    parser.add_argument("--history",       action="store_true",
+                        help="Use 5-frame history stacking (421-dim obs)")
     args = parser.parse_args()
 
     if args.eval:

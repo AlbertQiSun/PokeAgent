@@ -1,0 +1,661 @@
+{
+  "summary": {
+    "p1": "gemini",
+    "p2": "ppo-team",
+    "total_battles": 20,
+    "p1_wins": 2,
+    "p2_wins": 18,
+    "draws": 0,
+    "p1_win_rate": 0.1,
+    "p2_win_rate": 0.9,
+    "avg_turns": 10.7,
+    "min_turns": 6,
+    "max_turns": 14,
+    "p1_team_usage": {
+      "incineroar": 20,
+      "fluttermane": 20,
+      "calyrexice": 20,
+      "kingambit": 20,
+      "chienpao": 20,
+      "dragonite": 20
+    },
+    "p2_team_usage": {
+      "urshifurapidstrike": 20,
+      "chiyu": 20,
+      "ironhands": 17
+    },
+    "p1_survival_rate": {
+      "fluttermane": 1.0,
+      "chienpao": 1.0,
+      "dragonite": 1.0,
+      "calyrexice": 0.1,
+      "kingambit": 0.05,
+      "incineroar": 0.0
+    },
+    "elapsed_seconds": 522.9,
+    "battles_per_minute": 2.3
+  },
+  "battles": [
+    {
+      "tag": "battle-gen9bssregj-15227",
+      "won": false,
+      "turns": 12,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "chiyu",
+        "ironhands"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "chiyu"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15228",
+      "won": false,
+      "turns": 10,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "ironhands",
+        "chiyu"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "ironhands"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15229",
+      "won": true,
+      "turns": 12,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "chiyu",
+        "ironhands"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "chiyu",
+        "ironhands"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "calyrexice",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15230",
+      "won": false,
+      "turns": 14,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "chiyu",
+        "ironhands"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "chiyu",
+        "ironhands"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15231",
+      "won": false,
+      "turns": 10,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "ironhands",
+        "chiyu"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "ironhands"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15232",
+      "won": false,
+      "turns": 11,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "chiyu",
+        "ironhands"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "chiyu"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15233",
+      "won": false,
+      "turns": 12,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "ironhands",
+        "chiyu"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "ironhands"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15234",
+      "won": false,
+      "turns": 6,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "chiyu",
+        "ironhands"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "chiyu"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15235",
+      "won": false,
+      "turns": 11,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "chiyu"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15236",
+      "won": false,
+      "turns": 9,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "ironhands",
+        "chiyu"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "chiyu"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15237",
+      "won": false,
+      "turns": 8,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "chiyu",
+        "ironhands"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "chiyu"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15238",
+      "won": true,
+      "turns": 13,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "ironhands",
+        "chiyu"
+      ],
+      "our_fainted": [
+        "incineroar"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "ironhands",
+        "chiyu"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15239",
+      "won": false,
+      "turns": 10,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "chiyu"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "chiyu"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15240",
+      "won": false,
+      "turns": 10,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "ironhands",
+        "chiyu"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "ironhands"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15241",
+      "won": false,
+      "turns": 11,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "ironhands",
+        "chiyu"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "ironhands"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15242",
+      "won": false,
+      "turns": 6,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "chiyu"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15243",
+      "won": false,
+      "turns": 13,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "ironhands",
+        "chiyu"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "ironhands"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15244",
+      "won": false,
+      "turns": 10,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "chiyu",
+        "ironhands"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "chiyu"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15245",
+      "won": false,
+      "turns": 13,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "chiyu",
+        "ironhands"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "chiyu"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-15246",
+      "won": false,
+      "turns": 13,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "chiyu",
+        "ironhands"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [
+        "chiyu",
+        "ironhands"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    }
+  ],
+  "generated_at": "2026-03-30T16:19:35.818547"
+}

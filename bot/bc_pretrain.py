@@ -31,8 +31,11 @@ def get_device() -> torch.device:
 
 
 # ── Action mapping (matches poke_env SinglesEnv for gen9) ───────────────────
-# 0-5: switch to slot 0-5
-# 6-9: move 0-3 (no gimmick)
+# 0-5:   switch to slot 0-5
+# 6-9:   move 0-3 (normal)
+# 10-13: move + mega   (dead in gen9 → remap to 6-9)
+# 14-17: move + zmove  (dead in gen9 → remap to 6-9)
+# 18-21: move + dynamax(dead in gen9 → remap to 6-9)
 # 22-25: move 0-3 + terastallize
 N_ACTIONS = 26
 OBS_SIZE   = 80  # must match rl_env.py
@@ -147,7 +150,7 @@ def parse_log(log: str):
 # ── Dataset ──────────────────────────────────────────────────────────────────
 
 class ReplayDataset(Dataset):
-    def __init__(self, samples: int = 50_000, format_filter: str = "gen91v1",
+    def __init__(self, samples: int = 50_000, format_filter: str = "gen9randombattle",
                  scan_limit: int = 5_000_000):
         print(f"Loading replay dataset (target={samples} replays, format={format_filter})...")
 
@@ -219,7 +222,7 @@ class PolicyNet(nn.Module):
 # ── Training ──────────────────────────────────────────────────────────────────
 
 def train(samples: int, epochs: int, output: str, batch_size: int = 256,
-          format_filter: str = "gen91v1", scan_limit: int = 5_000_000):
+          format_filter: str = "gen9randombattle", scan_limit: int = 5_000_000):
     device  = get_device()
     dataset = ReplayDataset(samples=samples, format_filter=format_filter,
                             scan_limit=scan_limit)
@@ -258,7 +261,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--samples",    type=int, default=50_000, help="Target replays to collect")
     parser.add_argument("--scan-limit", type=int, default=5_000_000, help="Max rows to scan in dataset")
-    parser.add_argument("--format",     type=str, default="gen91v1", help="Format ID to filter")
+    parser.add_argument("--format",     type=str, default="gen9randombattle", help="Format ID to filter (e.g. gen9randombattle, gen9ou, gen9battlestadiumsingles)")
     parser.add_argument("--epochs",     type=int, default=10)
     parser.add_argument("--output",     type=str, default="bc_policy.pth")
     args = parser.parse_args()
