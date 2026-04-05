@@ -1,5 +1,8 @@
 poke-env>=0.7.0
 google-genai>=0.1.0
+openai>=1.0.0
+transformers>=4.40.0
+accelerate
 colorama
 python-dotenv
 stable-baselines3
@@ -7,3 +10,5 @@ sb3-contrib
 torch
 datasets
 tqdm
+tabulate
+# Optional (CUDA server mode): vllm>=0.8.0

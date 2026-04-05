@@ -1,0 +1,702 @@
+{
+  "summary": {
+    "p1": "ppo-team",
+    "p2": "ppo-team",
+    "total_battles": 20,
+    "p1_wins": 10,
+    "p2_wins": 10,
+    "draws": 0,
+    "p1_win_rate": 0.5,
+    "p2_win_rate": 0.5,
+    "avg_turns": 21.8,
+    "min_turns": 7,
+    "max_turns": 44,
+    "p1_team_usage": {
+      "kingambit": 20,
+      "skeledirge": 20,
+      "urshifurapidstrike": 20,
+      "rillaboom": 19,
+      "fluttermane": 12,
+      "tornadustherian": 10,
+      "calyrexice": 9,
+      "primarina": 4,
+      "incineroar": 3,
+      "ironhands": 1,
+      "amoonguss": 1,
+      "dragonite": 1
+    },
+    "p2_team_usage": {
+      "urshifurapidstrike": 20,
+      "skeledirge": 15,
+      "fluttermane": 8,
+      "kingambit": 5,
+      "primarina": 4,
+      "tornadustherian": 3,
+      "incineroar": 1,
+      "ironhands": 1
+    },
+    "p1_survival_rate": {
+      "kingambit": 1.0,
+      "rillaboom": 1.0,
+      "ironhands": 1.0,
+      "amoonguss": 1.0,
+      "dragonite": 1.0,
+      "calyrexice": 0.778,
+      "tornadustherian": 0.7,
+      "primarina": 0.5,
+      "urshifurapidstrike": 0.35,
+      "skeledirge": 0.3,
+      "fluttermane": 0.25,
+      "incineroar": 0.0
+    },
+    "elapsed_seconds": 1.0,
+    "battles_per_minute": 1235.8
+  },
+  "battles": [
+    {
+      "tag": "battle-gen9bssregj-36298",
+      "won": false,
+      "turns": 9,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "rillaboom",
+        "fluttermane",
+        "tornadustherian"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "kingambit"
+      ],
+      "our_fainted": [
+        "urshifurapidstrike",
+        "fluttermane",
+        "tornadustherian"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "skeledirge"
+      ],
+      "our_survived": [
+        "kingambit",
+        "skeledirge",
+        "rillaboom"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36299",
+      "won": true,
+      "turns": 29,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "rillaboom",
+        "tornadustherian",
+        "fluttermane"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "our_fainted": [
+        "skeledirge",
+        "fluttermane"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "our_survived": [
+        "kingambit",
+        "urshifurapidstrike",
+        "rillaboom",
+        "tornadustherian"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36300",
+      "won": true,
+      "turns": 10,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "fluttermane",
+        "calyrexice",
+        "primarina"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "primarina",
+        "kingambit"
+      ],
+      "our_fainted": [
+        "urshifurapidstrike",
+        "primarina"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "primarina",
+        "kingambit"
+      ],
+      "our_survived": [
+        "kingambit",
+        "skeledirge",
+        "fluttermane",
+        "calyrexice"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36301",
+      "won": false,
+      "turns": 44,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "rillaboom",
+        "fluttermane",
+        "calyrexice"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "kingambit"
+      ],
+      "our_fainted": [
+        "skeledirge",
+        "urshifurapidstrike",
+        "fluttermane"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "skeledirge"
+      ],
+      "our_survived": [
+        "kingambit",
+        "rillaboom",
+        "calyrexice"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36302",
+      "won": false,
+      "turns": 10,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "rillaboom",
+        "fluttermane",
+        "calyrexice"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "kingambit"
+      ],
+      "our_fainted": [
+        "urshifurapidstrike",
+        "fluttermane",
+        "calyrexice"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "skeledirge"
+      ],
+      "our_survived": [
+        "kingambit",
+        "skeledirge",
+        "rillaboom"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36303",
+      "won": true,
+      "turns": 20,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "calyrexice",
+        "rillaboom",
+        "fluttermane"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "our_fainted": [
+        "skeledirge",
+        "urshifurapidstrike"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "our_survived": [
+        "kingambit",
+        "calyrexice",
+        "rillaboom",
+        "fluttermane"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36304",
+      "won": false,
+      "turns": 16,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "rillaboom",
+        "tornadustherian",
+        "incineroar"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "tornadustherian",
+        "primarina"
+      ],
+      "our_fainted": [
+        "urshifurapidstrike",
+        "tornadustherian",
+        "incineroar"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "primarina"
+      ],
+      "our_survived": [
+        "kingambit",
+        "skeledirge",
+        "rillaboom"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36305",
+      "won": false,
+      "turns": 9,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "rillaboom",
+        "primarina",
+        "tornadustherian"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "fluttermane",
+        "primarina"
+      ],
+      "our_fainted": [
+        "skeledirge",
+        "urshifurapidstrike",
+        "primarina"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "fluttermane"
+      ],
+      "our_survived": [
+        "kingambit",
+        "rillaboom",
+        "tornadustherian"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36306",
+      "won": true,
+      "turns": 21,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "rillaboom",
+        "tornadustherian",
+        "incineroar"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "our_fainted": [
+        "skeledirge",
+        "incineroar"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "our_survived": [
+        "kingambit",
+        "urshifurapidstrike",
+        "rillaboom",
+        "tornadustherian"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36307",
+      "won": true,
+      "turns": 29,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "rillaboom",
+        "tornadustherian",
+        "incineroar"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "our_fainted": [
+        "skeledirge",
+        "incineroar"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "our_survived": [
+        "kingambit",
+        "urshifurapidstrike",
+        "rillaboom",
+        "tornadustherian"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36308",
+      "won": true,
+      "turns": 40,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "calyrexice",
+        "rillaboom",
+        "primarina"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "incineroar"
+      ],
+      "our_fainted": [
+        "skeledirge"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "incineroar"
+      ],
+      "our_survived": [
+        "kingambit",
+        "urshifurapidstrike",
+        "calyrexice",
+        "rillaboom",
+        "primarina"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36309",
+      "won": false,
+      "turns": 27,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "fluttermane",
+        "calyrexice",
+        "rillaboom"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge"
+      ],
+      "our_fainted": [
+        "skeledirge",
+        "urshifurapidstrike",
+        "fluttermane"
+      ],
+      "opp_fainted": [
+        "skeledirge"
+      ],
+      "our_survived": [
+        "kingambit",
+        "calyrexice",
+        "rillaboom"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36310",
+      "won": false,
+      "turns": 14,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "fluttermane",
+        "ironhands",
+        "rillaboom"
+      ],
+      "opp_team": [
+        "fluttermane",
+        "skeledirge",
+        "urshifurapidstrike"
+      ],
+      "our_fainted": [
+        "skeledirge",
+        "urshifurapidstrike",
+        "fluttermane"
+      ],
+      "opp_fainted": [
+        "fluttermane",
+        "skeledirge"
+      ],
+      "our_survived": [
+        "kingambit",
+        "ironhands",
+        "rillaboom"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36311",
+      "won": true,
+      "turns": 44,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "amoonguss",
+        "rillaboom",
+        "tornadustherian"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "tornadustherian"
+      ],
+      "our_fainted": [
+        "skeledirge",
+        "tornadustherian"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "tornadustherian"
+      ],
+      "our_survived": [
+        "kingambit",
+        "urshifurapidstrike",
+        "amoonguss",
+        "rillaboom"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36312",
+      "won": false,
+      "turns": 9,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "rillaboom",
+        "fluttermane",
+        "calyrexice"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "kingambit"
+      ],
+      "our_fainted": [
+        "urshifurapidstrike",
+        "fluttermane",
+        "calyrexice"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "skeledirge"
+      ],
+      "our_survived": [
+        "kingambit",
+        "skeledirge",
+        "rillaboom"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36313",
+      "won": false,
+      "turns": 7,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "rillaboom",
+        "tornadustherian",
+        "fluttermane"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "ironhands"
+      ],
+      "our_fainted": [
+        "skeledirge",
+        "urshifurapidstrike",
+        "fluttermane"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike"
+      ],
+      "our_survived": [
+        "kingambit",
+        "rillaboom",
+        "tornadustherian"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36314",
+      "won": false,
+      "turns": 40,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "fluttermane",
+        "rillaboom",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge"
+      ],
+      "our_fainted": [
+        "skeledirge",
+        "urshifurapidstrike",
+        "fluttermane"
+      ],
+      "opp_fainted": [
+        "skeledirge"
+      ],
+      "our_survived": [
+        "kingambit",
+        "rillaboom",
+        "dragonite"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36315",
+      "won": true,
+      "turns": 9,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "rillaboom",
+        "primarina",
+        "tornadustherian"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "primarina",
+        "tornadustherian"
+      ],
+      "our_fainted": [
+        "urshifurapidstrike"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "primarina",
+        "tornadustherian"
+      ],
+      "our_survived": [
+        "kingambit",
+        "skeledirge",
+        "rillaboom",
+        "primarina",
+        "tornadustherian"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36316",
+      "won": true,
+      "turns": 29,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "rillaboom",
+        "tornadustherian",
+        "calyrexice"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "our_fainted": [
+        "skeledirge"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "our_survived": [
+        "kingambit",
+        "urshifurapidstrike",
+        "rillaboom",
+        "tornadustherian",
+        "calyrexice"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-36317",
+      "won": true,
+      "turns": 20,
+      "our_team": [
+        "kingambit",
+        "skeledirge",
+        "urshifurapidstrike",
+        "fluttermane",
+        "calyrexice",
+        "rillaboom"
+      ],
+      "opp_team": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "our_fainted": [
+        "skeledirge"
+      ],
+      "opp_fainted": [
+        "urshifurapidstrike",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "our_survived": [
+        "kingambit",
+        "urshifurapidstrike",
+        "fluttermane",
+        "calyrexice",
+        "rillaboom"
+      ]
+    }
+  ],
+  "generated_at": "2026-03-31T17:26:51.886469"
+}

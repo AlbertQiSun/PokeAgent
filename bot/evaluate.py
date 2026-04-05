@@ -32,7 +32,7 @@ def make_player(cls, name):
     )
 
 
-async def main(n_battles: int):
+async def main(n_battles: int, include_qwen: bool = False):
     print(f"Setting up players ({n_battles} battles each matchup)...\n")
 
     gemini    = make_player(GeminiPlayer,           "Gemini Bot")
@@ -41,6 +41,11 @@ async def main(n_battles: int):
     heuristic = make_player(SimpleHeuristicsPlayer, "Heuristics")
 
     players = [gemini, random_p, maxbp, heuristic]
+
+    if include_qwen:
+        from local_llm_player import LocalLLMPlayer
+        qwen = make_player(LocalLLMPlayer, "Qwen Bot")
+        players.append(qwen)
 
     print("Running cross-evaluation...\n")
     results = await cross_evaluate(players, n_challenges=n_battles)
@@ -77,5 +82,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--battles", type=int, default=5,
                         help="Number of battles per matchup (default: 5)")
+    parser.add_argument("--qwen", action="store_true",
+                        help="Include Qwen (local LLM) in evaluation")
     args = parser.parse_args()
-    asyncio.run(main(args.battles))
+    asyncio.run(main(args.battles, include_qwen=args.qwen))

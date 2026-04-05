@@ -1,0 +1,94 @@
+Battle: battle-gen9bssregi-2572373149
+Player: Albert Hatsuki vs 1eyedragon
+Result: LOSS in 4 turns
+Date: 2026-03-31T23:44:07.520676
+Format: gen9bssregi
+
+Bot team: kingambit, skeledirge, urshifurapidstrike, rillaboom, tornadustherian, calyrexice
+Opponent team: lunala
+Bot fainted: rillaboom, tornadustherian, calyrexice
+Opp fainted: none
+
+|init|battle
+|title|1eyedragon vs. Albert Hatsuki
+|j|☆1eyedragon
+|j|☆Albert Hatsuki
+|gametype|singles
+|player|p1|1eyedragon|ghetsis|1185
+|player|p2|Albert Hatsuki|170|1039
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Ting-Lu, L50|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Skeledirge, L50, M|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Tornadus-Therian, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|teampreview|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 1eyedragon)
+|inactive|Time left: 90 sec this turn | 420 sec total | 90 sec grace
+|inactive|1eyedragon has 60 seconds left.
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: DREAMCATCHER|Lunala, L50|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|175/175
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: DREAMCATCHER|Moongeist Beam|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|upkeep
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Calyrex|Calyrex-Ice, L50|207/207
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|2
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|-terastallize|p2a: Calyrex|Psychic
+|move|p1a: DREAMCATCHER|Moongeist Beam|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|
+|upkeep
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Tornadus|Tornadus-Therian, L50, M|186/186
+|turn|3
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Tornadus|U-turn|p1a: DREAMCATCHER
+|-damage|p1a: DREAMCATCHER|94/100
+|move|p1a: DREAMCATCHER|Moongeist Beam|p2a: Tornadus
+|-damage|p2a: Tornadus|87/186
+|
+|-heal|p1a: DREAMCATCHER|99/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Tornadus|Hurricane|p1a: DREAMCATCHER|[miss]
+|-miss|p2a: Tornadus|p1a: DREAMCATCHER
+|move|p1a: DREAMCATCHER|Moongeist Beam|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|raw|1eyedragon's rating: 1185 &rarr; <strong>1200</strong><br />(+15 for winning)
+|raw|Albert Hatsuki's rating: 1039 &rarr; <strong>1029</strong><br />(-10 for losing)

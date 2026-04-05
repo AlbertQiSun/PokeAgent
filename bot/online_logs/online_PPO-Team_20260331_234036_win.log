@@ -1,0 +1,173 @@
+Battle: battle-gen9bssregi-2572370948-baodrkrin4iun68uff0fynvr5lhfojspw
+Player: Albert Hatsuki vs Slovami
+Result: WIN in 8 turns
+Date: 2026-03-31T23:40:36.839699
+Format: gen9bssregi
+
+Bot team: kingambit, skeledirge, urshifurapidstrike, rillaboom, calyrexice, landorustherian
+Opponent team: kyogre, breloom, calyrexice
+Bot fainted: urshifurapidstrike, rillaboom
+Opp fainted: kyogre, breloom, calyrexice
+
+|init|battle
+|title|Albert Hatsuki vs. Slovami
+|j|☆Albert Hatsuki
+|j|☆Slovami
+|gametype|singles
+|player|p1|Albert Hatsuki|170|1000
+|player|p2|Slovami|170|1176
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Skeledirge, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Landorus-Therian, L50, M|
+|poke|p2|Carbink, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Rabsca, L50, M|
+|poke|p2|Kyogre, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Breloom, L50, M|
+|teampreview|3
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|175/175
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|1
+|
+|switch|p2a: Breloom|Breloom, L50, M|100/100
+|move|p1a: Rillaboom|Drum Beating|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|53/100
+|-unboost|p2a: Breloom|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|60/100|[from] Grassy Terrain
+|-status|p2a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|move|p1a: Rillaboom|Drum Beating|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|15/100 tox
+|-unboost|p2a: Breloom|spe|1
+|move|p2a: Breloom|Substitute|p2a: Breloom
+|-fail|p2a: Breloom|move: Substitute|[weak]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Breloom|21/100 tox|[from] Grassy Terrain
+|-heal|p2a: Breloom|33/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|-terastallize|p1a: Rillaboom|Grass
+|move|p1a: Rillaboom|Drum Beating|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p2a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|turn|4
+|
+|move|p1a: Rillaboom|Drum Beating|p2a: Calyrex
+|-damage|p2a: Calyrex|36/100
+|-unboost|p2a: Calyrex|spe|1
+|move|p2a: Calyrex|Glacial Lance|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-ability|p2a: Calyrex|Chilling Neigh|boost
+|-boost|p2a: Calyrex|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Calyrex|42/100|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|175/175
+|turn|5
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|24/100
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|7/100
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-hitcount|p2: Calyrex|3
+|
+|-weather|none
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|switch|p2a: Kyogre|Kyogre, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Kyogre
+|turn|6
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|87/100
+|-resisted|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|72/100
+|-resisted|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|58/100
+|-hitcount|p2a: Kyogre|3
+|move|p2a: Kyogre|Surf|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|1/175
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|43/100
+|-resisted|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|28/100
+|-resisted|p2a: Kyogre
+|-crit|p2a: Kyogre
+|-damage|p2a: Kyogre|13/100
+|-hitcount|p2a: Kyogre|3
+|move|p2a: Kyogre|Surf|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|switch|p1a: Calyrex|Calyrex-Ice, L50|207/207
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|turn|8
+|
+|move|p2a: Kyogre|Surf|p1a: Calyrex
+|-damage|p1a: Calyrex|29/207
+|move|p1a: Calyrex|Glacial Lance|p2a: Kyogre
+|-resisted|p2a: Kyogre
+|-damage|p2a: Kyogre|0 fnt
+|faint|p2a: Kyogre
+|
+|raw|Albert Hatsuki's rating: 1000 &rarr; <strong>1059</strong><br />(+59 for winning)
+|raw|Slovami's rating: 1176 &rarr; <strong>1139</strong><br />(-37 for losing)

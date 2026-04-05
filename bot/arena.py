@@ -29,7 +29,7 @@ LOGS_DIR = Path("arena_logs")
 
 def make_player(player_type: str, slot: int, battle_format: str):
     """Create a named player instance. slot=1|2 ensures unique usernames."""
-    name_map = {"gemini": "GeminiBot", "ppo": "PPOBot", "ppo-team": "PPOTeamBot"}
+    name_map = {"gemini": "GeminiBot", "ppo": "PPOBot", "ppo-team": "PPOTeamBot", "qwen": "QwenBot"}
     username = f"{name_map.get(player_type, player_type)}{slot}"
     account = AccountConfiguration(username, None)
     base = dict(
@@ -49,6 +49,10 @@ def make_player(player_type: str, slot: int, battle_format: str):
     elif player_type == "ppo-team":
         from ppo_team_player import PPOTeamPlayer
         return PPOTeamPlayer(model_path="ppo_team_builder", **base)
+
+    elif player_type == "qwen":
+        from local_llm_player import LocalLLMPlayer
+        return LocalLLMPlayer(**base)
 
     else:
         raise ValueError(f"Unknown player type: {player_type!r}")
@@ -158,7 +162,42 @@ def print_summary(agg: dict):
 
 # ── Save logs ──────────────────────────────────────────────────────────────────
 
-def save_logs(agg: dict, battles: list[dict], p1_name: str, p2_name: str):
+def _extract_battle_log(battle) -> str:
+    """Extract the turn-by-turn battle log from a poke_env Battle object."""
+    lines = []
+    tag = battle.battle_tag
+    lines.append(f"=== {tag} ===")
+    lines.append(f"Players: {battle.player_username} vs {battle.opponent_username}")
+
+    # poke_env stores raw messages in battle._observations or battle.observations
+    # We reconstruct from available data
+    team_mons = [m.species for m in battle.team.values()]
+    opp_mons = [m.species for m in battle.opponent_team.values()]
+    lines.append(f"P1 team: {', '.join(team_mons)}")
+    lines.append(f"P2 team: {', '.join(opp_mons)}")
+    lines.append("")
+
+    # Extract turn-by-turn from observations (raw server messages)
+    observations = getattr(battle, 'observations', {})
+    if observations:
+        for turn_key in sorted(observations.keys()):
+            obs = observations[turn_key]
+            events = obs.events if hasattr(obs, 'events') else []
+            for event in events:
+                event_str = "|".join(str(e) for e in event) if isinstance(event, (list, tuple)) else str(event)
+                lines.append(event_str)
+    else:
+        lines.append("(no detailed observations available)")
+
+    won = battle.won
+    result = "WIN" if won is True else ("LOSS" if won is False else "DRAW")
+    lines.append(f"\nResult: {result} in {battle.turn} turns")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def save_logs(agg: dict, battles: list[dict], p1_name: str, p2_name: str,
+              raw_battles=None):
     LOGS_DIR.mkdir(exist_ok=True)
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     stem = f"arena_{p1_name}_vs_{p2_name}_{ts}"
@@ -189,6 +228,15 @@ def save_logs(agg: dict, battles: list[dict], p1_name: str, p2_name: str):
             })
     print(f"  Per-battle CSV: {csv_path}")
 
+    # Turn-by-turn battle logs
+    if raw_battles:
+        log_path = LOGS_DIR / f"{stem}.log"
+        with log_path.open("w") as f:
+            for battle in raw_battles:
+                f.write(_extract_battle_log(battle))
+                f.write("\n" + "=" * 60 + "\n\n")
+        print(f"  Battle logs : {log_path}")
+
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 
@@ -216,9 +264,9 @@ async def run_arena(p1_type: str, p2_type: str, n_battles: int, battle_format: s
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--p1",      default="gemini",
-                        choices=["gemini", "ppo", "ppo-team"])
+                        choices=["gemini", "ppo", "ppo-team", "qwen"])
     parser.add_argument("--p2",      default="ppo-team",
-                        choices=["gemini", "ppo", "ppo-team"])
+                        choices=["gemini", "ppo", "ppo-team", "qwen"])
     parser.add_argument("--battles", type=int, default=10)
     parser.add_argument("--format",  default="gen9bssregj",
                         help="Battle format (default: gen9bssregj)")

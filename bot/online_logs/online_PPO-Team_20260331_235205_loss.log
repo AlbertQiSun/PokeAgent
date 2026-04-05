@@ -1,0 +1,250 @@
+Battle: battle-gen9bssregi-2572375065
+Player: Albert Hatsuki vs viepr123
+Result: LOSS in 17 turns
+Date: 2026-03-31T23:52:05.723319
+Format: gen9bssregi
+
+Bot team: kingambit, skeledirge, urshifurapidstrike, rillaboom, primarina, tornadustherian
+Opponent team: dondozo, koraidon, chienpao
+Bot fainted: skeledirge, rillaboom, primarina
+Opp fainted: dondozo, chienpao
+
+|init|battle
+|title|viepr123 vs. Albert Hatsuki
+|j|‽viepr123
+|j|☆Albert Hatsuki
+|gametype|singles
+|player|p1|viepr123|1|1069
+|player|p2|Albert Hatsuki|170|1029
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Gliscor, L50, F|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Dondozo, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Skeledirge, L50, F|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Tornadus-Therian, L50, M|
+|teampreview|3
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Dondozo|Dondozo, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|175/175
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|switch|p2a: Skeledirge|Skeledirge, L50, F|211/211
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p1a: Koraidon|U-turn|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|197/211
+|
+|switch|p1a: Dondozo|Dondozo, L50, M|100/100|[from] U-turn
+|move|p2a: Skeledirge|Torch Song|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|82/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skeledirge|210/211|[from] Grassy Terrain
+|-heal|p1a: Dondozo|88/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|-terastallize|p2a: Skeledirge|Fire
+|move|p2a: Skeledirge|Torch Song|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|69/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Dondozo|Yawn|p2a: Skeledirge
+|-start|p2a: Skeledirge|move: Yawn|[of] p1a: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skeledirge|211/211|[from] Grassy Terrain
+|-heal|p1a: Dondozo|75/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|81/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| Cold Steel III
+|
+|move|p2a: Skeledirge|Torch Song|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|58/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Dondozo|Wave Crash|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|143/211
+|-damage|p1a: Dondozo|49/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Skeledirge|156/211|[from] Grassy Terrain
+|-heal|p1a: Dondozo|55/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|62/100|[from] item: Leftovers
+|-end|p2a: Skeledirge|move: Yawn|[silent]
+|-status|p2a: Skeledirge|slp
+|upkeep
+|turn|5
+|
+|cant|p2a: Skeledirge|slp
+|move|p1a: Dondozo|Wave Crash|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|84/211 slp
+|-damage|p1a: Dondozo|52/100|[from] Recoil
+|
+|-weather|none
+|-heal|p2a: Skeledirge|97/211 slp|[from] Grassy Terrain
+|-heal|p1a: Dondozo|58/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|65/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|-curestatus|p2a: Skeledirge|slp|[msg]
+|move|p2a: Skeledirge|Torch Song|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|49/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Dondozo|Wave Crash|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|-damage|p1a: Dondozo|37/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|43/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Primarina|Primarina, L50, M|156/156
+|turn|7
+|
+|move|p2a: Primarina|Sparkling Aria|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|22/100
+|-enditem|p2a: Primarina|Throat Spray
+|-boost|p2a: Primarina|spa|1|[from] item: Throat Spray
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Primarina|Sparkling Aria|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|83/100 slp
+|cant|p1a: Dondozo|slp
+|
+|-heal|p1a: Dondozo|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Primarina|Moonblast|p1a: Dondozo
+|-damage|p1a: Dondozo|52/100 slp
+|cant|p1a: Dondozo|slp
+|
+|-heal|p1a: Dondozo|58/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Primarina|Moonblast|p1a: Dondozo
+|-damage|p1a: Dondozo|17/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Yawn|p2a: Primarina
+|-start|p2a: Primarina|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p1a: Dondozo|23/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p2a: Primarina|Energy Ball|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|-end|p2a: Primarina|move: Yawn|[silent]
+|-status|p2a: Primarina|slp
+|upkeep
+|
+|switch|p1a: Chien-Pao|Chien-Pao, L50|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|12
+|
+|move|p1a: Chien-Pao|Sheer Cold|p2a: Primarina|[miss]
+|-miss|p1a: Chien-Pao|p2a: Primarina
+|cant|p2a: Primarina|slp
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Chien-Pao|Sheer Cold|p2a: Primarina|[miss]
+|-miss|p1a: Chien-Pao|p2a: Primarina
+|cant|p2a: Primarina|slp
+|
+|upkeep
+|turn|14
+|
+|move|p1a: Chien-Pao|Sheer Cold|p2a: Primarina|[miss]
+|-miss|p1a: Chien-Pao|p2a: Primarina
+|-curestatus|p2a: Primarina|slp|[msg]
+|move|p2a: Primarina|Moonblast|p1a: Chien-Pao
+|-supereffective|p1a: Chien-Pao
+|-enditem|p1a: Chien-Pao|Focus Sash
+|-damage|p1a: Chien-Pao|1/100
+|-unboost|p1a: Chien-Pao|spa|1
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Chien-Pao|Sheer Cold|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|-ohko
+|
+|upkeep
+|
+|switch|p2a: Rillaboom|Rillaboom, L50, M|175/175
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|16
+|
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Rillaboom
+|-damage|p2a: Rillaboom|82/175
+|move|p2a: Rillaboom|Wood Hammer|p1a: Chien-Pao
+|-damage|p1a: Chien-Pao|0 fnt
+|faint|p1a: Chien-Pao
+|-damage|p2a: Rillaboom|81/175|[from] Recoil
+|
+|-heal|p2a: Rillaboom|91/175|[from] Grassy Terrain
+|upkeep
+|
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|17
+|
+|-terastallize|p1a: Koraidon|Fire
+|move|p1a: Koraidon|Flare Blitz|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-damage|p1a: Koraidon|86/100|[from] Recoil
+|
+|raw|viepr123's rating: 1069 &rarr; <strong>1095</strong><br />(+26 for winning)
+|raw|Albert Hatsuki's rating: 1029 &rarr; <strong>1016</strong><br />(-13 for losing)

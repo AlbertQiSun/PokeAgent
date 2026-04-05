@@ -1,0 +1,114 @@
+Battle: battle-gen9bssregi-2572388076
+Player: Albert Hatsuki vs WrRude09
+Result: LOSS in 6 turns
+Date: 2026-04-01T00:16:44.808743
+Format: gen9bssregi
+
+Bot team: miraidon, ogerponhearthflame, urshifurapidstrike, skeledirge, garganacl, terapagos
+Opponent team: cyclizar, poliwrath, dragonite
+Bot fainted: miraidon, ogerponhearthflame, urshifurapidstrike
+Opp fainted: none
+
+|init|battle
+|title|WrRude09 vs. Albert Hatsuki
+|j|☆WrRude09
+|j|☆Albert Hatsuki
+|gametype|singles
+|player|p1|WrRude09|hilbert-wonderlauncher|1052
+|player|p2|Albert Hatsuki|170|1000
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Poliwrath, L50, F|
+|poke|p1|Cyclizar, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Kyogre, L50|
+|poke|p1|Miraidon, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Skeledirge, L50, F|
+|poke|p2|Garganacl, L50, F|
+|poke|p2|Terapagos, L50, M|
+|teampreview|3
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Cyclizar|Cyclizar, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50, shiny|176/176
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|
+|switch|p2a: Ogerpon|Ogerpon-Hearthflame, L50, F|155/155
+|-ability|p2a: Ogerpon|Mold Breaker
+|move|p1a: Cyclizar|Shed Tail|p1a: Cyclizar
+|-start|p1a: Cyclizar|Substitute|[from] move: Shed Tail
+|-damage|p1a: Cyclizar|50/100
+|
+|switch|p1a: Poliwrath|Poliwrath, L50, F|100/100|[from] Shed Tail
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Poliwrath|[anim] Ivy Cudgel Fire
+|-resisted|p1a: Poliwrath
+|-crit|p1a: Poliwrath
+|-end|p1a: Poliwrath|Substitute
+|move|p1a: Poliwrath|Belly Drum|p1a: Poliwrath
+|-damage|p1a: Poliwrath|50/100
+|-setboost|p1a: Poliwrath|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Poliwrath|Sitrus Berry|[eat]
+|-heal|p1a: Poliwrath|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|3
+|
+|-terastallize|p2a: Ogerpon|Fire
+|detailschange|p2a: Ogerpon|Ogerpon-Hearthflame-Tera, L50, F, tera:Fire
+|-ability|p2a: Ogerpon|Embody Aspect (Hearthflame)|boost
+|-boost|p2a: Ogerpon|atk|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Poliwrath|[anim] Ivy Cudgel Fire
+|-resisted|p1a: Poliwrath
+|-crit|p1a: Poliwrath
+|-damage|p1a: Poliwrath|8/100
+|move|p1a: Poliwrath|Baton Pass|p1a: Poliwrath
+|
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100|[from] Baton Pass
+|
+|upkeep
+|turn|4
+|
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|detailschange|p2: Ogerpon|Ogerpon-Hearthflame, L50, F|[silent]
+|
+|upkeep
+|
+|switch|p2a: Miraidon|Miraidon, L50, shiny|176/176
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|turn|5
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|176/176
+|turn|6
+|
+|move|p1a: Dragonite|Extreme Speed|p2a: Urshifu
+|-crit|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|raw|WrRude09's rating: 1052 &rarr; <strong>1079</strong><br />(+27 for winning)
+|raw|Albert Hatsuki's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

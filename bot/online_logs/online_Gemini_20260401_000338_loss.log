@@ -1,0 +1,177 @@
+Battle: battle-gen9bssregi-2572381900
+Player: Albert Hatsuki vs SerenaCarl
+Result: LOSS in 10 turns
+Date: 2026-04-01T00:03:38.015431
+Format: gen9bssregi
+
+Bot team: calyrexice, incineroar, fluttermane, kingambit, tornadustherian, amoonguss
+Opponent team: garganacl, koraidon
+Bot fainted: calyrexice, incineroar, kingambit
+Opp fainted: garganacl, koraidon
+
+|init|battle
+|title|SerenaCarl vs. Albert Hatsuki
+|j|‽SerenaCarl
+|j|☆Albert Hatsuki
+|gametype|singles
+|player|p1|SerenaCarl|hilda|1190
+|player|p2|Albert Hatsuki|170|1000
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Garganacl, L50, M|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Tornadus-Therian, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SerenaCarl)
+|inactive|Time left: 90 sec this turn | 420 sec total | 90 sec grace
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Garganacl|Garganacl, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|202/202
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Garganacl|atk|1
+|turn|1
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Incineroar|Knock Off|p1a: Garganacl
+|-damage|p1a: Garganacl|74/100
+|-enditem|p1a: Garganacl|Covert Cloak|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|upkeep
+|turn|2
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Incineroar|Parting Shot|p1a: Garganacl
+|-unboost|p1a: Garganacl|atk|1
+|-unboost|p1a: Garganacl|spa|1
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Kingambit|Kingambit, L50, M|207/207|[from] Parting Shot
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|upkeep
+|turn|3
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|12/100
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|
+|upkeep
+|turn|4
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|upkeep
+|
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|5
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Incineroar|Incineroar, L50, M|202/202
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|move|p1a: Koraidon|Swords Dance|p1a: Koraidon
+|-boost|p1a: Koraidon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Calyrex|Calyrex-Ice, L50|207/207
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Koraidon|Swords Dance|p1a: Koraidon
+|-boost|p1a: Koraidon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Koraidon|Close Combat|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|-unboost|p1a: Koraidon|def|1
+|-unboost|p1a: Koraidon|spd|1
+|faint|p2a: Calyrex
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Incineroar|Incineroar, L50, M|202/202
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|turn|8
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|-terastallize|p1a: Koraidon|Fire
+|move|p1a: Koraidon|Flame Charge|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|43/202
+|-boost|p1a: Koraidon|spe|1
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|93/202|[from] item: Sitrus Berry
+|move|p2a: Incineroar|Parting Shot|p1a: Koraidon
+|-fail|p1a: Koraidon|unboost|[from] item: Clear Amulet|[of] p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Koraidon|Flame Charge|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2a: Incineroar
+|
+|-weather|none
+|upkeep
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Kingambit|Kingambit, L50, M|207/207
+|turn|10
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Koraidon
+|-damage|p1a: Koraidon|29/100
+|move|p1a: Koraidon|Flare Blitz|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-damage|p1a: Koraidon|0 fnt|[from] Recoil
+|faint|p1a: Koraidon
+|
+|raw|SerenaCarl's rating: 1190 &rarr; <strong>1203</strong><br />(+13 for winning)
+|raw|Albert Hatsuki's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

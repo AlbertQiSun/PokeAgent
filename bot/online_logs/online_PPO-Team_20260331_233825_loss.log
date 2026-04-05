@@ -1,0 +1,130 @@
+Battle: battle-gen9bssregi-2572370128
+Player: Albert Hatsuki vs nobasegamer
+Result: LOSS in 6 turns
+Date: 2026-03-31T23:38:25.737438
+Format: gen9bssregi
+
+Bot team: kingambit, skeledirge, urshifurapidstrike, rillaboom, fluttermane, gholdengo
+Opponent team: garchomp, koraidon, calyrexshadow
+Bot fainted: skeledirge, urshifurapidstrike, rillaboom
+Opp fainted: garchomp
+
+|init|battle
+|title|Albert Hatsuki vs. nobasegamer
+|j|☆Albert Hatsuki
+|j|☆nobasegamer
+|gametype|singles
+|player|p1|Albert Hatsuki|170|1000
+|player|p2|nobasegamer|2|1000
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Skeledirge, L50, F|
+|poke|p1|Urshifu-*, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Koraidon, L50|
+|poke|p2|Brambleghast, L50, F|
+|poke|p2|Calyrex-Shadow, L50|
+|teampreview|3
+|n|☆Albert Hatsuki|alberthatsuki
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|175/175
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|turn|1
+|
+|-terastallize|p2a: Garchomp|Fire
+|move|p1a: Urshifu|Surging Strikes|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|61/100
+|-damage|p1a: Urshifu|154/175|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|24/100
+|-damage|p1a: Urshifu|133/175|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Urshifu|112/175|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|-hitcount|p2: Garchomp|3
+|
+|upkeep
+|
+|switch|p2a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p2a: Koraidon
+|-activate|p2a: Koraidon|Orichalcum Pulse|[source]
+|turn|2
+|
+|switch|p1a: Skeledirge|Skeledirge, L50, F|211/211
+|move|p2a: Koraidon|Swords Dance|p2a: Koraidon
+|-boost|p2a: Koraidon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|move|p1a: Skeledirge|Torch Song|p2a: Calyrex
+|-damage|p2a: Calyrex|51/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Calyrex|Astral Barrage|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, F|112/175
+|turn|5
+|
+|move|p1a: Urshifu|Surging Strikes|p2a: Calyrex
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|39/100
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|27/100
+|-crit|p2a: Calyrex
+|-damage|p2a: Calyrex|14/100
+|-hitcount|p2a: Calyrex|3
+|move|p2a: Calyrex|Astral Barrage|p1a: Urshifu
+|-crit|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|-ability|p2a: Calyrex|Grim Neigh|boost
+|-boost|p2a: Calyrex|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Rillaboom|Rillaboom, L50, F|175/175
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|6
+|
+|move|p2a: Calyrex|Astral Barrage|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|raw|Albert Hatsuki's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|nobasegamer's rating: 1000 &rarr; <strong>1040</strong><br />(+40 for winning)

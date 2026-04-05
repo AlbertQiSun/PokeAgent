@@ -1,6 +1,8 @@
 import asyncio
 import argparse
 import orjson
+from datetime import datetime
+from pathlib import Path
 from poke_env import AccountConfiguration, LocalhostServerConfiguration
 from gemini_player import GeminiPlayer
 from ppo_player import PPOPlayer
@@ -9,6 +11,7 @@ from teams import TEAM_1, TEAM_2
 import os
 
 BATTLE_FORMAT = "gen9bssregj"
+LOGS_DIR = Path("battle_logs")
 
 
 def make_bot(player_type: str):
@@ -42,6 +45,14 @@ def make_bot(player_type: str):
                 server_configuration=LocalhostServerConfiguration,
             )
         name = "PPO Team Bot"
+    elif player_type == "qwen":
+        from local_llm_player import LocalLLMPlayer
+        bot = LocalLLMPlayer(
+            account_configuration=AccountConfiguration("Qwen Bot", None),
+            battle_format=BATTLE_FORMAT,
+            server_configuration=LocalhostServerConfiguration,
+        )
+        name = "Qwen Bot"
     else:
         bot = GeminiPlayer(
             account_configuration=AccountConfiguration("Gemini Bot", None),
@@ -81,17 +92,66 @@ async def main(player_type: str = "gemini"):
     print("4. Challenge with 'BSS Reg J' format (uncheck Best-of-3).")
     print("==================================================")
 
+    LOGS_DIR.mkdir(exist_ok=True)
     battle_count = 0
+    prev_battle_count = len(bot.battles)
+
     while True:
         await bot.accept_challenges(None, 1)
         battle_count += 1
+
+        # Save the latest battle log
+        new_battles = list(bot.battles.values())[prev_battle_count:]
+        prev_battle_count = len(bot.battles)
+
+        for battle in new_battles:
+            tag = battle.battle_tag
+            won = battle.won
+            result = "win" if won is True else ("loss" if won is False else "draw")
+            ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+            log_file = LOGS_DIR / f"{bot_name.replace(' ','_')}_{ts}_{result}.log"
+
+            lines = []
+            lines.append(f"Battle: {tag}")
+            lines.append(f"Player: {battle.player_username} vs {battle.opponent_username}")
+            lines.append(f"Result: {result.upper()} in {battle.turn} turns")
+            lines.append(f"Date: {datetime.now().isoformat()}")
+            lines.append("")
+
+            # Team info
+            our_team = [m.species for m in battle.team.values()]
+            opp_team = [m.species for m in battle.opponent_team.values()]
+            our_fainted = [m.species for m in battle.team.values() if m.fainted]
+            opp_fainted = [m.species for m in battle.opponent_team.values() if m.fainted]
+            lines.append(f"Bot team: {', '.join(our_team)}")
+            lines.append(f"Opponent team: {', '.join(opp_team)}")
+            lines.append(f"Bot fainted: {', '.join(our_fainted) or 'none'}")
+            lines.append(f"Opp fainted: {', '.join(opp_fainted) or 'none'}")
+            lines.append("")
+
+            # Turn-by-turn observations
+            observations = getattr(battle, 'observations', {})
+            if observations:
+                for turn_key in sorted(observations.keys()):
+                    obs = observations[turn_key]
+                    events = obs.events if hasattr(obs, 'events') else []
+                    for event in events:
+                        if isinstance(event, (list, tuple)):
+                            event_str = "|".join(str(e) for e in event)
+                        else:
+                            event_str = str(event)
+                        lines.append(event_str)
+
+            log_file.write_text("\n".join(lines))
+            print(f"\n  Battle log saved: {log_file}")
+
         print(f"\nBattle {battle_count} finished! Waiting for next challenge...")
         print("(Press Ctrl+C to stop)")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--player", default="gemini", choices=["gemini", "ppo", "ppo-team"],
+    parser.add_argument("--player", default="gemini", choices=["gemini", "ppo", "ppo-team", "qwen"],
                         help="Which bot to use (default: gemini)")
     args = parser.parse_args()
     asyncio.run(main(args.player))

@@ -1,0 +1,195 @@
+Battle: battle-gen9bssregi-2572393123
+Player: Albert Hatsuki vs zaliyeyuan
+Result: LOSS in 9 turns
+Date: 2026-04-01T00:29:39.376986
+Format: gen9bssregi
+
+Bot team: miraidon, ogerponhearthflame, urshifurapidstrike, skeledirge, garganacl, terapagos
+Opponent team: koraidon, tinglu
+Bot fainted: miraidon, urshifurapidstrike, skeledirge
+Opp fainted: tinglu
+
+|init|battle
+|title|zaliyeyuan vs. Albert Hatsuki
+|j|☆zaliyeyuan
+|j|☆Albert Hatsuki
+|gametype|singles
+|player|p1|zaliyeyuan|pokekid|1207
+|player|p2|Albert Hatsuki|170|1000
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Koraidon, L50|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Glimmora, L50, F|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Skeledirge, L50, F|
+|poke|p2|Garganacl, L50, F|
+|poke|p2|Terapagos, L50, M|
+|teampreview|3
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Miraidon|Miraidon, L50, shiny|176/176
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|1
+|
+|switch|p1a: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|53/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-crit|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|176/176
+|turn|3
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|41/100
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|32/100
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|22/100
+|-hitcount|p1a: Ting-Lu|3
+|move|p1a: Ting-Lu|Earthquake|p2a: Urshifu
+|-damage|p2a: Urshifu|104/176
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|12/100
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|2/100
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|-hitcount|p1: Ting-Lu|3
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|turn|5
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|97/100
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|93/100
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|89/100
+|-hitcount|p1a: Koraidon|3
+|move|p1a: Koraidon|Substitute|p1a: Koraidon
+|-start|p1a: Koraidon|Substitute
+|-damage|p1a: Koraidon|64/100
+|
+|-weather|none
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Substitute|[damage]
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Substitute|[damage]
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-activate|p1a: Koraidon|move: Substitute|[damage]
+|-hitcount|p1a: Koraidon|3
+|move|p1a: Koraidon|Scale Shot|p2a: Urshifu
+|-damage|p2a: Urshifu|77/176
+|-damage|p2a: Urshifu|52/176
+|-damage|p2a: Urshifu|25/176
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|-hitcount|p2: Urshifu|4
+|-unboost|p1a: Koraidon|def|1
+|-boost|p1a: Koraidon|spe|1
+|
+|upkeep
+|
+|switch|p2a: Skeledirge|Skeledirge, L50, F, shiny|211/211
+|turn|7
+|
+|move|p1a: Koraidon|Scale Shot|p2a: Skeledirge
+|-damage|p2a: Skeledirge|192/211
+|-damage|p2a: Skeledirge|171/211
+|-damage|p2a: Skeledirge|152/211
+|-damage|p2a: Skeledirge|133/211
+|-hitcount|p2a: Skeledirge|4
+|-unboost|p1a: Koraidon|def|1
+|-boost|p1a: Koraidon|spe|1
+|move|p2a: Skeledirge|Will-O-Wisp||[still]
+|-fail|p2a: Skeledirge
+|
+|upkeep
+|turn|8
+|
+|move|p1a: Koraidon|Scale Shot|p2a: Skeledirge
+|-damage|p2a: Skeledirge|114/211
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|84/211
+|-damage|p2a: Skeledirge|65/211
+|-damage|p2a: Skeledirge|46/211
+|-hitcount|p2a: Skeledirge|4
+|-unboost|p1a: Koraidon|def|1
+|-boost|p1a: Koraidon|spe|1
+|move|p2a: Skeledirge|Will-O-Wisp||[still]
+|-fail|p2a: Skeledirge
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Koraidon|Scale Shot|p2a: Skeledirge
+|-damage|p2a: Skeledirge|27/211
+|-damage|p2a: Skeledirge|9/211
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|-hitcount|p2: Skeledirge|3
+|
+|raw|zaliyeyuan's rating: 1207 &rarr; <strong>1219</strong><br />(+12 for winning)
+|raw|Albert Hatsuki's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

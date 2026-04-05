@@ -1,0 +1,159 @@
+Battle: battle-gen9bssregi-2572378924
+Player: Albert Hatsuki vs 1eyedragon
+Result: LOSS in 9 turns
+Date: 2026-03-31T23:56:40.129485
+Format: gen9bssregi
+
+Bot team: calyrexice, incineroar, fluttermane, kingambit, tornadustherian, amoonguss
+Opponent team: dondozo, miraidon
+Bot fainted: calyrexice, incineroar, tornadustherian
+Opp fainted: none
+
+|init|battle
+|title|1eyedragon vs. Albert Hatsuki
+|j|☆1eyedragon
+|j|☆Albert Hatsuki
+|gametype|singles
+|player|p1|1eyedragon|ghetsis|1241
+|player|p2|Albert Hatsuki|170|1004
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Lunala, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Iron Treads, L50|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Ting-Lu, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Tornadus-Therian, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 1eyedragon)
+|inactive|Time left: 90 sec this turn | 420 sec total | 90 sec grace
+|inactive|1eyedragon has 60 seconds left.
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: BIG FLOPPA|Dondozo, L50, F|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, L50, M|186/186
+|turn|1
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: BIG FLOPPA|Protect|p1a: BIG FLOPPA
+|-singleturn|p1a: BIG FLOPPA|Protect
+|move|p2a: Tornadus|U-turn|p1a: BIG FLOPPA
+|-activate|p1a: BIG FLOPPA|move: Protect
+|
+|upkeep
+|turn|2
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p1a: THUNDERSTRUCK|Miraidon, L50|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: THUNDERSTRUCK
+|-enditem|p1a: THUNDERSTRUCK|Electric Seed
+|-boost|p1a: THUNDERSTRUCK|def|1|[from] item: Electric Seed
+|move|p2a: Tornadus|U-turn|p1a: THUNDERSTRUCK
+|-damage|p1a: THUNDERSTRUCK|92/100
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Incineroar|Incineroar, L50, M|202/202|[from] U-turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: THUNDERSTRUCK|atk|1
+|
+|upkeep
+|turn|3
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: THUNDERSTRUCK|Electro Drift|p2a: Incineroar
+|-damage|p2a: Incineroar|46/202
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|96/202|[from] item: Sitrus Berry
+|move|p2a: Incineroar|Parting Shot|p1a: THUNDERSTRUCK
+|-unboost|p1a: THUNDERSTRUCK|atk|1
+|-unboost|p1a: THUNDERSTRUCK|spa|1
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Calyrex|Calyrex-Ice, L50|207/207|[from] Parting Shot
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|
+|upkeep
+|turn|4
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p1a: BIG FLOPPA|Dondozo, L50, F|100/100
+|move|p2a: Calyrex|High Horsepower|p1a: BIG FLOPPA
+|-damage|p1a: BIG FLOPPA|81/100
+|
+|-heal|p1a: BIG FLOPPA|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: BIG FLOPPA|Wave Crash|p2a: Calyrex
+|-damage|p2a: Calyrex|155/207
+|-damage|p1a: BIG FLOPPA|81/100|[from] Recoil
+|move|p2a: Calyrex|Glacial Lance|p1a: BIG FLOPPA
+|-resisted|p1a: BIG FLOPPA
+|-damage|p1a: BIG FLOPPA|63/100
+|
+|-heal|p1a: BIG FLOPPA|70/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: BIG FLOPPA|Fissure|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-ohko
+|
+|-heal|p1a: BIG FLOPPA|76/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Tornadus|Tornadus-Therian, L50, M|186/186
+|turn|7
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p1a: THUNDERSTRUCK|Miraidon, L50|92/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: THUNDERSTRUCK
+|move|p2a: Tornadus|Hurricane|p1a: THUNDERSTRUCK
+|-resisted|p1a: THUNDERSTRUCK
+|-damage|p1a: THUNDERSTRUCK|76/100
+|
+|upkeep
+|turn|8
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Incineroar|Incineroar, L50, M|96/202
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: THUNDERSTRUCK|atk|1
+|move|p1a: THUNDERSTRUCK|Electro Drift|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|upkeep
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Tornadus|Tornadus-Therian, L50, M|186/186
+|turn|9
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Tornadus|U-turn|p1a: THUNDERSTRUCK
+|-damage|p1a: THUNDERSTRUCK|63/100
+|move|p1a: THUNDERSTRUCK|Electro Drift|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|raw|1eyedragon's rating: 1241 &rarr; <strong>1251</strong><br />(+10 for winning)
+|raw|Albert Hatsuki's rating: 1004 &rarr; <strong>1000</strong><br />(-4 for losing)

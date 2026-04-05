@@ -1,0 +1,229 @@
+Battle: battle-gen9bssregi-2572386872-b71qt7srh4yvglm9yf1bk13gjjcap4spw
+Player: Albert Hatsuki vs Saku56
+Result: LOSS in 13 turns
+Date: 2026-04-01T00:14:01.431573
+Format: gen9bssregi
+
+Bot team: miraidon, ogerponhearthflame, urshifurapidstrike, skeledirge, garganacl, terapagos
+Opponent team: glimmora, tinglu
+Bot fainted: miraidon, urshifurapidstrike, skeledirge
+Opp fainted: none
+
+|init|battle
+|title|Saku56 vs. Albert Hatsuki
+|j|☆Saku56
+|j|☆Albert Hatsuki
+|gametype|singles
+|player|p1|Saku56|alder|1154
+|player|p2|Albert Hatsuki|170|1000
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Glimmora, L50, F|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Skeledirge, L50, F|
+|poke|p2|Garganacl, L50, F|
+|poke|p2|Terapagos, L50, M|
+|teampreview|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Saku56)
+|inactive|Time left: 90 sec this turn | 420 sec total | 90 sec grace
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Glimmora|Glimmora, L50, F|100/100
+|switch|p2a: Miraidon|Miraidon, L50, shiny|176/176
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|-item|p1a: Glimmora|Air Balloon
+|turn|1
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p1a: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|69/100
+|
+|upkeep
+|turn|2
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Miraidon|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|55/100
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Skeledirge|Skeledirge, L50, F, shiny|211/211|[from] U-turn
+|move|p1a: Ting-Lu|Spikes|p2a: Skeledirge
+|-sidestart|p2: Albert Hatsuki|Spikes
+|
+|upkeep
+|turn|3
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p1a: Glimmora|Glimmora, L50, F|100/100
+|-item|p1a: Glimmora|Air Balloon
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Glimmora|[miss]
+|-miss|p2a: Skeledirge|p1a: Glimmora
+|
+|upkeep
+|turn|4
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Glimmora|Toxic Spikes|p2a: Skeledirge
+|-sidestart|p2: Albert Hatsuki|move: Toxic Spikes
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Glimmora
+|-status|p1a: Glimmora|brn
+|
+|-damage|p1a: Glimmora|95/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Glimmora|Toxic Spikes|p2a: Skeledirge
+|-sidestart|p2: Albert Hatsuki|move: Toxic Spikes
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Glimmora
+|-fail|p1a: Glimmora|brn
+|
+|-damage|p1a: Glimmora|89/100 brn|[from] brn
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Glimmora|Mortal Spin|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|209/211
+|-status|p2a: Skeledirge|psn
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Glimmora|[miss]
+|-miss|p2a: Skeledirge|p1a: Glimmora
+|
+|-damage|p2a: Skeledirge|183/211 psn|[from] psn
+|-damage|p1a: Glimmora|83/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Glimmora|Earth Power|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|77/211 psn
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Glimmora
+|-fail|p1a: Glimmora|brn
+|
+|-damage|p2a: Skeledirge|51/211 psn|[from] psn
+|-damage|p1a: Glimmora|77/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|-terastallize|p2a: Skeledirge|Ghost
+|move|p1a: Glimmora|Stealth Rock|p2a: Skeledirge
+|-sidestart|p2: Albert Hatsuki|move: Stealth Rock
+|move|p2a: Skeledirge|Scorching Sands|p1a: Glimmora
+|-immune|p1a: Glimmora
+|
+|-damage|p2a: Skeledirge|25/211 psn|[from] psn
+|-damage|p1a: Glimmora|72/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Glimmora|Earth Power|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|-damage|p1a: Glimmora|66/100 brn|[from] brn
+|upkeep
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Miraidon|Miraidon, L50, shiny|176/176
+|-damage|p2a: Miraidon|154/176|[from] Spikes
+|-status|p2a: Miraidon|tox
+|-damage|p2a: Miraidon|132/176 tox|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|10
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p1a: Ting-Lu|Ting-Lu, L50|55/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Miraidon|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|41/100
+|-enditem|p1a: Ting-Lu|Sitrus Berry|[eat]
+|-heal|p1a: Ting-Lu|66/100|[from] item: Sitrus Berry
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|176/176|[from] U-turn
+|-damage|p2a: Urshifu|154/176|[from] Spikes
+|-status|p2a: Urshifu|tox
+|-damage|p2a: Urshifu|143/176 tox|[from] Stealth Rock
+|
+|-damage|p2a: Urshifu|132/176 tox|[from] psn
+|upkeep
+|turn|11
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Urshifu|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|37/100
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Miraidon|Miraidon, L50, shiny|132/176 tox|[from] U-turn
+|-damage|p2a: Miraidon|110/176 tox|[from] Spikes
+|-damage|p2a: Miraidon|88/176 tox|[from] Stealth Rock
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|move|p1a: Ting-Lu|Whirlwind|p2a: Miraidon
+|drag|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|132/176 tox
+|-damage|p2a: Urshifu|110/176 tox|[from] Spikes
+|-damage|p2a: Urshifu|99/176 tox|[from] Stealth Rock
+|
+|-damage|p2a: Urshifu|88/176 tox|[from] psn
+|upkeep
+|turn|12
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Miraidon|Miraidon, L50, shiny|88/176 tox
+|-damage|p2a: Miraidon|66/176 tox|[from] Spikes
+|-damage|p2a: Miraidon|44/176 tox|[from] Stealth Rock
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|switch|p1a: Glimmora|Glimmora, L50, F|66/100 brn
+|-item|p1a: Glimmora|Air Balloon
+|
+|-damage|p2a: Miraidon|33/176 tox|[from] psn
+|-damage|p1a: Glimmora|60/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Miraidon|U-turn|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|55/100 brn
+|-enditem|p1a: Glimmora|Air Balloon
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|88/176 tox|[from] U-turn
+|-damage|p2a: Urshifu|66/176 tox|[from] Spikes
+|-damage|p2a: Urshifu|55/176 tox|[from] Stealth Rock
+|move|p1a: Glimmora|Earth Power|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|-damage|p1a: Glimmora|49/100 brn|[from] brn
+|upkeep
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Miraidon|Miraidon, L50, shiny|33/176 tox
+|-damage|p2a: Miraidon|11/176 tox|[from] Spikes
+|-damage|p2a: Miraidon|0 fnt|[from] Stealth Rock
+|faint|p2a: Miraidon
+|

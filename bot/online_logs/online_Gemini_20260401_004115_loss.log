@@ -1,0 +1,300 @@
+Battle: battle-gen9bssregi-2572397776
+Player: Albert Hatsuki vs ray_game0
+Result: LOSS in 20 turns
+Date: 2026-04-01T00:41:15.874931
+Format: gen9bssregi
+
+Bot team: miraidon, ogerponhearthflame, urshifurapidstrike, skeledirge, garganacl, terapagos
+Opponent team: glimmora, grimmsnarl, hooh
+Bot fainted: miraidon, urshifurapidstrike, garganacl
+Opp fainted: glimmora, grimmsnarl
+
+|init|battle
+|title|ray_game0 vs. Albert Hatsuki
+|j|☆ray_game0
+|j|☆Albert Hatsuki
+|gametype|singles
+|player|p1|ray_game0|hiker-gen4|1169
+|player|p2|Albert Hatsuki|170|1000
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Glimmora, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ho-Oh, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Skeledirge, L50, F|
+|poke|p2|Garganacl, L50, M|
+|poke|p2|Terapagos, L50, M|
+|teampreview|3
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Glimmora|Glimmora, L50, M|100/100
+|switch|p2a: Miraidon|Miraidon, L50, shiny|176/176
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|1
+|
+|move|p2a: Miraidon|Electro Drift|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|move|p1a: Glimmora|Stealth Rock|p2a: Miraidon
+|-sidestart|p2: Albert Hatsuki|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|3
+|
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: ray_game0|move: Light Screen
+|move|p2a: Miraidon|Electro Drift|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|56/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Miraidon
+|-unboost|p2a: Miraidon|atk|1
+|-unboost|p2a: Miraidon|spa|1
+|
+|switch|p1a: Ho-Oh|Ho-Oh, L50|100/100|[from] Parting Shot
+|move|p2a: Miraidon|Electro Drift|p1a: Ho-Oh
+|-supereffective|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|60/100
+|
+|upkeep
+|turn|5
+|
+|-terastallize|p1a: Ho-Oh|Grass
+|move|p2a: Miraidon|Electro Drift|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|53/100
+|move|p1a: Ho-Oh|Earthquake|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|78/176
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|switch|p2a: Garganacl|Garganacl, L50, M, shiny|176/176
+|-damage|p2a: Garganacl|154/176|[from] Stealth Rock
+|move|p1a: Ho-Oh|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|90/176
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Ho-Oh|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|22/176
+|move|p2a: Garganacl|Salt Cure|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|39/100
+|-start|p1a: Ho-Oh|Salt Cure
+|
+|-damage|p1a: Ho-Oh|27/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|move|p1a: Ho-Oh|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Ho-Oh|15/100|[from] Salt Cure
+|upkeep
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|176/176
+|-damage|p2a: Urshifu|165/176|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|56/100
+|move|p2a: Urshifu|Aqua Jet|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|35/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: ray_game0|Reflect
+|move|p2a: Urshifu|Surging Strikes|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|14/100
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-hitcount|p1: Grimmsnarl|2
+|
+|-sideend|p1: ray_game0|move: Light Screen
+|upkeep
+|
+|switch|p1a: Ho-Oh|Ho-Oh, L50, tera:Grass|48/100
+|turn|11
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|38/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|28/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|18/100
+|-hitcount|p1a: Ho-Oh|3
+|move|p1a: Ho-Oh|Recover|p1a: Ho-Oh
+|-heal|p1a: Ho-Oh|68/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|59/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|50/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|41/100
+|-hitcount|p1a: Ho-Oh|3
+|move|p1a: Ho-Oh|Recover|p1a: Ho-Oh
+|-heal|p1a: Ho-Oh|91/100
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|81/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|71/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|61/100
+|-hitcount|p1a: Ho-Oh|3
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|126/176
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|52/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|44/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|34/100
+|-hitcount|p1a: Ho-Oh|3
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|89/176
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|24/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|16/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|6/100
+|-hitcount|p1a: Ho-Oh|3
+|move|p1a: Ho-Oh|Recover|p1a: Ho-Oh
+|-heal|p1a: Ho-Oh|56/100
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|47/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|38/100
+|-resisted|p1a: Ho-Oh
+|-crit|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|27/100
+|-hitcount|p1a: Ho-Oh|3
+|move|p1a: Ho-Oh|Sacred Fire|p2a: Urshifu
+|-resisted|p2a: Urshifu
+|-damage|p2a: Urshifu|53/176
+|-status|p2a: Urshifu|brn
+|
+|-damage|p2a: Urshifu|42/176 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|25/100
+|move|p1a: Ho-Oh|Recover|p1a: Ho-Oh
+|-heal|p1a: Ho-Oh|75/100
+|
+|-damage|p2a: Urshifu|31/176 brn|[from] brn
+|-sideend|p1: ray_game0|Reflect
+|upkeep
+|turn|18
+|
+|switch|p2a: Miraidon|Miraidon, L50, shiny|78/176
+|-damage|p2a: Miraidon|56/176|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|move|p1a: Ho-Oh|Recover|p1a: Ho-Oh
+|-heal|p1a: Ho-Oh|100/100
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Miraidon|Electro Drift|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|81/100
+|move|p1a: Ho-Oh|Earthquake|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|upkeep
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|31/176 brn
+|-damage|p2a: Urshifu|20/176 brn|[from] Stealth Rock
+|turn|20
+|
+|move|p2a: Urshifu|Aqua Jet|p1a: Ho-Oh
+|-resisted|p1a: Ho-Oh
+|-damage|p1a: Ho-Oh|76/100
+|move|p1a: Ho-Oh|Earthquake|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|raw|ray_game0's rating: 1169 &rarr; <strong>1183</strong><br />(+14 for winning)
+|raw|Albert Hatsuki's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

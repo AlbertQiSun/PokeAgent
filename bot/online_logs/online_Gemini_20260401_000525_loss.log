@@ -1,0 +1,192 @@
+Battle: battle-gen9bssregi-2572382968
+Player: Albert Hatsuki vs nobasegamer
+Result: LOSS in 12 turns
+Date: 2026-04-01T00:05:25.871477
+Format: gen9bssregi
+
+Bot team: calyrexice, incineroar, fluttermane, kingambit, chienpao, amoonguss
+Opponent team: koraidon, calyrexshadow
+Bot fainted: calyrexice, incineroar, kingambit
+Opp fainted: calyrexshadow
+
+|init|battle
+|title|nobasegamer vs. Albert Hatsuki
+|j|☆nobasegamer
+|j|☆Albert Hatsuki
+|gametype|singles
+|player|p1|nobasegamer|2|1091
+|player|p2|Albert Hatsuki|170|1000
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Flutter Mane, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Koraidon, L50|
+|poke|p1|Brambleghast, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p2|Calyrex-Ice, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Flutter Mane, L50|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Chien-Pao, L50|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|3
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|202/202
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Koraidon|atk|1
+|turn|1
+|
+|move|p2a: Incineroar|Fake Out|p1a: Koraidon
+|-damage|p1a: Koraidon|93/100
+|cant|p1a: Koraidon|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Koraidon|Flame Charge|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|180/202
+|-boost|p1a: Koraidon|spe|1
+|move|p2a: Incineroar|Parting Shot|p1a: Koraidon
+|-unboost|p1a: Koraidon|atk|1
+|-unboost|p1a: Koraidon|spa|1
+|
+|switch|p2a: Calyrex|Calyrex-Ice, L50|207/207|[from] Parting Shot
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|switch|p2a: Incineroar|Incineroar, L50, M|180/202
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p1a: Calyrex|Astral Barrage|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|123/202
+|move|p2a: Incineroar|Knock Off|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-enditem|p1a: Calyrex|Focus Sash
+|-damage|p1a: Calyrex|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-activate|p1a: Koraidon|ability: Orichalcum Pulse
+|move|p2a: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Incineroar
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p1a: Calyrex|Calyrex-Shadow, L50|1/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|switch|p2a: Calyrex|Calyrex-Ice, L50|207/207
+|-ability|p2a: Calyrex|As One
+|-ability|p2a: Calyrex|Unnerve
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Calyrex|Astral Barrage|p2a: Calyrex
+|-supereffective|p2a: Calyrex
+|-damage|p2a: Calyrex|0 fnt
+|faint|p2a: Calyrex
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|upkeep
+|
+|switch|p2a: Incineroar|Incineroar, L50, M|123/202
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Calyrex|atk|1
+|turn|8
+|
+|move|p2a: Incineroar|Fake Out|p1a: Calyrex
+|-immune|p1a: Calyrex
+|move|p1a: Calyrex|Astral Barrage|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|40/202
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Incineroar
+|move|p1a: Calyrex|Astral Barrage|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-ability|p1a: Calyrex|Grim Neigh|boost
+|-boost|p1a: Calyrex|spa|1
+|
+|upkeep
+|
+|switch|p2a: Kingambit|Kingambit, L50, F|207/207
+|turn|10
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|upkeep
+|
+|switch|p1a: Koraidon|Koraidon, L50|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|11
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|81/100
+|move|p1a: Koraidon|Flame Charge|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|85/207
+|-boost|p1a: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Koraidon|86/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Kingambit|Sucker Punch|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-damage|p1a: Koraidon|69/100
+|move|p1a: Koraidon|Flame Charge|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-boost|p1a: Koraidon|spe|1
+|faint|p2a: Kingambit
+|
+|raw|nobasegamer's rating: 1091 &rarr; <strong>1111</strong><br />(+20 for winning)
+|raw|Albert Hatsuki's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

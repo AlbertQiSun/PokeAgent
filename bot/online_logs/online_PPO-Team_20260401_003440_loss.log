@@ -1,0 +1,182 @@
+Battle: battle-gen9bssregi-2572395833
+Player: Albert Hatsuki vs Aegislashbestpoke
+Result: LOSS in 9 turns
+Date: 2026-04-01T00:34:40.412798
+Format: gen9bssregi
+
+Bot team: miraidon, ogerponhearthflame, urshifurapidstrike, skeledirge, garganacl, terapagosterastal
+Opponent team: miraidon, calyrexice, irontreads
+Bot fainted: urshifurapidstrike, skeledirge, terapagosterastal
+Opp fainted: calyrexice, irontreads
+
+|init|battle
+|title|Aegislashbestpoke vs. Albert Hatsuki
+|j|☆Aegislashbestpoke
+|j|☆Albert Hatsuki
+|gametype|singles
+|player|p1|Aegislashbestpoke|170|1304
+|player|p2|Albert Hatsuki|170|1000
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Calyrex-Ice, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Mimikyu, L50, M|
+|poke|p1|Iron Treads, L50|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Skeledirge, L50, F|
+|poke|p2|Garganacl, L50, M|
+|poke|p2|Terapagos, L50, M|
+|teampreview|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aegislashbestpoke)
+|inactive|Time left: 90 sec this turn | 420 sec total | 90 sec grace
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Miraidon|Miraidon, L50|100/100
+|switch|p2a: Skeledirge|Skeledirge, L50, F, shiny|211/211
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|1
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Miraidon|Electro Drift|p2a: Skeledirge
+|-damage|p2a: Skeledirge|7/211
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Miraidon
+|-status|p1a: Miraidon|brn
+|
+|-damage|p1a: Miraidon|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|-terastallize|p2a: Skeledirge|Ghost
+|move|p1a: Miraidon|Electro Drift|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|-damage|p1a: Miraidon|89/100 brn|[from] brn
+|upkeep
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Terapagos|Terapagos, L50, M|197/197
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|202/202|[silent]
+|turn|3
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Miraidon|Draco Meteor|p2a: Terapagos
+|-activate|p2a: Terapagos|ability: Tera Shell
+|-resisted|p2a: Terapagos
+|-damage|p2a: Terapagos|125/202
+|-unboost|p1a: Miraidon|spa|2
+|-enditem|p1a: Miraidon|Eject Pack
+|
+|switch|p1a: Calyrex|Calyrex-Ice, L50|100/100
+|-ability|p1a: Calyrex|As One
+|-ability|p1a: Calyrex|Unnerve
+|move|p2a: Terapagos|Tera Starstorm|p1a: Calyrex
+|-damage|p1a: Calyrex|57/100
+|
+|-heal|p2a: Terapagos|137/202|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Terapagos|Tera Starstorm|p1a: Calyrex
+|-damage|p1a: Calyrex|17/100
+|move|p1a: Calyrex|Trick Room|p1a: Calyrex
+|-fieldstart|move: Trick Room|[of] p1a: Calyrex
+|
+|-heal|p2a: Terapagos|149/202|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Calyrex|Glacial Lance|p2a: Terapagos
+|-damage|p2a: Terapagos|13/202
+|move|p2a: Terapagos|Dark Pulse|p1a: Calyrex
+|-supereffective|p1a: Calyrex
+|-damage|p1a: Calyrex|0 fnt
+|faint|p1a: Calyrex
+|
+|-heal|p2a: Terapagos|25/202|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p1a: Iron Treads|Iron Treads, L50|100/100
+|turn|6
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Terapagos|Dark Pulse|p1a: Iron Treads
+|-damage|p1a: Iron Treads|69/100
+|move|p1a: Iron Treads|Earthquake|p2a: Terapagos
+|-damage|p2a: Terapagos|0 fnt
+|faint|p2a: Terapagos
+|-damage|p1a: Iron Treads|59/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|176/176
+|turn|7
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|-terastallize|p1a: Iron Treads|Stellar
+|move|p1a: Iron Treads|Electro Ball|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|116/176
+|-damage|p1a: Iron Treads|50/100|[from] item: Life Orb
+|move|p2a: Urshifu|Surging Strikes|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|14/100
+|-supereffective|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-hitcount|p1: Iron Treads|2
+|
+|upkeep
+|
+|switch|p1a: Miraidon|Miraidon, L50|89/100 brn
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|8
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Miraidon|Protect|p1a: Miraidon
+|-singleturn|p1a: Miraidon|Protect
+|move|p2a: Urshifu|Surging Strikes|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|78/100 brn
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|69/100 brn
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|59/100 brn
+|-hitcount|p1a: Miraidon|3
+|
+|-damage|p1a: Miraidon|53/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Miraidon|Electro Drift|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|
+|raw|Aegislashbestpoke's rating: 1304 &rarr; <strong>1310</strong><br />(+6 for winning)
+|raw|Albert Hatsuki's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

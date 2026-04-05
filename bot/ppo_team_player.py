@@ -28,20 +28,21 @@ from rl_env_team import OBS_TEAM_SIZE, OBS_TEAM_SIZE_HIST
 from pokemon_pool import POOL, POOL_SIZE, POOL_NAMES, build_team_string
 
 
-def _selection_obs(picks: list[int]) -> np.ndarray:
-    obs = np.zeros(OBS_TEAM_SIZE, dtype=np.float32)
+def _selection_obs(picks: list[int], obs_size: int = OBS_TEAM_SIZE) -> np.ndarray:
+    obs = np.zeros(obs_size, dtype=np.float32)
     obs[0] = 0.0
     for idx in picks:
         obs[1 + idx] = 1.0
     return obs
 
 
-def _battle_obs(battle: AbstractBattle, history: BattleHistory = None) -> np.ndarray:
-    obs = np.zeros(OBS_TEAM_SIZE, dtype=np.float32)
+def _battle_obs(battle: AbstractBattle, history: BattleHistory = None,
+                obs_size: int = OBS_TEAM_SIZE) -> np.ndarray:
+    obs = np.zeros(obs_size, dtype=np.float32)
     obs[0] = 1.0
     if history:
         hist_emb = history.embed_with_history(battle)
-        end = min(1 + POOL_SIZE + len(hist_emb), OBS_TEAM_SIZE)
+        end = min(1 + POOL_SIZE + len(hist_emb), obs_size)
         obs[1 + POOL_SIZE: end] = hist_emb[:end - 1 - POOL_SIZE]
     else:
         obs[1 + POOL_SIZE: 1 + POOL_SIZE + OBS_SIZE] = embed_battle(battle)
@@ -98,7 +99,12 @@ class PPOTeamPlayer(Player):
         super().__init__(*args, **kwargs)
         self.model = _load_model(model_path)
         self._selected_team: list[int] = []
-        self._history = BattleHistory()   # for battle-phase history tracking
+        # Auto-detect obs size from model
+        expected_obs = self.model.observation_space.shape[0]
+        self._use_history = (expected_obs == OBS_TEAM_SIZE_HIST)
+        self._obs_size = expected_obs
+        self._history = BattleHistory() if self._use_history else None
+        print(f"[PPOTeamPlayer] Model obs={expected_obs}, history={'yes' if self._use_history else 'no'}")
 
     # ── Phase 1: build a NEW team of 6 every battle ──────────────────────────
 
@@ -106,7 +112,7 @@ class PPOTeamPlayer(Player):
         """Stochastic team selection — samples from policy distribution."""
         picks: list[int] = []
         while len(picks) < 6:
-            obs = _selection_obs(picks).reshape(1, -1)
+            obs = _selection_obs(picks, self._obs_size).reshape(1, -1)
             # deterministic=False → sample from the action distribution
             # so the team varies between battles
             action, _ = self.model.predict(obs, deterministic=False)
@@ -145,7 +151,7 @@ class PPOTeamPlayer(Player):
     # ── Phase 3: battle with history context ─────────────────────────────────
 
     def choose_move(self, battle: Battle):
-        obs = _battle_obs(battle, self._history).reshape(1, -1)
+        obs = _battle_obs(battle, self._history, self._obs_size).reshape(1, -1)
 
         # Get action probabilities, mask invalid actions, pick best valid one
         obs_tensor = torch.as_tensor(obs).float().to(self.model.device)

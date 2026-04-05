@@ -1,0 +1,193 @@
+Battle: battle-gen9bssregi-2572390770-waos2amlyj7nc6ml6g850aosio2hkvhpw
+Player: Albert Hatsuki vs The selfish gene
+Result: LOSS in 11 turns
+Date: 2026-04-01T00:23:07.989837
+Format: gen9bssregi
+
+Bot team: miraidon, ogerponhearthflame, urshifurapidstrike, skeledirge, garganacl, terapagosterastal
+Opponent team: tinglu, koraidon, chienpao
+Bot fainted: miraidon, urshifurapidstrike, terapagosterastal
+Opp fainted: tinglu, koraidon
+
+|init|battle
+|title|The selfish gene vs. Albert Hatsuki
+|j|☆The selfish gene
+|j|☆Albert Hatsuki
+|gametype|singles
+|player|p1|The selfish gene|265|1302
+|player|p2|Albert Hatsuki|170|1000
+|gen|9
+|tier|[Gen 9] BSS Reg I
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ting-Lu, L50|
+|poke|p1|Koraidon, L50|
+|poke|p1|Chien-Pao, L50|
+|poke|p1|Garganacl, L50, F|
+|poke|p1|Calyrex-Shadow, L50|
+|poke|p1|Landorus-Therian, L50, M|
+|poke|p2|Miraidon, L50|
+|poke|p2|Ogerpon-Hearthflame, L50, F|
+|poke|p2|Urshifu-*, L50, M|
+|poke|p2|Skeledirge, L50, F|
+|poke|p2|Garganacl, L50, M|
+|poke|p2|Terapagos, L50, M|
+|teampreview|3
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Ting-Lu|Ting-Lu, L50|100/100
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, M|176/176
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|switch|p1a: Koraidon|Koraidon, L50, shiny|100/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|move|p2a: Urshifu|Surging Strikes|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|96/100
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|92/100
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|88/100
+|-hitcount|p1a: Koraidon|3
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Koraidon
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|84/100
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|80/100
+|-resisted|p1a: Koraidon
+|-crit|p1a: Koraidon
+|-damage|p1a: Koraidon|76/100
+|-hitcount|p1a: Koraidon|3
+|move|p1a: Koraidon|Scale Shot|p2a: Urshifu
+|-damage|p2a: Urshifu|140/176
+|-damage|p2a: Urshifu|103/176
+|-damage|p2a: Urshifu|69/176
+|-damage|p2a: Urshifu|35/176
+|-hitcount|p2a: Urshifu|4
+|-unboost|p1a: Koraidon|def|1
+|-boost|p1a: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p1a: Koraidon|Scale Shot|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|-hitcount|p2: Urshifu|1
+|-unboost|p1a: Koraidon|def|1
+|-boost|p1a: Koraidon|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Miraidon|Miraidon, L50, shiny|176/176
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p2a: Miraidon
+|turn|4
+|
+|switch|p1a: Ting-Lu|Ting-Lu, L50|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|-terastallize|p2a: Miraidon|Psychic
+|move|p2a: Miraidon|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|88/100
+|
+|switch|p2a: Terapagos|Terapagos, L50, M|197/197|[from] U-turn
+|-activate|p2a: Terapagos|ability: Tera Shift
+|detailschange|p2a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p2a: Terapagos|202/202|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|move|p2a: Terapagos|Tera Starstorm|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|63/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Terapagos
+|-sidestart|p2: Albert Hatsuki|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|move|p2a: Terapagos|Tera Starstorm|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|34/100
+|-enditem|p1a: Ting-Lu|Sitrus Berry|[eat]
+|-heal|p1a: Ting-Lu|59/100|[from] item: Sitrus Berry
+|move|p1a: Ting-Lu|Ruination|p2a: Terapagos
+|-damage|p2a: Terapagos|101/202
+|
+|-heal|p2a: Terapagos|113/202|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Terapagos|Tera Starstorm|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|33/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Terapagos
+|drag|p2a: Miraidon|Miraidon, L50, shiny, tera:Psychic|176/176
+|-damage|p2a: Miraidon|154/176|[from] Stealth Rock
+|-activate|p2a: Miraidon|ability: Hadron Engine
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|switch|p1a: Koraidon|Koraidon, L50, shiny|76/100
+|-weather|SunnyDay|[from] ability: Orichalcum Pulse|[of] p1a: Koraidon
+|-activate|p1a: Koraidon|Orichalcum Pulse|[source]
+|turn|9
+|
+|move|p2a: Miraidon|Dazzling Gleam|p1a: Koraidon
+|-supereffective|p1a: Koraidon
+|-damage|p1a: Koraidon|0 fnt
+|faint|p1a: Koraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Chien-Pao|Chien-Pao, L50, shiny|100/100
+|-ability|p1a: Chien-Pao|Sword of Ruin
+|turn|10
+|
+|-terastallize|p1a: Chien-Pao|Stellar
+|move|p1a: Chien-Pao|Sucker Punch|p2a: Miraidon
+|-supereffective|p2a: Miraidon
+|-damage|p2a: Miraidon|0 fnt
+|faint|p2a: Miraidon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Terapagos|Terapagos-Terastal, L50, M|113/202
+|-damage|p2a: Terapagos|88/202|[from] Stealth Rock
+|turn|11
+|
+|move|p1a: Chien-Pao|Icicle Crash|p2a: Terapagos
+|-damage|p2a: Terapagos|0 fnt
+|faint|p2a: Terapagos
+|
+|raw|The selfish gene's rating: 1302 &rarr; <strong>1308</strong><br />(+6 for winning)
+|raw|Albert Hatsuki's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)

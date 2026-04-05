@@ -28,6 +28,13 @@ def make_opponent(name: str):
             battle_format=BATTLE_FORMAT,
             server_configuration=LocalhostServerConfiguration,
         )
+    elif name == "qwen":
+        from local_llm_player import LocalLLMPlayer
+        return LocalLLMPlayer(
+            account_configuration=AccountConfiguration("Qwen Bot", None),
+            battle_format=BATTLE_FORMAT,
+            server_configuration=LocalhostServerConfiguration,
+        )
     else:
         raise ValueError(f"Unknown opponent: {name}")
 
@@ -52,6 +59,14 @@ async def main(player_type: str, opponent_type: str, n_battles: int):
             server_configuration=LocalhostServerConfiguration,
         )
         label = "Gemini"
+    elif player_type == "qwen":
+        from local_llm_player import LocalLLMPlayer
+        player = LocalLLMPlayer(
+            account_configuration=AccountConfiguration("Qwen Bot", None),
+            battle_format=BATTLE_FORMAT,
+            server_configuration=LocalhostServerConfiguration,
+        )
+        label = "Qwen"
     else:
         raise ValueError(f"Unknown player type: {player_type}")
 
@@ -64,8 +79,8 @@ async def main(player_type: str, opponent_type: str, n_battles: int):
     
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--player",   default="ppo",    choices=["ppo", "gemini"])
-    parser.add_argument("--opponent", default="random", choices=["random", "heuristic", "gemini"])
+    parser.add_argument("--player",   default="ppo",    choices=["ppo", "gemini", "qwen"])
+    parser.add_argument("--opponent", default="random", choices=["random", "heuristic", "gemini", "qwen"])
     parser.add_argument("--battles",  default=1, type=int)
     args = parser.parse_args()
     asyncio.run(main(args.player, args.opponent, args.battles))

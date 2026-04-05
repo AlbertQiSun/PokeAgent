@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "p1": "gemini",
+    "p2": "ppo-team",
+    "total_battles": 1,
+    "p1_wins": 0,
+    "p2_wins": 1,
+    "draws": 0,
+    "p1_win_rate": 0.0,
+    "p2_win_rate": 1.0,
+    "avg_turns": 9.0,
+    "min_turns": 9,
+    "max_turns": 9,
+    "p1_team_usage": {
+      "incineroar": 1,
+      "fluttermane": 1,
+      "calyrexice": 1,
+      "kingambit": 1,
+      "chienpao": 1,
+      "dragonite": 1
+    },
+    "p2_team_usage": {
+      "urshifurapidstrike": 1
+    },
+    "p1_survival_rate": {
+      "fluttermane": 1.0,
+      "chienpao": 1.0,
+      "dragonite": 1.0,
+      "incineroar": 0.0,
+      "calyrexice": 0.0,
+      "kingambit": 0.0
+    },
+    "elapsed_seconds": 25.0,
+    "battles_per_minute": 2.4
+  },
+  "battles": [
+    {
+      "tag": "battle-gen9bssregj-36330",
+      "won": false,
+      "turns": 9,
+      "our_team": [
+        "incineroar",
+        "fluttermane",
+        "calyrexice",
+        "kingambit",
+        "chienpao",
+        "dragonite"
+      ],
+      "opp_team": [
+        "urshifurapidstrike"
+      ],
+      "our_fainted": [
+        "incineroar",
+        "calyrexice",
+        "kingambit"
+      ],
+      "opp_fainted": [],
+      "our_survived": [
+        "fluttermane",
+        "chienpao",
+        "dragonite"
+      ]
+    }
+  ],
+  "generated_at": "2026-04-05T12:13:40.537991"
+}
