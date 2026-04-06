@@ -5,9 +5,13 @@ echo "============================================"
 echo "      PokeAgent Automated Setup script"
 echo "============================================"
 
-# 1. Update submodules
-echo "[1/4] Updating Git Submodules (pokemon-showdown)..."
-git submodule update --init --recursive
+# 1. Setup Pokemon Showdown source
+echo "[1/4] Setting up Pokemon Showdown source..."
+if [ ! -f "pokemon-showdown/package.json" ]; then
+    git clone https://github.com/smogon/pokemon-showdown.git pokemon-showdown
+else
+    echo "      pokemon-showdown already present, skipping clone."
+fi
 
 # 2. Setup Pokemon Showdown Node Environment
 echo "[2/4] Setting up Pokemon Showdown Node environment..."
