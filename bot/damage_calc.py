@@ -27,6 +27,8 @@ def calc_damage(
     is_stab: bool | None = None,
     atk_burned: bool = False,
     crit: bool = False,
+    atk_tera_type: str = "",
+    def_tera_type: str = "",
 ) -> dict:
     """
     Calculate approximate damage range for a move.
@@ -79,18 +81,32 @@ def calc_damage(
     eff_atk = raw_atk * _stage_mult(atk_boost)
     eff_def = raw_def * _stage_mult(def_boost)
 
-    # Type effectiveness
-    def_types = defender.get("types", ["Normal"])
-    def_t1 = def_types[0] if def_types else "Normal"
-    def_t2 = def_types[1] if len(def_types) > 1 else None
+    # Type effectiveness — use tera type if defender has terastallized
     move_type = move.get("type", "Normal")
-    eff = type_effectiveness(move_type, def_t1, def_t2)
+    if def_tera_type:
+        # Terastallized: single type only
+        eff = type_effectiveness(move_type, def_tera_type, None)
+    else:
+        def_types = defender.get("types", ["Normal"])
+        def_t1 = def_types[0] if def_types else "Normal"
+        def_t2 = def_types[1] if len(def_types) > 1 else None
+        eff = type_effectiveness(move_type, def_t1, def_t2)
 
-    # STAB
+    # STAB — tera gives STAB for tera type (stacks with original for 2x)
     if is_stab is None:
         atk_types = attacker.get("types", [])
-        is_stab = move_type in atk_types
+        original_stab = move_type in atk_types
+        tera_stab = atk_tera_type and move_type.lower() == atk_tera_type.lower()
+        if original_stab and tera_stab:
+            is_stab = True  # double STAB → handled below
+        else:
+            is_stab = original_stab or tera_stab
     stab = 1.5 if is_stab else 1.0
+
+    # Tera STAB bonus: if move type matches both original type AND tera type → 2x
+    atk_types_check = attacker.get("types", [])
+    if atk_tera_type and move_type in atk_types_check and move_type.lower() == atk_tera_type.lower():
+        stab = 2.0
 
     # Ability: Adaptability boosts STAB to 2x
     atk_ab = atk_ability.lower().replace(" ", "")

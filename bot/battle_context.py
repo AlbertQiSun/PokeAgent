@@ -66,67 +66,85 @@ def compute_battle_context(battle: Battle, notebook: BattleNotebook) -> str:
     our_item = our.item if our.item else ""
     our_ability = our.ability if our.ability else ""
 
+    # Detect tera types from battle state
+    our_tera_type = ""
+    if hasattr(our, 'tera_type') and our.tera_type:
+        our_tera_type = our.tera_type.name.capitalize() if hasattr(our.tera_type, 'name') else str(our.tera_type)
+    opp_tera_active = ""
+    if hasattr(opp, 'is_terastallized') and opp.is_terastallized:
+        if hasattr(opp, 'tera_type') and opp.tera_type:
+            opp_tera_active = opp.tera_type.name.capitalize() if hasattr(opp.tera_type, 'name') else str(opp.tera_type)
+
     # ── Section 2: Damage calcs for each available move ───────────────────────
+    def _calc_move_line(move, atk_tera="", def_tera=""):
+        result = calc_damage(
+            our_species, move.id, opp_species,
+            atk_item=our_item, atk_ability=our_ability,
+            atk_tera_type=atk_tera, def_tera_type=def_tera,
+        )
+        if "error" in result:
+            return None, ("???", 0, 0, 1.0)
+
+        min_pct = result["min_pct"]
+        max_pct = result["max_pct"]
+        eff = result["effectiveness"]
+        hits = result["hits"]
+
+        if opp_intel and opp_intel.bulk_adjustment != 1.0:
+            adj = opp_intel.bulk_adjustment
+            min_pct = round(min_pct * adj, 1)
+            max_pct = round(max_pct * adj, 1)
+
+        mid = (min_pct + max_pct) / 2
+        ko_label = "OHKO" if mid >= 100 else ("2HKO" if mid >= 50 else ("3HKO" if mid >= 34 else ""))
+
+        if eff == 0:
+            eff_label = "IMMUNE"
+        elif eff >= 4:
+            eff_label = "4x SE"
+        elif eff >= 2:
+            eff_label = "2x SE"
+        elif eff <= 0.25:
+            eff_label = "4x resist"
+        elif eff <= 0.5:
+            eff_label = "resist"
+        else:
+            eff_label = "neutral"
+
+        hit_str = f" x{hits}" if hits > 1 else ""
+        ko_str = f" → {ko_label}" if ko_label else ""
+
+        move_type = move.type.name.capitalize() if move.type else "???"
+        bp = move.base_power
+        cat = move.category.name if move.category else "???"
+        pri = f" pri={move.priority}" if move.priority != 0 else ""
+
+        line = (f"  {move.id:20s} {move_type:8s} {cat:8s} BP:{bp:3d}{pri} "
+                f"→ {min_pct:5.1f}-{max_pct:5.1f}%{hit_str} ({eff_label}){ko_str}")
+        return line, (ko_label, min_pct, max_pct, eff)
+
     if battle.available_moves:
         sections.append("\n── YOUR MOVES vs " + opp_species.upper() + " ──")
         move_calcs = []
         for move in battle.available_moves:
-            result = calc_damage(
-                our_species, move.id, opp_species,
-                atk_item=our_item, atk_ability=our_ability,
-            )
-            if "error" in result:
-                move_calcs.append((move.id, "???", 0, 0, 1.0))
-                continue
+            line, calc_data = _calc_move_line(move, def_tera=opp_tera_active)
+            if line:
+                sections.append(line)
+            move_calcs.append((move.id, *calc_data))
 
-            min_pct = result["min_pct"]
-            max_pct = result["max_pct"]
-            eff = result["effectiveness"]
-            hits = result["hits"]
-
-            # Apply notebook bulk adjustment if we have observations
-            if opp_intel and opp_intel.bulk_adjustment != 1.0:
-                adj = opp_intel.bulk_adjustment
-                min_pct = round(min_pct * adj, 1)
-                max_pct = round(max_pct * adj, 1)
-
-            # KO analysis
-            mid = (min_pct + max_pct) / 2
-            if mid >= 100:
-                ko_label = "OHKO"
-            elif mid >= 50:
-                ko_label = "2HKO"
-            elif mid >= 34:
-                ko_label = "3HKO"
-            else:
-                ko_label = ""
-
-            # Effectiveness label
-            if eff == 0:
-                eff_label = "IMMUNE"
-            elif eff >= 4:
-                eff_label = "4x SE"
-            elif eff >= 2:
-                eff_label = "2x SE"
-            elif eff <= 0.25:
-                eff_label = "4x resist"
-            elif eff <= 0.5:
-                eff_label = "resist"
-            else:
-                eff_label = "neutral"
-
-            hit_str = f" x{hits}" if hits > 1 else ""
-            ko_str = f" → {ko_label}" if ko_label else ""
-
-            move_type = move.type.name.capitalize() if move.type else "???"
-            bp = move.base_power
-            cat = move.category.name if move.category else "???"
-            pri = f" pri={move.priority}" if move.priority != 0 else ""
-
-            line = (f"  {move.id:20s} {move_type:8s} {cat:8s} BP:{bp:3d}{pri} "
-                    f"→ {min_pct:5.1f}-{max_pct:5.1f}%{hit_str} ({eff_label}){ko_str}")
-            sections.append(line)
-            move_calcs.append((move.id, ko_label, min_pct, max_pct, eff))
+    # ── Section 2b: Tera analysis (if we can still tera) ────────────────────
+    if battle.available_moves and battle.can_tera and our_tera_type:
+        tera_lines = []
+        for move in battle.available_moves:
+            line_normal, (_, min_n, max_n, _) = _calc_move_line(move, def_tera=opp_tera_active)
+            line_tera, (ko_t, min_t, max_t, eff_t) = _calc_move_line(move, atk_tera=our_tera_type, def_tera=opp_tera_active)
+            # Only show if tera changes the calc meaningfully
+            if min_t > min_n + 2 or max_t > max_n + 2:
+                if line_tera:
+                    tera_lines.append(line_tera)
+        if tera_lines:
+            sections.append(f"\n── IF YOU TERA ({our_tera_type}) ──")
+            sections.extend(tera_lines)
 
     # ── Section 3: Opponent's likely moves vs us ──────────────────────────────
     if opp_intel:
@@ -145,6 +163,7 @@ def compute_battle_context(battle: Battle, notebook: BattleNotebook) -> str:
             result = calc_damage(
                 opp_species, move_name, our_species,
                 atk_item=opp_item_est, atk_ability=opp_ability_est,
+                atk_tera_type=opp_tera_active,
             )
             if "error" in result:
                 sections.append(f"  {move_name:20s} → ???")
@@ -256,6 +275,33 @@ def compute_battle_context(battle: Battle, notebook: BattleNotebook) -> str:
 
             types_str = "/".join(mon_types)
             sections.append(f"  {mon.species:20s} ({types_str:15s} {hp_pct:5.1f}% HP) — {matchup}")
+
+    # ── Section 5b: Opponent bench threats ─────────────────────────────────────
+    opp_bench_mons = [m for m in battle.opponent_team.values()
+                      if m != opp and not m.fainted]
+    if opp_bench_mons and battle.available_moves:
+        sections.append(f"\n── OPPONENT BENCH THREATS ──")
+        for opp_mon in opp_bench_mons:
+            opp_m_data = get_pokemon(opp_mon.species)
+            opp_m_types = opp_m_data.get("types", []) if opp_m_data else []
+            # Check if our best move is good or bad vs this switch-in
+            best_eff = 0.0
+            best_move = ""
+            for move in battle.available_moves:
+                m_data = get_move(move.id)
+                if not m_data or m_data.get("category") == "Status":
+                    continue
+                m_type = m_data.get("type", "Normal")
+                opp_t1 = opp_m_types[0] if opp_m_types else "Normal"
+                opp_t2 = opp_m_types[1] if len(opp_m_types) > 1 else None
+                eff = type_effectiveness(m_type, opp_t1, opp_t2)
+                if eff > best_eff:
+                    best_eff = eff
+                    best_move = move.id
+            eff_label = "4x SE" if best_eff >= 4 else ("SE" if best_eff >= 2 else ("neutral" if best_eff >= 1 else ("resist" if best_eff >= 0.5 else "walled")))
+            types_str = "/".join(opp_m_types) if opp_m_types else "?"
+            hp_str = f"{opp_mon.current_hp_fraction*100:.0f}%"
+            sections.append(f"  {opp_mon.species:20s} ({types_str}) {hp_str} — best: {best_move} ({eff_label})")
 
     # ── Section 6: Notebook summary ───────────────────────────────────────────
     sections.append(f"\n── OPPONENT SCOUTING NOTEBOOK ──")
