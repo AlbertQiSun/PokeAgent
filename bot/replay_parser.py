@@ -16,7 +16,9 @@ Usage:
 
 import argparse
 import json
+import os
 import re
+import sys
 from dataclasses import dataclass, field
 from datasets import load_dataset
 from tqdm import tqdm
@@ -547,6 +549,8 @@ def collect(args):
             preview += "\n..."
         print(preview)
         print(f"Response: {s['response']}")
+
+    os._exit(0)  # Force exit — HuggingFace streaming threads don't terminate cleanly
 
 
 if __name__ == "__main__":
