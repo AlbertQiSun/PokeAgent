@@ -28,6 +28,7 @@ from poke_env.battle import Battle, AbstractBattle
 from pokemon_pool import POOL, POOL_NAMES, POOL_SIZE, build_team_string
 from battle_notebook import BattleNotebook
 from battle_context import compute_battle_context
+from battle_logger import BattleLogger
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
@@ -188,9 +189,10 @@ class LocalLLMPlayer(Player):
             self._backend = _LocalBackend(model_name)
             self._use_server = False
 
-        # Per-battle notebooks
+        # Per-battle notebooks and loggers
         self._notebooks: dict[str, BattleNotebook] = {}
         self._last_opp_hp: dict[str, float] = {}
+        self._loggers: dict[str, BattleLogger] = {}
 
         self._battle_count: int = 0
         self._building_next: bool = False
@@ -377,15 +379,27 @@ class LocalLLMPlayer(Player):
         super()._battle_finished_callback(battle)
         tag = getattr(battle, "battle_tag", None)
         if tag:
+            logger = self._loggers.pop(tag, None)
+            if logger:
+                our_team = [m.species for m in battle.team.values()]
+                opp_team = [m.species for m in battle.opponent_team.values()]
+                logger.log_summary(battle.won, battle.turn, our_team, opp_team)
             self._notebooks.pop(tag, None)
             self._last_opp_hp.pop(tag, None)
         asyncio.create_task(self._build_team_async())
 
     # ── Phase 3: battle moves (context injection, no tool calls) ──────────────
 
+    def _get_logger(self, battle: Battle) -> BattleLogger:
+        tag = battle.battle_tag
+        if tag not in self._loggers:
+            self._loggers[tag] = BattleLogger(tag, "Qwen")
+        return self._loggers[tag]
+
     def choose_move(self, battle: Battle):
         self._update_notebook(battle)
         nb = self._get_notebook(battle)
+        logger = self._get_logger(battle)
 
         # Pre-compute all battle context
         context = compute_battle_context(battle, nb)
@@ -414,6 +428,12 @@ class LocalLLMPlayer(Player):
             print(f"[LocalLLM] Reasoning: {reasoning}")
             print(f"[LocalLLM] Action: {action_type} -> {target_name}")
 
+            logger.log_turn(
+                turn=battle.turn, context=context,
+                action=f"{action_type} {target_name}",
+                reasoning=reasoning, system="LLM",
+            )
+
             if action_type == "move" and available_moves:
                 for move in available_moves:
                     clean_id     = move.id.lower()
@@ -432,5 +452,9 @@ class LocalLLMPlayer(Player):
 
         except Exception as e:
             print(f"\n[LocalLLM] Error: {e} — falling back to random.")
+            logger.log_turn(
+                turn=battle.turn, context=context,
+                action="random (error)", system="LLM",
+            )
 
         return self.choose_random_move(battle)

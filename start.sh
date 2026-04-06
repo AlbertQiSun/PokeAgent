@@ -160,6 +160,13 @@ elif [ "$MODE" = "bc" ]; then
     echo "      Behavioral cloning from replay dataset"
     "$PYTHON" bc_pretrain.py --samples "${2:-50000}" --epochs "${3:-10}"
 
+# ── train-opp: train opponent action prediction model ────────────────────────
+elif [ "$MODE" = "train-opp" ]; then
+    SAMPLES="${2:-3000}"
+    EPOCHS="${3:-30}"
+    echo "      Training opponent predictor ($SAMPLES replays, $EPOCHS epochs)"
+    "$PYTHON" train_opponent.py all --samples "$SAMPLES" --epochs "$EPOCHS"
+
 # ── sft: fine-tune Qwen on replay data ───────────────────────────────────────
 elif [ "$MODE" = "sft" ]; then
     DATA="${2:-sft_data.jsonl}"

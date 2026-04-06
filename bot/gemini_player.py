@@ -12,6 +12,7 @@ from poke_env.battle import Battle, AbstractBattle
 from pokemon_pool import POOL, POOL_NAMES, POOL_SIZE, build_team_string
 from battle_notebook import BattleNotebook
 from battle_context import compute_battle_context
+from battle_logger import BattleLogger
 
 
 def _pool_summary() -> str:
@@ -75,9 +76,10 @@ class GeminiPlayer(Player):
         self.client = genai.Client()
         self.model  = "gemini-3.1-flash-lite-preview"
 
-        # Per-battle notebooks
+        # Per-battle notebooks and loggers
         self._notebooks: dict[str, BattleNotebook] = {}
         self._last_opp_hp: dict[str, float] = {}  # battle_tag -> last opp HP fraction
+        self._loggers: dict[str, BattleLogger] = {}
 
         self._battle_count: int = 0
         self._building_next: bool = False
@@ -278,19 +280,31 @@ class GeminiPlayer(Player):
         super()._battle_finished_callback(battle)
         tag = getattr(battle, "battle_tag", None)
         if tag:
+            logger = self._loggers.pop(tag, None)
+            if logger:
+                our_team = [m.species for m in battle.team.values()]
+                opp_team = [m.species for m in battle.opponent_team.values()]
+                logger.log_summary(battle.won, battle.turn, our_team, opp_team)
             self._notebooks.pop(tag, None)
             self._last_opp_hp.pop(tag, None)
         asyncio.create_task(self._build_team_async())
 
     # ── Phase 3: battle moves (context injection, no tool calls) ──────────────
 
+    def _get_logger(self, battle: Battle) -> BattleLogger:
+        tag = battle.battle_tag
+        if tag not in self._loggers:
+            self._loggers[tag] = BattleLogger(tag, "Gemini")
+        return self._loggers[tag]
+
     def choose_move(self, battle: Battle):
         self._update_notebook(battle)
         nb = self._get_notebook(battle)
+        logger = self._get_logger(battle)
 
         # Pre-compute all battle context
         context = compute_battle_context(battle, nb)
-        print(f"\n{context}\n")  # log the context for debugging
+        print(f"\n{context}\n")
 
         available_moves   = battle.available_moves
         available_switches = battle.available_switches
@@ -310,6 +324,12 @@ class GeminiPlayer(Player):
             print(f"[Gemini] Reasoning: {reasoning}")
             print(f"[Gemini] Action: {action_type} -> {target_name}")
 
+            logger.log_turn(
+                turn=battle.turn, context=context,
+                action=f"{action_type} {target_name}",
+                reasoning=reasoning, system="LLM",
+            )
+
             if action_type == "move" and available_moves:
                 for move in available_moves:
                     clean_id     = move.id.lower()
@@ -328,5 +348,9 @@ class GeminiPlayer(Player):
 
         except Exception as e:
             print(f"\n[Gemini] Error: {e} — falling back to random.")
+            logger.log_turn(
+                turn=battle.turn, context=context,
+                action="random (error)", system="LLM",
+            )
 
         return self.choose_random_move(battle)

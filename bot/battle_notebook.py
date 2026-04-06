@@ -258,7 +258,7 @@ class BattleNotebook:
 
     def observe_damage(self, species: str, our_species: str, our_move: str,
                        actual_pct: float, our_item: str = "", our_ability: str = ""):
-        """Record damage dealt to opponent and check for surprises.
+        """Record damage dealt to opponent and infer their set via Bayesian update.
 
         actual_pct: how much % HP the opponent lost.
         """
@@ -287,74 +287,197 @@ class BattleNotebook:
 
         ratio = actual_pct / expected_mid if expected_mid > 0 else 1.0
 
-        # Significant deviation = surprise
-        if ratio < 0.65:
-            # They took much less damage than expected — bulkier than standard
-            move_data = None
-            from pokedata import get_move
-            move_data = get_move(our_move)
-            cat = move_data.get("category", "Physical") if move_data else "Physical"
+        # ── Bayesian item/spread inference from damage ──
+        from pokedata import get_move
+        move_data = get_move(our_move)
+        cat = move_data.get("category", "Physical") if move_data else "Physical"
 
-            if cat == "Special" and intel.confirmed_item == "":
-                intel.surprises.append(
-                    f"Bulk surprise: {our_move} did {actual_pct:.0f}% (expected {expected_mid:.0f}%) "
-                    f"— likely Assault Vest or SpD investment"
-                )
-                intel.bulk_adjustment = ratio
-            elif cat == "Physical" and intel.confirmed_item == "":
-                intel.surprises.append(
-                    f"Bulk surprise: {our_move} did {actual_pct:.0f}% (expected {expected_mid:.0f}%) "
-                    f"— likely Def investment or defensive item"
-                )
-                intel.bulk_adjustment = ratio
+        inferred_item = None
+        inferred_spread_type = None  # "defensive" or "offensive"
+
+        if ratio < 0.65 and not intel.confirmed_item:
+            # Much less damage → tankier than standard
+            if cat == "Special":
+                # Could be Assault Vest (+50% SpD) or SpD investment
+                # AV would make ratio ~0.67, heavy SpD invest ~0.55-0.75
+                if ratio < 0.55:
+                    inferred_spread_type = "specially_defensive"
+                    intel.surprises.append(
+                        f"Bulk surprise: {our_move} did {actual_pct:.0f}% "
+                        f"(expected {expected_mid:.0f}%) — heavy SpD investment"
+                    )
+                else:
+                    inferred_item = "Assault Vest"
+                    intel.estimated_item = "Assault Vest"
+                    intel.surprises.append(
+                        f"Bulk surprise: {our_move} did {actual_pct:.0f}% "
+                        f"(expected {expected_mid:.0f}%) — likely Assault Vest"
+                    )
+            elif cat == "Physical":
+                if ratio < 0.55:
+                    inferred_spread_type = "physically_defensive"
+                    intel.surprises.append(
+                        f"Bulk surprise: {our_move} did {actual_pct:.0f}% "
+                        f"(expected {expected_mid:.0f}%) — heavy Def investment"
+                    )
+                else:
+                    intel.surprises.append(
+                        f"Bulk surprise: {our_move} did {actual_pct:.0f}% "
+                        f"(expected {expected_mid:.0f}%) — likely defensive item or Def invest"
+                    )
+            intel.bulk_adjustment = ratio
 
         elif ratio > 1.4:
-            # They took more damage — frailer than expected
+            inferred_spread_type = "offensive"
             intel.surprises.append(
-                f"Frailty note: {our_move} did {actual_pct:.0f}% (expected {expected_mid:.0f}%) "
-                f"— likely offensive spread"
+                f"Frailty note: {our_move} did {actual_pct:.0f}% "
+                f"(expected {expected_mid:.0f}%) — likely offensive spread"
             )
             intel.bulk_adjustment = ratio
 
-    def _update_set_estimate(self, intel: PokemonIntel):
-        """Re-evaluate which set the opponent is running based on confirmed info."""
+        # ── Bayesian set re-ranking with damage evidence ──
+        self._bayesian_update(intel, damage_obs=obs, inferred_item=inferred_item,
+                              inferred_spread_type=inferred_spread_type)
+
+    def observe_damage_taken(self, species: str, our_species: str, opp_move: str,
+                             actual_pct: float):
+        """Record damage WE took from opponent's move → infer their item/boosts.
+
+        actual_pct: how much % HP we lost.
+        """
+        intel = self._get_or_create_intel(species)
+
+        # Calc expected damage from their move with their estimated set
+        result = calc_damage(
+            species, opp_move, our_species,
+            atk_item=intel.item, atk_ability=intel.ability,
+        )
+        if "error" in result or result["max_pct"] == 0:
+            return
+
+        expected_mid = (result["min_pct"] + result["max_pct"]) / 2
+        if expected_mid < 1:
+            return
+
+        ratio = actual_pct / expected_mid
+
+        inferred_item = None
+        from pokedata import get_move
+        move_data = get_move(opp_move)
+        cat = move_data.get("category", "Physical") if move_data else "Physical"
+
+        if ratio > 1.25 and not intel.confirmed_item:
+            # They did more damage than expected → boosting item
+            if 1.25 <= ratio <= 1.40:
+                inferred_item = "Life Orb"
+                intel.estimated_item = "Life Orb"
+                intel.surprises.append(
+                    f"Damage inference: {opp_move} did {actual_pct:.0f}% to us "
+                    f"(expected {expected_mid:.0f}%) — likely Life Orb"
+                )
+            elif ratio > 1.40 and cat == "Physical":
+                inferred_item = "Choice Band"
+                intel.estimated_item = "Choice Band"
+                intel.surprises.append(
+                    f"Damage inference: {opp_move} did {actual_pct:.0f}% to us "
+                    f"(expected {expected_mid:.0f}%) — likely Choice Band"
+                )
+            elif ratio > 1.40 and cat == "Special":
+                inferred_item = "Choice Specs"
+                intel.estimated_item = "Choice Specs"
+                intel.surprises.append(
+                    f"Damage inference: {opp_move} did {actual_pct:.0f}% to us "
+                    f"(expected {expected_mid:.0f}%) — likely Choice Specs"
+                )
+
+        self._bayesian_update(intel, inferred_item=inferred_item)
+
+    def _bayesian_update(self, intel: PokemonIntel, damage_obs: dict = None,
+                         inferred_item: str = None, inferred_spread_type: str = None):
+        """Bayesian re-ranking of sets given all evidence."""
         sets = get_sets(intel.species)
         if not sets:
             return
 
-        best_score = -1
-        best_set = None
-
+        # Compute posterior probability for each set
+        posteriors = []
         for s in sets:
-            score = s["usage"]  # start with prior probability
+            # Start with prior (usage %)
+            log_prob = s["usage"]
 
-            # Boost if confirmed item matches
-            if intel.confirmed_item and s["item"].lower() == intel.confirmed_item.lower():
-                score += 1.0
-            elif intel.confirmed_item and s["item"].lower() != intel.confirmed_item.lower():
-                score -= 0.5
+            # Evidence: confirmed item
+            if intel.confirmed_item:
+                if s["item"].lower() == intel.confirmed_item.lower():
+                    log_prob += 2.0
+                else:
+                    log_prob -= 2.0  # strong negative evidence
 
-            # Boost if confirmed ability matches
-            if intel.confirmed_ability and s["ability"].lower() == intel.confirmed_ability.lower():
-                score += 1.0
-            elif intel.confirmed_ability and s["ability"].lower() != intel.confirmed_ability.lower():
-                score -= 0.5
+            # Evidence: inferred item from damage
+            if inferred_item and not intel.confirmed_item:
+                if s["item"].lower() == inferred_item.lower():
+                    log_prob += 1.0
+                elif inferred_item.lower() in ("choice band", "choice specs", "choice scarf"):
+                    # If we inferred a choice item but this set has a different one
+                    if "choice" in s["item"].lower():
+                        log_prob += 0.5  # at least it's a choice item
+                    else:
+                        log_prob -= 0.5
 
-            # Boost for each confirmed move that matches
+            # Evidence: confirmed ability
+            if intel.confirmed_ability:
+                if s["ability"].lower() == intel.confirmed_ability.lower():
+                    log_prob += 1.5
+                else:
+                    log_prob -= 1.5
+
+            # Evidence: confirmed moves
             set_moves_lower = {m.lower() for m in s.get("moves", [])}
             for cm in intel.confirmed_moves:
                 if cm.lower() in set_moves_lower:
-                    score += 0.3
+                    log_prob += 0.5
+                else:
+                    log_prob -= 0.3  # move not in this set
 
-            if score > best_score:
-                best_score = score
-                best_set = s
+            # Evidence: speed modifier
+            if intel.speed_modifier == "Choice Scarf":
+                if "choice scarf" in s["item"].lower():
+                    log_prob += 2.0
+                else:
+                    log_prob -= 1.0
 
-        if best_set:
-            intel.estimated_item = intel.confirmed_item or best_set["item"]
-            intel.estimated_ability = intel.confirmed_ability or best_set["ability"]
-            intel.estimated_spread = best_set["spread"]
-            intel.estimated_nature = best_set["nature"]
+            # Evidence: spread type inference
+            if inferred_spread_type:
+                spread = s.get("spread", (0, 0, 0, 0, 0, 0))
+                hp_ev, atk_ev, def_ev, spa_ev, spd_ev, spe_ev = spread
+                if inferred_spread_type == "specially_defensive" and spd_ev >= 200:
+                    log_prob += 0.8
+                elif inferred_spread_type == "physically_defensive" and def_ev >= 200:
+                    log_prob += 0.8
+                elif inferred_spread_type == "offensive" and (atk_ev >= 200 or spa_ev >= 200):
+                    log_prob += 0.5
+
+            posteriors.append((s, log_prob))
+
+        # Normalize and pick best
+        if not posteriors:
+            return
+
+        posteriors.sort(key=lambda x: x[1], reverse=True)
+        best_set = posteriors[0][0]
+
+        # Update estimates from best matching set
+        intel.estimated_item = intel.confirmed_item or best_set["item"]
+        intel.estimated_ability = intel.confirmed_ability or best_set["ability"]
+        intel.estimated_spread = best_set["spread"]
+        intel.estimated_nature = best_set["nature"]
+
+        # Update predicted moves: keep confirmed, fill from best set
+        # (already handled by predicted_moves property using prior_moves)
+        intel.prior_moves = best_set.get("moves", intel.prior_moves)
+
+    def _update_set_estimate(self, intel: PokemonIntel):
+        """Re-evaluate which set the opponent is running based on confirmed info."""
+        self._bayesian_update(intel)
 
     # ── Formatting for LLM prompt ─────────────────────────────────────────────
 

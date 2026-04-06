@@ -16,6 +16,7 @@ from poke_env.battle import Battle
 from pokedata import get_pokemon, type_effectiveness, get_move
 from damage_calc import calc_damage
 from battle_notebook import BattleNotebook, PokemonIntel
+from opponent_model import predict_opponent_action, ACTION_CATEGORIES
 
 
 def _calc_stat(base: int, ev: int = 252, iv: int = 31, level: int = 50,
@@ -201,6 +202,36 @@ def compute_battle_context(battle: Battle, notebook: BattleNotebook) -> str:
             sections.append(
                 f"  {confirmed}{move_name:20s} → {min_pct:5.1f}-{max_pct:5.1f}%{hit_str}{eff_str}{ko_str}"
             )
+
+    # ── Section 3b: Opponent action prediction (ML model) ─────────────────────
+    opp_bench_alive = [m for m in battle.opponent_team.values()
+                       if m != opp and not m.fainted]
+    our_bench_alive = [m for m in battle.team.values()
+                       if m != our and not m.fainted]
+    our_boosts_dict = {s: our.boosts.get(s, 0) for s in ["atk", "def", "spa", "spd", "spe"]} if our.boosts else {}
+    opp_boosts_dict = {s: opp.boosts.get(s, 0) for s in ["atk", "def", "spa", "spd", "spe"]} if opp.boosts else {}
+
+    weather_str = ", ".join(w.name for w in battle.weather) if battle.weather else ""
+    terrain_str = ", ".join(f.name for f in battle.fields) if battle.fields else ""
+
+    opp_probs = predict_opponent_action(
+        our_species, opp_species,
+        our.current_hp_fraction, opp.current_hp_fraction,
+        opp_intel=opp_intel,
+        our_boosts=our_boosts_dict, opp_boosts=opp_boosts_dict,
+        turn=battle.turn,
+        our_bench_count=len(our_bench_alive),
+        opp_bench_count=len(opp_bench_alive),
+        weather=weather_str, terrain=terrain_str,
+    )
+    if opp_probs:
+        sections.append(f"\n── OPPONENT ACTION PREDICTION ──")
+        # Sort by probability
+        sorted_probs = sorted(opp_probs.items(), key=lambda x: x[1], reverse=True)
+        for cat, prob in sorted_probs:
+            if prob >= 0.05:  # only show >= 5%
+                bar = "#" * int(prob * 20)
+                sections.append(f"  {cat:20s} {prob:5.0%} {bar}")
 
     # ── Section 4: Speed check ────────────────────────────────────────────────
     our_base_spe = our_stats.get("spe", 0)

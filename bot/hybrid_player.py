@@ -32,6 +32,7 @@ from poke_env.battle import Battle, AbstractBattle
 from pokemon_pool import POOL, POOL_NAMES, POOL_SIZE, build_team_string
 from battle_notebook import BattleNotebook
 from battle_context import compute_battle_context
+from battle_logger import BattleLogger
 
 # Reuse PPO infrastructure
 from ppo_team_player import (
@@ -219,6 +220,7 @@ class HybridPlayer(Player):
         self._notebooks: dict[str, BattleNotebook] = {}
         self._last_opp_hp: dict[str, float] = {}
         self._seen_surprises: dict[str, set[str]] = {}
+        self._loggers: dict[str, BattleLogger] = {}
         self._s1_count = 0
         self._s2_count = 0
 
@@ -410,10 +412,19 @@ class HybridPlayer(Player):
         else:
             return self._s1_choose(battle, masked_probs, best_prob)
 
+    def _get_logger(self, battle: Battle) -> BattleLogger:
+        tag = battle.battle_tag
+        if tag not in self._loggers:
+            self._loggers[tag] = BattleLogger(tag, "Hybrid")
+        return self._loggers[tag]
+
     def _s1_choose(self, battle: Battle, masked_probs: np.ndarray,
                    confidence: float):
         """System 1: PPO fast path — confident routine turn."""
         self._s1_count += 1
+        logger = self._get_logger(battle)
+        nb = self._get_notebook(battle)
+        context = compute_battle_context(battle, nb)
 
         action = int(np.argmax(masked_probs))
         try:
@@ -422,17 +433,28 @@ class HybridPlayer(Player):
             )
             print(f"[Hybrid/S1] Turn {battle.turn}: {order} "
                   f"(confidence={confidence:.0%})")
+            logger.log_turn(
+                turn=battle.turn, context=context,
+                action=str(order), system="S1",
+                confidence=confidence,
+            )
             return order
         except Exception:
             pass
 
         print(f"[Hybrid/S1] Turn {battle.turn}: fallback to random")
+        logger.log_turn(
+            turn=battle.turn, context=context,
+            action="random (S1 fallback)", system="S1",
+            confidence=confidence,
+        )
         return self.choose_random_move(battle)
 
     def _s2_choose(self, battle: Battle, nb: BattleNotebook,
                    new_surprises: list[str]):
         """System 2: LLM slow path, triggered by surprise."""
         self._s2_count += 1
+        logger = self._get_logger(battle)
 
         context = compute_battle_context(battle, nb)
 
@@ -466,6 +488,13 @@ class HybridPlayer(Player):
             print(f"[Hybrid/S2] Reasoning: {reasoning}")
             print(f"[Hybrid/S2] Action: {action_type} -> {target_name}")
 
+            logger.log_turn(
+                turn=battle.turn, context=context,
+                action=f"{action_type} {target_name}",
+                reasoning=reasoning, system="S2",
+                surprises=new_surprises,
+            )
+
             if action_type == "move" and available_moves:
                 for move in available_moves:
                     clean_id = move.id.lower()
@@ -484,6 +513,11 @@ class HybridPlayer(Player):
 
         except Exception as e:
             print(f"[Hybrid/S2] LLM failed ({e}), falling back to S1.")
+            logger.log_turn(
+                turn=battle.turn, context=context,
+                action="S1 fallback (S2 error)", system="S2",
+                surprises=new_surprises,
+            )
             return self._s1_choose(battle)
 
         return self.choose_random_move(battle)
@@ -498,8 +532,13 @@ class HybridPlayer(Player):
             print(f"[Hybrid] Battle stats: S1(PPO)={self._s1_count} "
                   f"S2(LLM)={self._s2_count} "
                   f"({self._s2_count/total*100:.0f}% escalated)")
-        # Reset per-battle state
+        # Log summary
         if tag:
+            logger = self._loggers.pop(tag, None)
+            if logger:
+                our_team = [m.species for m in battle.team.values()]
+                opp_team = [m.species for m in battle.opponent_team.values()]
+                logger.log_summary(battle.won, battle.turn, our_team, opp_team)
             self._notebooks.pop(tag, None)
             self._last_opp_hp.pop(tag, None)
             self._seen_surprises.pop(tag, None)
