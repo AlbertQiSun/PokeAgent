@@ -35,6 +35,14 @@ def make_opponent(name: str):
             battle_format=BATTLE_FORMAT,
             server_configuration=LocalhostServerConfiguration,
         )
+    elif name == "hybrid":
+        from hybrid_player import HybridPlayer
+        return HybridPlayer(
+            model_path="ppo_team_builder", llm_backend="gemini",
+            account_configuration=AccountConfiguration("Hybrid Bot", None),
+            battle_format=BATTLE_FORMAT,
+            server_configuration=LocalhostServerConfiguration,
+        )
     else:
         raise ValueError(f"Unknown opponent: {name}")
 
@@ -67,6 +75,15 @@ async def main(player_type: str, opponent_type: str, n_battles: int):
             server_configuration=LocalhostServerConfiguration,
         )
         label = "Qwen"
+    elif player_type == "hybrid":
+        from hybrid_player import HybridPlayer
+        player = HybridPlayer(
+            model_path="ppo_team_builder", llm_backend="gemini",
+            account_configuration=AccountConfiguration("Hybrid Bot", None),
+            battle_format=BATTLE_FORMAT,
+            server_configuration=LocalhostServerConfiguration,
+        )
+        label = "Hybrid"
     else:
         raise ValueError(f"Unknown player type: {player_type}")
 
@@ -79,8 +96,8 @@ async def main(player_type: str, opponent_type: str, n_battles: int):
     
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--player",   default="ppo",    choices=["ppo", "gemini", "qwen"])
-    parser.add_argument("--opponent", default="random", choices=["random", "heuristic", "gemini", "qwen"])
+    parser.add_argument("--player",   default="ppo",    choices=["ppo", "gemini", "qwen", "hybrid"])
+    parser.add_argument("--opponent", default="random", choices=["random", "heuristic", "gemini", "qwen", "hybrid"])
     parser.add_argument("--battles",  default=1, type=int)
     args = parser.parse_args()
     asyncio.run(main(args.player, args.opponent, args.battles))

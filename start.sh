@@ -7,7 +7,7 @@ SERVER_DIR="$SCRIPT_DIR/pokemon-showdown"
 BOT_DIR="$SCRIPT_DIR/bot"
 PYTHON="$BOT_DIR/venv/bin/python"
 
-MODE="${1:-bot}"   # bot | user | arena | eval | train | train-team | bc | online | vllm
+MODE="${1:-bot}"   # bot | user | arena | eval | train | train-team | parse-replays | bc | sft | online | vllm
 
 SERVER_PID=""
 
@@ -58,9 +58,9 @@ if [ "$MODE" = "vllm" ]; then
         --dtype auto
 fi
 
-# ── Start Showdown server (all modes except online/vllm) ─────────────────────
-if [ "$MODE" = "online" ]; then
-    echo "[skip] No local Showdown server needed for online play."
+# ── Start Showdown server (only for modes that need it) ──────────────────────
+if [ "$MODE" = "online" ] || [ "$MODE" = "parse-replays" ] || [ "$MODE" = "sft" ]; then
+    echo "[skip] No local server needed for $MODE mode."
 else
     start_showdown
 fi
@@ -88,6 +88,7 @@ if [ "$MODE" = "user" ]; then
             ppo)      echo "    • PPO Bot          (BSS Reg J)" ;;
             ppo-team) echo "    • PPO Team Bot     (BSS Reg J)" ;;
             qwen)     echo "    • Qwen Bot         (BSS Reg J)" ;;
+            hybrid)   echo "    • Hybrid Bot       (BSS Reg J) [S1:PPO + S2:LLM]" ;;
         esac
     done
     echo "  Uncheck Best-of-3 when challenging."
@@ -145,11 +146,28 @@ elif [ "$MODE" = "train-team" ]; then
     echo "      Training PPO team-builder ($STEPS steps vs $OPPONENT) $EXTRA_ARGS"
     "$PYTHON" train_rl_team.py --steps "$STEPS" --opponent "$OPPONENT" --format gen9anythinggoes $EXTRA_ARGS
 
+# ── parse-replays: collect LLM SFT data from human replays ──────────────────
+elif [ "$MODE" = "parse-replays" ]; then
+    SAMPLES="${2:-5000}"
+    FORMAT="${3:-gen9randombattle}"
+    OUTPUT="${4:-sft_data.jsonl}"
+    echo "      Parsing replays → LLM SFT data ($SAMPLES replays, $FORMAT)"
+    "$PYTHON" replay_parser.py --samples "$SAMPLES" --format "$FORMAT" --output "$OUTPUT"
+
 # ── bc ────────────────────────────────────────────────────────────────────────
 elif [ "$MODE" = "bc" ]; then
     trap cleanup_all EXIT
     echo "      Behavioral cloning from replay dataset"
     "$PYTHON" bc_pretrain.py --samples "${2:-50000}" --epochs "${3:-10}"
+
+# ── sft: fine-tune Qwen on replay data ───────────────────────────────────────
+elif [ "$MODE" = "sft" ]; then
+    DATA="${2:-sft_data.jsonl}"
+    EPOCHS="${3:-3}"
+    EXTRA_ARGS="${@:4}"
+    trap cleanup_all EXIT
+    echo "      SFT training ($EPOCHS epochs on $DATA) $EXTRA_ARGS"
+    "$PYTHON" train_sft.py --data "$DATA" --epochs "$EPOCHS" $EXTRA_ARGS
 
 # ── online: play on real Showdown ladder ─────────────────────────────────────
 elif [ "$MODE" = "online" ]; then
@@ -166,3 +184,4 @@ else
     trap cleanup_all EXIT
     "$PYTHON" main.py
 fi
+

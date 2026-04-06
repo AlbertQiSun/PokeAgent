@@ -29,7 +29,7 @@ LOGS_DIR = Path("arena_logs")
 
 def make_player(player_type: str, slot: int, battle_format: str):
     """Create a named player instance. slot=1|2 ensures unique usernames."""
-    name_map = {"gemini": "GeminiBot", "ppo": "PPOBot", "ppo-team": "PPOTeamBot", "qwen": "QwenBot"}
+    name_map = {"gemini": "GeminiBot", "ppo": "PPOBot", "ppo-team": "PPOTeamBot", "qwen": "QwenBot", "hybrid": "HybridBot"}
     username = f"{name_map.get(player_type, player_type)}{slot}"
     account = AccountConfiguration(username, None)
     base = dict(
@@ -53,6 +53,10 @@ def make_player(player_type: str, slot: int, battle_format: str):
     elif player_type == "qwen":
         from local_llm_player import LocalLLMPlayer
         return LocalLLMPlayer(**base)
+
+    elif player_type == "hybrid":
+        from hybrid_player import HybridPlayer
+        return HybridPlayer(model_path="ppo_team_builder", llm_backend="gemini", **base)
 
     else:
         raise ValueError(f"Unknown player type: {player_type!r}")
@@ -264,9 +268,9 @@ async def run_arena(p1_type: str, p2_type: str, n_battles: int, battle_format: s
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--p1",      default="gemini",
-                        choices=["gemini", "ppo", "ppo-team", "qwen"])
+                        choices=["gemini", "ppo", "ppo-team", "qwen", "hybrid"])
     parser.add_argument("--p2",      default="ppo-team",
-                        choices=["gemini", "ppo", "ppo-team", "qwen"])
+                        choices=["gemini", "ppo", "ppo-team", "qwen", "hybrid"])
     parser.add_argument("--battles", type=int, default=10)
     parser.add_argument("--format",  default="gen9bssregj",
                         help="Battle format (default: gen9bssregj)")

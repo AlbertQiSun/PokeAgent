@@ -132,6 +132,12 @@ def compute_battle_context(battle: Battle, notebook: BattleNotebook) -> str:
     if opp_intel:
         sections.append(f"\n── OPPONENT'S LIKELY MOVES vs {our_species.upper()} ──")
         predicted = opp_intel.predicted_moves
+        # Fallback: if notebook has no moves, try KB directly
+        if not predicted:
+            from metagame_kb import get_most_likely_set
+            kb = get_most_likely_set(opp_species)
+            if kb:
+                predicted = kb.get("moves", [])
         opp_item_est = opp_intel.item
         opp_ability_est = opp_intel.ability
 

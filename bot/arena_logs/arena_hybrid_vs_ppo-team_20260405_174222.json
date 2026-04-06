@@ -1,0 +1,139 @@
+{
+  "summary": {
+    "p1": "hybrid",
+    "p2": "ppo-team",
+    "total_battles": 3,
+    "p1_wins": 1,
+    "p2_wins": 2,
+    "draws": 0,
+    "p1_win_rate": 0.3333,
+    "p2_win_rate": 0.6667,
+    "avg_turns": 13.67,
+    "min_turns": 12,
+    "max_turns": 15,
+    "p1_team_usage": {
+      "calyrexice": 3,
+      "skeledirge": 3,
+      "rillaboom": 3,
+      "fluttermane": 3,
+      "ironhands": 3,
+      "urshifurapidstrike": 2,
+      "tornadustherian": 1
+    },
+    "p2_team_usage": {
+      "fluttermane": 3,
+      "skeledirge": 3,
+      "calyrexice": 1,
+      "urshifurapidstrike": 1
+    },
+    "p1_survival_rate": {
+      "rillaboom": 1.0,
+      "ironhands": 1.0,
+      "tornadustherian": 1.0,
+      "urshifurapidstrike": 0.5,
+      "calyrexice": 0.333,
+      "fluttermane": 0.333,
+      "skeledirge": 0.0
+    },
+    "elapsed_seconds": 23.1,
+    "battles_per_minute": 7.8
+  },
+  "battles": [
+    {
+      "tag": "battle-gen9bssregj-49973",
+      "won": false,
+      "turns": 14,
+      "our_team": [
+        "calyrexice",
+        "skeledirge",
+        "rillaboom",
+        "urshifurapidstrike",
+        "fluttermane",
+        "ironhands"
+      ],
+      "opp_team": [
+        "fluttermane",
+        "skeledirge"
+      ],
+      "our_fainted": [
+        "calyrexice",
+        "skeledirge",
+        "fluttermane"
+      ],
+      "opp_fainted": [
+        "fluttermane"
+      ],
+      "our_survived": [
+        "rillaboom",
+        "urshifurapidstrike",
+        "ironhands"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-49974",
+      "won": true,
+      "turns": 12,
+      "our_team": [
+        "calyrexice",
+        "skeledirge",
+        "fluttermane",
+        "rillaboom",
+        "ironhands",
+        "tornadustherian"
+      ],
+      "opp_team": [
+        "skeledirge",
+        "calyrexice",
+        "fluttermane"
+      ],
+      "our_fainted": [
+        "skeledirge",
+        "fluttermane"
+      ],
+      "opp_fainted": [
+        "skeledirge",
+        "calyrexice",
+        "fluttermane"
+      ],
+      "our_survived": [
+        "calyrexice",
+        "rillaboom",
+        "ironhands",
+        "tornadustherian"
+      ]
+    },
+    {
+      "tag": "battle-gen9bssregj-49975",
+      "won": false,
+      "turns": 15,
+      "our_team": [
+        "calyrexice",
+        "skeledirge",
+        "fluttermane",
+        "rillaboom",
+        "urshifurapidstrike",
+        "ironhands"
+      ],
+      "opp_team": [
+        "fluttermane",
+        "skeledirge",
+        "urshifurapidstrike"
+      ],
+      "our_fainted": [
+        "calyrexice",
+        "skeledirge",
+        "urshifurapidstrike"
+      ],
+      "opp_fainted": [
+        "fluttermane",
+        "skeledirge"
+      ],
+      "our_survived": [
+        "fluttermane",
+        "rillaboom",
+        "ironhands"
+      ]
+    }
+  ],
+  "generated_at": "2026-04-05T17:42:22.358335"
+}

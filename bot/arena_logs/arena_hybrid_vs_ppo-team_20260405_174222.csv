@@ -1,0 +1,4 @@
+battle,won,turns,our_team,opp_team,our_fainted,our_survived
+1,False,14,calyrexice|skeledirge|rillaboom|urshifurapidstrike|fluttermane|ironhands,fluttermane|skeledirge,calyrexice|skeledirge|fluttermane,rillaboom|urshifurapidstrike|ironhands
+2,True,12,calyrexice|skeledirge|fluttermane|rillaboom|ironhands|tornadustherian,skeledirge|calyrexice|fluttermane,skeledirge|fluttermane,calyrexice|rillaboom|ironhands|tornadustherian
+3,False,15,calyrexice|skeledirge|fluttermane|rillaboom|urshifurapidstrike|ironhands,fluttermane|skeledirge|urshifurapidstrike,calyrexice|skeledirge|urshifurapidstrike,fluttermane|rillaboom|ironhands

@@ -186,6 +186,11 @@ def make_online_bot(player_type: str, username: str, password: str, fmt: str):
         bot = OnlineQwen(**base)
         return bot, "Qwen"
 
+    elif player_type == "hybrid":
+        from hybrid_player import HybridPlayer
+        bot = HybridPlayer(model_path="ppo_team_builder", llm_backend="gemini", **base)
+        return bot, "Hybrid"
+
     else:
         raise ValueError(f"Unknown player type: {player_type}")
 
@@ -308,7 +313,7 @@ async def run_accept(bot, bot_name: str, fmt: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--player",   default="ppo-team", choices=["gemini", "ppo", "ppo-team", "qwen"])
+    parser.add_argument("--player",   default="ppo-team", choices=["gemini", "ppo", "ppo-team", "qwen", "hybrid"])
     parser.add_argument("--username", required=True, help="Pokemon Showdown registered username")
     parser.add_argument("--password", required=True, help="Pokemon Showdown password")
     parser.add_argument("--battles",  type=int, default=5, help="Number of ladder battles")

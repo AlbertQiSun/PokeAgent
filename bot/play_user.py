@@ -53,6 +53,16 @@ def make_bot(player_type: str):
             server_configuration=LocalhostServerConfiguration,
         )
         name = "Qwen Bot"
+    elif player_type == "hybrid":
+        from hybrid_player import HybridPlayer
+        bot = HybridPlayer(
+            model_path="ppo_team_builder",
+            llm_backend="gemini",
+            account_configuration=AccountConfiguration("Hybrid Bot", None),
+            battle_format=BATTLE_FORMAT,
+            server_configuration=LocalhostServerConfiguration,
+        )
+        name = "Hybrid Bot"
     else:
         bot = GeminiPlayer(
             account_configuration=AccountConfiguration("Gemini Bot", None),
@@ -151,7 +161,7 @@ async def main(player_type: str = "gemini"):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--player", default="gemini", choices=["gemini", "ppo", "ppo-team", "qwen"],
+    parser.add_argument("--player", default="gemini", choices=["gemini", "ppo", "ppo-team", "qwen", "hybrid"],
                         help="Which bot to use (default: gemini)")
     args = parser.parse_args()
     asyncio.run(main(args.player))

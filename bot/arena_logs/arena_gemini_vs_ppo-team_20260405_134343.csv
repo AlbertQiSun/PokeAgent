@@ -1,0 +1,4 @@
+battle,won,turns,our_team,opp_team,our_fainted,our_survived
+1,False,7,incineroar|fluttermane|calyrexice|kingambit|chienpao|dragonite,urshifurapidstrike|skeledirge,incineroar|calyrexice|kingambit,fluttermane|chienpao|dragonite
+2,False,7,incineroar|fluttermane|calyrexice|kingambit|chienpao|dragonite,urshifurapidstrike,fluttermane|calyrexice|kingambit,incineroar|chienpao|dragonite
+3,False,10,incineroar|fluttermane|calyrexice|kingambit|chienpao|dragonite,urshifurapidstrike|skeledirge,incineroar|calyrexice|kingambit,fluttermane|chienpao|dragonite
