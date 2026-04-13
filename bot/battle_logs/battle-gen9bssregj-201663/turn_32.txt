@@ -1,0 +1,92 @@
+Battle: battle-gen9bssregj-201663
+Agent:  Gemini
+Turn:   32
+System: LLM
+Action: switch dragonite
+
+── REASONING ──
+Calyrex-Ice has fainted, so I must send in a new Pokemon. Dragonite is the best choice to handle Urshifu-Rapid-Strike due to its bulk and ability to threaten back with priority or strong neutral hits.
+
+── BATTLE CONTEXT ──
+=== TURN 32 ANALYSIS ===
+Your calyrexice vs opponent's urshifurapidstrike
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓surgingstrikes       →  24.0- 29.1% x3
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        70% #############
+  setup                  20% ###
+  attack_special          8% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  kingambit            (Dark/Steel       19.3% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, thunderbolt ✓, ~Make It Rain, ~Shadow Ball
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+│   - Unexpected ability: goodasgold (expected Good as Gold)
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   fakeout ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   surgingstrikes ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+
+── HP STATUS ──
+  Your calyrexice: 0% [FNT]
+  Opp urshifurapidstrike: 100% 
+  Your bench: fluttermane(100%), kingambit(19%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

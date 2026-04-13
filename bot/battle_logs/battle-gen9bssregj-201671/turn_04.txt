@@ -1,0 +1,99 @@
+Battle: battle-gen9bssregj-201671
+Agent:  Gemini
+Turn:   4
+System: LLM
+Action: move flareblitz
+
+── REASONING ──
+Flare Blitz is a guaranteed OHKO on Rillaboom, satisfying the primary decision priority to secure the KO immediately.
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your incineroar vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →  11.4- 13.7% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  28.0- 32.6% (neutral)
+  flareblitz           Fire     PHYSICAL BP:120 → 101.1-118.9% (2x SE) → OHKO
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓woodhammer           →  28.2- 32.9% (resist)
+  ~Wood Hammer          →  28.2- 32.9% (resist)
+  ~Drum Beating         →  18.8- 22.4% (resist)
+  ~U-turn               →  22.4- 25.9%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        48% #########
+  switch                 37% #######
+  attack_special         11% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > incineroar(60 base)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Band)
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected item: unknown_item (expected Choice Band)
+  [ironhands] Unexpected item: unknown_item (expected Assault Vest)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your incineroar: 73% 
+  Opp rillaboom: 94% 
+  Your bench: fluttermane(100%), calyrexice(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

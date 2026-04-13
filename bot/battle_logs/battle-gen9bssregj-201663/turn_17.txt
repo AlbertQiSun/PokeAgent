@@ -1,0 +1,107 @@
+Battle: battle-gen9bssregj-201663
+Agent:  Gemini
+Turn:   17
+System: LLM
+Action: move incineroar
+
+── REASONING ──
+Using Parting Shot allows me to pivot out safely while lowering the opponent's offensive stats, maintaining momentum despite my Incineroar's low HP.
+
+── BATTLE CONTEXT ──
+=== TURN 17 ANALYSIS ===
+Your incineroar vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →  11.8- 14.1% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  14.1- 16.5% (resist)
+  flareblitz           Fire     PHYSICAL BP:120 →  25.9- 30.6% (resist)
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓fakeout              →  11.8- 14.1%
+  ~Flare Blitz          →  25.9- 30.6% (resist)
+  ~Knock Off            →  14.1- 16.5% (resist)
+  ~U-turn               →  20.6- 24.1%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        64% ############
+  switch                 15% ##
+  attack_special         12% ##
+  attack_status           8% #
+
+── SPEED CHECK ──
+  Speed tie: both 60 base (50/50)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+  kingambit            (Dark/Steel      100.0% HP) — resists STAB
+
+── OPPONENT BENCH THREATS ──
+  gholdengo            (Steel/Ghost) 100% — best: knockoff (SE)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+│   - Unexpected ability: goodasgold (expected Good as Gold)
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   fakeout ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+
+── HP STATUS ──
+  Your incineroar: 27% 
+  Opp incineroar: 92% 
+  Your bench: fluttermane(100%), calyrexice(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~5 remaining

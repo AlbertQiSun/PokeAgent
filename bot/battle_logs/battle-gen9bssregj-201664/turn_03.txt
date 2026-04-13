@@ -1,0 +1,100 @@
+Battle: battle-gen9bssregj-201664
+Agent:  Gemini
+Turn:   3
+System: LLM
+Action: move gholdengo
+
+── REASONING ──
+Flare Blitz is a guaranteed OHKO on Gholdengo, removing a major threat from the field immediately regardless of whether they stay in or switch.
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your incineroar vs opponent's gholdengo
+
+── YOUR MOVES vs GHOLDENGO ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →   0.0-  0.0% (IMMUNE)
+  knockoff             Dark     PHYSICAL BP: 65 →  57.4- 67.3% (2x SE) → 2HKO
+  flareblitz           Fire     PHYSICAL BP:120 → 103.7-121.6% (2x SE) → OHKO
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓makeitrain           →  30.0- 35.3% (resist)
+  ~Make It Rain         →  30.0- 35.3% (resist)
+  ~Shadow Ball          →  20.0- 23.5% (resist)
+  ~Trick                →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 48% #########
+  attack_special         28% #####
+  attack_status          13% ##
+  setup                   8% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: gholdengo(84 base) > incineroar(60 base)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+  kingambit            (Dark/Steel      100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+│   - Unexpected ability: goodasgold (expected Good as Gold)
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [gholdengo] Unexpected item: unknown_item (expected Choice Scarf)
+  [gholdengo] Unexpected ability: goodasgold (expected Good as Gold)
+  [gholdengo] Unexpected item: unknown_item (expected Choice Scarf)
+  [gholdengo] Unexpected ability: goodasgold (expected Good as Gold)
+  [gholdengo] Unexpected item: unknown_item (expected Choice Scarf)
+
+── HP STATUS ──
+  Your incineroar: 61% 
+  Opp gholdengo: 100% 
+  Your bench: calyrexice(100%), tornadustherian(100%), amoonguss(100%), kingambit(100%), fluttermane(100%)
+  Opp bench: ~5 remaining

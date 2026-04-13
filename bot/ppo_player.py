@@ -4,7 +4,7 @@ PPO-trained RL player for Pokemon Showdown.
 Uses the trained stable-baselines3 PPO model to choose moves,
 via the same observation embedding used during training (rl_env.py).
 
-Supports both 80-dim (no history) and 400-dim (5-frame history) models.
+Supports both 86-dim (no history) and 430-dim (5-frame history) models.
 """
 
 import numpy as np

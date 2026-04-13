@@ -1,0 +1,88 @@
+{
+  "battle_tag": "battle-gen9bssregj-201707",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 8,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "urshifurapidstrike",
+    "tornadustherian",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9998332858085632,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.999579906463623,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9995695948600769,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 0.999994158744812,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999989867210388,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999997019767761,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999991059303284,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

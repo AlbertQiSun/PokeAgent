@@ -1,0 +1,89 @@
+Battle: battle-gen9bssregj-201717
+Agent:  Hybrid
+Turn:   4
+System: S2
+Surprises: [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+Action: switch urshifurapidstrike
+
+── REASONING ──
+Gholdengo's Air Balloon makes it immune to Ground-type moves, but more importantly, it threatens an OHKO on Flutter Mane with Make It Rain. Switching to Urshifu-Rapid-Strike provides a safe pivot that resists Gholdengo's STAB moves.
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your fluttermane vs opponent's gholdengo
+
+── YOUR MOVES vs GHOLDENGO ──
+  moonblast            Fairy    SPECIAL  BP: 95 →  37.7- 44.4% (resist) → 3HKO
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ~Make It Rain         → 105.4-124.6% (SE) → OHKO!
+  ~Shadow Ball          →  71.5- 84.6% (SE) → 2HKO
+  ~Trick                →   0.0-  0.0%
+  ~Thunderbolt          →  26.2- 31.5%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_status          42% ########
+  attack_special         35% ######
+  setup                  17% ###
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > gholdengo(84 base)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your fluttermane: 100% 
+  Opp gholdengo: 100% 
+  Your bench: gholdengo(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%)
+  Opp bench: ~3 remaining

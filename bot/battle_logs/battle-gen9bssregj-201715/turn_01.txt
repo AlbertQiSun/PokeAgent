@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-201715
+Agent:  Hybrid
+Turn:   1
+System: S2
+Surprises: [ironhands] Unexpected item: leftovers (expected Assault Vest), [ironhands] Unexpected move: thunderpunch
+Action: switch gholdengo
+
+── REASONING ──
+Tornadus-Therian is already fainted, so I must bring in Gholdengo to safely pivot into Iron Hands, as it is immune to the Fighting-type moves Iron Hands likely carries and resists its coverage.
+
+── BATTLE CONTEXT ──
+=== TURN 1 ANALYSIS ===
+Your tornadustherian vs opponent's ironhands
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓thunderpunch         →  98.7-116.2% (SE) → OHKO!
+  ~Drain Punch          →  24.7- 28.6% (resist)
+  ~Wild Charge          → 117.5-138.3% (SE) → OHKO!
+  ~Ice Punch            →  65.6- 77.3% (SE) → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        69% #############
+  switch                 25% #####
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > ironhands(50 base)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+  gholdengo            (Steel/Ghost     100.0% HP) — immune to STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    leftovers ✓
+│ Tera:    ???
+│ Moves:   thunderpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: leftovers (expected Assault Vest)
+│   - Unexpected move: thunderpunch
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: leftovers (expected Assault Vest)
+  [ironhands] Unexpected move: thunderpunch
+
+── HP STATUS ──
+  Your tornadustherian: 0% [FNT]
+  Opp ironhands: 67% 
+  Your bench: gholdengo(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%), fluttermane(100%)
+  Opp bench: ~5 remaining

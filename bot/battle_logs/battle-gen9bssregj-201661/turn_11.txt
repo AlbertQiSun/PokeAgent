@@ -1,0 +1,97 @@
+Battle: battle-gen9bssregj-201661
+Agent:  Gemini
+Turn:   11
+System: LLM
+Action: switch kingambit
+
+── REASONING ──
+My Incineroar is at 30% and will likely be KO'd or forced out by the opponent's Incineroar. Switching to Kingambit provides a safe pivot that resists the opponent's likely Knock Off or Flare Blitz, preserving my Incineroar for a potential Intimidate cycle later.
+
+── BATTLE CONTEXT ──
+=== TURN 11 ANALYSIS ===
+Your incineroar vs opponent's incineroar
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓fakeout              →  11.8- 14.1%
+  ~Flare Blitz          →  25.9- 30.6% (resist)
+  ~Knock Off            →  14.1- 16.5% (resist)
+  ~U-turn               →  20.6- 24.1%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        60% ###########
+  switch                 21% ####
+  attack_special         11% ##
+  attack_status           8% #
+
+── SPEED CHECK ──
+  Speed tie: both 60 base (50/50)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+  kingambit            (Dark/Steel      100.0% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+│   - Unexpected ability: goodasgold (expected Good as Gold)
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   fakeout ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [gholdengo] Unexpected ability: goodasgold (expected Good as Gold)
+  [gholdengo] Unexpected item: unknown_item (expected Choice Scarf)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+
+── HP STATUS ──
+  Your incineroar: 30% 
+  Opp incineroar: 100% 
+  Your bench: fluttermane(100%), calyrexice(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~5 remaining

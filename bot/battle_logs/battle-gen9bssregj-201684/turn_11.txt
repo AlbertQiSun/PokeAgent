@@ -1,0 +1,95 @@
+Battle: battle-gen9bssregj-201684
+Agent:  Gemini
+Turn:   11
+System: LLM
+Action: switch dragonite
+
+── REASONING ──
+Flutter Mane is guaranteed to be OHKOed by Flare Blitz and cannot threaten a KO back. Switching to Dragonite provides a bulky pivot that resists Fire-type moves, allowing me to preserve Flutter Mane for later while scouting the opponent's next move.
+
+── BATTLE CONTEXT ──
+=== TURN 11 ANALYSIS ===
+Your fluttermane vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  mysticalfire         Fire     SPECIAL  BP: 75 →  18.8- 22.4% (resist)
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓flareblitz           → 110.0-129.2% → OHKO!
+  ~Flare Blitz          → 110.0-129.2% → OHKO!
+  ~Knock Off            →  60.0- 70.8% → 2HKO
+  ~U-turn               →  10.8- 12.3% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        51% ##########
+  switch                 30% ######
+  attack_special          9% #
+  attack_status           6% #
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > incineroar(60 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Booster Energy)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Band)
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected item: unknown_item (expected Choice Band)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [fluttermane] Unexpected item: unknown_item (expected Booster Energy)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your fluttermane: 76% 
+  Opp incineroar: 73% 
+  Your bench: kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

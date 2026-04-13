@@ -1,0 +1,87 @@
+Battle: battle-gen9bssregj-201686
+Agent:  Gemini
+Turn:   4
+System: LLM
+Action: switch tornadustherian
+
+── REASONING ──
+Calyrex-Ice has fainted, so I must send in a new Pokemon. Tornadus-Therian is the safest pivot to handle Incineroar's potential Flare Blitz or U-turn while maintaining momentum.
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your calyrexice vs opponent's incineroar
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓flareblitz           →  61.7- 72.6% (SE) → 2HKO
+  ~Flare Blitz          →  61.7- 72.6% (SE) → 2HKO
+  ~Knock Off            →  34.9- 40.6% (SE) → 3HKO
+  ~U-turn               →  24.6- 29.1% (SE)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        68% #############
+  switch                 13% ##
+  attack_special          8% #
+  setup                   7% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: incineroar(60 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  tornadustherian      (Flying           83.3% HP) — neutral
+  fluttermane          (Ghost/Fairy       3.8% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+
+── HP STATUS ──
+  Your calyrexice: 0% [FNT]
+  Opp incineroar: 47% 
+  Your bench: incineroar(100%), fluttermane(4%), kingambit(100%), chienpao(100%), tornadustherian(83%)
+  Opp bench: ~5 remaining

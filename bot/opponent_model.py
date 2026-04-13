@@ -138,28 +138,104 @@ def extract_features(
     is_choice = opp_item.lower().replace(" ", "") in ("choiceband", "choicespecs", "choicescarf") if opp_item else False
     features.append(1.0 if is_choice else 0.0)     # locked into one move
 
+    # ── Opponent known moves vs us (3) ──
+    # Best effectiveness and power of opponent's revealed moves against us
+    opp_move_best_eff = 0.0
+    opp_move_best_power = 0.0
+    opp_move_has_se = 0.0
+    our_t1 = our_types[0] if our_types else "Normal"
+    our_t2 = our_types[1] if len(our_types) > 1 else None
+    for mname in opp_moves_seen:
+        mdata = get_move(mname.lower().replace(" ", "").replace("-", ""))
+        if mdata:
+            mtype = mdata.get("type", "Normal")
+            eff = type_effectiveness(mtype, our_t1, our_t2)
+            power = mdata.get("basePower", 0) / 150.0  # normalize
+            eff_power = eff * power
+            if eff_power > opp_move_best_eff * opp_move_best_power:
+                opp_move_best_eff = eff / 4.0
+                opp_move_best_power = power
+            if eff >= 2.0:
+                opp_move_has_se = 1.0
+    features.append(opp_move_best_eff)
+    features.append(opp_move_best_power)
+    features.append(opp_move_has_se)
+
+    # ── Opponent known move category distribution (3) ──
+    n_phys_seen = 0
+    n_spec_seen = 0
+    n_status_seen = 0
+    for mname in opp_moves_seen:
+        mdata = get_move(mname.lower().replace(" ", "").replace("-", ""))
+        if mdata:
+            cat = mdata.get("category", "Status")
+            if cat == "Physical":
+                n_phys_seen += 1
+            elif cat == "Special":
+                n_spec_seen += 1
+            else:
+                n_status_seen += 1
+    features.append(n_phys_seen / 4.0)
+    features.append(n_spec_seen / 4.0)
+    features.append(n_status_seen / 4.0)
+
+    # ── Our threat to opponent (2) ──
+    # Rough damage proxy: best STAB eff × our attacking stat / their defensive stat
+    our_atk = our_base_stats.get("atk", 80)
+    our_spa = our_base_stats.get("spa", 80)
+    opp_def = opp_base_stats.get("def", 80)
+    opp_spd = opp_base_stats.get("spd", 80)
+    phys_threat = (our_atk / opp_def) * our_best_eff
+    spec_threat = (our_spa / opp_spd) * our_best_eff
+    our_threat = max(phys_threat, spec_threat)
+    features.append(min(our_threat / 3.0, 1.0))  # our threat level (capped)
+    # Opponent's threat to us (same idea)
+    opp_atk = opp_base_stats.get("atk", 80)
+    opp_spa = opp_base_stats.get("spa", 80)
+    our_def = our_base_stats.get("def", 80)
+    our_spd_stat = our_base_stats.get("spd", 80)
+    opp_phys_threat = (opp_atk / our_def) * opp_best_eff
+    opp_spec_threat = (opp_spa / our_spd_stat) * opp_best_eff
+    opp_threat = max(opp_phys_threat, opp_spec_threat)
+    features.append(min(opp_threat / 3.0, 1.0))  # their threat to us
+
+    # ── Opponent physical vs special lean (1) ──
+    # > 0.5 means physical leaning, < 0.5 means special leaning
+    features.append(opp_atk / (opp_atk + opp_spa + 1e-6))
+
+    # ── HP danger zones (2) ──
+    features.append(1.0 if our_hp_frac < 0.3 else 0.0)   # we're low
+    features.append(1.0 if opp_hp_frac < 0.3 else 0.0)   # they're low
+
+    # ── Switch pressure (1) ──
+    # If opponent has no bench, they can't switch
+    features.append(0.0 if opp_bench_count == 0 else 1.0)
+
     return np.array(features, dtype=np.float32)
 
 
-N_FEATURES = 40  # total features from extract_features
+N_FEATURES = 52  # total features from extract_features
 
 
 # ── MLP Model ────────────────────────────────────────────────────────────────
 
 class OpponentPredictor(nn.Module):
-    """2-layer MLP for opponent action prediction."""
+    """3-layer MLP for opponent action prediction."""
 
     def __init__(self, n_features: int = N_FEATURES, n_categories: int = N_CATEGORIES,
-                 hidden: int = 128):
+                 hidden: int = 192):
         super().__init__()
         self.net = nn.Sequential(
             nn.Linear(n_features, hidden),
             nn.ReLU(),
-            nn.Dropout(0.1),
+            nn.Dropout(0.15),
             nn.Linear(hidden, hidden),
             nn.ReLU(),
+            nn.Dropout(0.15),
+            nn.Linear(hidden, hidden // 2),
+            nn.ReLU(),
             nn.Dropout(0.1),
-            nn.Linear(hidden, n_categories),
+            nn.Linear(hidden // 2, n_categories),
         )
 
     def forward(self, x):
@@ -234,6 +310,7 @@ def predict_opponent_action(
     opp_bench_count: int = 2,
     weather: str = "",
     terrain: str = "",
+    opp_moves_list: list[str] | None = None,
 ) -> dict[str, float] | None:
     """Predict opponent action probabilities. Returns None if model not available."""
     global _cached_model, _cache_checked
@@ -255,7 +332,12 @@ def predict_opponent_action(
     our_stats = our_data.get("baseStats", {})
     opp_stats = opp_data.get("baseStats", {})
 
-    opp_moves_seen = opp_intel.confirmed_moves if opp_intel else []
+    if opp_intel:
+        opp_moves_seen = opp_intel.confirmed_moves
+    elif opp_moves_list:
+        opp_moves_seen = opp_moves_list
+    else:
+        opp_moves_seen = []
     opp_item = (opp_intel.item if opp_intel else "") or ""
     opp_ability = (opp_intel.ability if opp_intel else "") or ""
 

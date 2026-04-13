@@ -1,0 +1,38 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201662
+==================================================
+Agent:   Gemini
+Result:  LOSS
+Turns:   23
+Logged:  25 decisions
+Our team: incineroar, fluttermane, calyrexice, kingambit, chienpao, dragonite
+Opp team: gholdengo, incineroar, urshifurapidstrike
+
+Turn-by-turn:
+  T 1: move highhorsepower            [LLM]
+  T 1: switch kingambit               [LLM]
+  T 2: move gholdengo                 [LLM]
+  T 3: switch fluttermane             [LLM]
+  T 4: switch kingambit               [LLM]
+  T 5: switch fluttermane             [LLM]
+  T 6: switch kingambit               [LLM]
+  T 7: switch fluttermane             [LLM]
+  T 8: switch kingambit               [LLM]
+  T 9: switch fluttermane             [LLM]
+  T10: switch kingambit               [LLM]
+  T11: switch fluttermane             [LLM]
+  T12: switch kingambit               [LLM]
+  T13: switch fluttermane             [LLM]
+  T14: switch kingambit               [LLM]
+  T15: switch fluttermane             [LLM]
+  T16: switch kingambit               [LLM]
+  T17: switch fluttermane             [LLM]
+  T18: switch kingambit               [LLM]
+  T19: switch fluttermane             [LLM]
+  T20: move moonblast                 [LLM]
+  T20: switch kingambit               [LLM]
+  T21: switch dragonite               [LLM]
+  T22: switch dragonite               [LLM]
+  T23: switch dragonite               [LLM]
+
+Timestamp: 2026-04-11T19:39:50.418163

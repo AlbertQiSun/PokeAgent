@@ -1,0 +1,288 @@
+{
+  "battle_tag": "battle-gen9bssregj-201661",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 28,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 33,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "gholdengo",
+    "incineroar",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Gholdengo outspeeds and threatens a 2HKO with Make It Rain, while High Horsepower is a 2HKO. Switching to Incineroar provides a safe pivot to resist Gholdengo's special attacks and potentially lower its attack with Intimidate."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move gholdengo",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Gholdengo, satisfying the primary decision priority to secure a KO when possible."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move gholdengo",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Gholdengo, removing a major threat from the field immediately regardless of whether they stay in or switch."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move gholdengo",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Gholdengo, removing a significant threat immediately regardless of whether they stay in or switch."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move gholdengo",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Gholdengo, removing a major threat immediately. Since I can secure the KO, I should prioritize taking the Gholdengo off the field rather than switching."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move gholdengo",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz guarantees an OHKO on Gholdengo, removing a major threat regardless of whether they stay in or attempt to switch."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move gholdengo",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Gholdengo. Even if the opponent switches, Flare Blitz is the highest value play to remove a major threat immediately."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move gholdengo",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Gholdengo, securing a kill regardless of whether the opponent stays in or attempts to switch."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move gholdengo",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Gholdengo, removing a major threat from the field regardless of whether they stay in or switch."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at low HP and cannot win this 1v1. Parting Shot allows me to pivot safely into a healthier teammate while lowering the opponent's stats, maintaining momentum."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 30% HP and cannot win this duel. Parting Shot allows me to pivot out safely, lower the opponent's stats, and bring in a fresh check to maintain momentum."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 30% and will likely be KO'd or forced out by the opponent's Incineroar. Switching to Kingambit provides a safe pivot that resists the opponent's likely Knock Off or Flare Blitz, preserving my Incineroar for a potential Intimidate cycle later."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar's Flare Blitz threatens a 2HKO on Kingambit, and Kingambit cannot effectively damage Incineroar. Switching into my own Incineroar provides an Intimidate drop and a safe pivot to scout the opponent's next move."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "move incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Using Fake Out is the optimal play to secure priority damage and potentially flinch the opponent, as my Incineroar is low on HP and needs to contribute chip damage before fainting."
+    },
+    {
+      "turn": 14,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 30% and cannot win this 1v1. Using Parting Shot allows me to pivot out safely, debuff the opponent's offensive stats, and bring in a healthier teammate to maintain momentum."
+    },
+    {
+      "turn": 14,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 30% and likely to be KO'd by any chip damage or Flare Blitz. Switching to Kingambit provides a safe defensive pivot that resists the opponent's likely Knock Off or U-turn, allowing me to maintain momentum."
+    },
+    {
+      "turn": 15,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is a major threat to Kingambit with Flare Blitz, and staying in results in a losing trade. Switching to my own Incineroar allows me to pivot, absorb potential damage, and reset the Intimidate cycle to maintain momentum."
+    },
+    {
+      "turn": 16,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at low HP and cannot win this exchange. Parting Shot allows me to safely pivot out, lower the opponent's stats, and bring in a fresh check to maintain momentum."
+    },
+    {
+      "turn": 16,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 30% and will likely be KO'd by any chip damage or Flare Blitz. Switching to Kingambit provides a safe resist to the opponent's Incineroar's STAB moves and allows me to maintain momentum."
+    },
+    {
+      "turn": 17,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens a 2HKO with Flare Blitz, and my current damage output is too low to force a KO. Switching to Calyrex-Ice allows me to pivot into a bulkier threat that can handle Incineroar's attacks better while maintaining momentum."
+    },
+    {
+      "turn": 18,
+      "system": "LLM",
+      "action": "move incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and forces significant damage on Incineroar. Since I am at full HP, I can afford to take a hit and pressure the opponent to switch or risk losing their Incineroar."
+    },
+    {
+      "turn": 19,
+      "system": "LLM",
+      "action": "move incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO on Incineroar and forces them to either switch or risk losing their primary pivot. Staying in to secure the 2HKO is the most efficient path to removing this threat."
+    },
+    {
+      "turn": 20,
+      "system": "LLM",
+      "action": "move incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and has a high chance to secure the KO on the weakened Incineroar, preventing it from pivoting or using Flare Blitz."
+    },
+    {
+      "turn": 21,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Gholdengo outspeeds and threatens a 2HKO with Make It Rain, while Calyrex-Ice only 2HKOs with High Horsepower. Switching to Kingambit provides a crucial immunity to Gholdengo's Ghost-type STAB and resists its Steel-type STAB, allowing me to safely pivot and threaten back."
+    },
+    {
+      "turn": 22,
+      "system": "LLM",
+      "action": "move gholdengo",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kowtow Cleave has a high chance to KO Gholdengo (up to 101.9%) and is the most reliable play to remove the threat immediately. Sucker Punch is risky if the opponent switches or uses a non-attacking move, so Kowtow Cleave is the superior choice to secure the kill."
+    },
+    {
+      "turn": 23,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is guaranteed to be OHKO'd by Close Combat and cannot secure a KO itself. Switching to Calyrex-Ice is the safest play to avoid losing Kingambit immediately and to threaten the Urshifu with a powerful STAB move."
+    },
+    {
+      "turn": 24,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is significantly slower and cannot KO Urshifu, while Surging Strikes will chip it down further. Switching to Incineroar allows me to use Intimidate to soften the Urshifu and potentially pivot out to a better matchup."
+    },
+    {
+      "turn": 24,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is already fainted (0% HP), so I must send in a healthy replacement. Kingambit provides a solid defensive pivot against Urshifu-Rapid's water moves while threatening back with its bulk and priority."
+    },
+    {
+      "turn": 25,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is taking significant damage from Surging Strikes and cannot KO Urshifu-R. Switching to Calyrex-Ice provides a better defensive profile against water moves and threatens a heavy counter-attack."
+    },
+    {
+      "turn": 26,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 26% HP and will be KO'd by Surging Strikes this turn. Switching to Kingambit preserves Calyrex-Ice for a potential late-game priority move while bringing in a bulkier check to Urshifu."
+    },
+    {
+      "turn": 27,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is at 22% HP and will be KO'd by Surging Strikes. Switching to Flutter Mane preserves Kingambit for a potential Sucker Punch later and allows Flutter Mane to threaten Urshifu with a super-effective Fairy STAB."
+    },
+    {
+      "turn": 27,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a replacement. Dragonite is the best defensive pivot to handle Urshifu-Rapid Strike's Surging Strikes due to its bulk and typing."
+    },
+    {
+      "turn": 28,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is at 22% and will be KO'd by Surging Strikes this turn. Switching to Dragonite allows me to absorb the hit and maintain momentum with a healthier Pokemon."
+    }
+  ]
+}

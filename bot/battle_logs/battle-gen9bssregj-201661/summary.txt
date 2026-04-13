@@ -1,0 +1,46 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201661
+==================================================
+Agent:   Gemini
+Result:  LOSS
+Turns:   28
+Logged:  33 decisions
+Our team: incineroar, fluttermane, calyrexice, kingambit, chienpao, dragonite
+Opp team: gholdengo, incineroar, urshifurapidstrike
+
+Turn-by-turn:
+  T 1: switch incineroar              [LLM]
+  T 2: move gholdengo                 [LLM]
+  T 3: move gholdengo                 [LLM]
+  T 4: move gholdengo                 [LLM]
+  T 5: move gholdengo                 [LLM]
+  T 6: move gholdengo                 [LLM]
+  T 7: move gholdengo                 [LLM]
+  T 8: move gholdengo                 [LLM]
+  T 9: move gholdengo                 [LLM]
+  T10: move partingshot               [LLM]
+  T11: move partingshot               [LLM]
+  T11: switch kingambit               [LLM]
+  T12: switch incineroar              [LLM]
+  T13: move incineroar                [LLM]
+  T14: move partingshot               [LLM]
+  T14: switch kingambit               [LLM]
+  T15: switch incineroar              [LLM]
+  T16: move partingshot               [LLM]
+  T16: switch kingambit               [LLM]
+  T17: switch calyrexice              [LLM]
+  T18: move incineroar                [LLM]
+  T19: move incineroar                [LLM]
+  T20: move incineroar                [LLM]
+  T21: switch kingambit               [LLM]
+  T22: move gholdengo                 [LLM]
+  T23: switch calyrexice              [LLM]
+  T24: switch incineroar              [LLM]
+  T24: switch kingambit               [LLM]
+  T25: switch calyrexice              [LLM]
+  T26: switch kingambit               [LLM]
+  T27: switch fluttermane             [LLM]
+  T27: switch dragonite               [LLM]
+  T28: switch dragonite               [LLM]
+
+Timestamp: 2026-04-11T19:39:17.602778

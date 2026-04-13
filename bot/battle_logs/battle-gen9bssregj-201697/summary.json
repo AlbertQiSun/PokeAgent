@@ -1,0 +1,88 @@
+{
+  "battle_tag": "battle-gen9bssregj-201697",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 5,
+  "s1_count": 3,
+  "s2_count": 4,
+  "llm_count": 4,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "ironhands",
+    "fluttermane"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [
+        "[rillaboom] Unexpected item: unknown_item (expected Choice Band)"
+      ],
+      "reasoning": "Despite the unexpected item, Hurricane remains a guaranteed OHKO on Rillaboom. Since I outspeed and can secure the KO immediately, I should prioritize removing the threat regardless of the item discrepancy."
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: unknown_item (expected Assault Vest)"
+      ],
+      "reasoning": "Iron Hands threatens an OHKO with Wild Charge and its item is unknown, making it too risky to stay in; Flutter Mane provides a safe switch-in due to its immunity to Fighting-type moves and ability to threaten Iron Hands with super-effective STAB."
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: lifeorb (expected Assault Vest)"
+      ],
+      "reasoning": "Flutter Mane is fainted, so I must bring in a healthy check to Iron Hands. Tornadus-Therian resists the Electric-type coverage that Iron Hands is using to threaten the team."
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999994039535522,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999992251396179,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S2",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [
+        "[fluttermane] Unexpected item: unknown_item (expected Booster Energy)"
+      ],
+      "reasoning": "Flutter Mane outspeeds and OHKOs Urshifu with Moonblast or Dazzling Gleam, and since it lacks Booster Energy, it is likely holding Choice Specs or another item that makes it a lethal threat. Switching to Incineroar allows me to scout the item and potentially threaten with Intimidate or a pivot move."
+    }
+  ]
+}

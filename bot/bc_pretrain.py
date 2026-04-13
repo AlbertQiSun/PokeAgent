@@ -38,7 +38,7 @@ def get_device() -> torch.device:
 # 18-21: move + dynamax(dead in gen9 → remap to 6-9)
 # 22-25: move 0-3 + terastallize
 N_ACTIONS = 26
-OBS_SIZE   = 80  # must match rl_env.py
+OBS_SIZE   = 86  # must match rl_env.py
 
 
 # ── Log parser ───────────────────────────────────────────────────────────────

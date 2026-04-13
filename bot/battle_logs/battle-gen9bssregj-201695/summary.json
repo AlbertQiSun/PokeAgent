@@ -1,0 +1,120 @@
+{
+  "battle_tag": "battle-gen9bssregj-201695",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 9,
+  "s1_count": 7,
+  "s2_count": 4,
+  "llm_count": 4,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "incineroar",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "move knockoff",
+      "confidence": -1,
+      "surprises": [
+        "[fluttermane] Unexpected item: unknown_item (expected Booster Energy)"
+      ],
+      "reasoning": "Since the Flutter Mane lacks Booster Energy, it is likely holding a Choice item or Focus Sash; Knock Off is the optimal play to remove the item and scout its set while dealing significant damage."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9995363354682922,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9992459416389465,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 0.9999913573265076,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999986290931702,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S2",
+      "action": "switch urshifurapidstrike",
+      "confidence": -1,
+      "surprises": [
+        "[incineroar] Unexpected item: unknown_item (expected Safety Goggles)"
+      ],
+      "reasoning": "Incineroar threatens an OHKO with Flare Blitz, and since I cannot secure a KO this turn, I must pivot to Urshifu-Rapid-Strike to resist the Fire-type attack and gain momentum."
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9997186064720154,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9995921850204468,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S2",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: unknown_item (expected Assault Vest)"
+      ],
+      "reasoning": "Iron Hands is likely running a boosting item or Leftovers instead of Assault Vest, making it too dangerous to stay in while Urshifu is at 52% HP. Switching to Flutter Mane provides a safe pivot that resists Drain Punch and threatens a potential OHKO with Moonblast."
+    },
+    {
+      "turn": 8,
+      "system": "S2",
+      "action": "switch urshifurapidstrike",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: lifeorb (expected Assault Vest)"
+      ],
+      "reasoning": "Flutter Mane has fainted, so I must send in Urshifu-Rapid-Strike to check the Life Orb Iron Hands, as it resists Ice Punch and can threaten a KO with Surging Strikes."
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999982714653015,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

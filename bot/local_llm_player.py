@@ -90,7 +90,9 @@ BATTLE_SYSTEM = (
     "- Will they stay in or switch? What is their best move?\n"
     "- Pay attention to SURPRISES — unexpected items, abilities, or EV spreads.\n\n"
     "Output ONLY a JSON object:\n"
-    '{"action_type": "move" or "switch", "target_name": "exact name", '
+    '{"action_type": "move" or "switch", '
+    '"target_name": "move name (e.g. Flare Blitz) if action_type is move, '
+    'or Pokemon name (e.g. Incineroar) if action_type is switch", '
     '"reasoning": "1-2 sentences explaining your prediction and decision"}\n'
     "No markdown. Just the raw JSON."
 )
@@ -192,6 +194,7 @@ class LocalLLMPlayer(Player):
         # Per-battle notebooks and loggers
         self._notebooks: dict[str, BattleNotebook] = {}
         self._last_opp_hp: dict[str, float] = {}
+        self._last_opp_species: dict[str, str] = {}
         self._loggers: dict[str, BattleLogger] = {}
 
         self._battle_count: int = 0
@@ -223,6 +226,16 @@ class LocalLLMPlayer(Player):
                 nb.observe_status(species, opp.status.name)
             for move_id in opp.moves:
                 nb.observe_move(species, move_id)
+
+            # Behavioral inference
+            nb.observe_hp_change(species, opp.current_hp_fraction)
+            prev_opp = self._last_opp_species.get(tag)
+            if prev_opp and prev_opp != species:
+                nb.observe_switch_in(species)
+            self._last_opp_species[tag] = species
+            weather = str(battle.weather) if battle.weather else ""
+            terrain = str(battle.fields) if battle.fields else ""
+            nb.observe_stat_boost(species, "", 0, weather=weather, terrain=terrain)
 
             prev_hp = self._last_opp_hp.get(tag, 1.0)
             self._last_opp_hp[tag] = opp.current_hp_fraction
@@ -396,6 +409,26 @@ class LocalLLMPlayer(Player):
             self._loggers[tag] = BattleLogger(tag, "Qwen")
         return self._loggers[tag]
 
+    @staticmethod
+    def _match_move(target_name: str, reasoning: str, available_moves) -> object:
+        """Match LLM output to an available move, with reasoning fallback."""
+        clean_target = re.sub(r'[^a-z0-9]', '', target_name.lower())
+        for move in available_moves:
+            clean_id = move.id.lower()
+            if clean_target == clean_id or clean_target in clean_id or clean_id in clean_target:
+                return move
+        clean_reasoning = re.sub(r'[^a-z0-9 ]', '', reasoning.lower())
+        best, best_len = None, 0
+        for move in available_moves:
+            clean_id = move.id.lower()
+            if clean_id in clean_reasoning and len(clean_id) > best_len:
+                best, best_len = move, len(clean_id)
+        if best:
+            print(f"  [move-match] Fallback: extracted '{best.id}' from reasoning")
+            return best
+        print(f"  [move-match] WARNING: could not match '{target_name}', using {available_moves[0].id}")
+        return available_moves[0]
+
     def choose_move(self, battle: Battle):
         self._update_notebook(battle)
         nb = self._get_notebook(battle)
@@ -435,12 +468,8 @@ class LocalLLMPlayer(Player):
             )
 
             if action_type == "move" and available_moves:
-                for move in available_moves:
-                    clean_id     = move.id.lower()
-                    clean_target = re.sub(r'[^a-z0-9]', '', target_name)
-                    if clean_target in clean_id or clean_id in clean_target:
-                        return self.create_order(move)
-                return self.create_order(available_moves[0])
+                chosen = self._match_move(target_name, reasoning, available_moves)
+                return self.create_order(chosen)
 
             elif action_type == "switch" and available_switches:
                 for mon in available_switches:

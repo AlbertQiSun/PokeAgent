@@ -1,0 +1,96 @@
+Battle: battle-gen9bssregj-201683
+Agent:  Gemini
+Turn:   6
+System: LLM
+Action: move highhorsepower
+
+── REASONING ──
+High Horsepower is a guaranteed 2HKO and has a high chance to KO the Incineroar given its current HP status, which is significantly lower than the 10% threshold mentioned in the summary. Even if the opponent stays in to Flare Blitz, securing the KO now removes the Intimidate threat and prevents further momentum.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your calyrexice vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  glaciallance         Ice      PHYSICAL BP:120 →  36.5- 43.5% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  78.2- 92.4% (2x SE) → 2HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  25.9- 30.6% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓flareblitz           →  61.7- 72.6% (SE) → 2HKO
+  ~Flare Blitz          →  61.7- 72.6% (SE) → 2HKO
+  ~Knock Off            →  34.9- 40.6% (SE) → 3HKO
+  ~U-turn               →  24.6- 29.1% (SE)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        42% ########
+  attack_special         28% #####
+  switch                 17% ###
+  attack_status          13% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: incineroar(60 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+  incineroar           (Fire/Dark        72.8% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [ironhands] Unexpected item: unknown_item (expected Assault Vest)
+
+── HP STATUS ──
+  Your calyrexice: 70% 
+  Opp incineroar: 10% 
+  Your bench: incineroar(73%), fluttermane(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

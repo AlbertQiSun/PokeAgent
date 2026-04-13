@@ -1,0 +1,98 @@
+{
+  "battle_tag": "battle-gen9bssregj-201715",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 7,
+  "s1_count": 8,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "ironhands",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999990463256836,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "switch gholdengo",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: leftovers (expected Assault Vest)",
+        "[ironhands] Unexpected move: thunderpunch"
+      ],
+      "reasoning": "Tornadus-Therian is already fainted, so I must bring in Gholdengo to safely pivot into Iron Hands, as it is immune to the Fighting-type moves Iron Hands likely carries and resists its coverage."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move makeitrain",
+      "confidence": 0.9999991059303284,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move makeitrain",
+      "confidence": 0.9999974966049194,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move makeitrain",
+      "confidence": 0.9999916553497314,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999991059303284,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999998807907104,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999996423721313,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

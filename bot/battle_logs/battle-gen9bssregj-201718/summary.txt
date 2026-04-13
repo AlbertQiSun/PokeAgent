@@ -1,0 +1,31 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201718
+==================================================
+Agent:   Hybrid
+Result:  LOSS
+Turns:   9
+Logged:  11 decisions
+Our team: calyrexice, gholdengo, rillaboom, tornadustherian, urshifurapidstrike, incineroar
+Opp team: gholdengo, ironhands
+
+Routing: S1=9 (82%) S2=2 (18%)
+
+Surprises (3 total):
+  - [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+  - [ironhands] Unexpected item: leftovers (expected Assault Vest)
+  - [ironhands] Unexpected move: thunderpunch
+
+Turn-by-turn:
+  T 1: switch incineroar              [S2] !
+  T 2: /choose move fakeout           [S1] (100%)
+  T 3: /choose move fakeout           [S1] (100%)
+  T 4: /choose move fakeout           [S1] (100%)
+  T 5: /choose move fakeout           [S1] (100%)
+  T 5: /choose switch Urshifu         [S1] (99%)
+  T 6: /choose move surgingstrikes    [S1] (100%)
+  T 6: switch calyrexice              [S2] !
+  T 7: /choose move glaciallance      [S1] (100%)
+  T 8: /choose move glaciallance      [S1] (100%)
+  T 9: /choose move glaciallance      [S1] (100%)
+
+Timestamp: 2026-04-12T22:44:22.432102

@@ -1,0 +1,95 @@
+Battle: battle-gen9bssregj-201684
+Agent:  Gemini
+Turn:   9
+System: LLM
+Action: switch dragonite
+
+── REASONING ──
+Calyrex-Ice has fainted, so I must send in a new Pokemon. Dragonite is the best choice to resist Rillaboom's Grass-type moves and threaten it back with STAB Flying or Tera-Normal Extreme Speed.
+
+── BATTLE CONTEXT ──
+=== TURN 9 ANALYSIS ===
+Your calyrexice vs opponent's rillaboom
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓woodhammer           →  33.1- 39.4% → 3HKO
+  ~Wood Hammer          →  33.1- 39.4% → 3HKO
+  ~Drum Beating         →  22.3- 26.9%
+  ~U-turn               →  26.9- 31.4% (SE)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        65% #############
+  switch                 15% ###
+  setup                  12% ##
+  attack_special          6% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy      70.2% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Booster Energy)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Band)
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected item: unknown_item (expected Choice Band)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [fluttermane] Unexpected item: unknown_item (expected Booster Energy)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your calyrexice: 0% [FNT]
+  Opp rillaboom: 76% 
+  Your bench: fluttermane(70%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

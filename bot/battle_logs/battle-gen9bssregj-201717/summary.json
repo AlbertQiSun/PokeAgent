@@ -1,0 +1,82 @@
+{
+  "battle_tag": "battle-gen9bssregj-201717",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 6,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "incineroar",
+    "fluttermane",
+    "gholdengo"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9997605085372925,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 0.9999929666519165,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999985694885254,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999997615814209,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S2",
+      "action": "switch urshifurapidstrike",
+      "confidence": -1,
+      "surprises": [
+        "[gholdengo] Unexpected item: airballoon (expected Choice Scarf)"
+      ],
+      "reasoning": "Gholdengo's Air Balloon makes it immune to Ground-type moves, but more importantly, it threatens an OHKO on Flutter Mane with Make It Rain. Switching to Urshifu-Rapid-Strike provides a safe pivot that resists Gholdengo's STAB moves."
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9996192455291748,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.999322772026062,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

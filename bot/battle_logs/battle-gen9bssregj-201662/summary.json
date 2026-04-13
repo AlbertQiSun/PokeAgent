@@ -1,0 +1,224 @@
+{
+  "battle_tag": "battle-gen9bssregj-201662",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 23,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 25,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "gholdengo",
+    "incineroar",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and provides the best offensive pressure. Since Gholdengo is likely to attack, staying in to secure the 2HKO is the optimal play to maintain momentum."
+    },
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is already fainted (0% HP). Kingambit is the optimal switch-in as it resists both of Gholdengo's STAB moves (Make It Rain and Shadow Ball) and threatens a KO with Sucker Punch or Kowtow Cleave."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move gholdengo",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kowtow Cleave has a high chance to OHKO or leave Gholdengo in range for a follow-up, and since Gholdengo is slower than Kingambit, it is the optimal play to secure the KO without risking a Sucker Punch fail if they switch or use a non-attacking move."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is threatened by a 2HKO from Flare Blitz and cannot deal significant damage to Incineroar. Switching to Flutter Mane preserves Kingambit for later while forcing Incineroar to deal with a faster, special-attacking threat."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens an OHKO with Flare Blitz, and staying in is too risky given the 56% probability of a physical attack. Kingambit resists both Flare Blitz and Knock Off, making it the safest pivot to preserve Flutter Mane for later."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is threatened by a 2HKO from Flare Blitz and deals negligible damage to Incineroar due to Intimidate and type resistance. Switching to Flutter Mane preserves Kingambit for later and forces Incineroar to pivot or risk taking heavy special damage."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens an OHKO with Flare Blitz, and Flutter Mane cannot secure a KO this turn. Switching to Kingambit provides a safe resist to Incineroar's physical attacks while maintaining momentum."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is threatened by a 2HKO from Flare Blitz and cannot effectively damage Incineroar. Switching to Flutter Mane preserves Kingambit for later and forces Incineroar to pivot or risk a heavy hit."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens an OHKO with Flare Blitz, and staying in is too risky given the 57% probability of a physical attack. Kingambit resists Incineroar's likely coverage moves and provides a safe pivot to maintain momentum."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens a 2HKO with Flare Blitz while Kingambit deals negligible damage due to Intimidate and resistance. Switching to Flutter Mane avoids the KO and forces Incineroar to pivot or switch out."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens an OHKO with Flare Blitz, and Flutter Mane cannot secure a KO this turn. Switching to Kingambit provides a safe resist to Incineroar's physical attacks and preserves Flutter Mane for later."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens a 2HKO with Flare Blitz while Kingambit does negligible damage back. Switching to Flutter Mane forces Incineroar out or forces it to take neutral/super-effective damage, preserving Kingambit for a better matchup later."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is threatened with an OHKO by Flare Blitz and cannot OHKO Incineroar in return. Switching to Kingambit allows me to safely absorb the incoming physical attack due to its resistances and superior bulk."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is threatened by a 2HKO from Flare Blitz and cannot effectively damage Incineroar. Switching to Flutter Mane preserves Kingambit for later priority usage while forcing Incineroar to pivot or risk a disadvantageous matchup."
+    },
+    {
+      "turn": 14,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens an OHKO with Flare Blitz, and since I cannot OHKO it back, switching to Kingambit is the safest play to resist the incoming physical attack and maintain momentum."
+    },
+    {
+      "turn": 15,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is threatened by a 2HKO from Flare Blitz and cannot effectively damage Incineroar due to Intimidate and resistance. Switching to Flutter Mane preserves Kingambit for later and forces Incineroar to deal with a faster, high-pressure special attacker."
+    },
+    {
+      "turn": 16,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens an OHKO with Flare Blitz, and since I cannot guarantee a KO this turn, switching to Kingambit allows me to resist the incoming Fire-type attack and maintain momentum."
+    },
+    {
+      "turn": 17,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens a 2HKO with Flare Blitz and has Intimidate to neuter Kingambit's damage output. Switching to Flutter Mane avoids the unfavorable matchup and maintains momentum against a potential U-turn or Flare Blitz."
+    },
+    {
+      "turn": 18,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens an OHKO with Flare Blitz, and staying in is too risky given the high probability of a physical attack. Switching to Kingambit provides a safe resist to Incineroar's likely moves while maintaining defensive pressure."
+    },
+    {
+      "turn": 19,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is at a disadvantage against Incineroar due to Intimidate and the threat of Flare Blitz. Switching to Flutter Mane preserves Kingambit for a later stage while forcing Incineroar to potentially pivot or take neutral damage."
+    },
+    {
+      "turn": 20,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Urshifu-Rapid-Strike and Moonblast is a guaranteed OHKO, removing a major threat immediately."
+    },
+    {
+      "turn": 20,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane has fainted, so I must send in a replacement. Kingambit is the best defensive pivot to handle Urshifu-Rapid Strike's Surging Strikes due to its typing and bulk."
+    },
+    {
+      "turn": 21,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is heavily disadvantaged against Urshifu-Rapid-Strike and cannot secure a KO. Switching to Dragonite provides a defensive pivot that resists Surging Strikes, allowing me to preserve Kingambit for a potential late-game sweep."
+    },
+    {
+      "turn": 22,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is in range of Surging Strikes and cannot KO Urshifu-Rapid. Dragonite provides a neutral defensive pivot that can threaten Urshifu back or set up if the opponent switches."
+    },
+    {
+      "turn": 23,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is at 1% HP and will be KO'd by any move from Urshifu-Rapid. Switching to Dragonite allows me to tank a hit and potentially retaliate or pivot safely."
+    }
+  ]
+}

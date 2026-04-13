@@ -1,0 +1,96 @@
+{
+  "battle_tag": "battle-gen9bssregj-201719",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 7,
+  "s1_count": 9,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "incineroar",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999992251396179,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999978542327881,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose switch Gholdengo",
+      "confidence": 0.9453210830688477,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move makeitrain",
+      "confidence": 0.9999992251396179,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move makeitrain",
+      "confidence": 0.9999988079071045,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999989867210388,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999998807907104,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999995827674866,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

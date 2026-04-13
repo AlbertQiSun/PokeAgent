@@ -1,0 +1,92 @@
+Battle: battle-gen9bssregj-201661
+Agent:  Gemini
+Turn:   24
+System: LLM
+Action: switch kingambit
+
+── REASONING ──
+Incineroar is already fainted (0% HP), so I must send in a healthy replacement. Kingambit provides a solid defensive pivot against Urshifu-Rapid's water moves while threatening back with its bulk and priority.
+
+── BATTLE CONTEXT ──
+=== TURN 24 ANALYSIS ===
+Your incineroar vs opponent's urshifurapidstrike
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓surgingstrikes       →  79.4- 93.5% x3 (SE) → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  setup                  59% ###########
+  attack_physical        34% ######
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  kingambit            (Dark/Steel       69.1% HP) — neutral
+  calyrexice           (Psychic/Ice      64.3% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, thunderbolt ✓, ~Make It Rain, ~Shadow Ball
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+│   - Unexpected ability: goodasgold (expected Good as Gold)
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   fakeout ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   surgingstrikes ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+
+── HP STATUS ──
+  Your incineroar: 0% [FNT]
+  Opp urshifurapidstrike: 100% 
+  Your bench: fluttermane(100%), calyrexice(64%), kingambit(69%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

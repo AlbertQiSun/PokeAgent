@@ -1,0 +1,88 @@
+{
+  "battle_tag": "battle-gen9bssregj-201683",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 8,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "ironhands",
+    "incineroar",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens a 2HKO with Drain Punch and out-damages Incineroar significantly. Switching to Flutter Mane provides an immunity to the Fighting-type STAB and forces the opponent to respect the threat of a super-effective Fairy attack."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO, fulfilling the primary decision priority."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is threatened with an OHKO by Flare Blitz and cannot secure a KO this turn. Switching to Incineroar provides a safe defensive pivot to resist Fire-type attacks and utilize Intimidate to mitigate physical pressure."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since both Incineroars are resisting each other and neither can secure a quick KO, Parting Shot is the optimal play to lower the opponent's stats and gain momentum by bringing in a more threatening sweeper."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move knock off",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since we are in a speed tie and neither Incineroar can OHKO the other, Knock Off is the safest play to remove the opponent's item and gain information while maintaining momentum."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO on Incineroar and forces them to either switch or risk being KO'd. Since I am at full health and Incineroar cannot OHKO me, attacking is the optimal play to maintain momentum."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a guaranteed 2HKO and has a high chance to KO the Incineroar given its current HP status, which is significantly lower than the 10% threshold mentioned in the summary. Even if the opponent stays in to Flare Blitz, securing the KO now removes the Intimidate threat and prevents further momentum."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Tornadus-Therian. Since I can secure the KO this turn, I must attack regardless of the speed disadvantage."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+Battle: battle-gen9bssregj-201661
+Agent:  Gemini
+Turn:   26
+System: LLM
+Action: switch kingambit
+
+── REASONING ──
+Calyrex-Ice is at 26% HP and will be KO'd by Surging Strikes this turn. Switching to Kingambit preserves Calyrex-Ice for a potential late-game priority move while bringing in a bulkier check to Urshifu.
+
+── BATTLE CONTEXT ──
+=== TURN 26 ANALYSIS ===
+Your calyrexice vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  glaciallance         Ice      PHYSICAL BP:120 →  32.0- 37.7% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  34.3- 40.0% (neutral) → 3HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  22.9- 26.9% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓surgingstrikes       →  24.0- 29.1% x3
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        47% #########
+  setup                  46% #########
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  kingambit            (Dark/Steel       69.1% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, thunderbolt ✓, ~Make It Rain, ~Shadow Ball
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+│   - Unexpected ability: goodasgold (expected Good as Gold)
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   fakeout ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   surgingstrikes ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+
+── HP STATUS ──
+  Your calyrexice: 26% 
+  Opp urshifurapidstrike: 100% 
+  Your bench: fluttermane(100%), kingambit(69%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

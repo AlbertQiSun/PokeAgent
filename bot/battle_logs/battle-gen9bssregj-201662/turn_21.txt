@@ -1,0 +1,98 @@
+Battle: battle-gen9bssregj-201662
+Agent:  Gemini
+Turn:   21
+System: LLM
+Action: switch dragonite
+
+── REASONING ──
+Kingambit is heavily disadvantaged against Urshifu-Rapid-Strike and cannot secure a KO. Switching to Dragonite provides a defensive pivot that resists Surging Strikes, allowing me to preserve Kingambit for a potential late-game sweep.
+
+── BATTLE CONTEXT ──
+=== TURN 21 ANALYSIS ===
+Your kingambit vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  suckerpunch          Dark     PHYSICAL BP: 70 pri=1 →  15.4- 18.3% (resist)
+  kowtowcleave         Dark     PHYSICAL BP: 85 →  18.9- 22.3% (resist)
+  ironhead             Steel    PHYSICAL BP: 80 →  17.7- 21.1% (resist)
+  swordsdance          Normal   STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs KINGAMBIT ──
+  ✓surgingstrikes       →  29.1- 34.3% x3
+
+── OPPONENT ACTION PREDICTION ──
+  setup                  88% #################
+  attack_physical         7% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > kingambit(50 base)
+  Priority moves available: suckerpunch
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 100% — best: suckerpunch (resist)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+│   - Unexpected ability: goodasgold (expected Good as Gold)
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   fakeout ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tinglu (Dark/Ground) ─
+│ Ability:  ~Vessel of Ruin (KB estimate, 45%)
+│ Item:    ~Leftovers (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Earthquake, ~Ruination, ~Protect, ~Stealth Rock
+│ Speed:   base 45
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   surgingstrikes ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+
+── HP STATUS ──
+  Your kingambit: 100% 
+  Opp urshifurapidstrike: 100% 
+  Your bench: incineroar(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

@@ -1,0 +1,110 @@
+{
+  "battle_tag": "battle-gen9bssregj-201694",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 8,
+  "s1_count": 7,
+  "s2_count": 3,
+  "llm_count": 3,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "fluttermane",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [
+        "[rillaboom] Unexpected item: unknown_item (expected Choice Band)"
+      ],
+      "reasoning": "Despite the unknown item on Rillaboom, Hurricane remains a guaranteed OHKO. Prioritizing the immediate KO is the optimal play regardless of the opponent's item."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9996197819709778,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S2",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [
+        "[fluttermane] Unexpected item: unknown_item (expected Booster Energy)"
+      ],
+      "reasoning": "Tornadus-Therian is at 33% HP and will be KO'd by any of Flutter Mane's attacks, so I must switch to a healthy check. Bringing in my own Flutter Mane allows me to threaten the opponent with superior speed or force a defensive play while scouting the unknown item."
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999963045120239,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose switch Tornadus",
+      "confidence": 0.987856388092041,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999986886978149,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.999996542930603,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999992847442627,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S2",
+      "action": "switch gholdengo",
+      "confidence": -1,
+      "surprises": [
+        "[tornadustherian] Unexpected item: unknown_item (expected Assault Vest)"
+      ],
+      "reasoning": "Tornadus-Therian outspeeds and OHKOs Urshifu with Hurricane, so I must switch to a resist to avoid losing my Pokemon immediately."
+    }
+  ]
+}

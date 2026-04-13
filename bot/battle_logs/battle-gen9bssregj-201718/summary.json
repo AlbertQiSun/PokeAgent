@@ -1,0 +1,116 @@
+{
+  "battle_tag": "battle-gen9bssregj-201718",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 9,
+  "s1_count": 9,
+  "s2_count": 2,
+  "llm_count": 2,
+  "our_team": [
+    "calyrexice",
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar"
+  ],
+  "opp_team": [
+    "gholdengo",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [
+        "[gholdengo] Unexpected item: airballoon (expected Choice Scarf)"
+      ],
+      "reasoning": "Since Gholdengo has an Air Balloon, High Horsepower will fail, and Calyrex-Ice is threatened by a 2HKO from Make It Rain. Switching to Incineroar provides a safe pivot that resists Gholdengo's STAB moves and threatens it with Knock Off to remove the balloon."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move fakeout",
+      "confidence": 0.9999979138374329,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move fakeout",
+      "confidence": 0.9999973177909851,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move fakeout",
+      "confidence": 0.9999978542327881,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move fakeout",
+      "confidence": 0.9999983310699463,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 0.9882241487503052,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999995231628418,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S2",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: leftovers (expected Assault Vest)",
+        "[ironhands] Unexpected move: thunderpunch"
+      ],
+      "reasoning": "Urshifu-Rapid-Strike is already fainted; I must bring in Calyrex-Ice to threaten Iron Hands with massive super-effective damage while resisting its Electric-type coverage."
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.9999997615814209,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.9999996423721313,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.9999994039535522,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

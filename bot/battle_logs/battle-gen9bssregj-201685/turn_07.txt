@@ -1,0 +1,91 @@
+Battle: battle-gen9bssregj-201685
+Agent:  Gemini
+Turn:   7
+System: LLM
+Action: switch calyrexice
+
+── REASONING ──
+Flutter Mane has fainted, so I must send in a replacement. Calyrex-Ice is the only option provided in the bench list to continue the battle.
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your fluttermane vs opponent's incineroar
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓flareblitz           → 110.0-129.2% → OHKO!
+  ~Flare Blitz          → 110.0-129.2% → OHKO!
+  ~Knock Off            →  60.0- 70.8% → 2HKO
+  ~U-turn               →  10.8- 12.3% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        69% #############
+  switch                 14% ##
+  setup                   8% #
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice      60.4% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Band)
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected item: unknown_item (expected Choice Band)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your fluttermane: 0% [FNT]
+  Opp incineroar: 85% 
+  Your bench: calyrexice(60%), kingambit(100%), tornadustherian(100%), amoonguss(100%)
+  Opp bench: ~3 remaining

@@ -1,0 +1,30 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201694
+==================================================
+Agent:   Hybrid
+Result:  LOSS
+Turns:   8
+Logged:  10 decisions
+Our team: gholdengo, rillaboom, tornadustherian, urshifurapidstrike, incineroar, fluttermane
+Opp team: rillaboom, fluttermane, tornadustherian
+
+Routing: S1=7 (70%) S2=3 (30%)
+
+Surprises (3 total):
+  - [rillaboom] Unexpected item: unknown_item (expected Choice Band)
+  - [fluttermane] Unexpected item: unknown_item (expected Booster Energy)
+  - [tornadustherian] Unexpected item: unknown_item (expected Assault Vest)
+
+Turn-by-turn:
+  T 1: move hurricane                 [S2] !
+  T 2: /choose move hurricane         [S1] (100%)
+  T 3: switch fluttermane             [S2] !
+  T 4: /choose move moonblast         [S1] (100%)
+  T 4: /choose switch Tornadus        [S1] (99%)
+  T 5: /choose move hurricane         [S1] (100%)
+  T 6: /choose move hurricane         [S1] (100%)
+  T 6: /choose switch Urshifu         [S1] (100%)
+  T 7: /choose move surgingstrikes    [S1] (100%)
+  T 8: switch gholdengo               [S2] !
+
+Timestamp: 2026-04-12T15:56:37.073365

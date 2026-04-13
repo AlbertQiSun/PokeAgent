@@ -1,0 +1,137 @@
+Battle: battle-gen9bssregj-201660
+Player: PPO Team Bot vs albert hatsuki
+Result: LOSS in 6 turns
+Date: 2026-04-11T19:23:59.486879
+
+Bot team: gholdengo, rillaboom, tornadustherian, urshifurapidstrike, incineroar, fluttermane
+Opponent team: urshifurapidstrike, terapagos, miraidon
+Bot fainted: gholdengo, urshifurapidstrike, fluttermane
+Opp fainted: urshifurapidstrike, terapagos
+
+|init|battle
+|title|albert hatsuki vs. PPO Team Bot
+|j|☆albert hatsuki
+|j|☆PPO Team Bot
+|gametype|singles
+|player|p1|albert hatsuki|102|
+|player|p2|PPO Team Bot|1|
+|gen|9
+|tier|[Gen 9] BSS Reg J
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Miraidon, L50|
+|poke|p1|Ogerpon-Hearthflame, L50, F|
+|poke|p1|Urshifu-*, L50, M|
+|poke|p1|Skeledirge, L50, F|
+|poke|p1|Garganacl, L50, F|
+|poke|p1|Terapagos, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Tornadus-Therian, L50, M|
+|poke|p2|Urshifu-*, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Flutter Mane, L50|
+|teampreview|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by albert hatsuki)
+|
+|teamsize|p1|3
+|teamsize|p2|3
+|start
+|switch|p1a: Urshifu|Urshifu-Rapid-Strike, L50, M|100/100
+|switch|p2a: Flutter Mane|Flutter Mane, L50|131/131
+|turn|1
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p1a: Urshifu|Aqua Jet|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|74/131
+|move|p2a: Flutter Mane|Moonblast|p1a: Urshifu
+|-supereffective|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|
+|upkeep
+|
+|switch|p1a: Terapagos|Terapagos, L50, M|100/100
+|-activate|p1a: Terapagos|ability: Tera Shift
+|detailschange|p1a: Terapagos|Terapagos-Terastal, L50, M
+|-heal|p1a: Terapagos|100/100|[silent]
+|turn|2
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|-terastallize|p1a: Terapagos|Stellar
+|detailschange|p1a: Terapagos|Terapagos-Stellar, L50, M, tera:Stellar
+|-heal|p1a: Terapagos|100/100|[silent]
+|move|p2a: Flutter Mane|Moonblast|p1a: Terapagos
+|-damage|p1a: Terapagos|53/100
+|move|p1a: Terapagos|Tera Starstorm|p2a: Flutter Mane
+|-damage|p2a: Flutter Mane|0 fnt
+|faint|p2a: Flutter Mane
+|-end|p2a: Flutter Mane|Protosynthesis|[silent]
+|
+|-heal|p1a: Terapagos|59/100|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Gholdengo|Gholdengo, L50|163/163
+|turn|3
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Gholdengo|Make It Rain|p1a: Terapagos
+|-damage|p1a: Terapagos|22/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Terapagos|Dark Pulse|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|9/163
+|
+|-heal|p1a: Terapagos|28/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Gholdengo|Make It Rain|p1a: Terapagos
+|-damage|p1a: Terapagos|1/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Terapagos|Dark Pulse|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-heal|p1a: Terapagos|7/100|[from] item: Leftovers
+|upkeep
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|switch|p2a: Urshifu|Urshifu-Rapid-Strike, L50, F|175/175
+|turn|5
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Terapagos
+|-crit|p1a: Terapagos
+|-damage|p1a: Terapagos|0 fnt
+|faint|p1a: Terapagos
+|detailschange|p1: Terapagos|Terapagos, L50, M|[silent]
+|-hitcount|p1: Terapagos|1
+|
+|upkeep
+|
+|switch|p1a: Miraidon|Miraidon, L50, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Hadron Engine|[of] p1a: Miraidon
+|turn|6
+|inactive|Time left: 55 sec this turn | 420 sec total
+|
+|move|p2a: Urshifu|Surging Strikes|p1a: Miraidon
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|91/100
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|80/100
+|-resisted|p1a: Miraidon
+|-crit|p1a: Miraidon
+|-damage|p1a: Miraidon|69/100
+|-hitcount|p1a: Miraidon|3
+|move|p1a: Miraidon|Electro Drift|p2a: Urshifu
+|-supereffective|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|

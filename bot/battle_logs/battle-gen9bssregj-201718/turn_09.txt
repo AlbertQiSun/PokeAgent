@@ -1,0 +1,93 @@
+Battle: battle-gen9bssregj-201718
+Agent:  Hybrid
+Turn:   9
+System: S1
+Confidence: 100%
+Action: /choose move glaciallance
+
+── BATTLE CONTEXT ──
+=== TURN 9 ANALYSIS ===
+Your calyrexice vs opponent's gholdengo
+
+── YOUR MOVES vs GHOLDENGO ──
+  glaciallance         Ice      PHYSICAL BP:120 →  36.4- 43.2% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  77.8- 92.0% (2x SE) → 2HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  25.9- 30.9% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓makeitrain           →  81.1- 96.0% (SE) → 2HKO
+  ~Make It Rain         →  81.1- 96.0% (SE) → 2HKO
+  ~Shadow Ball          →  54.9- 65.1% (SE) → 2HKO
+  ~Trick                →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         53% ##########
+  attack_status          18% ###
+  switch                 15% ##
+  setup                  12% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: gholdengo(84 base) > calyrexice(50 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    leftovers ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   drainpunch ✓, thunderpunch ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: leftovers (expected Assault Vest)
+│   - Unexpected move: thunderpunch
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: leftovers (expected Assault Vest)
+  [ironhands] Unexpected move: thunderpunch
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your calyrexice: 46% 
+  Opp gholdengo: 100% 
+  Your bench: gholdengo(100%), rillaboom(100%), tornadustherian(100%)
+  Opp bench: ~4 remaining

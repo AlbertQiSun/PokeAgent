@@ -59,7 +59,7 @@ if [ "$MODE" = "vllm" ]; then
 fi
 
 # ── Start Showdown server (only for modes that need it) ──────────────────────
-if [ "$MODE" = "online" ] || [ "$MODE" = "parse-replays" ] || [ "$MODE" = "sft" ]; then
+if [ "$MODE" = "online" ] || [ "$MODE" = "parse-replays" ] || [ "$MODE" = "sft" ] || [ "$MODE" = "train-opp" ]; then
     echo "[skip] No local server needed for $MODE mode."
 else
     start_showdown
@@ -144,7 +144,7 @@ elif [ "$MODE" = "train-team" ]; then
     EXTRA_ARGS="${@:4}"
     trap cleanup_all EXIT
     echo "      Training PPO team-builder ($STEPS steps vs $OPPONENT) $EXTRA_ARGS"
-    "$PYTHON" train_rl_team.py --steps "$STEPS" --opponent "$OPPONENT" --format gen9anythinggoes $EXTRA_ARGS
+    "$PYTHON" train_rl_team.py --steps "$STEPS" --opponent "$OPPONENT" --format gen9bssregj $EXTRA_ARGS
 
 # ── parse-replays: collect LLM SFT data from human replays ──────────────────
 elif [ "$MODE" = "parse-replays" ]; then

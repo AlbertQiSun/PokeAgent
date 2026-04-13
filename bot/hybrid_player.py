@@ -91,7 +91,9 @@ BATTLE_SYSTEM = (
     "- DO NOT 'preserve' a Pokemon by switching it out repeatedly.\n"
     "- DO NOT switch into a Pokemon that was just forced out.\n\n"
     "Output ONLY a JSON object:\n"
-    '{"action_type": "move" or "switch", "target_name": "exact name", '
+    '{"action_type": "move" or "switch", '
+    '"target_name": "move name (e.g. Flare Blitz) if action_type is move, '
+    'or Pokemon name (e.g. Incineroar) if action_type is switch", '
     '"reasoning": "1-2 sentences explaining how you adapted to the surprise"}\n'
     "No markdown. Just the raw JSON."
 )
@@ -219,6 +221,7 @@ class HybridPlayer(Player):
         # ── Battle state ─────────────────────────────────────────────────────
         self._notebooks: dict[str, BattleNotebook] = {}
         self._last_opp_hp: dict[str, float] = {}
+        self._last_opp_species: dict[str, str] = {}
         self._seen_surprises: dict[str, set[str]] = {}
         self._loggers: dict[str, BattleLogger] = {}
         self._s1_count = 0
@@ -246,6 +249,17 @@ class HybridPlayer(Player):
                 nb.observe_status(species, opp.status.name)
             for move_id in opp.moves:
                 nb.observe_move(species, move_id)
+            # Behavioral inference: HP recovery (Leftovers/Black Sludge)
+            nb.observe_hp_change(species, opp.current_hp_fraction)
+            # Detect switch-in (new opponent vs last turn)
+            prev_opp = self._last_opp_species.get(tag)
+            if prev_opp and prev_opp != species:
+                nb.observe_switch_in(species)
+            self._last_opp_species[tag] = species
+            # Booster Energy inference from ability + no weather/terrain
+            weather = str(battle.weather) if battle.weather else ""
+            terrain = str(battle.fields) if battle.fields else ""
+            nb.observe_stat_boost(species, "", 0, weather=weather, terrain=terrain)
             self._last_opp_hp[tag] = opp.current_hp_fraction
 
     # ── LLM helpers ───────────────────────────────────────────────────────────
@@ -450,6 +464,26 @@ class HybridPlayer(Player):
         )
         return self.choose_random_move(battle)
 
+    @staticmethod
+    def _match_move(target_name: str, reasoning: str, available_moves) -> object:
+        """Match LLM output to an available move, with reasoning fallback."""
+        clean_target = re.sub(r'[^a-z0-9]', '', target_name.lower())
+        for move in available_moves:
+            clean_id = move.id.lower()
+            if clean_target == clean_id or clean_target in clean_id or clean_id in clean_target:
+                return move
+        clean_reasoning = re.sub(r'[^a-z0-9 ]', '', reasoning.lower())
+        best, best_len = None, 0
+        for move in available_moves:
+            clean_id = move.id.lower()
+            if clean_id in clean_reasoning and len(clean_id) > best_len:
+                best, best_len = move, len(clean_id)
+        if best:
+            print(f"  [move-match] Fallback: extracted '{best.id}' from reasoning")
+            return best
+        print(f"  [move-match] WARNING: could not match '{target_name}', using {available_moves[0].id}")
+        return available_moves[0]
+
     def _s2_choose(self, battle: Battle, nb: BattleNotebook,
                    new_surprises: list[str]):
         """System 2: LLM slow path, triggered by surprise."""
@@ -496,12 +530,8 @@ class HybridPlayer(Player):
             )
 
             if action_type == "move" and available_moves:
-                for move in available_moves:
-                    clean_id = move.id.lower()
-                    clean_target = re.sub(r'[^a-z0-9]', '', target_name)
-                    if clean_target in clean_id or clean_id in clean_target:
-                        return self.create_order(move)
-                return self.create_order(available_moves[0])
+                chosen = self._match_move(target_name, reasoning, available_moves)
+                return self.create_order(chosen)
 
             elif action_type == "switch" and available_switches:
                 for mon in available_switches:

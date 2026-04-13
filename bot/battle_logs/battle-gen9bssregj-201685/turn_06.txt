@@ -1,0 +1,95 @@
+Battle: battle-gen9bssregj-201685
+Agent:  Gemini
+Turn:   6
+System: LLM
+Action: move glaciallance
+
+── REASONING ──
+Glacial Lance is a guaranteed OHKO on Rillaboom, fulfilling the primary decision priority to secure the KO immediately.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your calyrexice vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  glaciallance         Ice      PHYSICAL BP:120 → 143.4-169.1% (2x SE) → OHKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  18.9- 22.3% (resist)
+  iciclecrash          Ice      PHYSICAL BP: 85 → 102.3-120.6% (2x SE) → OHKO
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓woodhammer           →  33.1- 39.4% → 3HKO
+  ~Wood Hammer          →  33.1- 39.4% → 3HKO
+  ~Drum Beating         →  22.3- 26.9%
+  ~U-turn               →  26.9- 31.4% (SE)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        50% #########
+  switch                 32% ######
+  attack_special          9% #
+  setup                   7% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Band)
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected item: unknown_item (expected Choice Band)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your calyrexice: 100% 
+  Opp rillaboom: 90% 
+  Your bench: fluttermane(100%), kingambit(100%), tornadustherian(100%), amoonguss(100%)
+  Opp bench: ~4 remaining

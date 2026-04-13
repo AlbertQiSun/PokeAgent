@@ -1,0 +1,94 @@
+Battle: battle-gen9bssregj-201697
+Agent:  Hybrid
+Turn:   2
+System: S2
+Surprises: [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+Action: switch tornadustherian
+
+── REASONING ──
+Flutter Mane is fainted, so I must bring in a healthy check to Iron Hands. Tornadus-Therian resists the Electric-type coverage that Iron Hands is using to threaten the team.
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your fluttermane vs opponent's ironhands
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓wildcharge           → 130.8-153.8% → OHKO!
+  ~Drain Punch          →   0.0-  0.0% (IMMUNE)
+  ~Wild Charge          → 130.8-153.8% → OHKO!
+  ~Ice Punch            →  73.1- 85.4% → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        59% ###########
+  switch                 36% #######
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > ironhands(50 base)
+
+── SWITCH OPTIONS ──
+  tornadustherian      (Flying          100.0% HP) — resists STAB
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Assault Vest)
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Band)
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected item: unknown_item (expected Choice Band)
+  [ironhands] Unexpected item: unknown_item (expected Assault Vest)
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your fluttermane: 0% [FNT]
+  Opp ironhands: 84% 
+  Your bench: gholdengo(100%), rillaboom(100%), tornadustherian(100%), urshifurapidstrike(100%), incineroar(100%)
+  Opp bench: ~4 remaining

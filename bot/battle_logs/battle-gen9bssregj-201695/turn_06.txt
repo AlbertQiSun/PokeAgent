@@ -1,0 +1,94 @@
+Battle: battle-gen9bssregj-201695
+Agent:  Hybrid
+Turn:   6
+System: S1
+Confidence: 100%
+Action: /choose move surgingstrikes
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your urshifurapidstrike vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  79.4- 93.5% x3 (2x SE) → 2HKO
+  closecombat          Fighting PHYSICAL BP:120 → 117.1-137.6% (2x SE) → OHKO
+  aquajet              Water    PHYSICAL BP: 40 pri=1 →  40.6- 48.2% (2x SE) → 3HKO
+  uturn                Bug      PHYSICAL BP: 70 →  22.9- 27.1% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ✓flareblitz           →  22.3- 26.9% (resist)
+  ~Flare Blitz          →  22.3- 26.9% (resist)
+  ~Knock Off            →  12.6- 14.9% (resist)
+  ~U-turn               →   8.6- 10.3% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        44% ########
+  switch                 24% ####
+  attack_special         21% ####
+  attack_status           7% #
+
+── SPEED CHECK ──
+  You outspeed: urshifurapidstrike(97 base) > incineroar(60 base)
+  Priority moves available: aquajet
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Booster Energy)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [fluttermane] Unexpected item: unknown_item (expected Booster Energy)
+
+── HP STATUS ──
+  Your urshifurapidstrike: 76% 
+  Opp incineroar: 94% 
+  Your bench: gholdengo(100%), rillaboom(100%), incineroar(100%), fluttermane(100%)
+  Opp bench: ~4 remaining

@@ -1,0 +1,97 @@
+Battle: battle-gen9bssregj-201697
+Agent:  Hybrid
+Turn:   5
+System: S2
+Surprises: [fluttermane] Unexpected item: unknown_item (expected Booster Energy)
+Action: switch incineroar
+
+── REASONING ──
+Flutter Mane outspeeds and OHKOs Urshifu with Moonblast or Dazzling Gleam, and since it lacks Booster Energy, it is likely holding Choice Specs or another item that makes it a lethal threat. Switching to Incineroar allows me to scout the item and potentially threaten with Intimidate or a pivot move.
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your urshifurapidstrike vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  80.8- 96.9% x3 (neutral) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ~Moonblast            → 139.4-164.6% (SE) → OHKO!
+  ~Shadow Ball          →  58.9- 69.1% → 2HKO
+  ~Dazzling Gleam       → 118.3-138.9% (SE) → OHKO!
+  ~Protect              →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  setup                  54% ##########
+  attack_special         25% #####
+  attack_status          17% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > urshifurapidstrike(97 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Booster Energy)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Assault Vest)
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Band)
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected item: unknown_item (expected Choice Band)
+  [fluttermane] Unexpected item: unknown_item (expected Booster Energy)
+  [ironhands] Unexpected item: unknown_item (expected Assault Vest)
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your urshifurapidstrike: 100% 
+  Opp fluttermane: 100% 
+  Your bench: gholdengo(100%), rillaboom(100%), incineroar(100%)
+  Opp bench: ~3 remaining

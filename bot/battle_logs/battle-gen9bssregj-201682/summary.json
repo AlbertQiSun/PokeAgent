@@ -1,0 +1,136 @@
+{
+  "battle_tag": "battle-gen9bssregj-201682",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 12,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 14,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "ironhands",
+    "tornadustherian",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens a 2HKO with Drain Punch, and Incineroar cannot secure a KO. Switching to Flutter Mane provides an immunity to the Fighting-type STAB and forces the opponent to respect a potential Fairy-type attack."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO, fulfilling the primary decision priority."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed 2HKO and I outspeed Tornadus-Therian, allowing me to secure the KO before they can threaten me significantly."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Tornadus-Therian and Moonblast is a guaranteed 2HKO, which secures the KO this turn or next while Tornadus cannot OHKO me back."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 8% HP, meaning Moonblast is a guaranteed KO. Since I outspeed, I can secure the kill this turn without needing to switch."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed OHKO on Urshifu-Rapid-Strike, and since I outspeed, I can secure the knockout before they can use Surging Strikes to finish off my low-HP Flutter Mane."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is fainted; I must send out a replacement. Incineroar is the best pivot to handle Urshifu-Rapid Strike due to Intimidate reducing the damage of Surging Strikes."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is threatened with a 2HKO by Surging Strikes and cannot effectively damage Urshifu-Rapid. Switching to Calyrex-Ice preserves Incineroar for Intimidate support later and brings in a stronger offensive presence."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is significantly slower than Urshifu-Rapid and is currently at 62% HP, meaning it will be KO'd by Surging Strikes. Switching to Incineroar allows me to Intimidate the Urshifu and pivot safely, preserving Calyrex-Ice for a later opportunity."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move fakeout",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 13% HP and will be KO'd by any move from Urshifu-RS. Using Fake Out provides chip damage and burns the opponent's turn, potentially allowing a safer switch-in for the next Pokemon."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 13% and will be KOed by Surging Strikes. Switching to Calyrex-Ice preserves Incineroar for a potential late-game Intimidate or Fake Out while bringing in a threat that can force Urshifu out."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 24% HP and will be KO'd by Surging Strikes this turn. Switching to Incineroar is the only way to preserve Calyrex-Ice for a potential late-game revenge kill or chip damage, as Incineroar can take the hit better than Calyrex-Ice."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is fainted (0% HP). Dragonite is the best defensive pivot to handle Urshifu-Rapid-Strike's Surging Strikes due to its bulk and potential to retaliate."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 24% and will be KO'd by Surging Strikes this turn. Switching to Dragonite preserves the potential for a Tera or priority move later while avoiding a wasted turn."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+Battle: battle-gen9bssregj-201719
+Agent:  Hybrid
+Turn:   3
+System: S1
+Confidence: 100%
+Action: /choose move makeitrain
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your gholdengo vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  makeitrain           Steel    SPECIAL  BP:120 →  74.3- 87.4% (neutral) → 2HKO
+  shadowball           Ghost    SPECIAL  BP: 80 →  49.7- 58.9% (neutral) → 2HKO
+  thunderbolt          Electric SPECIAL  BP: 90 →  18.3- 21.7% (resist)
+  focusblast           Fighting SPECIAL  BP:120 →  49.1- 58.3% (neutral) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs GHOLDENGO ──
+  ✓woodhammer           →  42.0- 49.4% (resist) → 3HKO
+  ~Wood Hammer          →  42.0- 49.4% (resist) → 3HKO
+  ~Drum Beating         →  28.4- 33.3% (resist)
+  ~U-turn               →   8.0-  9.3% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        58% ###########
+  switch                 19% ###
+  attack_special         18% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > gholdengo(84 base)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your gholdengo: 100% 
+  Opp rillaboom: 20% 
+  Your bench: rillaboom(100%), urshifurapidstrike(100%), incineroar(100%), fluttermane(100%)
+  Opp bench: ~5 remaining

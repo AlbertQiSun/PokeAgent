@@ -2,11 +2,13 @@
 RL Environment for Pokemon battles.
 
 Wraps poke_env's SinglesEnv with:
-- A concrete observation embedding (80-dim base feature vector)
+- A concrete observation embedding (86-dim base feature vector)
 - Optional frame-stacking for battle history (N past observations)
 - A shaped reward function
 - SingleAgentWrapper so stable-baselines3 can use it directly
 """
+
+import re
 
 import numpy as np
 import gymnasium
@@ -16,17 +18,20 @@ from poke_env import AccountConfiguration, LocalhostServerConfiguration
 from poke_env.environment import SinglesEnv, SingleAgentWrapper
 from poke_env.battle import AbstractBattle, Battle
 from poke_env.player import Player, RandomPlayer, SimpleHeuristicsPlayer
+from poke_env.player.battle_order import BattleOrder, DefaultBattleOrder
 from poke_env.battle.pokemon_type import PokemonType
 from poke_env.battle.status import Status
 
+from opponent_model import predict_opponent_action, N_CATEGORIES
+
 
 # ── Observation dimensions ───────────────────────────────────────────────────
-# Base (single frame): 80
-# With history (1 current + 4 past): 80 * 5 = 400
-OBS_SIZE      = 80
+# Base (single frame): 80 original + 6 opponent prediction = 86
+# With history (1 current + 4 past): 86 * 5 = 430
+OBS_SIZE      = 86
 N_ACTIONS     = 26   # gen9: 6 switches + 4 moves * 5 gimmick variants
 HISTORY_LEN   = 4    # number of past frames to include
-OBS_SIZE_HIST = OBS_SIZE * (1 + HISTORY_LEN)  # 400
+OBS_SIZE_HIST = OBS_SIZE * (1 + HISTORY_LEN)  # 430
 N_TYPES       = len(PokemonType) + 1
 
 
@@ -56,7 +61,7 @@ def _type_index(t) -> int:
 
 
 def embed_battle(battle: AbstractBattle) -> np.ndarray:
-    """80-dim observation of the current battle state (single frame)."""
+    """86-dim observation of the current battle state (single frame)."""
     obs = np.zeros(OBS_SIZE, dtype=np.float32)
     idx = 0
 
@@ -144,6 +149,50 @@ def embed_battle(battle: AbstractBattle) -> np.ndarray:
 
     # ── Turn fraction ────────────────────────────────────────────────────────
     obs[idx] = min(battle.turn, 50) / 50.0
+    idx += 1
+
+    # ── Opponent action prediction (6) ─────────────────────────────────────
+    if active and opp:
+        our_species = re.sub(r'[^a-zA-Z0-9]', '', active.species).lower()
+        opp_species = re.sub(r'[^a-zA-Z0-9]', '', opp.species).lower()
+
+        # Gather opponent intel from what poke-env exposes
+        opp_moves_seen = list(opp.moves.keys()) if opp.moves else []
+        our_boosts = active.boosts if active.boosts else {}
+        opp_boosts = opp.boosts if opp.boosts else {}
+
+        our_bench_alive = sum(1 for p in battle.team.values()
+                              if p != active and not p.fainted)
+        opp_bench_alive = sum(1 for p in battle.opponent_team.values()
+                              if p != opp and not p.fainted)
+
+        weather_str = ""
+        if battle.weather:
+            weather_str = ",".join(w.name for w in battle.weather)
+        terrain_str = ""
+        if battle.fields:
+            terrain_str = ",".join(f.name for f in battle.fields)
+
+        probs = predict_opponent_action(
+            our_species, opp_species,
+            active.current_hp_fraction, opp.current_hp_fraction,
+            opp_intel=None,
+            our_boosts=our_boosts, opp_boosts=opp_boosts,
+            turn=battle.turn,
+            our_bench_count=our_bench_alive,
+            opp_bench_count=opp_bench_alive,
+            weather=weather_str, terrain=terrain_str,
+            opp_moves_list=opp_moves_seen,
+        )
+        if probs:
+            from opponent_model import ACTION_CATEGORIES
+            for cat in ACTION_CATEGORIES:
+                obs[idx] = probs.get(cat, 0.0)
+                idx += 1
+        else:
+            idx += N_CATEGORIES
+    else:
+        idx += N_CATEGORIES
 
     return obs
 
@@ -191,6 +240,38 @@ class PokemonSinglesEnv(SinglesEnv):
         self.use_history = use_history
         self._history = BattleHistory() if use_history else None
 
+    @staticmethod
+    def action_to_order(
+        action: np.int64, battle: Battle, fake: bool = False, strict: bool = True
+    ) -> BattleOrder:
+        """Override to silently return DefaultBattleOrder when only /choose default is valid.
+
+        This prevents warnings when the RL agent picks a switch/move action during
+        forced-default turns (e.g. waiting for opponent, end-of-turn animations).
+        """
+        if action != -2 and action != -1 and not fake:
+            valid_strs = {str(o) for o in battle.valid_orders}
+            if not valid_strs or valid_strs == {"/choose default"}:
+                return DefaultBattleOrder()
+        return SinglesEnv.action_to_order(action, battle, fake, strict)
+
+    @staticmethod
+    def order_to_action(
+        order: BattleOrder, battle: Battle, fake: bool = False, strict: bool = True
+    ) -> np.int64:
+        """Override to silently return default action when only /choose default is valid.
+
+        The opponent's choose_move() can produce switch orders during transition turns
+        where battle.valid_orders is only ['/choose default']. The parent order_to_action
+        validates the switch against valid_orders and logs noisy warnings. We intercept
+        this case and return the default action (-2) directly.
+        """
+        if not fake:
+            valid_strs = {str(o) for o in battle.valid_orders}
+            if not valid_strs or valid_strs == {"/choose default"}:
+                return np.int64(-2)
+        return SinglesEnv.order_to_action(order, battle, fake, strict)
+
     def embed_battle(self, battle: AbstractBattle) -> np.ndarray:
         if self._history:
             return self._history.embed_with_history(battle)
@@ -220,30 +301,37 @@ def _build_action_mask(battle: AbstractBattle) -> np.ndarray:
         mask[0] = 1.0  # default fallback
         return mask
 
+    # If no valid orders or only default — battle in transition state
     valid_strs = {str(o) for o in battle.valid_orders}
+    if not valid_strs or valid_strs == {"/choose default"}:
+        mask[0] = 1.0
+        return mask
+
     team = list(battle.team.values())
 
-    # Switches (0-5)
-    for i, mon in enumerate(team):
-        order = Player.create_order(mon)
-        if str(order) in valid_strs:
-            mask[i] = 1.0
+    # ── Switches (0-5) — use available_switches directly for reliability ──
+    available_switches = battle.available_switches
+    if available_switches:
+        switch_species = {mon.species for mon in available_switches}
+        for i, mon in enumerate(team):
+            if mon.species in switch_species:
+                mask[i] = 1.0
 
-    # Moves (6-9) and tera (22-25)
-    if battle.active_pokemon:
-        mvs = (
-            battle.available_moves
-            if len(battle.available_moves) == 1
-            and battle.available_moves[0].id in ["struggle", "recharge"]
-            else list(battle.active_pokemon.moves.values())
-        )
-        for j, move in enumerate(mvs[:4]):
-            order_normal = Player.create_order(move)
-            if str(order_normal) in valid_strs:
+    # ── Moves (6-9) and tera (22-25) ──
+    available_moves = battle.available_moves
+    if available_moves and battle.active_pokemon:
+        all_moves = list(battle.active_pokemon.moves.values())
+        for j, move in enumerate(all_moves[:4]):
+            if move in available_moves:
                 mask[6 + j] = 1.0
+            # Check tera variant
             order_tera = Player.create_order(move, terastallize=True)
             if str(order_tera) in valid_strs:
                 mask[22 + j] = 1.0
+    elif available_moves:
+        # Struggle/recharge — only one move available
+        for j, move in enumerate(available_moves[:4]):
+            mask[6 + j] = 1.0
 
     # Actions 10-21 (mega/zmove/dynamax) always masked out in Gen 9
 

@@ -1,0 +1,89 @@
+Battle: battle-gen9bssregj-201685
+Agent:  Gemini
+Turn:   5
+System: LLM
+Action: switch tornadustherian
+
+── REASONING ──
+Incineroar has fainted, so I must send in a replacement. Tornadus-Therian is a strong pivot that resists Rillaboom's Grass-type moves and can threaten it with Hurricane or pivot out with U-turn.
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your incineroar vs opponent's rillaboom
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓woodhammer           →  28.2- 32.9% (resist)
+  ~Wood Hammer          →  28.2- 32.9% (resist)
+  ~Drum Beating         →  18.8- 22.4% (resist)
+  ~U-turn               →  22.4- 25.9%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        64% ############
+  switch                 27% #####
+  attack_special          8% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Band)
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected item: unknown_item (expected Choice Band)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your incineroar: 0% [FNT]
+  Opp rillaboom: 90% 
+  Your bench: calyrexice(100%), fluttermane(100%), kingambit(100%), tornadustherian(100%), amoonguss(100%)
+  Opp bench: ~4 remaining

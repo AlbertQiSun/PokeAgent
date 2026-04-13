@@ -54,6 +54,11 @@ class PokemonIntel:
     damage_observations: list[dict] = field(default_factory=list)
     bulk_adjustment: float = 1.0  # multiplier for calcs if bulkier/frailer than expected
 
+    # Behavioral inference
+    choice_locked: bool | None = None  # True=confirmed locked, False=confirmed not, None=unknown
+    last_hp_fraction: float = 1.0  # HP at end of last turn (for Leftovers/recovery detection)
+    turns_on_field: int = 0  # consecutive turns active
+
     # Surprises detected
     surprises: list[str] = field(default_factory=list)
 
@@ -185,30 +190,100 @@ class BattleNotebook:
                 return  # already recorded
         intel.confirmed_moves.append(move_name)
 
+        # Choice-lock inference: 2+ different moves → not Choice-locked
+        if len(intel.confirmed_moves) >= 2 and intel.choice_locked is None:
+            intel.choice_locked = False
+            # If we previously estimated a Choice item, update it
+            est_lower = intel.estimated_item.lower()
+            if "choice" in est_lower:
+                intel.estimated_item = "???"
+                self._bayesian_update(intel)
+
         # If move isn't in any known set, flag surprise
         all_kb_moves = set()
         for s in get_sets(species):
             all_kb_moves.update(m.lower() for m in s.get("moves", []))
         if clean not in {m.lower().replace(" ", "").replace("-", "") for m in all_kb_moves} and all_kb_moves:
-            intel.surprises.append(f"Unexpected move: {move_name}")
+            self._add_surprise(intel, f"Unexpected move: {move_name}")
+
+    def observe_hp_change(self, species: str, current_hp: float):
+        """Track HP between turns to infer Leftovers/Black Sludge/recovery items."""
+        intel = self._get_or_create_intel(species)
+        prev = intel.last_hp_fraction
+
+        if prev > 0 and current_hp > prev and not intel.confirmed_item:
+            gain = current_hp - prev
+            # Leftovers/Black Sludge: ~6.25% per turn
+            if 0.04 <= gain <= 0.08:
+                if intel.types and "Poison" in intel.types:
+                    intel.confirmed_item = "Black Sludge"
+                else:
+                    intel.confirmed_item = "Leftovers"
+                self._bayesian_update(intel)
+
+        intel.last_hp_fraction = current_hp
+        intel.turns_on_field += 1
+
+    def observe_switch_in(self, species: str):
+        """Track when a Pokemon switches in — reset field turn counter."""
+        intel = self._get_or_create_intel(species)
+        intel.turns_on_field = 0
+
+    def observe_stat_boost(self, species: str, stat: str, amount: int,
+                           weather: str = "", terrain: str = ""):
+        """Infer Booster Energy from stat boost on entry without weather/terrain source."""
+        intel = self._get_or_create_intel(species)
+        if intel.confirmed_item or intel.turns_on_field > 0:
+            return  # only check on switch-in
+
+        ability_norm = self._normalize(intel.ability)
+        # Protosynthesis (sun) or Quark Drive (electric terrain)
+        if ability_norm == "protosynthesis" and "sun" not in weather.lower():
+            intel.confirmed_item = "Booster Energy"
+            self._bayesian_update(intel)
+        elif ability_norm == "quarkdrive" and "electric" not in terrain.lower():
+            intel.confirmed_item = "Booster Energy"
+            self._bayesian_update(intel)
+
+    def observe_recoil(self, species: str):
+        """Life Orb recoil after attacking (10% max HP lost without recoil move)."""
+        intel = self._get_or_create_intel(species)
+        if not intel.confirmed_item:
+            intel.confirmed_item = "Life Orb"
+            self._bayesian_update(intel)
+
+    @staticmethod
+    def _normalize(name: str) -> str:
+        """Normalize name for comparison: lowercase, strip spaces/hyphens."""
+        return re.sub(r'[^a-z0-9]', '', name.lower())
+
+    def _add_surprise(self, intel: PokemonIntel, msg: str):
+        """Append surprise only if not a duplicate."""
+        if msg not in intel.surprises:
+            intel.surprises.append(msg)
 
     def observe_ability(self, species: str, ability_name: str):
         """Record opponent's ability (revealed by game messages)."""
         intel = self._get_or_create_intel(species)
+        if self._normalize(ability_name) in ("unknown", ""):
+            return
         intel.confirmed_ability = ability_name
 
-        if intel.prior_ability != "???" and ability_name.lower() != intel.prior_ability.lower():
-            intel.surprises.append(f"Unexpected ability: {ability_name} (expected {intel.prior_ability})")
+        if intel.prior_ability != "???" and self._normalize(ability_name) != self._normalize(intel.prior_ability):
+            self._add_surprise(intel, f"Unexpected ability: {ability_name} (expected {intel.prior_ability})")
             # Re-evaluate which set they might be running
             self._update_set_estimate(intel)
 
     def observe_item(self, species: str, item_name: str):
         """Record opponent's item (revealed by Knock Off, Trick, consumption, etc.)."""
         intel = self._get_or_create_intel(species)
+        # "unknown_item" means not yet revealed — not a real observation
+        if self._normalize(item_name) in ("unknownitem", "unknown", ""):
+            return
         intel.confirmed_item = item_name
 
-        if intel.prior_item != "???" and item_name.lower() != intel.prior_item.lower():
-            intel.surprises.append(f"Unexpected item: {item_name} (expected {intel.prior_item})")
+        if intel.prior_item != "???" and self._normalize(item_name) != self._normalize(intel.prior_item):
+            self._add_surprise(intel, f"Unexpected item: {item_name} (expected {intel.prior_item})")
             self._update_set_estimate(intel)
 
     def observe_tera(self, species: str, tera_type: str):
@@ -245,13 +320,13 @@ class BattleNotebook:
                 if scarf_speed > our_est_speed:
                     intel.speed_modifier = "Choice Scarf"
                     intel.estimated_item = "Choice Scarf"
-                    intel.surprises.append(
+                    self._add_surprise(intel,
                         f"Speed surprise: {species} outsped {our_species} "
                         f"(base {their_base} vs {our_base}) — likely Choice Scarf"
                     )
                 else:
                     intel.speed_modifier = "unknown boost"
-                    intel.surprises.append(
+                    self._add_surprise(intel,
                         f"Speed surprise: {species} outsped {our_species} "
                         f"(base {their_base} vs {our_base}) — unknown speed boost"
                     )
@@ -302,26 +377,26 @@ class BattleNotebook:
                 # AV would make ratio ~0.67, heavy SpD invest ~0.55-0.75
                 if ratio < 0.55:
                     inferred_spread_type = "specially_defensive"
-                    intel.surprises.append(
+                    self._add_surprise(intel,
                         f"Bulk surprise: {our_move} did {actual_pct:.0f}% "
                         f"(expected {expected_mid:.0f}%) — heavy SpD investment"
                     )
                 else:
                     inferred_item = "Assault Vest"
                     intel.estimated_item = "Assault Vest"
-                    intel.surprises.append(
+                    self._add_surprise(intel,
                         f"Bulk surprise: {our_move} did {actual_pct:.0f}% "
                         f"(expected {expected_mid:.0f}%) — likely Assault Vest"
                     )
             elif cat == "Physical":
                 if ratio < 0.55:
                     inferred_spread_type = "physically_defensive"
-                    intel.surprises.append(
+                    self._add_surprise(intel,
                         f"Bulk surprise: {our_move} did {actual_pct:.0f}% "
                         f"(expected {expected_mid:.0f}%) — heavy Def investment"
                     )
                 else:
-                    intel.surprises.append(
+                    self._add_surprise(intel,
                         f"Bulk surprise: {our_move} did {actual_pct:.0f}% "
                         f"(expected {expected_mid:.0f}%) — likely defensive item or Def invest"
                     )
@@ -329,7 +404,7 @@ class BattleNotebook:
 
         elif ratio > 1.4:
             inferred_spread_type = "offensive"
-            intel.surprises.append(
+            self._add_surprise(intel,
                 f"Frailty note: {our_move} did {actual_pct:.0f}% "
                 f"(expected {expected_mid:.0f}%) — likely offensive spread"
             )
@@ -371,21 +446,21 @@ class BattleNotebook:
             if 1.25 <= ratio <= 1.40:
                 inferred_item = "Life Orb"
                 intel.estimated_item = "Life Orb"
-                intel.surprises.append(
+                self._add_surprise(intel,
                     f"Damage inference: {opp_move} did {actual_pct:.0f}% to us "
                     f"(expected {expected_mid:.0f}%) — likely Life Orb"
                 )
             elif ratio > 1.40 and cat == "Physical":
                 inferred_item = "Choice Band"
                 intel.estimated_item = "Choice Band"
-                intel.surprises.append(
+                self._add_surprise(intel,
                     f"Damage inference: {opp_move} did {actual_pct:.0f}% to us "
                     f"(expected {expected_mid:.0f}%) — likely Choice Band"
                 )
             elif ratio > 1.40 and cat == "Special":
                 inferred_item = "Choice Specs"
                 intel.estimated_item = "Choice Specs"
-                intel.surprises.append(
+                self._add_surprise(intel,
                     f"Damage inference: {opp_move} did {actual_pct:.0f}% to us "
                     f"(expected {expected_mid:.0f}%) — likely Choice Specs"
                 )
@@ -504,6 +579,12 @@ class BattleNotebook:
             lines.append(f"│ Item:    ~{intel.estimated_item} (KB estimate)")
         else:
             lines.append(f"│ Item:    ???")
+
+        # Choice-lock status
+        if intel.choice_locked is True:
+            lines.append(f"│ Locked:  Choice-locked (1 move seen)")
+        elif intel.choice_locked is False:
+            lines.append(f"│ Locked:  NOT Choice-locked ({len(intel.confirmed_moves)} moves seen)")
 
         # Tera
         if intel.confirmed_tera_type:

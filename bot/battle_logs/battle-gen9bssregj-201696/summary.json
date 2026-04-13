@@ -1,0 +1,124 @@
+{
+  "battle_tag": "battle-gen9bssregj-201696",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 10,
+  "s1_count": 10,
+  "s2_count": 2,
+  "llm_count": 2,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "ironhands",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "move knockoff",
+      "confidence": -1,
+      "surprises": [
+        "[fluttermane] Unexpected item: unknown_item (expected Booster Energy)"
+      ],
+      "reasoning": "Since the Flutter Mane lacks Booster Energy, it is likely holding a Choice item or Focus Sash; Knock Off is the optimal play to remove the item, scout the set, and deal significant damage while maintaining momentum."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9995899200439453,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9993369579315186,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 0.9999924898147583,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999986290931702,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S2",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: unknown_item (expected Assault Vest)"
+      ],
+      "reasoning": "Despite the unexpected item on Iron Hands, Moonblast is a guaranteed OHKO and I outspeed, making this the optimal play to remove the threat immediately."
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999998211860657,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.999999463558197,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999998211860657,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999996423721313,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 10,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999992847442627,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

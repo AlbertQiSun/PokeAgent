@@ -1,0 +1,92 @@
+Battle: battle-gen9bssregj-201662
+Agent:  Gemini
+Turn:   20
+System: LLM
+Action: switch kingambit
+
+── REASONING ──
+Flutter Mane has fainted, so I must send in a replacement. Kingambit is the best defensive pivot to handle Urshifu-Rapid Strike's Surging Strikes due to its typing and bulk.
+
+── BATTLE CONTEXT ──
+=== TURN 20 ANALYSIS ===
+Your fluttermane vs opponent's urshifurapidstrike
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓surgingstrikes       →  80.8- 96.9% x3 → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        50% #########
+  switch                 29% #####
+  setup                  18% ###
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > urshifurapidstrike(97 base)
+
+── SWITCH OPTIONS ──
+  kingambit            (Dark/Steel      100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+│   - Unexpected ability: goodasgold (expected Good as Gold)
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   fakeout ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tinglu (Dark/Ground) ─
+│ Ability:  ~Vessel of Ruin (KB estimate, 45%)
+│ Item:    ~Leftovers (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Earthquake, ~Ruination, ~Protect, ~Stealth Rock
+│ Speed:   base 45
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   surgingstrikes ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+
+── HP STATUS ──
+  Your fluttermane: 0% [FNT]
+  Opp urshifurapidstrike: 100% 
+  Your bench: incineroar(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

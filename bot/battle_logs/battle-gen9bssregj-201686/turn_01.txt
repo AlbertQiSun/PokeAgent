@@ -1,0 +1,86 @@
+Battle: battle-gen9bssregj-201686
+Agent:  Gemini
+Turn:   1
+System: LLM
+Action: move u-turn
+
+── REASONING ──
+Incineroar will likely try to pivot or chip me; U-turn allows me to maintain momentum and bring in a more favorable matchup while scouting their switch-in.
+
+── BATTLE CONTEXT ──
+=== TURN 1 ANALYSIS ===
+Your tornadustherian vs opponent's incineroar
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ~Flare Blitz          →  64.3- 75.3% → 2HKO
+  ~Knock Off            →  35.1- 41.6% → 3HKO
+  ~U-turn               →  12.3- 14.9% (resist)
+  ~Fake Out             →  14.9- 17.5%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         37% #######
+  attack_physical        35% #######
+  attack_status          22% ####
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+
+── HP STATUS ──
+  Your tornadustherian: 100% 
+  Opp incineroar: 92% 
+  Your bench: calyrexice(100%), incineroar(100%), fluttermane(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~5 remaining

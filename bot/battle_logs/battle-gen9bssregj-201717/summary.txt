@@ -1,0 +1,25 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201717
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   6
+Logged:  7 decisions
+Our team: gholdengo, rillaboom, tornadustherian, urshifurapidstrike, incineroar, fluttermane
+Opp team: incineroar, fluttermane, gholdengo
+
+Routing: S1=6 (86%) S2=1 (14%)
+
+Surprises (1 total):
+  - [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+Turn-by-turn:
+  T 1: /choose move hurricane         [S1] (100%)
+  T 1: /choose switch Flutter Mane    [S1] (100%)
+  T 2: /choose move moonblast         [S1] (100%)
+  T 3: /choose move moonblast         [S1] (100%)
+  T 4: switch urshifurapidstrike      [S2] !
+  T 5: /choose move surgingstrikes    [S1] (100%)
+  T 6: /choose move surgingstrikes    [S1] (100%)
+
+Timestamp: 2026-04-12T22:44:18.239816

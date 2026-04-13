@@ -2,7 +2,7 @@
 PPO training with team-building phase.
 
 The agent learns BOTH to select a team from the pool (6 picks from 20)
-AND to battle with it.  Uses a unified 101-dim obs space and 26-action space.
+AND to battle with it.  Uses a unified obs space and 26-action space.
 
 Usage:
     # Train from scratch vs random opponent (BSS format)
@@ -10,6 +10,9 @@ Usage:
 
     # Train vs heuristic for 500k steps
     python train_rl_team.py --steps 500000 --opponent heuristic
+
+    # Resume training from existing checkpoint
+    python train_rl_team.py --steps 1000000 --opponent heuristic --resume
 
     # Evaluate saved model
     python train_rl_team.py --eval --model-path ppo_team_builder
@@ -39,24 +42,45 @@ def get_device() -> str:
     return device
 
 
+def linear_schedule(initial_value: float, final_value: float = 0.0):
+    """Linear schedule from initial_value to final_value."""
+    def func(progress_remaining: float) -> float:
+        return final_value + progress_remaining * (initial_value - final_value)
+    return func
+
+
 class WinRateCallback(BaseCallback):
-    def __init__(self, log_freq: int = 50, verbose: int = 1):
+    """Tracks both cumulative and windowed (recent) win rates."""
+
+    def __init__(self, log_freq: int = 50, window: int = 200, verbose: int = 1):
         super().__init__(verbose)
         self.log_freq = log_freq
+        self.window = window
         self.wins = 0
         self.total = 0
+        self._recent: list[bool] = []
 
     def _on_step(self) -> bool:
         for info in self.locals.get("infos", []):
             if "episode" in info:
                 self.total += 1
-                if info["episode"]["r"] > 0:
+                won = info["episode"]["r"] > 0
+                if won:
                     self.wins += 1
+                self._recent.append(won)
+                if len(self._recent) > self.window:
+                    self._recent.pop(0)
+
                 if self.total % self.log_freq == 0:
-                    wr = self.wins / self.total * 100
+                    cum_wr = self.wins / self.total * 100
+                    recent_wr = sum(self._recent) / len(self._recent) * 100
+                    lr = self.model.lr_schedule(self.model._current_progress_remaining)
                     print(
                         f"  [Step {self.num_timesteps:>8}] "
-                        f"Episodes: {self.total}  Win rate: {wr:.1f}%"
+                        f"Ep: {self.total}  "
+                        f"WR: {cum_wr:.1f}%  "
+                        f"Recent({len(self._recent)}): {recent_wr:.1f}%  "
+                        f"LR: {lr:.2e}"
                     )
         return True
 
@@ -66,7 +90,8 @@ def train(args):
     use_hist = args.history
     obs_dim = OBS_TEAM_SIZE_HIST if use_hist else OBS_TEAM_SIZE
     print(f"Using device: {device}")
-    print(f"Setting up team-building env (opponent={args.opponent}, format={args.format}, history={use_hist}, obs={obs_dim})...")
+    print(f"Setting up team-building env (opponent={args.opponent}, format={args.format}, "
+          f"history={use_hist}, obs={obs_dim})...")
 
     env = make_masked_team_env(
         opponent_type=args.opponent,
@@ -74,34 +99,59 @@ def train(args):
         use_history=use_hist,
     )
 
-    model = MaskablePPO(
-        "MlpPolicy",
-        env,
-        verbose=0,
-        learning_rate=3e-4,
-        n_steps=2048,
-        batch_size=64,
-        n_epochs=10,
-        gamma=0.99,
-        gae_lambda=0.95,
-        clip_range=0.2,
-        policy_kwargs=dict(net_arch=[256, 256]),
-        tensorboard_log="./ppo_team_logs/",
-        device=device,
-    )
+    if args.resume:
+        import os
+        model_file = args.model_path + ".zip"
+        if not os.path.exists(model_file):
+            print(f"ERROR: Cannot resume — {model_file} not found.")
+            return
+        print(f"Resuming from {model_file}...")
+        model = MaskablePPO.load(
+            args.model_path,
+            env=env,
+            device=device,
+        )
+        # For resume, use a constant lower LR (schedule breaks with cumulative progress)
+        resume_lr = args.lr * 0.5
+        model.learning_rate = resume_lr
+        model.ent_coef = args.ent_coef
+        model.n_steps = args.n_steps
+        model.batch_size = args.batch_size
+        model.tensorboard_log = "./ppo_team_logs/"
+        print(f"  Loaded. Continuing for {args.steps:,} more steps.")
+    else:
+        model = MaskablePPO(
+            "MlpPolicy",
+            env,
+            verbose=0,
+            learning_rate=linear_schedule(args.lr, args.lr * 0.1),
+            n_steps=args.n_steps,
+            batch_size=args.batch_size,
+            n_epochs=10,
+            gamma=0.99,
+            gae_lambda=0.95,
+            clip_range=0.2,
+            ent_coef=args.ent_coef,
+            policy_kwargs=dict(net_arch=args.net_arch),
+            tensorboard_log="./ppo_team_logs/",
+            device=device,
+        )
 
     battle_obs_str = f"400 history" if use_hist else "80 battle"
     print(
         f"Obs size: {obs_dim}  "
         f"(1 phase + {POOL_SIZE} pool flags + {battle_obs_str})\n"
         f"Action size: 26  (0-{POOL_SIZE-1} = pool picks, 0-25 = battle actions)\n"
+        f"Net arch: {args.net_arch}  |  LR: {args.lr} → {args.lr*0.1:.1e}  "
+        f"|  Entropy: {args.ent_coef}  |  Batch: {args.batch_size}  |  Rollout: {args.n_steps}\n"
         f"Training MaskablePPO for {args.steps:,} steps..."
     )
 
     model.learn(
         total_timesteps=args.steps,
-        callback=WinRateCallback(log_freq=50),
+        callback=WinRateCallback(log_freq=50, window=200),
         progress_bar=True,
+        reset_num_timesteps=not args.resume,
     )
     model.save(args.model_path)
     print(f"\nSaved model to {args.model_path}.zip")
@@ -149,6 +199,21 @@ if __name__ == "__main__":
     parser.add_argument("--eval-episodes", type=int, default=50)
     parser.add_argument("--history",       action="store_true",
                         help="Use 5-frame history stacking (421-dim obs)")
+
+    # Training hyperparameters
+    parser.add_argument("--resume",        action="store_true",
+                        help="Resume training from --model-path checkpoint")
+    parser.add_argument("--lr",            type=float, default=3e-4,
+                        help="Initial learning rate (decays to lr*0.1)")
+    parser.add_argument("--ent-coef",      type=float, default=0.02,
+                        help="Entropy coefficient (exploration vs exploitation)")
+    parser.add_argument("--n-steps",       type=int, default=4096,
+                        help="Rollout buffer size per update")
+    parser.add_argument("--batch-size",    type=int, default=256,
+                        help="Minibatch size for PPO updates")
+    parser.add_argument("--net-arch",      type=int, nargs="+", default=[512, 256],
+                        help="Hidden layer sizes for policy and value networks")
+
     args = parser.parse_args()
 
     if args.eval:

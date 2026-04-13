@@ -1,0 +1,84 @@
+Battle: battle-gen9bssregj-201715
+Agent:  Hybrid
+Turn:   4
+System: S1
+Confidence: 100%
+Action: /choose switch Urshifu
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your gholdengo vs opponent's ironhands
+
+── OPPONENT'S LIKELY MOVES vs GHOLDENGO ──
+  ✓thunderpunch         →  39.5- 46.3% → 3HKO
+  ~Drain Punch          →   0.0-  0.0% (IMMUNE)
+  ~Wild Charge          →  46.9- 55.6% → 2HKO
+  ~Ice Punch            →  13.0- 15.4% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        74% ##############
+  switch                 20% ###
+
+── SPEED CHECK ──
+  You outspeed: gholdengo(84 base) > ironhands(50 base)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    leftovers ✓
+│ Tera:    ???
+│ Moves:   thunderpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: leftovers (expected Assault Vest)
+│   - Unexpected move: thunderpunch
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: leftovers (expected Assault Vest)
+  [ironhands] Unexpected move: thunderpunch
+
+── HP STATUS ──
+  Your gholdengo: 0% [FNT]
+  Opp ironhands: 22% 
+  Your bench: rillaboom(100%), urshifurapidstrike(100%), incineroar(100%), fluttermane(100%)
+  Opp bench: ~5 remaining

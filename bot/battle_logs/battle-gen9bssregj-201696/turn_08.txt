@@ -1,0 +1,84 @@
+Battle: battle-gen9bssregj-201696
+Agent:  Hybrid
+Turn:   8
+System: S1
+Confidence: 100%
+Action: /choose move surgingstrikes
+
+── BATTLE CONTEXT ──
+=== TURN 8 ANALYSIS ===
+Your urshifurapidstrike vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  17.1- 20.6% x3 (resist)
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ✓surgingstrikes       →  17.1- 20.6% x3 (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        56% ###########
+  attack_special         18% ###
+  setup                  14% ##
+  switch                 11% ##
+
+── SPEED CHECK ──
+  Speed tie: both 97 base (50/50)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Booster Energy)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   surgingstrikes ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected item: unknown_item (expected Booster Energy)
+  [ironhands] Unexpected item: unknown_item (expected Assault Vest)
+
+── HP STATUS ──
+  Your urshifurapidstrike: 69% 
+  Opp urshifurapidstrike: 71% 
+  Your bench: gholdengo(100%), rillaboom(100%), incineroar(100%)
+  Opp bench: ~3 remaining

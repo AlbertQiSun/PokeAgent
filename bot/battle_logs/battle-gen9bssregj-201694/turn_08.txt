@@ -1,0 +1,93 @@
+Battle: battle-gen9bssregj-201694
+Agent:  Hybrid
+Turn:   8
+System: S2
+Surprises: [tornadustherian] Unexpected item: unknown_item (expected Assault Vest)
+Action: switch gholdengo
+
+── REASONING ──
+Tornadus-Therian outspeeds and OHKOs Urshifu with Hurricane, so I must switch to a resist to avoid losing my Pokemon immediately.
+
+── BATTLE CONTEXT ──
+=== TURN 8 ANALYSIS ===
+Your urshifurapidstrike vs opponent's tornadustherian
+
+── YOUR MOVES vs TORNADUSTHERIAN ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  48.7- 56.5% x3 (neutral) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ~Hurricane            → 132.0-155.4% (SE) → OHKO!
+  ~Heat Wave            →  18.9- 22.3% (resist)
+  ~Knock Off            →   7.4-  8.6% (resist)
+  ~U-turn               →   7.4-  9.1% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         44% ########
+  attack_status          28% #####
+  setup                  13% ##
+  attack_physical        10% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: tornadustherian(121 base) > urshifurapidstrike(97 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Booster Energy)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Band)
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Assault Vest)
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected item: unknown_item (expected Choice Band)
+  [tornadustherian] Unexpected item: unknown_item (expected Assault Vest)
+  [fluttermane] Unexpected item: unknown_item (expected Booster Energy)
+
+── HP STATUS ──
+  Your urshifurapidstrike: 100% 
+  Opp tornadustherian: 100% 
+  Your bench: gholdengo(100%), rillaboom(100%), incineroar(100%)
+  Opp bench: ~3 remaining

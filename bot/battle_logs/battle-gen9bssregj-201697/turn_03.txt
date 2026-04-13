@@ -1,0 +1,90 @@
+Battle: battle-gen9bssregj-201697
+Agent:  Hybrid
+Turn:   3
+System: S1
+Confidence: 100%
+Action: /choose switch Urshifu
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your tornadustherian vs opponent's ironhands
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓wildcharge           → 153.2-180.5% (SE) → OHKO!
+  ~Drain Punch          →  31.8- 37.7% (resist) → 3HKO
+  ~Wild Charge          → 153.2-180.5% (SE) → OHKO!
+  ~Ice Punch            →  85.7-100.6% (SE) → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        76% ###############
+  switch                 20% ###
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > ironhands(50 base)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Assault Vest)
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Band)
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected item: unknown_item (expected Choice Band)
+  [ironhands] Unexpected item: unknown_item (expected Assault Vest)
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your tornadustherian: 0% [FNT]
+  Opp ironhands: 23% 
+  Your bench: gholdengo(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%)
+  Opp bench: ~4 remaining

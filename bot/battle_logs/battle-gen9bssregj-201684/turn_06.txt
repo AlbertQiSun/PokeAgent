@@ -1,0 +1,90 @@
+Battle: battle-gen9bssregj-201684
+Agent:  Gemini
+Turn:   6
+System: LLM
+Action: switch fluttermane
+
+── REASONING ──
+My Incineroar is at 26% and will likely be KO'd by any chip damage or a Flare Blitz; switching to Flutter Mane preserves my Incineroar for a potential Intimidate pivot later while forcing the opponent to react to a faster threat.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your incineroar vs opponent's incineroar
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓flareblitz           →  25.9- 30.6% (resist)
+  ~Flare Blitz          →  25.9- 30.6% (resist)
+  ~Knock Off            →  14.1- 16.5% (resist)
+  ~U-turn               →  20.6- 24.1%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        59% ###########
+  switch                 16% ###
+  attack_special         13% ##
+  attack_status          12% ##
+
+── SPEED CHECK ──
+  Speed tie: both 60 base (50/50)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+  calyrexice           (Psychic/Ice      61.4% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Booster Energy)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Safety Goggles)
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected item: unknown_item (expected Safety Goggles)
+  [fluttermane] Unexpected item: unknown_item (expected Booster Energy)
+
+── HP STATUS ──
+  Your incineroar: 26% 
+  Opp incineroar: 79% 
+  Your bench: fluttermane(100%), calyrexice(61%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

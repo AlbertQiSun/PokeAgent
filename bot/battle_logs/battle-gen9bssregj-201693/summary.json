@@ -1,0 +1,124 @@
+{
+  "battle_tag": "battle-gen9bssregj-201693",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 10,
+  "s1_count": 10,
+  "s2_count": 2,
+  "llm_count": 2,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "urshifurapidstrike",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "move knockoff",
+      "confidence": -1,
+      "surprises": [
+        "[fluttermane] Unexpected item: unknown_item (expected Booster Energy)"
+      ],
+      "reasoning": "Since the Flutter Mane lacks Booster Energy, it is likely holding a Choice item or Focus Sash; Knock Off is the optimal play to remove the unknown item and scout its set while dealing significant damage."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9995638728141785,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9991557002067566,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9994794130325317,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 0.9999949932098389,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999992251396179,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.999999463558197,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999998211860657,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999996423721313,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999992847442627,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 10,
+      "system": "S2",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [
+        "[rillaboom] Unexpected item: unknown_item (expected Choice Band)"
+      ],
+      "reasoning": "Urshifu is at 7% and will be OHKOed by any move from Rillaboom; switching to Incineroar allows me to resist potential Wood Hammer/Drum Beating and potentially pivot with Intimidate."
+    }
+  ]
+}

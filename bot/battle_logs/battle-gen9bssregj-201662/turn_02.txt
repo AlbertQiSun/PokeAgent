@@ -1,0 +1,99 @@
+Battle: battle-gen9bssregj-201662
+Agent:  Gemini
+Turn:   2
+System: LLM
+Action: move gholdengo
+
+── REASONING ──
+Kowtow Cleave has a high chance to OHKO or leave Gholdengo in range for a follow-up, and since Gholdengo is slower than Kingambit, it is the optimal play to secure the KO without risking a Sucker Punch fail if they switch or use a non-attacking move.
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your kingambit vs opponent's gholdengo
+
+── YOUR MOVES vs GHOLDENGO ──
+  suckerpunch          Dark     PHYSICAL BP: 70 pri=1 →  71.6- 84.6% (2x SE) → 2HKO
+  kowtowcleave         Dark     PHYSICAL BP: 85 →  86.4-101.9% (2x SE) → 2HKO
+  ironhead             Steel    PHYSICAL BP: 80 →  20.4- 24.1% (resist)
+  swordsdance          Normal   STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs KINGAMBIT ──
+  ✓makeitrain           →  30.3- 36.0% (resist)
+  ~Make It Rain         →  30.3- 36.0% (resist)
+  ~Shadow Ball          →  20.6- 24.0% (resist)
+  ~Trick                →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 30% ######
+  attack_special         28% #####
+  setup                  23% ####
+  attack_status          14% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: gholdengo(84 base) > kingambit(50 base)
+  Priority moves available: suckerpunch
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    unknown_item ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+│   - Unexpected ability: goodasgold (expected Good as Gold)
+│   - Unexpected item: unknown_item (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tinglu (Dark/Ground) ─
+│ Ability:  ~Vessel of Ruin (KB estimate, 45%)
+│ Item:    ~Leftovers (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Earthquake, ~Ruination, ~Protect, ~Stealth Rock
+│ Speed:   base 45
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [gholdengo] Unexpected item: unknown_item (expected Choice Scarf)
+  [gholdengo] Unexpected ability: goodasgold (expected Good as Gold)
+  [gholdengo] Unexpected item: unknown_item (expected Choice Scarf)
+  [gholdengo] Unexpected ability: goodasgold (expected Good as Gold)
+  [gholdengo] Unexpected item: unknown_item (expected Choice Scarf)
+
+── HP STATUS ──
+  Your kingambit: 100% 
+  Opp gholdengo: 100% 
+  Your bench: incineroar(100%), fluttermane(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~5 remaining

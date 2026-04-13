@@ -1,0 +1,81 @@
+Battle: battle-gen9bssregj-201719
+Agent:  Hybrid
+Turn:   4
+System: S1
+Confidence: 100%
+Action: /choose switch Urshifu
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your gholdengo vs opponent's incineroar
+
+── OPPONENT'S LIKELY MOVES vs GHOLDENGO ──
+  ✓flareblitz           → 103.7-121.6% (SE) → OHKO!
+  ~Flare Blitz          → 103.7-121.6% (SE) → OHKO!
+  ~Knock Off            →  57.4- 67.3% (SE) → 2HKO
+  ~U-turn               →   4.9-  5.6% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        48% #########
+  switch                 42% ########
+  attack_special          6% #
+
+── SPEED CHECK ──
+  You outspeed: gholdengo(84 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your gholdengo: 0% [FNT]
+  Opp incineroar: 52% 
+  Your bench: rillaboom(100%), urshifurapidstrike(100%), incineroar(100%), fluttermane(100%)
+  Opp bench: ~4 remaining
