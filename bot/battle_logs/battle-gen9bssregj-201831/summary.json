@@ -1,0 +1,80 @@
+{
+  "battle_tag": "battle-gen9bssregj-201831",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 7,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "tornadustherian",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "tornadustherian",
+    "fluttermane",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Tornadus-Therian. Since I can secure the KO immediately, I should take the aggressive play to remove the opponent's pivot and gain momentum."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Flutter Mane, and since I am faster than the opponent's predicted setup or attack, I should secure the KO immediately to remove their offensive threat."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Incineroar is the best pivot to handle Flutter Mane due to its Dark typing providing an immunity to Shadow Ball and its ability to threaten with Intimidate or Knock Off."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a high-speed offensive threat immediately without risking a switch."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on the Flutter Mane, securing the knockout regardless of the opponent's move choice."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 54% HP and Iron Hands' Drain Punch will likely KO it next turn. Switching to Flutter Mane provides an immunity to Drain Punch and threatens Iron Hands with super-effective STAB moves."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed OHKO on Iron Hands, and since I outspeed, I can secure the knockout before Iron Hands can use Wild Charge to threaten my Flutter Mane."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "battle_tag": "battle-gen9bssregj-201753",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 5,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "ironhands",
+    "rillaboom",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9997840523719788,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: lifeorb (expected Assault Vest)"
+      ],
+      "reasoning": "Iron Hands is running Life Orb instead of Assault Vest, making its coverage moves significantly more threatening. Since Wild Charge OHKOs Tornadus-Therian, I must switch to Flutter Mane to gain an immunity to Fighting-type moves and threaten a KO with STAB Fairy moves."
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999994039535522,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999998211860657,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999997019767761,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999997019767761,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

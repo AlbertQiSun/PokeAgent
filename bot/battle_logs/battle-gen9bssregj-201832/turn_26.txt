@@ -1,0 +1,95 @@
+Battle: battle-gen9bssregj-201832
+Agent:  Gemini
+Turn:   26
+System: LLM
+Action: move glaciallance
+
+── REASONING ──
+Glacial Lance is a guaranteed OHKO on Tornadus-Therian. Since I can secure the KO this turn, I must attack regardless of the speed disadvantage.
+
+── BATTLE CONTEXT ──
+=== TURN 26 ANALYSIS ===
+Your calyrexice vs opponent's tornadustherian
+
+── YOUR MOVES vs TORNADUSTHERIAN ──
+  glaciallance         Ice      PHYSICAL BP:120 → 183.1-215.6% (2x SE) → OHKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →   0.0-  0.0% (IMMUNE)
+  iciclecrash          Ice      PHYSICAL BP: 85 → 130.5-153.9% (2x SE) → OHKO
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓hurricane            →  30.9- 36.6%
+  ~Heat Wave            →  36.0- 42.3% (SE) → 3HKO
+  ~Knock Off            →  20.0- 24.0% (SE)
+  ~U-turn               →  21.7- 25.7% (SE)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         40% #######
+  attack_status          27% #####
+  switch                 22% ####
+  attack_physical        10% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: tornadustherian(121 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  amoonguss            (Grass/Poison     87.3% HP) — neutral
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 93% — best: highhorsepower (SE)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   hurricane ✓, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your calyrexice: 100% 
+  Opp tornadustherian: 47% 
+  Your bench: amoonguss(87%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

@@ -1,0 +1,89 @@
+Battle: battle-gen9bssregj-236659
+Agent:  Hybrid
+Turn:   3
+System: S2
+Surprises: PPO uncertainty: best action only 24% confidence (threshold 40%, entropy=1.90)
+Action: switch urshifurapidstrike
+
+── REASONING ──
+The opponent's Incineroar is at 24% HP and likely to use Flare Blitz or pivot; switching to Urshifu-Rapid Strike allows me to threaten a KO with Surging Strikes while resisting their Fire-type attacks.
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your incineroar vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →  11.8- 14.1% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  14.1- 16.5% (resist)
+  flareblitz           Fire     PHYSICAL BP:120 →  25.9- 30.6% (resist)
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓flareblitz           →  25.9- 30.6% (resist)
+  ~Flare Blitz          →  25.9- 30.6% (resist)
+  ~Knock Off            →  14.1- 16.5% (resist)
+  ~U-turn               →  20.6- 24.1%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        49% #########
+  attack_special         28% #####
+  switch                 11% ##
+  attack_status          11% ##
+
+── SPEED CHECK ──
+  Speed tie: both 60 base (50/50)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your incineroar: 79% 
+  Opp incineroar: 24% 
+  Your bench: ironhands(100%), calyrexice(100%), kingambit(100%), urshifurapidstrike(100%)
+  Opp bench: ~5 remaining

@@ -1,0 +1,92 @@
+{
+  "battle_tag": "battle-gen9bssregj-236667",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 6,
+  "s2_count": 2,
+  "llm_count": 2,
+  "our_team": [
+    "fluttermane",
+    "amoonguss",
+    "urshifurapidstrike",
+    "incineroar",
+    "calyrexice",
+    "rillaboom"
+  ],
+  "opp_team": [
+    "gholdengo",
+    "fluttermane",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [
+        "[gholdengo] Unexpected item: airballoon (expected Choice Scarf)"
+      ],
+      "reasoning": "Since Gholdengo has an Air Balloon, High Horsepower will not hit it this turn, and staying in risks taking a heavy hit from Make It Rain. Switching to Incineroar allows me to resist Gholdengo's special attacks and potentially pop the balloon with a follow-up move or pivot."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move flareblitz",
+      "confidence": 0.5088405609130859,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move flareblitz",
+      "confidence": 0.5647780299186707,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S2",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [
+        "[fluttermane] Unexpected item: lifeorb (expected Booster Energy)"
+      ],
+      "reasoning": "Since Incineroar is fainted, I must send in a new Pokemon; Calyrex-Ice provides a solid defensive profile and offensive pressure against the remaining team."
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move glaciallance terastallize",
+      "confidence": 0.6916030645370483,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.6757091879844666,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.963657557964325,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

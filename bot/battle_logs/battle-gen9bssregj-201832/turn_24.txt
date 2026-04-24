@@ -1,0 +1,97 @@
+Battle: battle-gen9bssregj-201832
+Agent:  Gemini
+Turn:   24
+System: LLM
+Action: move flareblitz
+
+── REASONING ──
+Flare Blitz is a 2HKO on Tornadus-Therian, and since I am ahead in the exchange, I should press the advantage to secure the KO before it can pivot out or chip me further.
+
+── BATTLE CONTEXT ──
+=== TURN 24 ANALYSIS ===
+Your incineroar vs opponent's tornadustherian
+
+── YOUR MOVES vs TORNADUSTHERIAN ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →  14.9- 17.5% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  35.1- 41.6% (neutral) → 3HKO
+  flareblitz           Fire     PHYSICAL BP:120 →  64.3- 75.3% (neutral) → 2HKO
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓hurricane            →  45.3- 53.5% → 3HKO
+  ~Heat Wave            →  12.9- 15.3% (resist)
+  ~Knock Off            →   8.2-  9.4% (resist)
+  ~U-turn               →  17.6- 21.2%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         38% #######
+  switch                 29% #####
+  attack_status          25% #####
+  attack_physical         6% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: tornadustherian(121 base) > incineroar(60 base)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  amoonguss            (Grass/Poison     87.3% HP) — neutral
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 93% — best: fakeout (neutral)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   hurricane ✓, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your incineroar: 73% 
+  Opp tornadustherian: 100% 
+  Your bench: calyrexice(100%), amoonguss(87%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

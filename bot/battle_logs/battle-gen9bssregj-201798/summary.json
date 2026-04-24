@@ -1,0 +1,89 @@
+{
+  "battle_tag": "battle-gen9bssregj-201798",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 6,
+  "s1_count": 7,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "fluttermane"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9998131990432739,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9996598958969116,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 0.9999945759773254,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999989867210388,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999997615814209,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S2",
+      "action": "switch urshifurapidstrike",
+      "confidence": -1,
+      "surprises": [
+        "[fluttermane] Unexpected item: lifeorb (expected Booster Energy)"
+      ],
+      "reasoning": "My Flutter Mane is at 31% and will be OHKOed by Shadow Ball, while the opponent's Life Orb Flutter Mane is at 17% and likely to be KOed by priority or chip damage; switching to Urshifu-Rapid-Strike preserves my Flutter Mane for a potential revenge kill while avoiding the guaranteed OHKO."
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999964833259583,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+Battle: battle-gen9bssregj-236661
+Agent:  Hybrid
+Turn:   7
+System: S2
+Surprises: [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+Action: switch primarina
+
+── REASONING ──
+Rillaboom is at 41% and will be KOed by Iron Hands' Ice Punch or Drain Punch, and Drum Beating fails to secure a KO. Switching to Primarina allows me to preserve Rillaboom's priority for later while checking the Life Orb Iron Hands.
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your rillaboom vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  drumbeating          Grass    PHYSICAL BP: 80 →  35.4- 41.9% (neutral) → 3HKO
+
+── OPPONENT'S LIKELY MOVES vs RILLABOOM ──
+  ✓drainpunch           →  50.3- 59.4% → 2HKO
+  ~Drain Punch          →  50.3- 59.4% → 2HKO
+  ~Wild Charge          →  29.7- 35.4% (resist)
+  ~Ice Punch            →  66.9- 78.9% (SE) → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        57% ###########
+  switch                 31% ######
+  attack_special          8% #
+
+── SPEED CHECK ──
+  You outspeed: rillaboom(85 base) > ironhands(50 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   hurricane ✓, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your rillaboom: 41% 
+  Opp ironhands: 66% 
+  Your bench: primarina(100%), dragonite(100%), tornadustherian(100%)
+  Opp bench: ~3 remaining

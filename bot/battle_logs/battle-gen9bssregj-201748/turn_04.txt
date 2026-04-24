@@ -1,0 +1,89 @@
+Battle: battle-gen9bssregj-201748
+Agent:  Hybrid
+Turn:   4
+System: S1
+Confidence: 100%
+Action: /choose move hurricane
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your tornadustherian vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  hurricane            Flying   SPECIAL  BP:110 → 132.0-155.4% (2x SE) → OHKO
+  heatwave             Fire     SPECIAL  BP: 95 →  18.9- 22.3% (resist)
+  knockoff             Dark     PHYSICAL BP: 65 →   7.4-  8.6% (resist)
+  uturn                Bug      PHYSICAL BP: 70 →   7.4-  9.1% (resist)
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓surgingstrikes       →  48.7- 56.5% x3 → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 45% #########
+  attack_physical        27% #####
+  setup                  23% ####
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > urshifurapidstrike(97 base)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — resists STAB
+
+── OPPONENT BENCH THREATS ──
+  fluttermane          (Ghost/Fairy) 59% — best: hurricane (neutral)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   psyshock ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected move: psyshock
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   surgingstrikes ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected move: psyshock
+
+── HP STATUS ──
+  Your tornadustherian: 85% 
+  Opp urshifurapidstrike: 100% 
+  Your bench: gholdengo(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%)
+  Opp bench: ~5 remaining

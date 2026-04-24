@@ -1,0 +1,86 @@
+Battle: battle-gen9bssregj-236668
+Agent:  Hybrid
+Turn:   8
+System: S1
+Confidence: 100%
+Action: /choose switch Incineroar
+
+── BATTLE CONTEXT ──
+=== TURN 8 ANALYSIS ===
+Your tornadustherian vs opponent's rillaboom
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓woodhammer           →  51.9- 61.7% (resist) → 2HKO
+  ~Wood Hammer          →  51.9- 61.7% (resist) → 2HKO
+  ~Drum Beating         →  35.1- 41.6% (resist) → 3HKO
+  ~U-turn               →  20.1- 24.0% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        80% ###############
+  switch                 12% ##
+  attack_special          5% #
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > rillaboom(85 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark       100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your tornadustherian: 0% [FNT]
+  Opp rillaboom: 7% 
+  Your bench: chienpao(100%), urshifurapidstrike(100%), rillaboom(100%), incineroar(100%)
+  Opp bench: ~3 remaining

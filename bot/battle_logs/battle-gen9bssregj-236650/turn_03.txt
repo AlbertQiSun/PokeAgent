@@ -1,0 +1,89 @@
+Battle: battle-gen9bssregj-236650
+Agent:  Hybrid
+Turn:   3
+System: S1
+Confidence: 73%
+Action: /choose move earthquake
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your landorustherian vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  earthquake           Ground   PHYSICAL BP:100 → 108.8-128.2% (2x SE) → OHKO
+  uturn                Bug      PHYSICAL BP: 70 →  25.3- 30.0% (neutral)
+  stealthrock          Rock     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+  rockslide            Rock     PHYSICAL BP: 75 →  54.7- 64.7% (2x SE) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs LANDORUSTHERIAN ──
+  ~Flare Blitz          →  53.7- 63.4% → 2HKO
+  ~Knock Off            →  29.9- 34.8%
+  ~U-turn               →  10.4- 12.2% (resist)
+  ~Fake Out             →  12.2- 14.6%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        39% #######
+  attack_special         27% #####
+  attack_status          23% ####
+  switch                  9% #
+
+── SPEED CHECK ──
+  You outspeed: landorustherian(91 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — resists STAB | SE STAB
+  chienpao             (Dark/Ice        100.0% HP) — resists STAB
+
+── OPPONENT BENCH THREATS ──
+  ironhands            (Fighting/Electric) 100% — best: earthquake (SE)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Swords Dance
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your landorustherian: 61% 
+  Opp incineroar: 50% 
+  Your bench: urshifurapidstrike(100%), chienpao(100%), rillaboom(100%), dragonite(100%), tornadustherian(100%)
+  Opp bench: ~4 remaining

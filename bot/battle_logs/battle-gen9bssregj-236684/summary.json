@@ -1,0 +1,120 @@
+{
+  "battle_tag": "battle-gen9bssregj-236684",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 10,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 12,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "chienpao",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "tornadustherian",
+    "urshifurapidstrike",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since we are in a speed tie and Hurricane is a 2HKO, attacking is the optimal play to secure momentum or potentially win the speed tie to gain a significant advantage."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens an OHKO with Wild Charge, and Tornadus-Therian cannot secure a KO. Switching to Flutter Mane provides an immunity to Iron Hands' primary Fighting-type STAB and forces the opponent to respect the threat of a special attacker."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is already fainted (0% HP), so I must bring in a new Pokemon. Tornadus-Therian is the safest pivot to handle Iron Hands' potential coverage while maintaining momentum."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is threatened with an OHKO by Iron Hands' Wild Charge and cannot secure a KO in return. Switching to Calyrex-Ice provides a safe pivot that resists Ice Punch and threatens Iron Hands with STAB Psychic-type damage."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is in a 2HKO range against Iron Hands and can secure the KO in two turns. Since Iron Hands' Drain Punch is a 3HKO, I win the exchange by staying in and attacking."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 10% HP and will be KO'd by any of Tornadus-Therian's moves. Since Glacial Lance is a guaranteed OHKO, I must use it now to secure the trade before Calyrex-Ice faints."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Incineroar provides Intimidate support to mitigate physical pressure from Tornadus-Therian and can pivot out with U-turn to maintain momentum."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since we are in a speed tie, Hurricane is the optimal play to secure a 2HKO and win the mirror match if we win the tie or survive the incoming hit."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since we are in a speed tie and Hurricane is a guaranteed 2HKO, attacking is the optimal play to secure the KO before the opponent can retaliate."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Tornadus-Therian is at 42% HP, putting it well within range of a Hurricane KO (50-59%). Since we are in a speed tie, attacking is the optimal play to remove their Tornadus before they can potentially pivot or heal."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Tornadus-Therian is at 15% HP, meaning Hurricane is a guaranteed KO. Since I win the speed tie or lose it, attacking is the only way to secure the win this turn."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since both Tornadus-Therian are at low HP and Hurricane is a guaranteed 2HKO, attacking is the priority to secure the KO before the opponent can act, especially given the speed tie."
+    }
+  ]
+}

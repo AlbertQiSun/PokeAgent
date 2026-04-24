@@ -1,0 +1,92 @@
+Battle: battle-gen9bssregj-201772
+Agent:  Gemini
+Turn:   5
+System: LLM
+Action: move highhorsepower
+
+── REASONING ──
+Incineroar is at 6% HP, meaning High Horsepower will easily secure the KO regardless of Intimidate, preventing the opponent from pivoting or dealing further damage.
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your calyrexice vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  glaciallance         Ice      PHYSICAL BP:120 →  36.5- 43.5% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  78.2- 92.4% (2x SE) → 2HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  25.9- 30.6% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓earthquake           →  17.1- 20.0%
+  ~Flare Blitz          →  61.7- 72.6% (SE) → 2HKO
+  ~Knock Off            →  34.9- 40.6% (SE) → 3HKO
+  ~U-turn               →  24.6- 29.1% (SE)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        37% #######
+  attack_special         32% ######
+  attack_status          17% ###
+  switch                 12% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: incineroar(60 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  kingambit            (Dark/Steel       24.6% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   earthquake ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected move: earthquake
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected move: earthquake
+
+── HP STATUS ──
+  Your calyrexice: 79% 
+  Opp incineroar: 6% 
+  Your bench: fluttermane(100%), kingambit(25%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

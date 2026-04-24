@@ -1,0 +1,92 @@
+Battle: battle-gen9bssregj-236658
+Agent:  Hybrid
+Turn:   2
+System: S2
+Surprises: [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+Action: switch fluttermane
+
+── REASONING ──
+Ting-Lu is at 43% and will be 2HKOed by Life Orb Drain Punch, making it unable to survive another turn. Switching to Flutter Mane provides an immunity to Fighting-type moves and forces the Iron Hands out or forces a Tera.
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your tinglu vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  fissure              Ground   PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+  ruination            Dark     SPECIAL  BP:  0 →   0.0-  0.0% (neutral)
+  stealthrock          Rock     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+  whirlwind            Normal   STATUS   BP:  0 pri=-6 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs TINGLU ──
+  ✓drainpunch           →  56.1- 65.7% (SE) → 2HKO
+  ~Drain Punch          →  56.1- 65.7% (SE) → 2HKO
+  ~Wild Charge          →   0.0-  0.0% (IMMUNE)
+  ~Ice Punch            →  37.4- 43.9% (SE) → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        60% ############
+  switch                 35% #######
+
+── SPEED CHECK ──
+  Opponent outspeeds: ironhands(50 base) > tinglu(45 base)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — immune to STAB | SE STAB
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your tinglu: 43% 
+  Opp ironhands: 91% 
+  Your bench: fluttermane(100%), dragonite(100%), urshifurapidstrike(100%), calyrexice(100%), rillaboom(100%)
+  Opp bench: ~5 remaining

@@ -1,0 +1,88 @@
+{
+  "battle_tag": "battle-gen9bssregj-236679",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 8,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 8,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "amoonguss",
+    "kingambit",
+    "fluttermane",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "tornadustherian",
+    "ironhands",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Tornadus-Therian, and since I am currently in a position to secure a KO, I should take it immediately rather than switching."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and deals significantly more damage than Glacial Lance due to the type advantage against Iron Hands. Since Iron Hands cannot OHKO Calyrex-Ice, attacking is the optimal play to secure the KO."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Tornadus-Therian. Since I can secure the KO this turn, I should attack immediately to remove the opponent's threat."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 72% and Incineroar's Flare Blitz is a 2HKO, meaning I cannot stay in safely. Switching to my own Incineroar allows me to Intimidate the opponent and safely pivot or check their physical attackers."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move knockoff",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Knock Off provides the best chip damage and utility by removing the opponent's item, which is likely Safety Goggles, without committing to a risky speed tie or a pivot that gives up momentum."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move knockoff",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Knock Off is the most effective way to pressure the opposing Incineroar and remove its item, as the damage output is superior to Flare Blitz due to the resistance and recoil, and Fake Out is ineffective against a target that has already moved or is neutral."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move knockoff",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Knock Off is the most reliable way to chip the opponent's Incineroar and remove its item, maintaining pressure while avoiding the risk of a speed tie or a suboptimal Fake Out exchange."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move knockoff",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is at 21% HP, putting it well within range of Knock Off. This secures the KO while avoiding the chip damage of Flare Blitz recoil."
+    }
+  ]
+}

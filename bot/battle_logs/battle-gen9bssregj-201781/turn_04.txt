@@ -1,0 +1,81 @@
+Battle: battle-gen9bssregj-201781
+Agent:  Hybrid
+Turn:   4
+System: S1
+Confidence: 100%
+Action: /choose move moonblast
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your fluttermane vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  moonblast            Fairy    SPECIAL  BP: 95 →  63.8- 75.4% (neutral) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓moonblast            →  42.3- 50.0% → 3HKO
+  ~Shadow Ball          →  72.3- 85.4% (SE) → 2HKO
+  ~Dazzling Gleam       →  36.2- 42.3% → 3HKO
+  ~Protect              →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         58% ###########
+  attack_status          21% ####
+  switch                 13% ##
+
+── SPEED CHECK ──
+  Speed tie: both 135 base (50/50)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your fluttermane: 24% 
+  Opp fluttermane: 15% 
+  Your bench: gholdengo(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%)
+  Opp bench: ~4 remaining

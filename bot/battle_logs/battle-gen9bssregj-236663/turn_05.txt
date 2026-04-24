@@ -1,0 +1,87 @@
+Battle: battle-gen9bssregj-236663
+Agent:  Hybrid
+Turn:   5
+System: S1
+Confidence: 64%
+Action: /choose move glaciallance
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your calyrexice vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  glaciallance         Ice      PHYSICAL BP:120 →  36.5- 43.5% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  78.2- 92.4% (2x SE) → 2HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  25.9- 30.6% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ~Flare Blitz          →  61.7- 72.6% (SE) → 2HKO
+  ~Knock Off            →  34.9- 40.6% (SE) → 3HKO
+  ~U-turn               →  24.6- 29.1% (SE)
+  ~Fake Out             →   7.4-  8.6%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        40% ########
+  attack_special         28% #####
+  setup                  22% ####
+  attack_status           8% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: incineroar(60 base) > calyrexice(50 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your calyrexice: 13% 
+  Opp incineroar: 100% 
+  Your bench: rillaboom(100%), urshifurapidstrike(100%), incineroar(100%)
+  Opp bench: ~3 remaining

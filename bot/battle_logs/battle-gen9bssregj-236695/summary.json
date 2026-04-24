@@ -1,0 +1,168 @@
+{
+  "battle_tag": "battle-gen9bssregj-236695",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 13,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 18,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "tornadustherian",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "incineroar",
+    "ironhands",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is outsped and threatened by Incineroar's Flare Blitz, and High Horsepower is only a 2HKO. Switching to my own Incineroar allows me to neutralize the opponent's attack with Intimidate and safely pivot or check their physical offense."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The mirror match is neutral and low-damage; using Parting Shot allows me to pivot into a more favorable matchup while simultaneously debuffing the opponent's attack, maintaining momentum."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move knock off",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since both Incineroars are at similar health and speed, Knock Off is the safest play to remove the opponent's item and gain information without taking significant recoil damage from Flare Blitz."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is guaranteed to be OHKO'd by Flare Blitz and cannot secure a KO this turn. Switching to Incineroar provides a safe pivot to resist the incoming Fire-type attack and utilize Intimidate to mitigate physical damage."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since we are in a speed tie and both Incineroars resist each other's primary STAB moves, Parting Shot is the best way to gain momentum and force the opponent to switch, allowing me to bring in a favorable matchup."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens a 2HKO on Incineroar with Drain Punch, and Incineroar cannot KO back. Switching to Flutter Mane provides an immunity to Drain Punch, forcing the opponent to predict or switch."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO, fulfilling the primary decision priority of taking the KO threat immediately."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane outspeeds Tornadus-Therian and Moonblast is a guaranteed 2HKO. Since Tornadus cannot OHKO Flutter Mane, attacking is the optimal play to secure the KO."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Flutter Mane is at 4% HP and will be KO'd by any chip damage, so I must maximize damage output before it faints. Moonblast is my strongest move and has a high chance to KO the Tornadus-Therian, which is currently at 44% HP."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Flutter Mane has fainted, so I must send in a new Pokemon. Calyrex-Ice is the best choice to pressure the low-HP Tornadus-Therian and maintain offensive momentum."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 9% HP and Glacial Lance is a guaranteed OHKO. Since I can secure the KO this turn, I should attack immediately."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is slower than Incineroar and will be 2HKOed by Flare Blitz before it can secure the 2HKO with High Horsepower. Switching to my own Incineroar allows me to pivot, reset Intimidate, and safely handle the incoming Flare Blitz."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since both Incineroars are at low health and resisting each other's STAB moves, Parting Shot allows me to pivot out safely, lower the opponent's stats, and bring in a fresh check while maintaining momentum."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move knock off",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since we are in a speed tie and the opponent's Incineroar is at 54%, Knock Off provides consistent damage and utility to remove their item, which is likely Safety Goggles, without taking the recoil damage of Flare Blitz."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and deals significant damage to Incineroar. Given that Incineroar will likely Flare Blitz to secure the KO on my weakened Calyrex-Ice, attacking is the optimal play to force the trade or finish the opponent."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice can secure a guaranteed OHKO on Tornadus-Therian with Glacial Lance. Since I am at 23% HP, I must take the KO now rather than switching and risking further chip damage."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Incineroar is the best pivot to handle Tornadus-Therian's utility moves and provide Intimidate support for the rest of the team."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed 2HKO on Tornadus-Therian, and since Tornadus is at 42% HP, this move will secure the KO regardless of potential Regenerator healing."
+    }
+  ]
+}

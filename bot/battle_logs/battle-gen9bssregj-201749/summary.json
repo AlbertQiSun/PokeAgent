@@ -1,0 +1,120 @@
+{
+  "battle_tag": "battle-gen9bssregj-201749",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 11,
+  "s1_count": 12,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "urshifurapidstrike",
+    "tornadustherian",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9998332858085632,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9997488260269165,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.999695360660553,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9996216893196106,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9996774792671204,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.999579668045044,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 0.9999939203262329,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999991655349731,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.999997615814209,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999967217445374,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 10,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.999996542930603,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 11,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999955892562866,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

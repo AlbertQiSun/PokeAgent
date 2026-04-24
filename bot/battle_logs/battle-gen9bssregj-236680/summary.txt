@@ -1,0 +1,49 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236680
+==================================================
+Agent:   Gemini
+Result:  LOSS
+Turns:   27
+Logged:  36 decisions
+Our team: incineroar, fluttermane, calyrexice, amoonguss, kingambit, chienpao
+Opp team: fluttermane, incineroar, tornadustherian
+
+Turn-by-turn:
+  T 1: move flareblitz                [LLM]
+  T 2: move partingshot               [LLM]
+  T 2: switch calyrexice              [LLM]
+  T 3: move glaciallance              [LLM]
+  T 4: move glaciallance              [LLM]
+  T 4: switch incineroar              [LLM]
+  T 5: move flareblitz                [LLM]
+  T 6: move partingshot               [LLM]
+  T 6: switch amoonguss               [LLM]
+  T 7: switch incineroar              [LLM]
+  T 8: move partingshot               [LLM]
+  T 8: switch amoonguss               [LLM]
+  T 9: switch incineroar              [LLM]
+  T10: move partingshot               [LLM]
+  T10: move parting shot              [LLM]
+  T11: switch incineroar              [LLM]
+  T12: move partingshot               [LLM]
+  T12: move parting shot              [LLM]
+  T13: switch incineroar              [LLM]
+  T14: move partingshot               [LLM]
+  T14: move parting shot              [LLM]
+  T15: switch incineroar              [LLM]
+  T16: move partingshot               [LLM]
+  T16: move parting shot              [LLM]
+  T17: switch incineroar              [LLM]
+  T18: switch amoonguss               [LLM]
+  T19: switch incineroar              [LLM]
+  T20: move partingshot               [LLM]
+  T21: move partingshot               [LLM]
+  T21: switch amoonguss               [LLM]
+  T22: switch fluttermane             [LLM]
+  T23: switch fluttermane             [LLM]
+  T24: switch fluttermane             [LLM]
+  T25: move protect                   [LLM]
+  T26: switch kingambit               [LLM]
+  T27: switch fluttermane             [LLM]
+
+Timestamp: 2026-04-20T12:54:57.117493

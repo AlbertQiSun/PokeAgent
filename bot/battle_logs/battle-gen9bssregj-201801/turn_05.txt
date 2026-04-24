@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-201801
+Agent:  Hybrid
+Turn:   5
+System: S1
+Confidence: 100%
+Action: /choose switch Urshifu
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your fluttermane vs opponent's incineroar
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓flareblitz           → 110.0-129.2% → OHKO!
+  ~Flare Blitz          → 110.0-129.2% → OHKO!
+  ~Knock Off            →  60.0- 70.8% → 2HKO
+  ~U-turn               →  10.8- 12.3% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        77% ###############
+  switch                  9% #
+  attack_special          6% #
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Booster Energy)
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    leftovers ✓
+│ Tera:    ???
+│ Moves:   thunderpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: leftovers (expected Assault Vest)
+│   - Unexpected move: thunderpunch
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+  [ironhands] Unexpected item: leftovers (expected Assault Vest)
+  [ironhands] Unexpected move: thunderpunch
+
+── HP STATUS ──
+  Your fluttermane: 0% [FNT]
+  Opp incineroar: 5% 
+  Your bench: gholdengo(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%)
+  Opp bench: ~3 remaining

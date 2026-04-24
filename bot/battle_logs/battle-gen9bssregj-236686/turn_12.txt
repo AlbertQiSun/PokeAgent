@@ -1,0 +1,82 @@
+Battle: battle-gen9bssregj-236686
+Agent:  Gemini
+Turn:   12
+System: LLM
+Action: switch kingambit
+
+── REASONING ──
+My Incineroar has fainted, so I must send in a replacement. Kingambit is the best choice here to resist potential Dark-type moves and threaten the opponent's Incineroar with its superior offensive presence.
+
+── BATTLE CONTEXT ──
+=== TURN 12 ANALYSIS ===
+Your incineroar vs opponent's incineroar
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓flareblitz           →  25.9- 30.6% (resist)
+  ~Flare Blitz          →  25.9- 30.6% (resist)
+  ~Knock Off            →  14.1- 16.5% (resist)
+  ~U-turn               →  20.6- 24.1%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        61% ############
+  switch                 17% ###
+  attack_special         12% ##
+  attack_status          10% ##
+
+── SPEED CHECK ──
+  Speed tie: both 60 base (50/50)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy      64.9% HP) — neutral
+  calyrexice           (Psychic/Ice      70.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    Leftovers ✓
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Swords Dance
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your incineroar: 0% [FNT]
+  Opp incineroar: 82% 
+  Your bench: fluttermane(65%), calyrexice(70%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

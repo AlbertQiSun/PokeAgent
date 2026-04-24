@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-201817
+Agent:  Gemini
+Turn:   6
+System: LLM
+Action: move moonblast
+
+── REASONING ──
+Tornadus-Therian is at 9% HP, which is well within the range for Moonblast to secure a KO. Since I outspeed, I can finish the opponent off this turn.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your fluttermane vs opponent's tornadustherian
+
+── YOUR MOVES vs TORNADUSTHERIAN ──
+  moonblast            Fairy    SPECIAL  BP: 95 →  53.2- 63.0% (neutral) → 2HKO
+  shadowball           Ghost    SPECIAL  BP: 80 →  44.8- 53.2% (neutral) → 3HKO
+  mysticalfire         Fire     SPECIAL  BP: 75 →  27.9- 33.1% (neutral)
+  psyshock             Psychic  SPECIAL  BP: 80 →  29.9- 35.1% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓knockoff             →  34.6- 41.5% → 3HKO
+  ~Hurricane            →  40.0- 47.7% → 3HKO
+  ~Heat Wave            →  23.1- 27.7%
+  ~Knock Off            →  34.6- 41.5% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        71% ##############
+  attack_special         14% ##
+  attack_status           7% #
+  switch                  7% #
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > tornadustherian(121 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+  incineroar           (Fire/Dark        58.4% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Hurricane, ~Heat Wave, ~Knock Off
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your fluttermane: 22% 
+  Opp tornadustherian: 9% 
+  Your bench: calyrexice(100%), incineroar(58%), amoonguss(100%), kingambit(100%), tornadustherian(100%)
+  Opp bench: ~4 remaining

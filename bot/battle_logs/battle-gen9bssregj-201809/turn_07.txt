@@ -1,0 +1,91 @@
+Battle: battle-gen9bssregj-201809
+Agent:  Gemini
+Turn:   7
+System: LLM
+Action: move moonblast
+
+── REASONING ──
+I outspeed Tornadus-Therian and Moonblast is a guaranteed 2HKO, whereas their best move against me is a 3HKO. Staying in to secure the KO is the optimal play according to the priority list.
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your fluttermane vs opponent's tornadustherian
+
+── YOUR MOVES vs TORNADUSTHERIAN ──
+  moonblast            Fairy    SPECIAL  BP: 95 →  53.2- 63.0% (neutral) → 2HKO
+  shadowball           Ghost    SPECIAL  BP: 80 →  44.8- 53.2% (neutral) → 3HKO
+  mysticalfire         Fire     SPECIAL  BP: 75 →  27.9- 33.1% (neutral)
+  psyshock             Psychic  SPECIAL  BP: 80 →  29.9- 35.1% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓knockoff             →  34.6- 41.5% → 3HKO
+  ~Hurricane            →  40.0- 47.7% → 3HKO
+  ~Heat Wave            →  23.1- 27.7%
+  ~Knock Off            →  34.6- 41.5% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        41% ########
+  attack_status          25% #####
+  attack_special         19% ###
+  switch                 14% ##
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > tornadustherian(121 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice      34.8% HP) — SE STAB
+  incineroar           (Fire/Dark        60.9% HP) — neutral
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 100% — best: moonblast (neutral)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    Leftovers ✓
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Hurricane, ~Heat Wave, ~Knock Off
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your fluttermane: 71% 
+  Opp tornadustherian: 52% 
+  Your bench: calyrexice(35%), incineroar(61%), kingambit(100%), chienpao(100%), amoonguss(100%)
+  Opp bench: ~4 remaining

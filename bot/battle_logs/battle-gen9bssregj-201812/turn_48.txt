@@ -1,0 +1,93 @@
+Battle: battle-gen9bssregj-201812
+Agent:  Gemini
+Turn:   48
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Amoonguss is guaranteed to be OHKO'd by Flare Blitz, and switching to Incineroar provides a Fire-type resistance to safely absorb the hit while maintaining momentum.
+
+── BATTLE CONTEXT ──
+=== TURN 48 ANALYSIS ===
+Your amoonguss vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  pollenpuff           Bug      SPECIAL  BP: 90 →  19.4- 22.9% (neutral)
+  ragepowder           Bug      STATUS   BP:  0 pri=2 →   0.0-  0.0% (neutral)
+  protect              Normal   STATUS   BP:  0 pri=4 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs AMOONGUSS ──
+  ✓flareblitz           → 119.6-140.7% (SE) → OHKO!
+  ~Flare Blitz          → 119.6-140.7% (SE) → OHKO!
+  ~Knock Off            →  32.8- 38.6% → 3HKO
+  ~U-turn               →  23.3- 27.5%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        63% ############
+  attack_special         15% ##
+  switch                 11% ##
+  attack_status          10% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: incineroar(60 base) > amoonguss(30 base)
+  Priority moves available: ragepowder, protect
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark        18.3% HP) — resists STAB
+  calyrexice           (Psychic/Ice      70.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   psyshock ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected move: psyshock
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected move: psyshock
+
+── HP STATUS ──
+  Your amoonguss: 52% 
+  Opp incineroar: 51% 
+  Your bench: incineroar(18%), calyrexice(70%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

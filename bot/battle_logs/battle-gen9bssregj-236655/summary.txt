@@ -1,0 +1,27 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236655
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   10
+Logged:  12 decisions
+Our team: calyrexice, garganacl, dragonite, urshifurapidstrike, rillaboom, tornadustherian
+Opp team: incineroar, tornadustherian, urshifurapidstrike
+
+Routing: S1=12 (100%) S2=0 (0%)
+
+Turn-by-turn:
+  T 1: /choose move glaciallance terastallize [S1] (71%)
+  T 2: /choose move glaciallance      [S1] (60%)
+  T 3: /choose move glaciallance      [S1] (51%)
+  T 4: /choose move glaciallance      [S1] (51%)
+  T 4: /choose switch Urshifu         [S1] (57%)
+  T 5: /choose move surgingstrikes    [S1] (96%)
+  T 6: /choose move surgingstrikes    [S1] (100%)
+  T 7: /choose move surgingstrikes    [S1] (100%)
+  T 8: /choose move surgingstrikes    [S1] (100%)
+  T 9: /choose move surgingstrikes    [S1] (100%)
+  T 9: /choose switch Dragonite       [S1] (100%)
+  T10: /choose move dragonclaw        [S1] (61%)
+
+Timestamp: 2026-04-20T12:39:26.838620

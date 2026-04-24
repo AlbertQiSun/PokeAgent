@@ -1,0 +1,24 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236669
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   7
+Logged:  9 decisions
+Our team: incineroar, calyrexice, ironhands, dragonite, rillaboom, chiyu
+Opp team: urshifurapidstrike, fluttermane, rillaboom
+
+Routing: S1=9 (100%) S2=0 (0%)
+
+Turn-by-turn:
+  T 1: /choose move glaciallance terastallize [S1] (70%)
+  T 2: /choose move glaciallance      [S1] (48%)
+  T 3: /choose move glaciallance      [S1] (53%)
+  T 4: /choose move glaciallance      [S1] (41%)
+  T 4: /choose switch Incineroar      [S1] (54%)
+  T 5: /choose move flareblitz        [S1] (62%)
+  T 6: /choose move flareblitz        [S1] (55%)
+  T 6: /choose switch Rillaboom       [S1] (100%)
+  T 7: /choose move woodhammer        [S1] (53%)
+
+Timestamp: 2026-04-20T12:40:01.270341

@@ -1,0 +1,144 @@
+{
+  "battle_tag": "battle-gen9bssregj-236690",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 11,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 15,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "chienpao",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "incineroar",
+    "ironhands",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at a significant disadvantage against Incineroar due to Intimidate and the speed difference. Switching to my own Incineroar allows me to neutralize the opponent's physical attackers with Intimidate and gain momentum."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since both Incineroars resist each other's primary STAB moves, Parting Shot is the best way to gain momentum, lower the opponent's stats, and bring in a more threatening sweeper while keeping my Incineroar healthy."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move knock off",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since we are in a speed tie and the opponent's Incineroar is likely to stay in or pivot, Knock Off is the safest play to remove their item and chip them down without taking the heavy recoil of Flare Blitz."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is threatened with an OHKO by Flare Blitz and cannot secure a KO this turn, so switching to Incineroar provides a safe defensive pivot that resists the predicted Fire-type attack."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since both Incineroars are at a stalemate and Flare Blitz recoil is unfavorable, Parting Shot allows me to pivot out safely, lower the opponent's stats, and bring in a more offensive threat to gain momentum."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 64% and Iron Hands' Drain Punch is a guaranteed 2HKO, meaning Incineroar will be KO'd before it can act effectively. Switching to Flutter Mane provides an immunity to Drain Punch and threatens Iron Hands with super-effective STAB moves."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO, fulfilling the primary decision priority."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Rillaboom threatens an OHKO with Wood Hammer or Drum Beating, and Flutter Mane cannot secure a guaranteed OHKO. Switching to Incineroar provides a safe resist to Rillaboom's STAB moves and allows for an Intimidate drop to neutralize the threat."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Rillaboom, removing a significant threat from the field immediately regardless of whether the opponent stays in or switches."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 10% HP and will likely be KO'd by any attack; Parting Shot allows me to pivot safely to a healthy teammate while lowering the opponent's offensive stats."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar has fainted, so I must send in a new Pokemon. Calyrex-Ice is a strong offensive threat that can handle the opponent's Incineroar and pressure the rest of their team."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO on Incineroar and forces them to either switch or risk losing their primary pivot. Since I am at 100% HP, I can survive a Flare Blitz and secure the 2HKO next turn."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 8% HP and will be knocked out by High Horsepower, which is a guaranteed 2HKO even at full health. Since I outspeed or survive the next hit, securing the KO now is the priority."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Flutter Mane is the best choice to outspeed and potentially finish off the weakened Incineroar."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens an OHKO with Flare Blitz and Flutter Mane cannot secure the KO this turn. Switching to Kingambit provides a safe defensive pivot that resists Incineroar's primary STAB moves."
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "battle_tag": "battle-gen9bssregj-236648",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 9,
+  "s1_count": 7,
+  "s2_count": 3,
+  "llm_count": 3,
+  "our_team": [
+    "urshifurapidstrike",
+    "rillaboom",
+    "tornadustherian",
+    "incineroar",
+    "calyrexice",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "tornadustherian",
+    "rillaboom",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.4061979353427887,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [
+        "PPO uncertainty: best action only 38% confidence (threshold 40%, entropy=1.69)"
+      ],
+      "reasoning": "Since we are in a speed tie and Hurricane is a 2HKO, attacking is the optimal play to secure momentum or force the opponent to switch, as switching out would concede the speed tie advantage."
+    },
+    {
+      "turn": 3,
+      "system": "S2",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [
+        "PPO uncertainty: best action only 36% confidence (threshold 40%, entropy=1.72)"
+      ],
+      "reasoning": "Since I have a 50/50 speed tie and Hurricane is a guaranteed 2HKO on the opponent, attacking is the optimal play to secure the KO before they can retaliate, especially since I am at a higher HP percentage."
+    },
+    {
+      "turn": 4,
+      "system": "S2",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [
+        "PPO uncertainty: best action only 34% confidence (threshold 40%, entropy=1.72)"
+      ],
+      "reasoning": "The opponent's Tornadus-Therian is at 13% HP, putting it well within the KO range of my Hurricane (50-59%). Even if I lose the speed tie, the opponent's Hurricane is not guaranteed to OHKO my 52% HP Tornadus, making this the optimal aggressive play to secure the KO."
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move hurricane terastallize",
+      "confidence": 0.5325831770896912,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.6099251508712769,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.6024421453475952,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose switch Calyrex",
+      "confidence": 0.6721870303153992,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.8237537145614624,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.7309198379516602,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

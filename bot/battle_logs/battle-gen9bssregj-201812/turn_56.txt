@@ -1,0 +1,92 @@
+Battle: battle-gen9bssregj-201812
+Agent:  Gemini
+Turn:   56
+System: LLM
+Action: move pollenpuff
+
+── REASONING ──
+Incineroar is at 7% HP and is well within range of Pollen Puff for a KO. Even if Incineroar uses Flare Blitz, taking the KO now removes a major threat and prevents further pivoting.
+
+── BATTLE CONTEXT ──
+=== TURN 56 ANALYSIS ===
+Your amoonguss vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  pollenpuff           Bug      SPECIAL  BP: 90 →  19.4- 22.9% (neutral)
+  ragepowder           Bug      STATUS   BP:  0 pri=2 →   0.0-  0.0% (neutral)
+  protect              Normal   STATUS   BP:  0 pri=4 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs AMOONGUSS ──
+  ✓flareblitz           → 119.6-140.7% (SE) → OHKO!
+  ~Flare Blitz          → 119.6-140.7% (SE) → OHKO!
+  ~Knock Off            →  32.8- 38.6% → 3HKO
+  ~U-turn               →  23.3- 27.5%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        31% ######
+  attack_status          29% #####
+  attack_special         25% ####
+  switch                 15% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: incineroar(60 base) > amoonguss(30 base)
+  Priority moves available: ragepowder, protect
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice      70.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   psyshock ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected move: psyshock
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected move: psyshock
+
+── HP STATUS ──
+  Your amoonguss: 86% 
+  Opp incineroar: 7% 
+  Your bench: calyrexice(70%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

@@ -1,0 +1,88 @@
+{
+  "battle_tag": "battle-gen9bssregj-201841",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 8,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "chienpao",
+    "kingambit",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "ironhands",
+    "fluttermane",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and provides the best damage output against Iron Hands. Since Iron Hands cannot OHKO Calyrex-Ice, staying in to secure the 2HKO is the optimal play."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and deals significantly more damage than Glacial Lance due to the type advantage against Iron Hands. Since Iron Hands is at 30% HP, this move will secure the KO this turn."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 13% HP and will be KO'd by any of Flutter Mane's moves before it can attack. Switching to Incineroar allows me to safely absorb the special attack and potentially use Intimidate or pivot to maintain momentum."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a major offensive threat immediately. Since I have a guaranteed KO, I must take it rather than switching or using a weaker move."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on the Flutter Mane, which has only 4% HP remaining. This secures the KO and removes the immediate threat."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 19% HP and will be KO'd by almost any move from Rillaboom. Since Flare Blitz is a guaranteed OHKO, taking the trade is the optimal play to remove a major threat from the opponent's team."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar has fainted, so I must send in a new Pokemon. Flutter Mane is the best choice to pressure Rillaboom with its high speed and STAB Fairy moves."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move mysticalfire",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Rillaboom and Mystical Fire is a guaranteed OHKO, allowing me to remove the threat before it can use its high-damage physical moves."
+    }
+  ]
+}

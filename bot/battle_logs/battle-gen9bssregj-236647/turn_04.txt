@@ -1,0 +1,85 @@
+Battle: battle-gen9bssregj-236647
+Agent:  Hybrid
+Turn:   4
+System: S1
+Confidence: 62%
+Action: /choose move surgingstrikes terastallize
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your urshifurapidstrike vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  79.4- 93.5% x3 (2x SE) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ~Flare Blitz          →  22.3- 26.9% (resist)
+  ~Knock Off            →  12.6- 14.9% (resist)
+  ~U-turn               →   8.6- 10.3% (resist)
+  ~Fake Out             →  10.3- 12.6%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        42% ########
+  attack_status          23% ####
+  attack_special         22% ####
+  switch                  9% #
+
+── SPEED CHECK ──
+  You outspeed: urshifurapidstrike(97 base) > incineroar(60 base)
+
+── OPPONENT BENCH THREATS ──
+  fluttermane          (Ghost/Fairy) 100% — best: surgingstrikes (neutral)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your urshifurapidstrike: 100% 
+  Opp incineroar: 26% 
+  Your bench: annihilape(100%), ironhands(100%), tornadustherian(100%)
+  Opp bench: ~5 remaining

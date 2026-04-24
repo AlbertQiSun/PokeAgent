@@ -1,0 +1,90 @@
+Battle: battle-gen9bssregj-236684
+Agent:  Gemini
+Turn:   9
+System: LLM
+Action: move hurricane
+
+── REASONING ──
+The opponent's Tornadus-Therian is at 15% HP, meaning Hurricane is a guaranteed KO. Since I win the speed tie or lose it, attacking is the only way to secure the win this turn.
+
+── BATTLE CONTEXT ──
+=== TURN 9 ANALYSIS ===
+Your tornadustherian vs opponent's tornadustherian
+
+── YOUR MOVES vs TORNADUSTHERIAN ──
+  hurricane            Flying   SPECIAL  BP:110 →  50.0- 59.1% (neutral) → 2HKO
+  heatwave             Fire     SPECIAL  BP: 95 →  29.2- 34.4% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  20.8- 24.0% (neutral)
+  uturn                Bug      PHYSICAL BP: 70 →  11.0- 13.0% (resist)
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓knockoff             →  20.8- 24.0%
+  ✓heatwave             →  29.2- 34.4%
+  ~Hurricane            →  50.0- 59.1% → 2HKO
+  ~Heat Wave            →  29.2- 34.4%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         36% #######
+  attack_physical        29% #####
+  attack_status          18% ###
+  switch                 16% ###
+
+── SPEED CHECK ──
+  Speed tie: both 121 base (50/50)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   knockoff ✓, heatwave ✓, ~Hurricane, ~Heat Wave
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your tornadustherian: 61% 
+  Opp tornadustherian: 15% 
+  Your bench: incineroar(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~3 remaining

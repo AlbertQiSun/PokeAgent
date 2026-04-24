@@ -1,0 +1,92 @@
+Battle: battle-gen9bssregj-236678
+Agent:  Gemini
+Turn:   11
+System: LLM
+Action: move flare blitz
+
+── REASONING ──
+Incineroar resists Rillaboom's primary STAB moves and Flare Blitz is a guaranteed 2HKO or better, allowing me to win the trade while Rillaboom is forced to stay in.
+
+── BATTLE CONTEXT ──
+=== TURN 11 ANALYSIS ===
+Your incineroar vs opponent's rillaboom
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ~Wood Hammer          →  42.4- 49.4% (resist) → 3HKO
+  ~Drum Beating         →  28.2- 33.5% (resist)
+  ~U-turn               →  33.5- 39.4% → 3HKO
+  ~Knock Off            →  15.3- 18.2% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        56% ###########
+  attack_special         14% ##
+  setup                  14% ##
+  switch                 11% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice      28.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   heavyslam ✓, drainpunch ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+│   - Unexpected move: heavyslam
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   aquajet ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+  [ironhands] Unexpected move: heavyslam
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your incineroar: 73% 
+  Opp rillaboom: 100% 
+  Your bench: calyrexice(28%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

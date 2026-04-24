@@ -1,0 +1,26 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236647
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   9
+Logged:  11 decisions
+Our team: annihilape, ironhands, fluttermane, urshifurapidstrike, rillaboom, tornadustherian
+Opp team: fluttermane, incineroar, rillaboom
+
+Routing: S1=11 (100%) S2=0 (0%)
+
+Turn-by-turn:
+  T 1: /choose move moonblast         [S1] (68%)
+  T 1: /choose switch Rillaboom       [S1] (57%)
+  T 2: /choose move drumbeating       [S1] (48%)
+  T 2: /choose switch Urshifu         [S1] (100%)
+  T 3: /choose move surgingstrikes    [S1] (54%)
+  T 4: /choose move surgingstrikes terastallize [S1] (62%)
+  T 5: /choose move surgingstrikes    [S1] (100%)
+  T 6: /choose move surgingstrikes    [S1] (100%)
+  T 7: /choose move surgingstrikes    [S1] (95%)
+  T 8: /choose move surgingstrikes    [S1] (93%)
+  T 9: /choose move surgingstrikes    [S1] (90%)
+
+Timestamp: 2026-04-20T12:39:05.722689

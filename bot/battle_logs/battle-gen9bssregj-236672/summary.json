@@ -1,0 +1,111 @@
+{
+  "battle_tag": "battle-gen9bssregj-236672",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 8,
+  "s1_count": 7,
+  "s2_count": 3,
+  "llm_count": 3,
+  "our_team": [
+    "fluttermane",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "calyrexice",
+    "incineroar"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "fluttermane",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane terastallize",
+      "confidence": 0.554460883140564,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.4788392186164856,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.45475664734840393,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S2",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [
+        "[fluttermane] Unexpected item: lifeorb (expected Booster Energy)",
+        "[fluttermane] Unexpected move: thunderbolt"
+      ],
+      "reasoning": "Tornadus-Therian has already fainted, so I must bring in Incineroar to safely pivot or threaten the Life Orb Flutter Mane with its bulk and Intimidate."
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move flareblitz",
+      "confidence": 0.8040688037872314,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S2",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [
+        "PPO uncertainty: best action only 36% confidence (threshold 40%, entropy=1.38)"
+      ],
+      "reasoning": "Since both Incineroars resist each other's primary STABs and are in a speed tie, Parting Shot is the optimal play to lower the opponent's stats and gain momentum by bringing in a teammate to force progress."
+    },
+    {
+      "turn": 5,
+      "system": "S2",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [
+        "[incineroar] Unexpected move: earthquake"
+      ],
+      "reasoning": "My Incineroar is at 19% and will be KOed by the opponent's Earthquake; switching to Calyrex-Ice preserves my Incineroar's Intimidate utility for later while safely tanking the predicted Earthquake."
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.8283839225769043,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.7642570734024048,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.6797608733177185,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

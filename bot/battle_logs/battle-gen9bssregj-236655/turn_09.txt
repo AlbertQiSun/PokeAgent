@@ -1,0 +1,78 @@
+Battle: battle-gen9bssregj-236655
+Agent:  Hybrid
+Turn:   9
+System: S1
+Confidence: 100%
+Action: /choose switch Dragonite
+
+── BATTLE CONTEXT ──
+=== TURN 9 ANALYSIS ===
+Your urshifurapidstrike vs opponent's urshifurapidstrike
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ✓uturn                →   9.7- 12.0% (resist)
+  ✓closecombat          →  51.4- 60.0% → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        72% ##############
+  switch                 17% ###
+  attack_special          8% #
+
+── SPEED CHECK ──
+  Speed tie: both 97 base (50/50)
+
+── SWITCH OPTIONS ──
+  dragonite            (Dragon/Flying   100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, knockoff ✓, ~Flare Blitz, ~Knock Off
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   uturn ✓, closecombat ✓, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your urshifurapidstrike: 0% [FNT]
+  Opp urshifurapidstrike: 6% 
+  Your bench: garganacl(100%), dragonite(100%), rillaboom(100%), tornadustherian(100%)
+  Opp bench: ~3 remaining

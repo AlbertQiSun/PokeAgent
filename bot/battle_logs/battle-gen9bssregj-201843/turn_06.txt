@@ -1,0 +1,90 @@
+Battle: battle-gen9bssregj-201843
+Agent:  Gemini
+Turn:   6
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Flutter Mane is at 28% and will be OHKOed by Rillaboom's Wood Hammer or Drum Beating. Switching to Incineroar provides a safe pivot that resists Rillaboom's STAB moves and can threaten with Intimidate.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your fluttermane vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  moonblast            Fairy    SPECIAL  BP: 95 →  60.0- 70.3% (neutral) → 2HKO
+  shadowball           Ghost    SPECIAL  BP: 80 →  50.9- 59.4% (neutral) → 2HKO
+  mysticalfire         Fire     SPECIAL  BP: 75 →  63.4- 74.9% (2x SE) → 2HKO
+  psyshock             Psychic  SPECIAL  BP: 80 →  33.7- 39.4% (neutral) → 3HKO
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ~Wood Hammer          → 179.2-210.8% → OHKO!
+  ~Drum Beating         → 120.0-141.5% → OHKO!
+  ~U-turn               →  16.9- 20.8% (resist)
+  ~Knock Off            →  65.4- 76.9% → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        51% ##########
+  setup                  37% #######
+  attack_special          8% #
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > rillaboom(85 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+  incineroar           (Fire/Dark       100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Hurricane, ~Heat Wave, ~Knock Off
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your fluttermane: 28% 
+  Opp rillaboom: 100% 
+  Your bench: calyrexice(100%), incineroar(100%), chienpao(100%), kingambit(100%), amoonguss(100%)
+  Opp bench: ~3 remaining

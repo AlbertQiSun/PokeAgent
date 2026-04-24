@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-236662
+Agent:  Hybrid
+Turn:   8
+System: S1
+Confidence: 47%
+Action: /choose move dragonclaw
+
+── BATTLE CONTEXT ──
+=== TURN 8 ANALYSIS ===
+Your dragonite vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  extremespeed         Normal   PHYSICAL BP: 80 pri=2 →  16.6- 19.7% (neutral)
+  dragonclaw           Dragon   PHYSICAL BP: 80 →  25.3- 29.7% (neutral)
+  firepunch            Fire     PHYSICAL BP: 75 →  15.7- 18.3% (neutral)
+  icepunch             Ice      PHYSICAL BP: 75 →  15.7- 18.3% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs DRAGONITE ──
+  ✓wildcharge           →  60.2- 70.5% → 2HKO
+  ✓drainpunch           →  24.7- 29.5% (resist)
+  ~Drain Punch          →  24.7- 29.5% (resist)
+  ~Wild Charge          →  60.2- 70.5% → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 49% #########
+  attack_physical        47% #########
+
+── SPEED CHECK ──
+  You outspeed: dragonite(80 base) > ironhands(50 base)
+  Priority moves available: extremespeed
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   knockoff ✓, flareblitz ✓, ~Flare Blitz, ~Knock Off
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   wildcharge ✓, drainpunch ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your dragonite: 33% 
+  Opp ironhands: 57% 
+  Your bench: ironhands(100%), rillaboom(100%), incineroar(100%)
+  Opp bench: ~3 remaining

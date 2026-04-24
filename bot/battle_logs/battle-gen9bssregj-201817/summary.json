@@ -1,0 +1,104 @@
+{
+  "battle_tag": "battle-gen9bssregj-201817",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 9,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 10,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "amoonguss",
+    "kingambit",
+    "fluttermane",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "urshifurapidstrike",
+    "tornadustherian",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is significantly slower than Urshifu-Rapid and takes heavy damage from its STAB moves. Switching to Incineroar allows me to utilize Intimidate to weaken Urshifu's physical attacks and gain momentum."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is threatened with an OHKO by Urshifu-Rapid-Strike's Close Combat. Switching to Flutter Mane provides an immunity to Fighting-type moves, forcing the opponent to switch or risk wasting their turn."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed OHKO on Urshifu-Rapid-Strike, and since I outspeed, I can secure the knockout before the opponent can act."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Tornadus-Therian and Moonblast is a guaranteed 2HKO, while their attacks cannot OHKO me. Staying in to secure the KO is the optimal play according to the priority list."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Tornadus-Therian and Moonblast is a guaranteed 2HKO, whereas their best move against me is a 3HKO. Staying in to secure the KO is the optimal play according to the priority list."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 9% HP, which is well within the range for Moonblast to secure a KO. Since I outspeed, I can finish the opponent off this turn."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is at 22% and will be OHKOed by any of Rillaboom's STAB attacks. Switching to Incineroar provides an Intimidate drop and a resistance to Rillaboom's primary moves, allowing me to survive the turn and maintain momentum."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Rillaboom, fulfilling the primary decision priority of securing a KO when available."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar has fainted, so I must send in a new Pokemon. Tornadus-Therian is a safe pivot that resists Rillaboom's Wood Hammer and can threaten it with Hurricane or pivot out with U-turn."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Rillaboom, fulfilling the primary decision priority to secure the KO immediately."
+    }
+  ]
+}

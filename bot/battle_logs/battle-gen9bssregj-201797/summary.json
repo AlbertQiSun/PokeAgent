@@ -1,0 +1,112 @@
+{
+  "battle_tag": "battle-gen9bssregj-201797",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 8,
+  "s1_count": 7,
+  "s2_count": 3,
+  "llm_count": 3,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "ironhands",
+    "gholdengo"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9997739791870117,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [
+        "[fluttermane] Unexpected item: lifeorb (expected Booster Energy)",
+        "[fluttermane] Unexpected move: thunderbolt"
+      ],
+      "reasoning": "Tornadus-Therian is at 35% and faces a high probability of being OHKOed by Thunderbolt or Moonblast from a Life Orb Flutter Mane. Switching to my own Flutter Mane allows me to outspeed and threaten a KO or force a switch, preserving Tornadus for potential utility later."
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999976754188538,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Tornadus",
+      "confidence": 0.987000048160553,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999983906745911,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999963045120239,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S2",
+      "action": "switch urshifurapidstrike",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: leftovers (expected Assault Vest)",
+        "[ironhands] Unexpected move: thunderpunch"
+      ],
+      "reasoning": "Tornadus-Therian is already fainted (0% HP), so I must bring in Urshifu-Rapid-Strike to handle the Iron Hands, as it resists Ice Punch and Drain Punch while threatening neutral damage."
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999993443489075,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999991059303284,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S2",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [
+        "[gholdengo] Unexpected item: airballoon (expected Choice Scarf)"
+      ],
+      "reasoning": "Urshifu-Rapid is at 7% and will be KOed by any move from Gholdengo; switching to Incineroar allows me to safely pivot or threaten Gholdengo while preserving my remaining team members."
+    }
+  ]
+}

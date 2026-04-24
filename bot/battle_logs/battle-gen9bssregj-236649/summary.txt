@@ -1,0 +1,27 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236649
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   8
+Logged:  9 decisions
+Our team: dragonite, rillaboom, urshifurapidstrike, tornadustherian, calyrexice, incineroar
+Opp team: fluttermane, urshifurapidstrike, tornadustherian
+
+Routing: S1=8 (89%) S2=1 (11%)
+
+Surprises (1 total):
+  - PPO uncertainty: best action only 39% confidence (threshold 40%, entropy=1.47)
+
+Turn-by-turn:
+  T 1: /choose move glaciallance terastallize [S1] (45%)
+  T 2: /choose move glaciallance      [S1] (55%)
+  T 3: switch rillaboom               [S2] !
+  T 4: /choose move drumbeating       [S1] (65%)
+  T 5: /choose move drumbeating       [S1] (63%)
+  T 6: /choose move drumbeating       [S1] (53%)
+  T 6: /choose switch Calyrex         [S1] (80%)
+  T 7: /choose move highhorsepower    [S1] (54%)
+  T 8: /choose move heavyslam         [S1] (45%)
+
+Timestamp: 2026-04-20T12:39:13.143090

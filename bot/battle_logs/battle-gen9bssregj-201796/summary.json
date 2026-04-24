@@ -1,0 +1,109 @@
+{
+  "battle_tag": "battle-gen9bssregj-201796",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 8,
+  "s1_count": 8,
+  "s2_count": 2,
+  "llm_count": 2,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "ironhands"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.999998927116394,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "switch gholdengo",
+      "confidence": -1,
+      "surprises": [
+        "[fluttermane] Unexpected item: lifeorb (expected Booster Energy)",
+        "[fluttermane] Unexpected move: thunderbolt"
+      ],
+      "reasoning": "Tornadus-Therian is at 39% HP and faces a guaranteed OHKO/2HKO from Life Orb Thunderbolt, while being unable to secure a KO itself. Switching to Gholdengo provides a crucial immunity to Ghost-type moves and resistance to Fairy-type attacks, effectively neutralizing Flutter Mane's offensive pressure."
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move makeitrain",
+      "confidence": 0.9999975562095642,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Tornadus",
+      "confidence": 0.9875496625900269,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999983906745911,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.999994695186615,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.999998927116394,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999998211860657,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S2",
+      "action": "switch rillaboom",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: leftovers (expected Assault Vest)",
+        "[ironhands] Unexpected move: thunderpunch"
+      ],
+      "reasoning": "Urshifu-Rapid is at 1% HP and will be KOed by any move from Iron Hands; switching to Rillaboom preserves Urshifu for a potential priority revenge kill later while checking the Electric-type Iron Hands."
+    }
+  ]
+}

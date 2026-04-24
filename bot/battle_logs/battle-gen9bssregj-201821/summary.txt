@@ -1,0 +1,67 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201821
+==================================================
+Agent:   Gemini
+Result:  WIN
+Turns:   46
+Logged:  54 decisions
+Our team: incineroar, fluttermane, calyrexice, amoonguss, kingambit, chienpao
+Opp team: rillaboom, urshifurapidstrike, incineroar
+
+Turn-by-turn:
+  T 1: move flareblitz                [LLM]
+  T 2: switch amoonguss               [LLM]
+  T 3: move spore                     [LLM]
+  T 4: move spore                     [LLM]
+  T 5: move spore                     [LLM]
+  T 6: move spore                     [LLM]
+  T 7: switch incineroar              [LLM]
+  T 8: move partingshot               [LLM]
+  T 8: move knock off                 [LLM]
+  T 9: switch incineroar              [LLM]
+  T10: move partingshot               [LLM]
+  T10: switch amoonguss               [LLM]
+  T11: move spore                     [LLM]
+  T12: move spore                     [LLM]
+  T13: move spore                     [LLM]
+  T14: move spore                     [LLM]
+  T15: move spore                     [LLM]
+  T16: move spore                     [LLM]
+  T17: move spore                     [LLM]
+  T18: move spore                     [LLM]
+  T19: move spore                     [LLM]
+  T20: switch incineroar              [LLM]
+  T21: move partingshot               [LLM]
+  T21: move knock off                 [LLM]
+  T22: switch incineroar              [LLM]
+  T23: move partingshot               [LLM]
+  T23: switch amoonguss               [LLM]
+  T24: move spore                     [LLM]
+  T25: move spore                     [LLM]
+  T26: move spore                     [LLM]
+  T27: move spore                     [LLM]
+  T28: move spore                     [LLM]
+  T29: move spore                     [LLM]
+  T30: move spore                     [LLM]
+  T31: move spore                     [LLM]
+  T32: move spore                     [LLM]
+  T33: move spore                     [LLM]
+  T34: move spore                     [LLM]
+  T35: move protect                   [LLM]
+  T36: move protect                   [LLM]
+  T37: move protect                   [LLM]
+  T38: switch incineroar              [LLM]
+  T39: move partingshot               [LLM]
+  T39: switch amoonguss               [LLM]
+  T40: switch incineroar              [LLM]
+  T41: move partingshot               [LLM]
+  T41: switch amoonguss               [LLM]
+  T42: switch incineroar              [LLM]
+  T43: move partingshot               [LLM]
+  T43: switch amoonguss               [LLM]
+  T44: switch incineroar              [LLM]
+  T45: move partingshot               [LLM]
+  T45: switch calyrexice              [LLM]
+  T46: move highhorsepower            [LLM]
+
+Timestamp: 2026-04-20T10:33:18.946956

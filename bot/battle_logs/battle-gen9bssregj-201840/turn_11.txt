@@ -1,0 +1,85 @@
+Battle: battle-gen9bssregj-201840
+Agent:  Gemini
+Turn:   11
+System: LLM
+Action: switch amoonguss
+
+── REASONING ──
+Calyrex-Ice is at 44% and will be KOed by Close Combat if it stays in, while Amoonguss resists Urshifu's STAB moves and can safely pivot into the attack.
+
+── BATTLE CONTEXT ──
+=== TURN 11 ANALYSIS ===
+Your calyrexice vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  glaciallance         Ice      PHYSICAL BP:120 →  32.0- 37.7% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  34.3- 40.0% (neutral) → 3HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  22.9- 26.9% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓closecombat          →  34.3- 40.6% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        51% ##########
+  switch                 18% ###
+  attack_special         17% ###
+  setup                  12% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark       100.0% HP) — neutral
+  amoonguss            (Grass/Poison    100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your calyrexice: 44% 
+  Opp urshifurapidstrike: 100% [SLP]
+  Your bench: incineroar(100%), fluttermane(100%), amoonguss(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~4 remaining

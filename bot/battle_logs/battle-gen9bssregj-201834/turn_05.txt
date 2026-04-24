@@ -1,0 +1,84 @@
+Battle: battle-gen9bssregj-201834
+Agent:  Gemini
+Turn:   5
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Flutter Mane is threatened with an OHKO by Flare Blitz and cannot secure a KO this turn. Switching to Incineroar provides a safe resistance to Fire-type moves and allows for Intimidate support to mitigate physical pressure.
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your fluttermane vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  moonblast            Fairy    SPECIAL  BP: 95 →  72.4- 85.3% (neutral) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ~Flare Blitz          → 110.0-129.2% → OHKO!
+  ~Knock Off            →  60.0- 70.8% → 2HKO
+  ~U-turn               →  10.8- 12.3% (resist)
+  ~Fake Out             →   0.0-  0.0% (IMMUNE)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        37% #######
+  attack_special         32% ######
+  attack_status          25% ####
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+  incineroar           (Fire/Dark        56.9% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your fluttermane: 100% 
+  Opp incineroar: 100% 
+  Your bench: calyrexice(100%), incineroar(57%), kingambit(100%), tornadustherian(100%), amoonguss(100%)
+  Opp bench: ~3 remaining

@@ -1,0 +1,90 @@
+Battle: battle-gen9bssregj-236677
+Agent:  Gemini
+Turn:   11
+System: LLM
+Action: move highhorsepower
+
+── REASONING ──
+High Horsepower is a 2HKO on Iron Hands and provides the best damage output. Since Iron Hands is likely to switch or use a weak move, staying in to pressure the opponent is the optimal play.
+
+── BATTLE CONTEXT ──
+=== TURN 11 ANALYSIS ===
+Your calyrexice vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  glaciallance         Ice      PHYSICAL BP:120 →  45.9- 54.1% (neutral) → 2HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  48.5- 57.2% (2x SE) → 2HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  32.8- 38.4% (neutral) → 3HKO
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓fakeout              →   8.6- 10.3%
+  ✓wildcharge           →  28.0- 33.1%
+  ~Drain Punch          →  23.4- 28.0%
+  ~Wild Charge          →  28.0- 33.1%
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 73% ##############
+  attack_physical        25% #####
+
+── SPEED CHECK ──
+  Speed tie: both 50 base (50/50)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark       100.0% HP) — neutral
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 47% — best: highhorsepower (SE)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Locked:  NOT Choice-locked (3 moves seen)
+│ Tera:    ???
+│ Moves:   knockoff ✓, partingshot ✓, fakeout ✓, ~Flare Blitz
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    Booster Energy ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   fakeout ✓, wildcharge ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your calyrexice: 76% 
+  Opp ironhands: 65% 
+  Your bench: incineroar(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

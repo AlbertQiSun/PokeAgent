@@ -1,0 +1,84 @@
+Battle: battle-gen9bssregj-201752
+Agent:  Hybrid
+Turn:   6
+System: S1
+Confidence: 99%
+Action: /choose switch Tornadus
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your fluttermane vs opponent's ironhands
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓fakeout              →   0.0-  0.0% (IMMUNE)
+  ✓wildcharge           → 130.8-153.8% → OHKO!
+  ~Drain Punch          →   0.0-  0.0% (IMMUNE)
+  ~Wild Charge          → 130.8-153.8% → OHKO!
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        54% ##########
+  switch                 44% ########
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > ironhands(50 base)
+
+── SWITCH OPTIONS ──
+  tornadustherian      (Flying           58.1% HP) — resists STAB
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   fakeout ✓, wildcharge ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your fluttermane: 0% [FNT]
+  Opp ironhands: 28% 
+  Your bench: gholdengo(100%), rillaboom(100%), tornadustherian(58%), urshifurapidstrike(100%), incineroar(100%)
+  Opp bench: ~5 remaining

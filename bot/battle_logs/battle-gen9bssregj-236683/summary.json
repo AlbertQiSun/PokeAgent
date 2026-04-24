@@ -1,0 +1,232 @@
+{
+  "battle_tag": "battle-gen9bssregj-236683",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 25,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 26,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "amoonguss",
+    "kingambit",
+    "chienpao"
+  ],
+  "opp_team": [
+    "urshifurapidstrike",
+    "rillaboom",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is threatened with an OHKO by Close Combat or a 2HKO by Surging Strikes. Switching to Amoonguss provides a safe resistance to Urshifu's Water-type STAB moves and allows me to scout the opponent's next move while maintaining defensive momentum."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid Strike is highly likely to attack, and Spore is the most effective way to neutralize it immediately. Since Amoonguss resists Aqua Jet and Urshifu cannot OHKO, putting it to sleep provides a massive momentum advantage."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Rillaboom is a major threat, and Spore provides a high-percentage chance to neutralize it completely, preventing it from pivoting or dealing damage while Amoonguss remains healthy."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is threatened with an OHKO by Hurricane and cannot effectively damage Tornadus-Therian. Switching to Incineroar provides a safe pivot that resists Hurricane and Heat Wave, maintaining momentum."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is currently asleep, allowing for a safe, high-damage attack. Flare Blitz puts significant pressure on the opponent and sets up a 2HKO, forcing them to either switch or lose their Tornadus."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid Strike threatens Incineroar with super-effective STAB moves and Incineroar cannot secure a KO. Switching to Amoonguss provides a safe resistance to Water-type moves and allows me to scout the opponent's next move while maintaining momentum."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is likely to switch out to avoid the sleep threat, but Spore is the highest value play here to neutralize a potential switch-in or force the Urshifu to stay in and be incapacitated."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move pollenpuff",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Pollen Puff is a 2HKO against Rillaboom and Amoonguss resists all of Rillaboom's moves, allowing it to safely trade damage while maintaining momentum."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move pollenpuff",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Pollen Puff is a guaranteed 2HKO on Rillaboom, and since Amoonguss is currently at 43% HP, it is better to take the offensive route to remove the threat rather than switching and taking chip damage."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-RS is likely to stay in to threaten damage or switch out to avoid the sleep status. Spore is the highest value play here as it either neutralizes the Urshifu or forces a switch, allowing me to maintain momentum."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is threatened with an OHKO by Hurricane and cannot effectively damage Tornadus-Therian. Switching to Incineroar provides a safe pivot that resists Heat Wave and Hurricane, allowing me to scout the opponent's next move while maintaining momentum."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is currently asleep, providing a free opportunity to deal significant damage. Flare Blitz is the optimal play to secure a 2HKO and pressure the opponent while they are incapacitated."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a 2HKO on Tornadus-Therian and deals significant damage. Since I am ahead in the exchange and Tornadus-Therian's attacks are not threatening a KO, attacking is the optimal play to secure the kill."
+    },
+    {
+      "turn": 14,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid-Strike threatens an OHKO with Close Combat, and Incineroar cannot secure a KO. Amoonguss resists both of Urshifu's STAB moves, making it the safest pivot to absorb the hit."
+    },
+    {
+      "turn": 15,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-RS is likely to switch out to avoid the status, but Spore is the highest-value play to punish a stay-in or catch a switch-in, as Amoonguss is not in immediate danger of being KO'd."
+    },
+    {
+      "turn": 16,
+      "system": "LLM",
+      "action": "move pollenpuff",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Rillaboom is a 2HKO with Pollen Puff, and Amoonguss comfortably survives any of Rillaboom's moves. Attacking directly is the most efficient path to remove the threat."
+    },
+    {
+      "turn": 17,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid Strike is a major threat and Amoonguss is currently in range to survive its attacks. Spore is the highest value play to neutralize the Urshifu, forcing a switch or removing it from the game, which provides momentum for the rest of the team."
+    },
+    {
+      "turn": 18,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is already asleep (SLP). Spore is the optimal play to maintain the sleep status if they wake up, and Amoonguss is currently the best pivot to absorb hits while keeping the pressure on the sleeping threat."
+    },
+    {
+      "turn": 19,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, so Spore is the optimal play to keep it incapacitated while I chip away or pivot. Since it is already asleep, I do not need to switch and can maintain momentum."
+    },
+    {
+      "turn": 20,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, so Spore will fail, but it is the only move that doesn't risk giving them a free turn or switching into a bad matchup. Since Amoonguss is at 20% HP, it is likely to faint soon, and using Spore preserves the option to potentially force a switch or waste a turn if they wake up."
+    },
+    {
+      "turn": 21,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu is already asleep, so Spore is a safe play to keep it incapacitated while Amoonguss is low on HP. If the opponent switches, I maintain pressure; if they stay in, they remain asleep."
+    },
+    {
+      "turn": 22,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, and Spore is the only move that provides utility here. Since Amoonguss is at 20% HP, it is likely to faint soon, so attempting to keep the opponent asleep or forcing a switch is the best play."
+    },
+    {
+      "turn": 23,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, but Spore is the only move that provides utility here. Since Amoonguss is at 20% HP and cannot KO, staying in to potentially re-sleep or waste a turn while the opponent is forced to either stay in or switch is the best play to maintain momentum."
+    },
+    {
+      "turn": 23,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss has fainted, so I must send in a new Pokemon. Incineroar provides Intimidate support to weaken Urshifu's physical attacks and can pivot out or threaten with its own moves."
+    },
+    {
+      "turn": 24,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is threatened with an OHKO by Close Combat and a 2HKO by Surging Strikes, and cannot secure a KO itself. Switching to Calyrex-Ice is the safest play to avoid losing Incineroar for free while maintaining defensive presence."
+    },
+    {
+      "turn": 25,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed 2HKO and deals significant damage. Since the opponent's Close Combat is also a 2HKO and they are likely to stay in to trade hits or pivot, attacking is the optimal play to maintain offensive pressure."
+    }
+  ]
+}

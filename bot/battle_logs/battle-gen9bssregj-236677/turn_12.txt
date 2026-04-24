@@ -1,0 +1,92 @@
+Battle: battle-gen9bssregj-236677
+Agent:  Gemini
+Turn:   12
+System: LLM
+Action: move highhorsepower
+
+── REASONING ──
+High Horsepower is a 2HKO on Incineroar and deals significant damage. Since Incineroar is at 47% HP, this move is guaranteed to KO, satisfying the priority to take the KO immediately.
+
+── BATTLE CONTEXT ──
+=== TURN 12 ANALYSIS ===
+Your calyrexice vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  glaciallance         Ice      PHYSICAL BP:120 →  36.5- 43.5% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  78.2- 92.4% (2x SE) → 2HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  25.9- 30.6% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓knockoff             →  34.9- 40.6% (SE) → 3HKO
+  ✓partingshot          →   0.0-  0.0%
+  ✓fakeout              →   7.4-  8.6%
+  ~Flare Blitz          →  82.3- 96.6% (SE) → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        50% ##########
+  switch                 30% ######
+  attack_status          10% ##
+  attack_special          7% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: incineroar(60 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark       100.0% HP) — resists STAB
+
+── OPPONENT BENCH THREATS ──
+  ironhands            (Fighting/Electric) 65% — best: highhorsepower (SE)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Locked:  NOT Choice-locked (3 moves seen)
+│ Tera:    ???
+│ Moves:   knockoff ✓, partingshot ✓, fakeout ✓, ~Flare Blitz
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    Booster Energy ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   fakeout ✓, wildcharge ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your calyrexice: 76% 
+  Opp incineroar: 47% 
+  Your bench: incineroar(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

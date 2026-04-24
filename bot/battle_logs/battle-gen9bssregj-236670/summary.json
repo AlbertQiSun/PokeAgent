@@ -1,0 +1,74 @@
+{
+  "battle_tag": "battle-gen9bssregj-236670",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 5,
+  "s1_count": 5,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "kingambit",
+    "dragonite",
+    "urshifurapidstrike",
+    "rillaboom",
+    "calyrexice",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "gholdengo",
+    "urshifurapidstrike",
+    "fluttermane"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [
+        "[gholdengo] Unexpected item: airballoon (expected Choice Scarf)"
+      ],
+      "reasoning": "Since Gholdengo has an Air Balloon, High Horsepower will fail, and staying in risks a 2HKO from Make It Rain. Switching to Kingambit resists Gholdengo's STABs and threatens a KO with Sucker Punch or Kowtow Cleave."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move suckerpunch terastallize",
+      "confidence": 0.5063336491584778,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move suckerpunch",
+      "confidence": 0.8740096092224121,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Calyrex",
+      "confidence": 0.859625518321991,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.8044140934944153,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.6379871964454651,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

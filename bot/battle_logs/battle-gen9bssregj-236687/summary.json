@@ -1,0 +1,72 @@
+{
+  "battle_tag": "battle-gen9bssregj-236687",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 6,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "urshifurapidstrike",
+    "fluttermane",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is threatened with an OHKO by Close Combat and a 2HKO by Surging Strikes. Switching to Flutter Mane provides a safe pivot that resists Urshifu's STAB moves and threatens a super-effective response."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed OHKO on Urshifu-Rapid-Strike, and since Flutter Mane outspeeds, I can secure the knockout before the opponent can make a move."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since this is a speed tie and the opponent's Shadow Ball can 2HKO me while mine cannot, switching to Incineroar allows me to safely pivot into a resist and potentially gain momentum with Intimidate."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a significant offensive threat immediately. Since I can secure the KO, I must attack rather than switch."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 55% and faces a 2HKO from Drain Punch, making it unsafe to stay in. Switching to Flutter Mane provides an immunity to Iron Hands' Fighting-type STAB and allows for a favorable offensive matchup."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO, making it the optimal play to remove the threat immediately."
+    }
+  ]
+}

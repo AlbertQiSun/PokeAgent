@@ -1,0 +1,22 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201807
+==================================================
+Agent:   Gemini
+Result:  LOSS
+Turns:   7
+Logged:  9 decisions
+Our team: calyrexice, incineroar, fluttermane, kingambit, chienpao, tornadustherian
+Opp team: ironhands, fluttermane
+
+Turn-by-turn:
+  T 1: switch fluttermane             [LLM]
+  T 1: switch tornadustherian         [LLM]
+  T 2: switch incineroar              [LLM]
+  T 3: move highhorsepower            [LLM]
+  T 4: move glaciallance              [LLM]
+  T 4: switch incineroar              [LLM]
+  T 5: move knockoff                  [LLM]
+  T 6: switch incineroar              [LLM]
+  T 7: switch incineroar              [LLM]
+
+Timestamp: 2026-04-20T09:26:02.051950

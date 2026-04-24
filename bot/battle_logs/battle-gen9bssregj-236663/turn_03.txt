@@ -1,0 +1,83 @@
+Battle: battle-gen9bssregj-236663
+Agent:  Hybrid
+Turn:   3
+System: S1
+Confidence: 100%
+Action: /choose switch Calyrex
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your fluttermane vs opponent's fluttermane
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓shadowball           →  72.3- 85.4% (SE) → 2HKO
+  ~Moonblast            →  42.3- 50.0% → 3HKO
+  ~Shadow Ball          →  72.3- 85.4% (SE) → 2HKO
+  ~Dazzling Gleam       →  36.2- 42.3% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 31% ######
+  setup                  31% ######
+  attack_special         30% ######
+
+── SPEED CHECK ──
+  Speed tie: both 135 base (50/50)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your fluttermane: 0% [FNT]
+  Opp fluttermane: 100% 
+  Your bench: calyrexice(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%)
+  Opp bench: ~4 remaining

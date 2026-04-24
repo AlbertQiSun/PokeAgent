@@ -1,0 +1,79 @@
+Battle: battle-gen9bssregj-201824
+Agent:  Gemini
+Turn:   8
+System: LLM
+Action: switch amoonguss
+
+── REASONING ──
+Calyrex-Ice is at 45% and will be outsped and 3HKO'd by Urshifu-Rapid, while only dealing chip damage in return. Switching to Amoonguss provides a resistance to Urshifu's Water/Fighting moves and allows for potential recovery or redirection.
+
+── BATTLE CONTEXT ──
+=== TURN 8 ANALYSIS ===
+Your calyrexice vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  glaciallance         Ice      PHYSICAL BP:120 →  32.0- 37.7% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  34.3- 40.0% (neutral) → 3HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  22.9- 26.9% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓closecombat          →  34.3- 40.6% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 75% ##############
+  attack_physical        20% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > calyrexice(50 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your calyrexice: 45% 
+  Opp urshifurapidstrike: 100% 
+  Your bench: amoonguss(100%), chienpao(100%), gholdengo(100%)
+  Opp bench: ~4 remaining

@@ -1,0 +1,112 @@
+{
+  "battle_tag": "battle-gen9bssregj-236647",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 9,
+  "s1_count": 11,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "annihilape",
+    "ironhands",
+    "fluttermane",
+    "urshifurapidstrike",
+    "rillaboom",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "incineroar",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.6775327324867249,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose switch Rillaboom",
+      "confidence": 0.5711235404014587,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move drumbeating",
+      "confidence": 0.4780774712562561,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.5436136722564697,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move surgingstrikes terastallize",
+      "confidence": 0.6170844435691833,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9467076659202576,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9299982190132141,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9046621918678284,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

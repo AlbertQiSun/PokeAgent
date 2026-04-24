@@ -1,0 +1,96 @@
+{
+  "battle_tag": "battle-gen9bssregj-236669",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 9,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "incineroar",
+    "calyrexice",
+    "ironhands",
+    "dragonite",
+    "rillaboom",
+    "chiyu"
+  ],
+  "opp_team": [
+    "urshifurapidstrike",
+    "fluttermane",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move glaciallance terastallize",
+      "confidence": 0.6973782777786255,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.4822006821632385,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.529359757900238,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.41259655356407166,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose switch Incineroar",
+      "confidence": 0.5438758134841919,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move flareblitz",
+      "confidence": 0.6184301376342773,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move flareblitz",
+      "confidence": 0.5523895025253296,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose switch Rillaboom",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move woodhammer",
+      "confidence": 0.5326784253120422,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

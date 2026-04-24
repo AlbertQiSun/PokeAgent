@@ -1,0 +1,82 @@
+Battle: battle-gen9bssregj-236680
+Agent:  Gemini
+Turn:   10
+System: LLM
+Action: move parting shot
+
+── REASONING ──
+Since we are in a speed tie and both Incineroars are at low-to-mid health, using Parting Shot allows us to pivot out safely while lowering the opponent's stats, maintaining momentum regardless of whether they stay in or switch.
+
+── BATTLE CONTEXT ──
+=== TURN 10 ANALYSIS ===
+Your incineroar vs opponent's incineroar
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓flareblitz           →  25.9- 30.6% (resist)
+  ✓knockoff             →  14.1- 16.5% (resist)
+  ✓partingshot          →   0.0-  0.0%
+  ~Flare Blitz          →  25.9- 30.6% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 45% ########
+  attack_physical        40% #######
+  attack_status          10% #
+  attack_special          6% #
+
+── SPEED CHECK ──
+  Speed tie: both 60 base (50/50)
+
+── SWITCH OPTIONS ──
+  amoonguss            (Grass/Poison    100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Locked:  NOT Choice-locked (3 moves seen)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, knockoff ✓, partingshot ✓, ~Flare Blitz
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your incineroar: 48% 
+  Opp incineroar: 68% 
+  Your bench: fluttermane(100%), amoonguss(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~3 remaining

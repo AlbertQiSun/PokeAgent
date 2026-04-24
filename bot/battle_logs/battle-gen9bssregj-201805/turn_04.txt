@@ -1,0 +1,86 @@
+Battle: battle-gen9bssregj-201805
+Agent:  Gemini
+Turn:   4
+System: LLM
+Action: move shadowball
+
+── REASONING ──
+I outspeed Tornadus-Therian and can 2HKO it with Shadow Ball. Since it cannot OHKO me, attacking is the optimal play to secure the KO and maintain momentum.
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your fluttermane vs opponent's tornadustherian
+
+── YOUR MOVES vs TORNADUSTHERIAN ──
+  shadowball           Ghost    SPECIAL  BP: 80 →  67.5- 79.9% (neutral) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ~Hurricane            →  40.0- 47.7% → 3HKO
+  ~Heat Wave            →  23.1- 27.7%
+  ~Knock Off            →  34.6- 41.5% → 3HKO
+  ~U-turn               →   9.2- 10.8% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         38% #######
+  attack_status          37% #######
+  attack_physical        18% ###
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > tornadustherian(121 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your fluttermane: 100% 
+  Opp tornadustherian: 100% 
+  Your bench: calyrexice(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

@@ -1,0 +1,96 @@
+Battle: battle-gen9bssregj-236653
+Agent:  Hybrid
+Turn:   2
+System: S2
+Surprises: [ironhands] Unexpected item: lifeorb (expected Assault Vest), [ironhands] Unexpected move: heavyslam
+Action: switch fluttermane
+
+── REASONING ──
+Tornadus-Therian is at 21% HP and faces an OHKO from Wild Charge; switching to Flutter Mane provides an immunity to Iron Hands' potential Fighting-type moves and threatens a KO with STAB Fairy moves.
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your tornadustherian vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  hurricane            Flying   SPECIAL  BP:110 →  44.5- 52.4% (neutral) → 3HKO
+  heatwave             Fire     SPECIAL  BP: 95 →  25.8- 30.1% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →   5.2-  6.1% (resist)
+  uturn                Bug      PHYSICAL BP: 70 →   5.2-  6.6% (resist)
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓heavyslam            →   0.0-  0.0%
+  ~Drain Punch          →  31.8- 37.7% (resist) → 3HKO
+  ~Wild Charge          → 153.2-180.5% (SE) → OHKO!
+  ~Ice Punch            →  85.7-100.6% (SE) → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        73% ##############
+  switch                 13% ##
+  attack_status           8% #
+  attack_special          6% #
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > ironhands(50 base)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — immune to STAB | SE STAB
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   heavyslam ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+│   - Unexpected move: heavyslam
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+  [ironhands] Unexpected move: heavyslam
+
+── HP STATUS ──
+  Your tornadustherian: 21% 
+  Opp ironhands: 40% 
+  Your bench: urshifurapidstrike(100%), rillaboom(100%), calyrexice(100%), incineroar(100%), fluttermane(100%)
+  Opp bench: ~5 remaining

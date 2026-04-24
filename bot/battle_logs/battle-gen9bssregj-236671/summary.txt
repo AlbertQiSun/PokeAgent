@@ -1,0 +1,32 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236671
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   7
+Logged:  9 decisions
+Our team: ironhands, tornadustherian, fluttermane, kingambit, calyrexice, incineroar
+Opp team: gholdengo, ironhands, fluttermane
+
+Routing: S1=5 (56%) S2=4 (44%)
+
+Surprises (6 total):
+  - [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+  - PPO uncertainty: best action only 33% confidence (threshold 40%, entropy=1.73)
+  - PPO uncertainty: best action only 28% confidence (threshold 40%, entropy=1.77)
+  - [ironhands] Unexpected item: leftovers (expected Assault Vest)
+  - [ironhands] Unexpected move: thunderpunch
+  - [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+
+Turn-by-turn:
+  T 1: move heatwave                  [S2] !
+  T 2: move heatwave                  [S2] !
+  T 3: /choose move hurricane terastallize [S1] (44%)
+  T 3: switch calyrexice              [S2] !
+  T 4: /choose move glaciallance      [S1] (77%)
+  T 5: /choose move glaciallance      [S1] (71%)
+  T 6: /choose move heavyslam         [S1] (45%)
+  T 6: switch kingambit               [S2] !
+  T 7: /choose move suckerpunch       [S1] (80%)
+
+Timestamp: 2026-04-20T12:40:09.398263

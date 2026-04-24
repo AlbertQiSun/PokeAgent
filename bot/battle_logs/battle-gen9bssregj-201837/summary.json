@@ -1,0 +1,168 @@
+{
+  "battle_tag": "battle-gen9bssregj-201837",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 16,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 18,
+  "our_team": [
+    "incineroar",
+    "calyrexice",
+    "amoonguss",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "tornadustherian",
+    "urshifurapidstrike",
+    "fluttermane"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a strong 2HKO move that punishes Tornadus-Therian for staying in. Since I am not in immediate danger of being KO'd, applying offensive pressure is the best way to force a switch or weaken the opponent."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a 2HKO on Tornadus-Therian, and since I am ahead in the exchange, I should press the attack to secure the KO before Tornadus can pivot out or heal with Regenerator."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 35% HP and will be OHKOed by Urshifu's Close Combat or 2HKOed by Surging Strikes. Switching to Amoonguss provides a crucial resistance to Water-type moves and allows me to threaten Urshifu with Giga Drain or Spore."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid Strike is forced to commit to a move, and Spore is the highest value play to neutralize the threat or force a switch, as Amoonguss survives the incoming Close Combat."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep based on the HP status provided. Spore will fail, but since Amoonguss is at 41% and Urshifu is the immediate threat, using Spore or Protect is standard; however, since the opponent is likely to switch out their sleeping Urshifu, Spore is the safest play to catch a potential switch-in or force them to stay in and waste a turn."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is already asleep, and since Amoonguss is slow, using Spore again ensures that if they wake up, they are immediately put back to sleep, neutralizing their offensive pressure."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is currently asleep, making Spore the optimal play to maintain control or force a switch while keeping Amoonguss on the field to absorb potential hits."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid is already asleep, so I will re-apply Spore to ensure it stays incapacitated while I maintain board control."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid-Strike is already asleep, and since Amoonguss is at low HP, attempting to keep the opponent asleep or forcing a switch is the best way to maintain momentum without sacrificing a healthy sweeper."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Flutter Mane is currently asleep. Using Spore again ensures it stays incapacitated, preventing it from attacking or setting up while I maintain board control."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is already asleep, so refreshing Spore is the optimal play to keep it neutralized while Amoonguss is on the field, preventing it from attacking upon waking up."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss has fainted; I must send out a new Pokemon. Incineroar is the best pivot to check Flutter Mane's special attacks and potentially use Intimidate or Knock Off to disrupt the opponent."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane. Even if the opponent switches, securing the KO on the active threat is the highest priority to prevent further damage to my team."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 13% and will be OHKOed by Urshifu's Close Combat. Switching to Calyrex-Ice preserves Incineroar for a potential Intimidate pivot later and brings in a healthier threat."
+    },
+    {
+      "turn": 14,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is currently asleep, making this the optimal turn to deal significant damage. High Horsepower provides better damage output than Glacial Lance against the Fighting/Water typing."
+    },
+    {
+      "turn": 15,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is slower and will be 3HKO'd by Urshifu-Rapid, while it cannot KO Urshifu in return. Switching to Kingambit provides a defensive pivot that resists Urshifu's likely moves and can threaten back with Sucker Punch or Kowtow Cleave."
+    },
+    {
+      "turn": 15,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is fainted; I must send out Calyrex-Ice to handle the Urshifu-Rapid-Strike, as it is the only remaining option that can threaten it effectively."
+    },
+    {
+      "turn": 16,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is slower and will be 3HKO'd by Close Combat while only 3HKOing Urshifu back. Switching to Dragonite allows me to tank the hit and threaten a KO or force a switch, preserving Calyrex-Ice for later."
+    }
+  ]
+}

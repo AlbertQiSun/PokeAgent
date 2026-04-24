@@ -1,0 +1,74 @@
+{
+  "battle_tag": "battle-gen9bssregj-236658",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 5,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "fluttermane",
+    "tinglu",
+    "dragonite",
+    "urshifurapidstrike",
+    "calyrexice",
+    "rillaboom"
+  ],
+  "opp_team": [
+    "ironhands",
+    "fluttermane",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move fissure terastallize",
+      "confidence": 0.5638880133628845,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: lifeorb (expected Assault Vest)"
+      ],
+      "reasoning": "Ting-Lu is at 43% and will be 2HKOed by Life Orb Drain Punch, making it unable to survive another turn. Switching to Flutter Mane provides an immunity to Fighting-type moves and forces the Iron Hands out or forces a Tera."
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9549585580825806,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9814242124557495,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9611130952835083,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.957711935043335,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

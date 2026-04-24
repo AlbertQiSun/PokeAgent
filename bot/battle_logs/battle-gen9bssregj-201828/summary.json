@@ -1,0 +1,680 @@
+{
+  "battle_tag": "battle-gen9bssregj-201828",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 70,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 82,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "tornadustherian",
+    "chienpao",
+    "kingambit",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "incineroar",
+    "urshifurapidstrike",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is a hard counter to the opponent's Incineroar due to Intimidate and type resistance, and staying in with Calyrex-Ice risks taking significant damage from Flare Blitz or being pivoted on by U-turn."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since this is a mirror match with no clear KO path, Parting Shot allows me to pivot out safely, debuff the opponent's attack, and gain momentum by bringing in a more favorable matchup."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move knock off",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since we are in a speed tie and the opponent's Incineroar is likely to use a low-damage move or pivot, Knock Off is the best play to remove their item and gain information without committing to a risky Flare Blitz recoil."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is threatened with an OHKO by Flare Blitz and cannot effectively damage Incineroar. Switching to my own Incineroar provides a safe resistance to Fire-type moves and allows me to reset Intimidate pressure."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since neither Incineroar can effectively break the other, using Parting Shot allows me to lower the opponent's stats and gain momentum by bringing in a teammate with a better matchup."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid-Strike threatens an OHKO or 2HKO on Incineroar with its STAB moves, and Incineroar cannot KO back. Amoonguss resists both Surging Strikes and Aqua Jet, making it the safest switch-in to neutralize the threat."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss resists Urshifu-Rapid's STABs, making it a safe check. Spore has a high chance to neutralize the opponent's momentum, and since I cannot KO them this turn, putting them to sleep is the most effective play to gain control."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, and Spore is the most effective way to keep it neutralized or catch a predicted switch-in, maintaining momentum while Amoonguss is still healthy."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid-Strike is already asleep (SLP), so Spore is the optimal play to keep it incapacitated while forcing the opponent to switch or waste a turn."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, and Spore will refresh the sleep counter, keeping the threat neutralized while I maintain board control."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is currently asleep, making Spore the optimal play to keep it incapacitated or catch a switch-in with sleep status."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is already asleep, and Spore is the most effective way to maintain control or force a switch if they wake up. Since I cannot KO it and it is currently neutralized, keeping the pressure on the active slot is the best play."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, and Spore is the most effective way to keep it neutralized or catch a predicted switch-in, maintaining momentum while Amoonguss is still healthy."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, and Spore is the most disruptive option to keep it incapacitated or force a switch while I maintain board control."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, so I will attempt to re-spore or maintain pressure while they are incapacitated, as switching would give them a free turn to wake up or pivot."
+    },
+    {
+      "turn": 14,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is currently asleep (SLP), but since it is faster and carries Hurricane, I must use Protect to scout for a wake-up turn or a switch-out while avoiding a potential OHKO if it wakes up."
+    },
+    {
+      "turn": 15,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is threatened with an OHKO by Hurricane and cannot effectively damage Tornadus-Therian. Switching to Calyrex-Ice provides a strong offensive presence that resists Hurricane and threatens the opponent."
+    },
+    {
+      "turn": 16,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Tornadus-Therian. Since I can secure the KO immediately, I should take the opportunity to remove a threat from the field rather than switching."
+    },
+    {
+      "turn": 17,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 5% HP and Glacial Lance is a guaranteed OHKO. Even though I am burned and slower, securing the KO now removes the opponent's pivot and prevents them from utilizing Regenerator."
+    },
+    {
+      "turn": 17,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Incineroar provides Intimidate support and is a solid pivot to handle Tornadus-Therian's remaining low HP."
+    },
+    {
+      "turn": 18,
+      "system": "LLM",
+      "action": "move fakeout",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 5% HP, making it a guaranteed KO with Fake Out. This secures the kill and prevents any potential Regenerator recovery or further chip damage."
+    },
+    {
+      "turn": 19,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is guaranteed to be OHKOed by Close Combat, and Amoonguss provides a necessary resistance to Urshifu's STAB moves to pivot safely."
+    },
+    {
+      "turn": 20,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is currently asleep. Spore is the optimal play to maintain sleep pressure or refresh the sleep timer if they stay in, as Amoonguss is not threatened by a 3HKO."
+    },
+    {
+      "turn": 21,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid is already asleep, so Spore is a safe play to keep it incapacitated if it wakes up, or to punish a switch-in if they decide to swap out."
+    },
+    {
+      "turn": 22,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is currently asleep. Spore is the optimal play to maintain the sleep status and prevent the opponent from acting, as they are likely to switch or stay in to wake up."
+    },
+    {
+      "turn": 23,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is currently asleep (as indicated by the HP status). Spore is the optimal play to maintain sleep pressure or reset the sleep counter if they stay in, while also forcing a switch if they want to avoid further status."
+    },
+    {
+      "turn": 24,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid-Strike is already asleep, so Spore is the optimal play to keep it incapacitated while I maintain board control."
+    },
+    {
+      "turn": 25,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, so using Spore again is a safe play to keep them incapacitated if they wake up, while also scouting for a potential switch."
+    },
+    {
+      "turn": 26,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid is already asleep, and Spore is the most effective way to keep it neutralized or catch a switch-in, as Amoonguss has no offensive pressure here."
+    },
+    {
+      "turn": 27,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep (SLP), so Spore is the optimal play to keep them incapacitated while I maintain board control."
+    },
+    {
+      "turn": 28,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, so I will re-apply Spore to ensure it stays incapacitated while it is on the field, preventing it from waking up and attacking."
+    },
+    {
+      "turn": 29,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, so Spore is the optimal play to keep it incapacitated while I maintain board control."
+    },
+    {
+      "turn": 30,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is guaranteed to be OHKOed by Flare Blitz, and switching to Incineroar provides a safe resistance to the Fire-type move while maintaining momentum."
+    },
+    {
+      "turn": 31,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is asleep, making this a safe opportunity to pivot out and gain momentum while lowering their stats for when they wake up."
+    },
+    {
+      "turn": 31,
+      "system": "LLM",
+      "action": "move flare blitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is asleep, providing a free opportunity to deal significant damage. Flare Blitz is the most effective way to pressure them while they are incapacitated."
+    },
+    {
+      "turn": 32,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is guaranteed to be OHKO'd by Flare Blitz. Switching to Incineroar provides a Fire-type resistance to absorb the hit and maintain momentum."
+    },
+    {
+      "turn": 33,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since both Incineroars are at a stalemate and Flare Blitz recoil is unfavorable given my lower HP, Parting Shot allows me to pivot out safely, lower the opponent's stats, and bring in a fresh check to maintain momentum."
+    },
+    {
+      "turn": 33,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is guaranteed to be OHKO'd by Urshifu-Rapid's Close Combat. Amoonguss resists Urshifu's STAB moves and can safely pivot in to handle the threat."
+    },
+    {
+      "turn": 34,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is already asleep, so I should capitalize on the free turn to either keep it asleep or force a switch while maintaining pressure."
+    },
+    {
+      "turn": 35,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is already asleep, so Spore is a safe play to keep it incapacitated if it wakes up, while maintaining Amoonguss's utility as a pivot/tank."
+    },
+    {
+      "turn": 36,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is currently asleep. Spore is the optimal play to keep it incapacitated or refresh the sleep counter, as there is no immediate threat to Amoonguss this turn."
+    },
+    {
+      "turn": 37,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is already asleep, so I should capitalize on the free turn to either keep it asleep or force a switch while maintaining pressure."
+    },
+    {
+      "turn": 38,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid is already asleep (SLP). Spore is the optimal play to maintain the sleep status or refresh it if they wake up, as Urshifu is a major threat and Amoonguss can safely tank a Close Combat if they wake up and attack."
+    },
+    {
+      "turn": 39,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu is currently asleep, and protecting allows me to scout for a potential switch or wake-up while maintaining Amoonguss's health against a potential Close Combat if it wakes up."
+    },
+    {
+      "turn": 40,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is currently asleep, and using Protect allows me to scout for a potential switch or wake-up while negating any damage if it wakes up and attacks."
+    },
+    {
+      "turn": 41,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid Strike is likely to switch out to avoid the unfavorable matchup against Amoonguss, or attempt a Close Combat. Protecting allows me to scout the opponent's intent while maintaining Amoonguss's health for later utility."
+    },
+    {
+      "turn": 42,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is not threatening Urshifu-Rapid and will be worn down by Close Combat. Switching to Incineroar provides an Intimidate drop to mitigate incoming physical damage and allows for a safer pivot or defensive play."
+    },
+    {
+      "turn": 43,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is guaranteed to be OHKOed by Urshifu-Rapid-Strike's Close Combat. Switching to Amoonguss provides a resistance to Water-type moves and forces the opponent to deal with a defensive pivot."
+    },
+    {
+      "turn": 44,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid-Strike is at 25% HP and likely to click Close Combat or switch. Protecting scouts their intent while keeping Amoonguss healthy to potentially chip or pivot later, as I cannot secure a KO this turn."
+    },
+    {
+      "turn": 45,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is guaranteed to be OHKOed by Flare Blitz, and switching to Incineroar provides a Fire-type resistance to safely absorb the hit."
+    },
+    {
+      "turn": 46,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 42% and losing the mirror match-up; Parting Shot allows me to pivot out safely, lower the opponent's stats, and bring in a fresh teammate to maintain momentum."
+    },
+    {
+      "turn": 46,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 42% and will likely be KO'd by a Flare Blitz or Knock Off soon. Switching to Amoonguss provides a neutral pivot that can absorb hits and potentially put the opponent to sleep or force a switch."
+    },
+    {
+      "turn": 47,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is guaranteed to be OHKOed by Flare Blitz, and switching to Incineroar provides a Fire-type resistance to safely absorb the hit."
+    },
+    {
+      "turn": 48,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is low on HP and cannot win the 1v1 trade; Parting Shot allows me to pivot safely while debuffing the opponent to gain momentum for a stronger teammate."
+    },
+    {
+      "turn": 48,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 34% and will likely be KO'd by a Flare Blitz or Knock Off. Switching to Amoonguss provides a safe pivot to absorb the hit and scout the opponent's next move while preserving my healthier team members."
+    },
+    {
+      "turn": 49,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is guaranteed to be OHKOed by Flare Blitz, and switching to Incineroar provides a Fire-type resistance to pivot safely while preserving Amoonguss for potential Spore utility later."
+    },
+    {
+      "turn": 50,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 28% HP and cannot win the 1v1 against a 70% HP Incineroar. Parting Shot allows me to pivot out safely, lower the opponent's stats, and bring in a fresh teammate to maintain momentum."
+    },
+    {
+      "turn": 50,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 28% and will likely be KO'd by any move from the opponent's Incineroar. Switching to Amoonguss provides a safe pivot to neutralize the opponent's momentum and scout their next move."
+    },
+    {
+      "turn": 51,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is threatened with an OHKO by Flare Blitz, and switching to Incineroar provides a necessary resistance to Fire-type moves to preserve Amoonguss for later utility."
+    },
+    {
+      "turn": 52,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at low HP and cannot win the 1v1; Parting Shot allows me to pivot out safely, lower the opponent's stats, and bring in a fresh check while maintaining momentum."
+    },
+    {
+      "turn": 52,
+      "system": "LLM",
+      "action": "move flare blitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 23% and likely to be KO'd by any move from the opponent. Using Flare Blitz maximizes damage output before fainting, potentially softening the opponent for a revenge kill."
+    },
+    {
+      "turn": 53,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is threatened with an OHKO by Flare Blitz, and switching to Incineroar provides a Fire-type resistance to safely pivot into the attack."
+    },
+    {
+      "turn": 54,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 18% and cannot win the 1v1; Parting Shot allows me to pivot safely to a healthy teammate while lowering the opponent's stats to gain momentum."
+    },
+    {
+      "turn": 54,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 13% and will be KO'd by any move from the opponent's Incineroar. Switching to Amoonguss provides a safe pivot to absorb the hit and scout the opponent's next move."
+    },
+    {
+      "turn": 55,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is guaranteed to be OHKOed by Flare Blitz, and switching to Incineroar provides a Fire-type resistance to safely absorb the hit."
+    },
+    {
+      "turn": 56,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 8% HP and will likely be KO'd by any move. Using Parting Shot allows me to lower the opponent's stats and pivot safely into a healthier teammate to maintain momentum."
+    },
+    {
+      "turn": 56,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 2% HP and will be KO'd by any chip damage; switching to Amoonguss provides a safe pivot to absorb the incoming hit and reset the momentum."
+    },
+    {
+      "turn": 57,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is guaranteed to be OHKOed by Flare Blitz, and switching to Incineroar provides a Fire-type resistance to safely absorb the hit."
+    },
+    {
+      "turn": 57,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar has fainted, so I must send in a new Pokemon. Tornadus-Therian is a strong pivot that can handle the opponent's Incineroar and maintain momentum."
+    },
+    {
+      "turn": 58,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is highly likely to use Flare Blitz to secure the OHKO on Amoonguss. Protecting allows me to scout their intent and potentially waste their Flare Blitz recoil or force a switch."
+    },
+    {
+      "turn": 59,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is highly likely to use Flare Blitz to secure the OHKO on Amoonguss. Protecting allows me to scout their intent and potentially waste their Flare Blitz recoil or force a switch."
+    },
+    {
+      "turn": 60,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is highly likely to use Flare Blitz to secure the OHKO on Amoonguss. Protecting allows me to scout the move and potentially waste the opponent's momentum or force them to reconsider their play."
+    },
+    {
+      "turn": 61,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is highly likely to use Flare Blitz to secure the OHKO on Amoonguss. Protecting allows me to scout their intent and potentially waste their Flare Blitz recoil or force a switch."
+    },
+    {
+      "turn": 62,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is guaranteed to be OHKO'd by Flare Blitz, and staying in offers no value. Switching to Tornadus-Therian provides a safe pivot to maintain momentum and potentially threaten Incineroar or force a switch."
+    },
+    {
+      "turn": 63,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is highly likely to use Flare Blitz to secure the KO on Amoonguss. Protecting allows me to scout the move and potentially waste the opponent's turn, while switching would likely result in taking unnecessary damage on a healthy teammate."
+    },
+    {
+      "turn": 64,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is currently burned and will be OHKOed by Flare Blitz. Using Protect allows me to scout the opponent's move and potentially stall out the burn damage or force them to switch, preserving Amoonguss for a potential Rage Powder utility later."
+    },
+    {
+      "turn": 65,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar will likely attempt to finish off the weakened Amoonguss with Flare Blitz; Protect allows me to scout the move and potentially waste their turn while keeping Amoonguss alive for a potential Rage Powder redirection later."
+    },
+    {
+      "turn": 66,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is likely to use Flare Blitz to secure the KO on my weakened Amoonguss. Protecting allows me to scout the move and potentially waste their turn or force them to reconsider their play, as Amoonguss cannot survive a Flare Blitz."
+    },
+    {
+      "turn": 67,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is guaranteed to be OHKOed by Flare Blitz and offers no offensive pressure. Switching to Tornadus-Therian allows me to maintain momentum and potentially threaten Incineroar with a better matchup."
+    },
+    {
+      "turn": 68,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is at 21% and will be OHKOed by Flare Blitz. Switching to Tornadus-Therian forces the Incineroar to deal with a faster threat while preserving my remaining HP for later in the match."
+    },
+    {
+      "turn": 69,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is at 10% HP and will be OHKOed by Flare Blitz. Protect is the only way to potentially survive or force the opponent to waste a turn, as switching out would likely result in the incoming Pokemon taking unnecessary damage."
+    },
+    {
+      "turn": 70,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is at 4% HP and will be OHKO'd by Flare Blitz; Protect is the only way to potentially survive or force the opponent to waste a turn while I assess the board state."
+    }
+  ]
+}

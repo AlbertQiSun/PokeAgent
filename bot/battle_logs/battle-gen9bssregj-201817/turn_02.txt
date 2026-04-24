@@ -1,0 +1,84 @@
+Battle: battle-gen9bssregj-201817
+Agent:  Gemini
+Turn:   2
+System: LLM
+Action: switch fluttermane
+
+── REASONING ──
+Incineroar is threatened with an OHKO by Urshifu-Rapid-Strike's Close Combat. Switching to Flutter Mane provides an immunity to Fighting-type moves, forcing the opponent to switch or risk wasting their turn.
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your incineroar vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →  10.3- 12.6% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  12.6- 14.9% (resist)
+  flareblitz           Fire     PHYSICAL BP:120 →  22.3- 26.9% (resist)
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓closecombat          → 117.1-137.6% (SE) → OHKO!
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        47% #########
+  switch                 46% #########
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > incineroar(60 base)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+  fluttermane          (Ghost/Fairy     100.0% HP) — immune to STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your incineroar: 58% 
+  Opp urshifurapidstrike: 100% 
+  Your bench: calyrexice(100%), amoonguss(100%), kingambit(100%), fluttermane(100%), tornadustherian(100%)
+  Opp bench: ~5 remaining

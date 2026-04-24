@@ -1,0 +1,94 @@
+Battle: battle-gen9bssregj-201806
+Agent:  Gemini
+Turn:   3
+System: LLM
+Action: switch tornadustherian
+
+── REASONING ──
+Incineroar is threatened with an OHKO by Drain Punch and cannot secure a KO itself. Switching to Tornadus-Therian provides a safe pivot to resist the Fighting-type move and maintain momentum.
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your incineroar vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →   7.4-  8.7% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →   8.7- 10.5% (resist)
+  flareblitz           Fire     PHYSICAL BP:120 →  32.3- 38.0% (neutral) → 3HKO
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓wildcharge           →  61.8- 72.9% → 2HKO
+  ~Drain Punch          → 103.5-122.4% (SE) → OHKO!
+  ~Wild Charge          →  61.8- 72.9% → 2HKO
+  ~Ice Punch            →  17.1- 20.0% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        67% #############
+  switch                 21% ####
+  attack_status           7% #
+  attack_special          5% #
+
+── SPEED CHECK ──
+  You outspeed: incineroar(60 base) > ironhands(50 base)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+  tornadustherian      (Flying           59.7% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your incineroar: 55% 
+  Opp ironhands: 82% 
+  Your bench: calyrexice(100%), amoonguss(100%), chienpao(100%), kingambit(100%), tornadustherian(60%)
+  Opp bench: ~4 remaining

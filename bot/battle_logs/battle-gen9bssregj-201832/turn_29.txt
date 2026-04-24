@@ -1,0 +1,86 @@
+Battle: battle-gen9bssregj-201832
+Agent:  Gemini
+Turn:   29
+System: LLM
+Action: switch kingambit
+
+── REASONING ──
+Amoonguss has fainted; I must send in a healthy check to Incineroar. Kingambit resists Incineroar's Knock Off and can threaten back with its STAB moves.
+
+── BATTLE CONTEXT ──
+=== TURN 29 ANALYSIS ===
+Your amoonguss vs opponent's incineroar
+
+── OPPONENT'S LIKELY MOVES vs AMOONGUSS ──
+  ✓flareblitz           → 119.6-140.7% (SE) → OHKO!
+  ~Flare Blitz          → 119.6-140.7% (SE) → OHKO!
+  ~Knock Off            →  32.8- 38.6% → 3HKO
+  ~U-turn               →  23.3- 27.5%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        75% ###############
+  attack_special          7% #
+  switch                  7% #
+  attack_status           6% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: incineroar(60 base) > amoonguss(30 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice      38.2% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   hurricane ✓, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your amoonguss: 0% [FNT]
+  Opp incineroar: 53% 
+  Your bench: calyrexice(38%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

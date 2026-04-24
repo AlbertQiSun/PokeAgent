@@ -1,0 +1,80 @@
+{
+  "battle_tag": "battle-gen9bssregj-201843",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 7,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "chienpao",
+    "kingambit",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "urshifurapidstrike",
+    "tornadustherian",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is significantly slower than Urshifu-RS and takes heavy chip damage from its STAB moves. Switching to Flutter Mane provides an immunity to Urshifu's Fighting-type moves and threatens a super-effective response, forcing the opponent to pivot or risk losing momentum."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed OHKO on Urshifu-Rapid-Strike, and I outspeed it. There is no reason to switch when a clean KO is available."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Tornadus-Therian and deal significant damage (up to 94.2%), putting it in range for a KO next turn while taking minimal damage in return."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Tornadus-Therian and Moonblast is a guaranteed 2HKO, which is sufficient to secure the KO this turn or next while maintaining offensive pressure."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Tornadus-Therian is at 11% HP, well within the range for Moonblast to secure a KO this turn, preventing any further chip damage or momentum."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is at 28% and will be OHKOed by Rillaboom's Wood Hammer or Drum Beating. Switching to Incineroar provides a safe pivot that resists Rillaboom's STAB moves and can threaten with Intimidate."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Rillaboom, fulfilling the primary decision priority to secure the KO immediately."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+Battle: battle-gen9bssregj-236683
+Agent:  Gemini
+Turn:   16
+System: LLM
+Action: move pollenpuff
+
+── REASONING ──
+Rillaboom is a 2HKO with Pollen Puff, and Amoonguss comfortably survives any of Rillaboom's moves. Attacking directly is the most efficient path to remove the threat.
+
+── BATTLE CONTEXT ──
+=== TURN 16 ANALYSIS ===
+Your amoonguss vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  spore                Grass    STATUS   BP:  0 →   0.0-  0.0% (neutral)
+  pollenpuff           Bug      SPECIAL  BP: 90 →  48.6- 57.1% (2x SE) → 2HKO
+  ragepowder           Bug      STATUS   BP:  0 pri=2 →   0.0-  0.0% (neutral)
+  protect              Normal   STATUS   BP:  0 pri=4 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs AMOONGUSS ──
+  ✓knockoff             →  23.8- 28.0%
+  ~Wood Hammer          →  15.9- 19.0% (resist)
+  ~Drum Beating         →  10.6- 12.7% (resist)
+  ~U-turn               →  25.4- 30.2%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        50% ##########
+  switch                 21% ####
+  setup                  14% ##
+  attack_special         12% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > amoonguss(30 base)
+  Priority moves available: ragepowder, protect
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+  incineroar           (Fire/Dark        53.0% HP) — resists STAB | SE STAB
+
+── OPPONENT BENCH THREATS ──
+  urshifurapidstrike   (Fighting/Water) 57% — best: pollenpuff (resist)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    Leftovers ✓
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   heatwave ✓, ~Hurricane, ~Heat Wave, ~Knock Off
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    Leftovers ✓
+│ Locked:  NOT Choice-locked (3 moves seen)
+│ Tera:    ???
+│ Moves:   aquajet ✓, closecombat ✓, surgingstrikes ✓, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your amoonguss: 67% 
+  Opp rillaboom: 62% 
+  Your bench: incineroar(53%), fluttermane(100%), calyrexice(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~4 remaining

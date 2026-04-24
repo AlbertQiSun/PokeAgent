@@ -1,0 +1,91 @@
+Battle: battle-gen9bssregj-236662
+Agent:  Hybrid
+Turn:   4
+System: S1
+Confidence: 70%
+Action: /choose move surgingstrikes terastallize
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your urshifurapidstrike vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  79.4- 93.5% x3 (2x SE) → 2HKO
+  closecombat          Fighting PHYSICAL BP:120 → 117.1-137.6% (2x SE) → OHKO
+  aquajet              Water    PHYSICAL BP: 40 pri=1 →  40.6- 48.2% (2x SE) → 3HKO
+  uturn                Bug      PHYSICAL BP: 70 →  22.9- 27.1% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ✓knockoff             →  12.6- 14.9% (resist)
+  ~Flare Blitz          →  22.3- 26.9% (resist)
+  ~Knock Off            →  12.6- 14.9% (resist)
+  ~U-turn               →   8.6- 10.3% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        48% #########
+  attack_special         17% ###
+  switch                 14% ##
+  attack_status          12% ##
+  setup                   8% #
+
+── SPEED CHECK ──
+  You outspeed: urshifurapidstrike(97 base) > incineroar(60 base)
+  Priority moves available: aquajet
+
+── SWITCH OPTIONS ──
+  dragonite            (Dragon/Flying    33.1% HP) — resists STAB
+  kingambit            (Dark/Steel      100.0% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your urshifurapidstrike: 88% 
+  Opp incineroar: 100% 
+  Your bench: ironhands(100%), dragonite(33%), rillaboom(100%), incineroar(100%), kingambit(100%)
+  Opp bench: ~4 remaining

@@ -1,0 +1,87 @@
+Battle: battle-gen9bssregj-236662
+Agent:  Hybrid
+Turn:   6
+System: S2
+Surprises: [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+Action: switch kingambit
+
+── REASONING ──
+Iron Hands is running Life Orb instead of Assault Vest, making it a high-threat glass cannon that OHKOs my current Pokemon. Switching to Kingambit allows me to tank potential hits and retaliate effectively while preserving my remaining team members.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your urshifurapidstrike vs opponent's ironhands
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ✓wildcharge           → 108.6-128.0% (SE) → OHKO!
+  ~Drain Punch          →  45.1- 53.1% → 3HKO
+  ~Wild Charge          → 108.6-128.0% (SE) → OHKO!
+  ~Ice Punch            →  14.9- 17.7% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        73% ##############
+  switch                 19% ###
+
+── SPEED CHECK ──
+  You outspeed: urshifurapidstrike(97 base) > ironhands(50 base)
+
+── SWITCH OPTIONS ──
+  dragonite            (Dragon/Flying    33.1% HP) — resists STAB
+  kingambit            (Dark/Steel      100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   knockoff ✓, flareblitz ✓, ~Flare Blitz, ~Knock Off
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your urshifurapidstrike: 0% [FNT]
+  Opp ironhands: 41% 
+  Your bench: ironhands(100%), dragonite(33%), rillaboom(100%), incineroar(100%), kingambit(100%)
+  Opp bench: ~3 remaining

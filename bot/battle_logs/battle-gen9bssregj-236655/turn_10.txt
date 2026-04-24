@@ -1,0 +1,82 @@
+Battle: battle-gen9bssregj-236655
+Agent:  Hybrid
+Turn:   10
+System: S1
+Confidence: 61%
+Action: /choose move dragonclaw
+
+── BATTLE CONTEXT ──
+=== TURN 10 ANALYSIS ===
+Your dragonite vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  extremespeed         Normal   PHYSICAL BP: 80 pri=2 →  23.4- 28.0% (neutral)
+  dragonclaw           Dragon   PHYSICAL BP: 80 →  35.4- 41.7% (neutral) → 3HKO
+  firepunch            Fire     PHYSICAL BP: 75 →  10.9- 13.1% (resist)
+  icepunch             Ice      PHYSICAL BP: 75 →  10.9- 13.1% (resist)
+
+── OPPONENT'S LIKELY MOVES vs DRAGONITE ──
+  ✓uturn                →  10.8- 13.3% (resist)
+  ✓closecombat          →  28.3- 33.1% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 53% ##########
+  attack_physical        39% #######
+  attack_special          6% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > dragonite(80 base)
+  Priority moves available: extremespeed
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, knockoff ✓, ~Flare Blitz, ~Knock Off
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   uturn ✓, closecombat ✓, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your dragonite: 100% 
+  Opp urshifurapidstrike: 6% 
+  Your bench: garganacl(100%), rillaboom(100%), tornadustherian(100%)
+  Opp bench: ~3 remaining

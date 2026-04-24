@@ -1,0 +1,104 @@
+{
+  "battle_tag": "battle-gen9bssregj-201826",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 9,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 10,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "gholdengo",
+    "calyrexice",
+    "amoonguss",
+    "chienpao"
+  ],
+  "opp_team": [
+    "ironhands",
+    "fluttermane",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens a 2HKO with Drain Punch and out-damages Incineroar significantly. Switching to Flutter Mane provides an immunity to Drain Punch and forces the opponent to switch or risk a super-effective hit."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO, removing the threat immediately."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since we are in a speed tie and the opponent's Shadow Ball can 2HKO us while we only 2HKO them, staying in is a losing gamble. Switching to Incineroar allows us to safely pivot into a resist and potentially gain momentum with Intimidate."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a major offensive threat immediately. Prioritizing the KO is the optimal play according to the decision priorities."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on the Flutter Mane, which is currently at 2% HP. This secures the KO and removes the immediate threat."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 4% HP and will be KO'd by any chip damage; Flare Blitz maximizes damage output before fainting to ensure Tornadus-Therian is weakened for the rest of the team."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar has fainted, so I must send in a new Pokemon. Flutter Mane is the best choice to pressure Tornadus-Therian with its high speed and special attack."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is the strongest move and has a high chance to 2HKO Tornadus-Therian. Since I outspeed and the opponent cannot OHKO me, attacking is the optimal play to maintain momentum."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed 2HKO on Tornadus-Therian, and since I outspeed it, I can secure the KO this turn or next before it can threaten me with a 3HKO."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Tornadus-Therian is at 11% HP, well within the range for Moonblast to secure a KO, which removes their pivot and prevents them from utilizing Regenerator."
+    }
+  ]
+}

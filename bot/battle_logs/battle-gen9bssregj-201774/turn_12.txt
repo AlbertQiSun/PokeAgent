@@ -1,0 +1,84 @@
+Battle: battle-gen9bssregj-201774
+Agent:  Gemini
+Turn:   12
+System: LLM
+Action: switch amoonguss
+
+── REASONING ──
+Incineroar has fainted, so I must send in a new Pokemon. Amoonguss is the best defensive pivot to handle Iron Hands' Drain Punch and threaten with Spore or resist potential coverage.
+
+── BATTLE CONTEXT ──
+=== TURN 12 ANALYSIS ===
+Your incineroar vs opponent's ironhands
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓drainpunch           →  80.0- 94.1% (SE) → 2HKO
+  ~Drain Punch          →  80.0- 94.1% (SE) → 2HKO
+  ~Wild Charge          →  47.6- 55.9% → 2HKO
+  ~Ice Punch            →  12.9- 15.3% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        58% ###########
+  switch                 36% #######
+
+── SPEED CHECK ──
+  You outspeed: incineroar(60 base) > ironhands(50 base)
+
+── SWITCH OPTIONS ──
+  kingambit            (Dark/Steel       30.4% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    leftovers ✓
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: leftovers (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: leftovers (expected Assault Vest)
+
+── HP STATUS ──
+  Your incineroar: 0% [FNT]
+  Opp ironhands: 100% 
+  Your bench: amoonguss(100%), kingambit(30%), chienpao(100%), dragonite(100%)
+  Opp bench: ~5 remaining

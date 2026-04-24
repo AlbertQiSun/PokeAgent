@@ -1,0 +1,84 @@
+Battle: battle-gen9bssregj-201810
+Agent:  Gemini
+Turn:   7
+System: LLM
+Action: move highhorsepower
+
+── REASONING ──
+High Horsepower is a 2HKO on Incineroar and forces them to either switch or risk losing their primary pivot. Since I outspeed them after Intimidate or they are forced to switch, this is the most aggressive and optimal play to maintain momentum.
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your calyrexice vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  glaciallance         Ice      PHYSICAL BP:120 →  36.5- 43.5% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  78.2- 92.4% (2x SE) → 2HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  25.9- 30.6% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓flareblitz           →  61.7- 72.6% (SE) → 2HKO
+  ~Flare Blitz          →  61.7- 72.6% (SE) → 2HKO
+  ~Knock Off            →  34.9- 40.6% (SE) → 3HKO
+  ~U-turn               →  24.6- 29.1% (SE)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        45% #########
+  switch                 21% ####
+  attack_special         21% ####
+  attack_status          12% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: incineroar(60 base) > calyrexice(50 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    Leftovers ✓
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   hurricane ✓, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your calyrexice: 100% 
+  Opp incineroar: 71% 
+  Your bench: kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

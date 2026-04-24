@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-201786
+Agent:  Hybrid
+Turn:   6
+System: S1
+Confidence: 100%
+Action: /choose move surgingstrikes
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your urshifurapidstrike vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  80.8- 96.9% x3 (neutral) → 2HKO
+  closecombat          Fighting PHYSICAL BP:120 →   0.0-  0.0% (IMMUNE)
+  aquajet              Water    PHYSICAL BP: 40 pri=1 →  42.3- 50.0% (neutral) → 3HKO
+  uturn                Bug      PHYSICAL BP: 70 →  11.5- 13.8% (4x resist)
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ✓shadowball           →  58.9- 69.1% → 2HKO
+  ~Moonblast            → 139.4-164.6% (SE) → OHKO!
+  ~Shadow Ball          →  58.9- 69.1% → 2HKO
+  ~Dazzling Gleam       → 118.3-138.9% (SE) → OHKO!
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         31% ######
+  attack_status          29% #####
+  setup                  22% ####
+  switch                 16% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > urshifurapidstrike(97 base)
+  Priority moves available: aquajet
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your urshifurapidstrike: 100% 
+  Opp fluttermane: 22% 
+  Your bench: gholdengo(100%), rillaboom(100%), incineroar(100%)
+  Opp bench: ~3 remaining

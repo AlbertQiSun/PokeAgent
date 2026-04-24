@@ -1,0 +1,167 @@
+{
+  "battle_tag": "battle-gen9bssregj-201774",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 13,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 18,
+  "our_team": [
+    "incineroar",
+    "calyrexice",
+    "amoonguss",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "ironhands",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower provides a 2HKO and is super effective against Iron Hands, making it the optimal play to secure momentum while the opponent is unlikely to OHKO Calyrex-Ice."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower provides a 2HKO and is super effective against Iron Hands, making it the optimal play to secure momentum while Iron Hands lacks the damage output to OHKO Calyrex-Ice."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and deals significantly more damage than Glacial Lance due to the type advantage against Iron Hands. Since Iron Hands is running Leftovers rather than Assault Vest, it is not bulky enough to survive two hits, and I can secure the KO before it can drain enough health back."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a guaranteed 2HKO and deals more damage than Glacial Lance, ensuring I KO the Iron Hands this turn given its low HP status."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Incineroar provides Intimidate to weaken Iron Hands' physical attacks and can pivot or threaten with Flare Blitz."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is at 31% and threatens a 2HKO with Drain Punch. Parting Shot allows me to pivot safely into Kingambit while lowering Iron Hands' attack, keeping momentum and preserving Incineroar for later utility."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move flare blitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is at 31% HP, putting it well within KO range for Flare Blitz. Since I outspeed and can secure the KO, attacking is the priority over switching."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is guaranteed to be OHKOed by Drain Punch, and none of its moves can KO Iron Hands. Switching to Incineroar allows for an Intimidate drop to mitigate damage and provides a safer pivot to handle the threat."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 66% and Iron Hands' Drain Punch will likely KO or leave me in range of a follow-up move. Switching to Amoonguss provides a resistance to Fighting-type moves and allows me to pivot or status the opponent safely."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is at 30% HP and will be KO'd by Flare Blitz next turn. Switching to Incineroar provides a safe pivot to resist the incoming Fire-type attack and allows me to scout the opponent's next move while preserving Kingambit for a potential late-game Sucker Punch."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since both Incineroars are in a neutral stalemate with low damage output, Parting Shot is the best play to lower the opponent's stats and gain momentum by bringing in a teammate safely."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move flare blitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since both Incineroars are speed-tied and mine is at low HP, I need to maximize damage before going down. Flare Blitz is the most consistent way to trade damage or potentially force a switch, as staying in to trade chip damage is better than pivoting into a neutral matchup with Kingambit."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is at 30% HP and will be KO'd by Flare Blitz, while doing negligible damage in return. Switching to Amoonguss provides a resistance to Flare Blitz and allows me to pivot or status the Incineroar to preserve Kingambit for a potential late-game Sucker Punch sweep."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 18% HP and will likely be KO'd by any attack. Using Parting Shot allows me to pivot safely to a teammate while lowering the opponent's stats, maintaining momentum despite the health disadvantage."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 18% and will be KO'd by any move from Iron Hands. Switching to Amoonguss provides a resistance to Drain Punch and allows for potential redirection or status support to handle the Iron Hands."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is guaranteed to be OHKO'd by Drain Punch, and switching to Amoonguss provides a resistance to Fighting-type moves to safely pivot into the Iron Hands."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar has fainted, so I must send in a new Pokemon. Amoonguss is the best defensive pivot to handle Iron Hands' Drain Punch and threaten with Spore or resist potential coverage."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is guaranteed to be OHKO'd by Drain Punch, and none of its moves can threaten Iron Hands. Switching to Amoonguss provides a resistance to Fighting-type moves and allows for potential redirection or recovery."
+    }
+  ]
+}

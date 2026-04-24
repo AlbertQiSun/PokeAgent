@@ -1,0 +1,90 @@
+{
+  "battle_tag": "battle-gen9bssregj-236666",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 7,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "urshifurapidstrike",
+    "fluttermane",
+    "dragonite",
+    "rillaboom",
+    "tornadustherian",
+    "incineroar"
+  ],
+  "opp_team": [
+    "gholdengo",
+    "incineroar",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "move shadowball",
+      "confidence": -1,
+      "surprises": [
+        "[gholdengo] Unexpected item: airballoon (expected Choice Scarf)"
+      ],
+      "reasoning": "Despite the Air Balloon surprise, I outspeed Gholdengo and Shadow Ball is a guaranteed OHKO, satisfying the priority to secure a KO immediately."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move shadowball terastallize",
+      "confidence": 0.5486642122268677,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 0.7949761748313904,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9377217888832092,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9969673156738281,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9961041212081909,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose switch Incineroar",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move knockoff",
+      "confidence": 0.5290775895118713,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

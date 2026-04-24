@@ -1,0 +1,408 @@
+{
+  "battle_tag": "battle-gen9bssregj-201836",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 43,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 48,
+  "our_team": [
+    "incineroar",
+    "calyrexice",
+    "amoonguss",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "urshifurapidstrike",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a high-speed threat immediately. Since I can secure the KO, I should prioritize taking the opponent's Pokemon off the field rather than switching."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 51% and will be OHKOed by Close Combat or 2HKOed by Surging Strikes. Amoonguss resists both of Urshifu-Rapid's STAB types, making it the safest pivot to neutralize the immediate threat."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid Strike is a major threat, and Spore is the best way to neutralize it immediately. Since Amoonguss survives Close Combat, taking the risk to put the opponent to sleep provides the best momentum shift."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is already asleep, and since Amoonguss is slower, Spore is the best way to maintain pressure or catch a switch-in if they decide to move Urshifu out."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid-Strike is already asleep (as noted in the HP status), so Spore is a wasted turn. However, since the opponent is likely to switch out their sleeping Urshifu, using Spore again is a safe prediction to catch a switch-in or force them to deal with the sleep pressure if they stay in."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is already asleep (as indicated in the HP status), so I will capitalize on the free turn to maintain pressure or force a switch while they are incapacitated."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is already asleep (SLP status noted in HP status), so using Spore again is a safe play to keep it incapacitated while I maintain positioning, or it forces a switch from the opponent."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is already asleep, so clicking Spore is a safe way to maintain pressure or catch a switch-in if they decide to pivot out. Since I cannot KO and the opponent is forced to either stay in and waste turns or switch, Spore is the highest value play."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is threatened with an OHKO by Flare Blitz and cannot effectively damage Incineroar. Switching to my own Incineroar provides a Fire-type resistance to absorb the Flare Blitz and allows me to pivot or intimidate the opponent."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is asleep, making this a free opportunity to pivot out and gain momentum while lowering their stats, setting up a better matchup for my bench."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move knock off",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is asleep, making it a sitting duck. Knock Off is the best play to remove its item while dealing chip damage without risking recoil from Flare Blitz."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is threatened with an OHKO by Flare Blitz and cannot effectively damage Incineroar. Switching to my own Incineroar provides a Fire-type resistance to Flare Blitz and allows me to pivot or intimidate the opponent."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is asleep, making this the perfect opportunity to use Parting Shot to pivot into a better matchup while lowering the opponent's stats, maintaining momentum without taking unnecessary damage."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is guaranteed to be OHKO'd by Urshifu-Rapid's Close Combat, so I must switch to a resist. Amoonguss resists both of Urshifu's STABs and can handle the threat effectively."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, so using Spore again is a safe play to maintain control if they stay in, or to catch a switch-in with sleep if they decide to pivot."
+    },
+    {
+      "turn": 14,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is already asleep, so Spore is a safe play to keep it incapacitated if it wakes up, while maintaining Amoonguss's utility as a pivot or redirector."
+    },
+    {
+      "turn": 15,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is already asleep, and since they are likely to switch to avoid the sleep turn or because they are incapacitated, Spore is the safest play to catch a switch-in or keep the current target neutralized."
+    },
+    {
+      "turn": 16,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid-Strike is currently asleep. Spore is the optimal play to keep the opponent incapacitated, as they are likely to switch out to avoid the sleep cycle, but staying in to re-sleep them if they wake up or stay in is the highest value play."
+    },
+    {
+      "turn": 17,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is already asleep, and since Amoonguss is extremely slow, Spore is the best way to maintain control if they stay in or to catch a switch-in, effectively neutralizing their momentum."
+    },
+    {
+      "turn": 18,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is already asleep, and Spore is the most effective way to keep it neutralized or catch a switch-in. Since I am not in immediate danger of being KO'd, maintaining pressure with Spore is the optimal play."
+    },
+    {
+      "turn": 19,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is already asleep, so Spore is the best way to maintain pressure or catch a switch-in if they decide to swap out. Since Amoonguss is bulky enough to survive a hit, staying in to re-sleep or catch a new target is the highest value play."
+    },
+    {
+      "turn": 20,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is currently asleep, and Spore is the optimal play to maintain sleep pressure or catch a switch-in, as Amoonguss can comfortably tank a Close Combat if they stay in."
+    },
+    {
+      "turn": 21,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is already asleep, so Spore is a safe play to keep it incapacitated if it wakes up, while maintaining Amoonguss's utility as a pivot or redirection user."
+    },
+    {
+      "turn": 22,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is already asleep, and since Amoonguss is significantly slower, using Spore again ensures that if they wake up this turn, they are immediately put back to sleep, neutralizing their offensive pressure."
+    },
+    {
+      "turn": 23,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is threatened with an OHKO by Flare Blitz and cannot effectively damage Incineroar. Switching to my own Incineroar provides a Fire-type resistance to Flare Blitz and allows me to pivot or intimidate the opponent."
+    },
+    {
+      "turn": 24,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at low HP and cannot win the 1v1 against the opponent's healthy Incineroar. Parting Shot allows me to safely pivot out, lower the opponent's stats, and bring in a fresh check to maintain momentum."
+    },
+    {
+      "turn": 24,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 39% and cannot win the 1v1 against a healthy Incineroar. Switching to Amoonguss provides a safe pivot to absorb potential Knock Offs or U-turns while maintaining defensive utility."
+    },
+    {
+      "turn": 25,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is guaranteed to be OHKO'd by Flare Blitz. Switching to Incineroar provides a Fire-type resistance to absorb the hit, preserving Amoonguss for potential redirection or Spore utility later."
+    },
+    {
+      "turn": 26,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at low HP and cannot win the 1v1 against the opponent's Incineroar. Switching to Amoonguss provides a safe pivot that resists potential Water-type moves from Urshifu or neutral hits from Incineroar, while maintaining momentum."
+    },
+    {
+      "turn": 27,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is currently asleep, making Spore the optimal play to maintain control or force a switch while they are incapacitated."
+    },
+    {
+      "turn": 28,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is already asleep (SLP). Spore is the optimal play to maintain the sleep status or force a switch, as Urshifu cannot threaten a KO and I need to maintain control."
+    },
+    {
+      "turn": 29,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is currently asleep, making Spore the optimal play to maintain control or force a switch while keeping Amoonguss's utility active."
+    },
+    {
+      "turn": 30,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is currently asleep (SLP), so I should capitalize on this opportunity to keep it incapacitated or force a switch while I maintain board control."
+    },
+    {
+      "turn": 31,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is already asleep, so using Spore again is a safe play to maintain pressure or catch a switch-in, while Amoonguss is bulky enough to survive a Close Combat if they wake up."
+    },
+    {
+      "turn": 32,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is currently asleep, so I will re-apply Spore to keep it incapacitated while it is on the field, preventing it from attacking or switching out effectively."
+    },
+    {
+      "turn": 33,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is already asleep, and Spore will refresh the sleep counter, keeping them neutralized while Amoonguss remains safe from their attacks."
+    },
+    {
+      "turn": 34,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is currently asleep, so I should capitalize on the free turn to keep it incapacitated or force a switch while I maintain board control."
+    },
+    {
+      "turn": 35,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is asleep, but if it wakes up, it threatens a 3HKO. Protecting allows me to scout for a switch or stall out the sleep turn safely while preserving Amoonguss's utility."
+    },
+    {
+      "turn": 36,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid is asleep, but if it wakes up, it will likely use Close Combat or pivot. Protecting allows me to scout the opponent's intent while keeping Amoonguss healthy to potentially absorb another hit or redirect later."
+    },
+    {
+      "turn": 37,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Protect allows me to scout Urshifu's next move and potentially waste a turn of their potential setup or item effect while keeping Amoonguss healthy for a later redirection or spore opportunity."
+    },
+    {
+      "turn": 38,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid Strike is at 25% HP and will likely try to finish off Amoonguss with Close Combat. Protecting allows me to scout their next move or force them to waste a turn while I maintain Amoonguss's utility for later."
+    },
+    {
+      "turn": 39,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is guaranteed to be OHKO'd by Flare Blitz. Switching to Incineroar provides a Fire-type resistance to absorb the hit while preserving Amoonguss for potential utility later."
+    },
+    {
+      "turn": 40,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 17% HP and cannot win this exchange; Parting Shot allows me to pivot out safely, lower the opponent's stats, and bring in a fresh check to maintain momentum."
+    },
+    {
+      "turn": 40,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 4% and will be KOed by any move from the opponent. Switching to Amoonguss provides a pivot that can tank hits and potentially put the opponent to sleep or force a switch."
+    },
+    {
+      "turn": 41,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is threatened with an OHKO by Flare Blitz. Switching to Incineroar provides a Fire-type resistance to absorb the hit, preserving Amoonguss for potential utility later."
+    },
+    {
+      "turn": 41,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar has fainted, so I must bring in a new Pokemon. Kingambit is the best choice here to resist potential Flare Blitz or Knock Off attacks while threatening the opposing Incineroar with STAB Sucker Punch or Kowtow Cleave."
+    },
+    {
+      "turn": 42,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and deals significant damage to Incineroar. Since I am at 100% HP and Incineroar's Flare Blitz is only a 2HKO, I win the exchange by staying in and attacking."
+    },
+    {
+      "turn": 43,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO on Incineroar and deals significant damage. Even if Incineroar uses Flare Blitz, I will survive the hit and secure the KO on the following turn."
+    }
+  ]
+}

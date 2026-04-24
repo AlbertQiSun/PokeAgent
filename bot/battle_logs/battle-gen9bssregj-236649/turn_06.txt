@@ -1,0 +1,80 @@
+Battle: battle-gen9bssregj-236649
+Agent:  Hybrid
+Turn:   6
+System: S1
+Confidence: 80%
+Action: /choose switch Calyrex
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your rillaboom vs opponent's urshifurapidstrike
+
+── OPPONENT'S LIKELY MOVES vs RILLABOOM ──
+  ✓closecombat          →  56.6- 66.9% → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        77% ###############
+  switch                 11% ##
+  attack_special          9% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > rillaboom(85 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice      56.0% HP) — SE STAB
+  incineroar           (Fire/Dark       100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   knockoff ✓, heatwave ✓, ~Hurricane, ~Heat Wave
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    Leftovers ✓
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your rillaboom: 0% [FNT]
+  Opp urshifurapidstrike: 15% 
+  Your bench: dragonite(100%), urshifurapidstrike(100%), tornadustherian(100%), calyrexice(56%), incineroar(100%)
+  Opp bench: ~4 remaining

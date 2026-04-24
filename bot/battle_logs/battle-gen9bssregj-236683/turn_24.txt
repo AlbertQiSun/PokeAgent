@@ -1,0 +1,87 @@
+Battle: battle-gen9bssregj-236683
+Agent:  Gemini
+Turn:   24
+System: LLM
+Action: switch calyrexice
+
+── REASONING ──
+Incineroar is threatened with an OHKO by Close Combat and a 2HKO by Surging Strikes, and cannot secure a KO itself. Switching to Calyrex-Ice is the safest play to avoid losing Incineroar for free while maintaining defensive presence.
+
+── BATTLE CONTEXT ──
+=== TURN 24 ANALYSIS ===
+Your incineroar vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →  10.3- 12.6% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  12.6- 14.9% (resist)
+  flareblitz           Fire     PHYSICAL BP:120 →  45.1- 53.7% (neutral) → 3HKO
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓aquajet              →  40.6- 48.2% (SE) → 3HKO
+  ✓closecombat          → 156.5-184.1% (SE) → OHKO!
+  ✓surgingstrikes       →  79.4- 93.5% x3 (SE) → 2HKO
+  ✓uturn                →  22.9- 27.1%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        66% #############
+  switch                 31% ######
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > incineroar(60 base)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    Leftovers ✓
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   heatwave ✓, ~Hurricane, ~Heat Wave, ~Knock Off
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    Leftovers ✓
+│ Locked:  NOT Choice-locked (4 moves seen)
+│ Tera:    ???
+│ Moves:   aquajet ✓, closecombat ✓, surgingstrikes ✓, uturn ✓
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your incineroar: 53% 
+  Opp urshifurapidstrike: 74% 
+  Your bench: fluttermane(100%), calyrexice(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~3 remaining

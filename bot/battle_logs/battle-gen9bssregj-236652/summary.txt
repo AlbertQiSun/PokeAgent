@@ -1,0 +1,26 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236652
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   6
+Logged:  6 decisions
+Our team: urshifurapidstrike, rillaboom, tornadustherian, dragonite, incineroar, fluttermane
+Opp team: tornadustherian, urshifurapidstrike, rillaboom
+
+Routing: S1=3 (50%) S2=3 (50%)
+
+Surprises (3 total):
+  - PPO uncertainty: best action only 39% confidence (threshold 40%, entropy=1.67)
+  - PPO uncertainty: best action only 34% confidence (threshold 40%, entropy=1.72)
+  - PPO uncertainty: best action only 32% confidence (threshold 40%, entropy=1.75)
+
+Turn-by-turn:
+  T 1: /choose move hurricane         [S1] (40%)
+  T 2: /choose move hurricane         [S1] (43%)
+  T 3: move hurricane                 [S2] !
+  T 4: move hurricane                 [S2] !
+  T 5: move hurricane                 [S2] !
+  T 6: /choose move hurricane terastallize [S1] (53%)
+
+Timestamp: 2026-04-20T12:39:20.624928

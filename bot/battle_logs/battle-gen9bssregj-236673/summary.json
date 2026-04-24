@@ -1,0 +1,72 @@
+{
+  "battle_tag": "battle-gen9bssregj-236673",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 5,
+  "s1_count": 6,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "ironhands",
+    "kingambit",
+    "rillaboom",
+    "fluttermane",
+    "landorustherian",
+    "urshifurapidstrike"
+  ],
+  "opp_team": [
+    "urshifurapidstrike",
+    "incineroar",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.5190618634223938,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose switch Kingambit",
+      "confidence": 0.9692736864089966,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move suckerpunch terastallize",
+      "confidence": 0.6321249008178711,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move suckerpunch",
+      "confidence": 0.945353090763092,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move suckerpunch",
+      "confidence": 0.8918970227241516,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move suckerpunch",
+      "confidence": 0.9121853709220886,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

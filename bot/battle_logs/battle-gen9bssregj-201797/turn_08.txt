@@ -1,0 +1,98 @@
+Battle: battle-gen9bssregj-201797
+Agent:  Hybrid
+Turn:   8
+System: S2
+Surprises: [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+Action: switch incineroar
+
+── REASONING ──
+Urshifu-Rapid is at 7% and will be KOed by any move from Gholdengo; switching to Incineroar allows me to safely pivot or threaten Gholdengo while preserving my remaining team members.
+
+── BATTLE CONTEXT ──
+=== TURN 8 ANALYSIS ===
+Your urshifurapidstrike vs opponent's gholdengo
+
+── YOUR MOVES vs GHOLDENGO ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  38.9- 46.3% x3 (neutral) → 3HKO
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ~Make It Rain         →  42.9- 50.9% (resist) → 3HKO
+  ~Shadow Ball          →  58.3- 68.6% → 2HKO
+  ~Trick                →   0.0-  0.0%
+  ~Thunderbolt          →  86.9-102.3% (SE) → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         59% ###########
+  attack_status          19% ###
+  setup                  11% ##
+  attack_physical         9% #
+
+── SPEED CHECK ──
+  You outspeed: urshifurapidstrike(97 base) > gholdengo(84 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    lifeorb ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   thunderbolt ✓, moonblast ✓, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Booster Energy)
+│   - Unexpected move: thunderbolt
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    leftovers ✓
+│ Tera:    ???
+│ Moves:   thunderpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: leftovers (expected Assault Vest)
+│   - Unexpected move: thunderpunch
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+  [fluttermane] Unexpected move: thunderbolt
+  [ironhands] Unexpected item: leftovers (expected Assault Vest)
+  [ironhands] Unexpected move: thunderpunch
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your urshifurapidstrike: 7% 
+  Opp gholdengo: 100% 
+  Your bench: gholdengo(100%), rillaboom(100%), incineroar(100%)
+  Opp bench: ~3 remaining

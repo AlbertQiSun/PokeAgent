@@ -1,0 +1,74 @@
+{
+  "battle_tag": "battle-gen9bssregj-201750",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 5,
+  "s1_count": 5,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "ironhands",
+    "tornadustherian",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9997840523719788,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: lifeorb (expected Assault Vest)"
+      ],
+      "reasoning": "Tornadus-Therian is already fainted; I must switch to Flutter Mane to neutralize Iron Hands' Fighting-type STAB moves and threaten a KO with Fairy STAB."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999987483024597,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999997615814209,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999998211860657,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.999999463558197,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

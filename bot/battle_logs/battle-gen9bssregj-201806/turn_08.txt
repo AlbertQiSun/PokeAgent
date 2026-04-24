@@ -1,0 +1,90 @@
+Battle: battle-gen9bssregj-201806
+Agent:  Gemini
+Turn:   8
+System: LLM
+Action: move knockoff
+
+── REASONING ──
+Knock Off is the best play to remove Flutter Mane's Booster Energy, which significantly weakens its offensive pressure for the rest of the match, while also dealing respectable damage.
+
+── BATTLE CONTEXT ──
+=== TURN 8 ANALYSIS ===
+Your tornadustherian vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  hurricane            Flying   SPECIAL  BP:110 →  40.0- 47.7% (neutral) → 3HKO
+  heatwave             Fire     SPECIAL  BP: 95 →  23.1- 27.7% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  34.6- 41.5% (neutral) → 3HKO
+  uturn                Bug      PHYSICAL BP: 70 →   9.2- 10.8% (4x resist)
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓shadowball           →  44.8- 53.2% → 3HKO
+  ~Moonblast            →  53.2- 63.0% → 2HKO
+  ~Shadow Ball          →  44.8- 53.2% → 3HKO
+  ~Dazzling Gleam       →  44.8- 53.2% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  setup                  37% #######
+  attack_status          27% #####
+  attack_special         18% ###
+  switch                 17% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > tornadustherian(121 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   wildcharge ✓, drainpunch ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your tornadustherian: 100% 
+  Opp fluttermane: 100% 
+  Your bench: amoonguss(100%), chienpao(100%), kingambit(100%)
+  Opp bench: ~3 remaining

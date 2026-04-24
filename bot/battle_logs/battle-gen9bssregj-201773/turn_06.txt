@@ -1,0 +1,91 @@
+Battle: battle-gen9bssregj-201773
+Agent:  Gemini
+Turn:   6
+System: LLM
+Action: move spore
+
+── REASONING ──
+The opponent's Urshifu-Rapid-Strike is currently asleep. Spore is the optimal play to keep it incapacitated or refresh the sleep counter, as Amoonguss can comfortably tank a Close Combat if it wakes up.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your amoonguss vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  spore                Grass    STATUS   BP:  0 →   0.0-  0.0% (neutral)
+  pollenpuff           Bug      SPECIAL  BP: 90 →  13.7- 16.6% (resist)
+  ragepowder           Bug      STATUS   BP:  0 pri=2 →   0.0-  0.0% (neutral)
+  protect              Normal   STATUS   BP:  0 pri=4 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs AMOONGUSS ──
+  ✓closecombat          →  33.3- 39.7% (resist) → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 49% #########
+  attack_physical        40% #######
+  attack_special          8% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > amoonguss(30 base)
+  Priority moves available: ragepowder, protect
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+  incineroar           (Fire/Dark        14.4% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, drainpunch ✓, ~Wood Hammer, ~Drum Beating
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected move: drainpunch
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected move: drainpunch
+
+── HP STATUS ──
+  Your amoonguss: 69% 
+  Opp urshifurapidstrike: 100% [SLP]
+  Your bench: calyrexice(100%), incineroar(14%), kingambit(100%), tornadustherian(100%), chienpao(100%)
+  Opp bench: ~4 remaining

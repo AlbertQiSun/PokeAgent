@@ -1,0 +1,23 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201826
+==================================================
+Agent:   Gemini
+Result:  WIN
+Turns:   9
+Logged:  10 decisions
+Our team: incineroar, fluttermane, gholdengo, calyrexice, amoonguss, chienpao
+Opp team: ironhands, fluttermane, tornadustherian
+
+Turn-by-turn:
+  T 1: switch fluttermane             [LLM]
+  T 2: move moonblast                 [LLM]
+  T 3: switch incineroar              [LLM]
+  T 4: move flareblitz                [LLM]
+  T 5: move flareblitz                [LLM]
+  T 6: move flareblitz                [LLM]
+  T 6: switch fluttermane             [LLM]
+  T 7: move moonblast                 [LLM]
+  T 8: move moonblast                 [LLM]
+  T 9: move moonblast                 [LLM]
+
+Timestamp: 2026-04-20T10:34:20.870160

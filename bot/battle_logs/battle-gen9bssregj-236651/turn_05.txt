@@ -1,0 +1,86 @@
+Battle: battle-gen9bssregj-236651
+Agent:  Hybrid
+Turn:   5
+System: S1
+Confidence: 63%
+Action: /choose move moonblast
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your fluttermane vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  moonblast            Fairy    SPECIAL  BP: 95 →  42.3- 50.0% (neutral) → 3HKO
+  shadowball           Ghost    SPECIAL  BP: 80 →  72.3- 85.4% (2x SE) → 2HKO
+  mysticalfire         Fire     SPECIAL  BP: 75 →  22.3- 26.9% (neutral)
+  psyshock             Psychic  SPECIAL  BP: 80 →  23.8- 28.5% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓mysticalfire         →  22.3- 26.9%
+  ~Moonblast            →  42.3- 50.0% → 3HKO
+  ~Shadow Ball          →  72.3- 85.4% (SE) → 2HKO
+  ~Dazzling Gleam       →  36.2- 42.3% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         46% #########
+  setup                  23% ####
+  attack_status          15% ##
+  switch                 13% ##
+
+── SPEED CHECK ──
+  Speed tie: both 135 base (50/50)
+
+── SWITCH OPTIONS ──
+  landorustherian      (Ground/Flying   100.0% HP) — neutral
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   mysticalfire ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Hurricane, ~Heat Wave, ~Knock Off
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your fluttermane: 1% 
+  Opp fluttermane: 47% 
+  Your bench: landorustherian(100%), calyrexice(100%), rillaboom(100%), urshifurapidstrike(100%), tornadustherian(100%)
+  Opp bench: ~4 remaining

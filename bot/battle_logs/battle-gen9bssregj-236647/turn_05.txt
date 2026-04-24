@@ -1,0 +1,82 @@
+Battle: battle-gen9bssregj-236647
+Agent:  Hybrid
+Turn:   5
+System: S1
+Confidence: 100%
+Action: /choose move surgingstrikes
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your urshifurapidstrike vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  80.8- 96.9% x3 (neutral) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ✓shadowball           →  78.9- 92.6% → 2HKO
+  ~Moonblast            → 139.4-164.6% (SE) → OHKO!
+  ~Shadow Ball          →  78.9- 92.6% → 2HKO
+  ~Dazzling Gleam       → 118.3-138.9% (SE) → OHKO!
+
+── OPPONENT ACTION PREDICTION ──
+  setup                  33% ######
+  switch                 28% #####
+  attack_special         22% ####
+  attack_status          16% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > urshifurapidstrike(97 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your urshifurapidstrike: 100% 
+  Opp fluttermane: 100% 
+  Your bench: annihilape(100%), ironhands(100%), tornadustherian(100%)
+  Opp bench: ~4 remaining

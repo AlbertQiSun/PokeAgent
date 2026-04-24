@@ -1,0 +1,87 @@
+{
+  "battle_tag": "battle-gen9bssregj-236694",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 6,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 8,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "chienpao",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is outsped and 2HKOed by Flutter Mane, and it cannot secure a KO. Switching into my own Flutter Mane allows me to speed tie or potentially outspeed if they lack Booster Energy, while providing a better offensive matchup."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move shadowball",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I have a guaranteed OHKO with Shadow Ball, which is the highest priority move. Even though I am at low HP, winning the speed tie or taking the turn to secure the KO is the best play to remove the opponent's Flutter Mane."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Flutter Mane has fainted, so I must send out a new Pokemon. Incineroar is the best pivot to handle the low-HP opposing Flutter Mane while providing Intimidate support for the rest of the opponent's team."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Flutter Mane, and since I am faster than the opponent's likely switch-in or can secure the kill before they act, this is the optimal play to remove the threat."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Rillaboom, and since I am currently at 46% HP, I must take the KO now to remove the threat before it can finish me off with Wood Hammer."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Tornadus-Therian is the safest pivot to handle Rillaboom's Grass-type attacks and threaten it back with Hurricane."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Hurricane is a guaranteed OHKO on Rillaboom, satisfying the primary decision priority to secure the KO immediately."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Hurricane is a guaranteed OHKO on Rillaboom, and since I outspeed, I can secure the knockout before Rillaboom can move, effectively removing a threat despite my low HP."
+    }
+  ]
+}

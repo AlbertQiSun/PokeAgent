@@ -1,0 +1,31 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236695
+==================================================
+Agent:   Gemini
+Result:  WIN
+Turns:   13
+Logged:  18 decisions
+Our team: calyrexice, incineroar, fluttermane, kingambit, tornadustherian, amoonguss
+Opp team: incineroar, ironhands, tornadustherian
+
+Turn-by-turn:
+  T 1: switch incineroar              [LLM]
+  T 2: move partingshot               [LLM]
+  T 2: move knock off                 [LLM]
+  T 3: switch incineroar              [LLM]
+  T 4: move partingshot               [LLM]
+  T 4: switch fluttermane             [LLM]
+  T 5: move moonblast                 [LLM]
+  T 6: move moonblast                 [LLM]
+  T 7: move moonblast                 [LLM]
+  T 7: switch calyrexice              [LLM]
+  T 8: move glaciallance              [LLM]
+  T 9: switch incineroar              [LLM]
+  T10: move partingshot               [LLM]
+  T10: move knock off                 [LLM]
+  T11: move highhorsepower            [LLM]
+  T12: move glaciallance              [LLM]
+  T12: switch incineroar              [LLM]
+  T13: move flareblitz                [LLM]
+
+Timestamp: 2026-04-20T12:59:56.545097

@@ -1,0 +1,91 @@
+Battle: battle-gen9bssregj-236676
+Agent:  Gemini
+Turn:   15
+System: LLM
+Action: move flareblitz
+
+── REASONING ──
+The opponent's Incineroar is at 27% HP, and Flare Blitz is a guaranteed KO. Even with the resistance, the damage output is sufficient to remove their pivot from the field.
+
+── BATTLE CONTEXT ──
+=== TURN 15 ANALYSIS ===
+Your incineroar vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →  11.8- 14.1% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  14.1- 16.5% (resist)
+  flareblitz           Fire     PHYSICAL BP:120 →  25.9- 30.6% (resist)
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓flareblitz           →  25.9- 30.6% (resist)
+  ✓fakeout              →  11.8- 14.1%
+  ✓partingshot          →   0.0-  0.0%
+  ✓knockoff             →  14.1- 16.5% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        63% ############
+  switch                 20% ###
+  setup                   7% #
+  attack_status           5% #
+
+── SPEED CHECK ──
+  Speed tie: both 60 base (50/50)
+  Priority moves available: fakeout
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Locked:  NOT Choice-locked (4 moves seen)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, fakeout ✓, partingshot ✓, knockoff ✓
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your incineroar: 73% 
+  Opp incineroar: 27% 
+  Your bench: kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

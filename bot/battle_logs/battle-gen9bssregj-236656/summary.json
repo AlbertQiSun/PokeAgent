@@ -1,0 +1,112 @@
+{
+  "battle_tag": "battle-gen9bssregj-236656",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 9,
+  "s1_count": 11,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "fluttermane",
+    "rillaboom",
+    "urshifurapidstrike",
+    "calyrexice",
+    "tornadustherian",
+    "incineroar"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "fluttermane",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane terastallize",
+      "confidence": 0.5545305609703064,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.595245361328125,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.4437227249145508,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 0.6863091588020325,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9670342206954956,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9976513385772705,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9996004700660706,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose switch Calyrex",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.8997038006782532,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.8576036691665649,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.7777870893478394,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

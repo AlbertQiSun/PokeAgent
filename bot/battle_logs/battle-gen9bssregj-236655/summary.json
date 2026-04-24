@@ -1,0 +1,120 @@
+{
+  "battle_tag": "battle-gen9bssregj-236655",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 10,
+  "s1_count": 12,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "calyrexice",
+    "garganacl",
+    "dragonite",
+    "urshifurapidstrike",
+    "rillaboom",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "incineroar",
+    "tornadustherian",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move glaciallance terastallize",
+      "confidence": 0.7079897522926331,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.6000035405158997,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.5149790048599243,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.5140136480331421,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 0.5665010809898376,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9649441242218018,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9983413815498352,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9993428587913513,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9980505108833313,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9976646900177002,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose switch Dragonite",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 10,
+      "system": "S1",
+      "action": "/choose move dragonclaw",
+      "confidence": 0.6061525940895081,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

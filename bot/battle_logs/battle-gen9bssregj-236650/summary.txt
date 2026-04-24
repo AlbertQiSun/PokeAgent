@@ -1,0 +1,20 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236650
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   5
+Logged:  5 decisions
+Our team: urshifurapidstrike, chienpao, rillaboom, dragonite, landorustherian, tornadustherian
+Opp team: urshifurapidstrike, ironhands, incineroar
+
+Routing: S1=5 (100%) S2=0 (0%)
+
+Turn-by-turn:
+  T 1: /choose move earthquake terastallize [S1] (50%)
+  T 2: /choose move earthquake        [S1] (86%)
+  T 3: /choose move earthquake        [S1] (73%)
+  T 4: /choose move earthquake        [S1] (85%)
+  T 5: /choose move earthquake        [S1] (83%)
+
+Timestamp: 2026-04-20T12:39:14.221486

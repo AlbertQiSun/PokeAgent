@@ -1,0 +1,98 @@
+{
+  "battle_tag": "battle-gen9bssregj-236649",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 8,
+  "s1_count": 8,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "dragonite",
+    "rillaboom",
+    "urshifurapidstrike",
+    "tornadustherian",
+    "calyrexice",
+    "incineroar"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "urshifurapidstrike",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move glaciallance terastallize",
+      "confidence": 0.4549464285373688,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.5460882186889648,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S2",
+      "action": "switch rillaboom",
+      "confidence": -1,
+      "surprises": [
+        "PPO uncertainty: best action only 39% confidence (threshold 40%, entropy=1.47)"
+      ],
+      "reasoning": "Calyrex-Ice is at 56% and will be outsped and potentially KO'd by Urshifu-RS's Close Combat; switching to Rillaboom provides a resistance to Water/Fighting moves and allows for a safe pivot or priority revenge kill."
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move drumbeating",
+      "confidence": 0.6502366065979004,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move drumbeating",
+      "confidence": 0.6317031383514404,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move drumbeating",
+      "confidence": 0.5262593626976013,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose switch Calyrex",
+      "confidence": 0.8040603995323181,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move highhorsepower",
+      "confidence": 0.5384441018104553,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move heavyslam",
+      "confidence": 0.45365092158317566,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

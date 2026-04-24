@@ -1,0 +1,94 @@
+Battle: battle-gen9bssregj-236671
+Agent:  Hybrid
+Turn:   6
+System: S2
+Surprises: [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+Action: switch kingambit
+
+── REASONING ──
+Calyrex-Ice has fainted, so I must send in Kingambit to resist Flutter Mane's STAB moves and threaten a KO with Sucker Punch or Kowtow Cleave.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your calyrexice vs opponent's fluttermane
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓mysticalfire         →  45.7- 53.7% (SE) → 3HKO
+  ~Moonblast            →  42.9- 50.3% → 3HKO
+  ~Shadow Ball          →  72.6- 85.7% (SE) → 2HKO
+  ~Dazzling Gleam       →  36.0- 42.9% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  setup                  55% ##########
+  attack_special         34% ######
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  kingambit            (Dark/Steel      100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   mysticalfire ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Booster Energy)
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    leftovers ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   thunderpunch ✓, drainpunch ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: leftovers (expected Assault Vest)
+│   - Unexpected move: thunderpunch
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+  [ironhands] Unexpected item: leftovers (expected Assault Vest)
+  [ironhands] Unexpected move: thunderpunch
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your calyrexice: 0% [FNT]
+  Opp fluttermane: 91% 
+  Your bench: ironhands(100%), fluttermane(100%), kingambit(100%), incineroar(100%)
+  Opp bench: ~3 remaining

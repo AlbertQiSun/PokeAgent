@@ -1,0 +1,98 @@
+Battle: battle-gen9bssregj-201773
+Agent:  Gemini
+Turn:   14
+System: LLM
+Action: switch amoonguss
+
+── REASONING ──
+Calyrex-Ice is at 0% HP and has fainted; I must send in Amoonguss to continue the battle.
+
+── BATTLE CONTEXT ──
+=== TURN 14 ANALYSIS ===
+Your calyrexice vs opponent's gholdengo
+
+── YOUR MOVES vs GHOLDENGO ──
+  glaciallance         Ice      PHYSICAL BP:120 →  36.4- 43.2% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  77.8- 92.0% (2x SE) → 2HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  25.9- 30.9% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓makeitrain           →  81.1- 96.0% (SE) → 2HKO
+  ~Make It Rain         →  81.1- 96.0% (SE) → 2HKO
+  ~Shadow Ball          →  54.9- 65.1% (SE) → 2HKO
+  ~Trick                →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 46% #########
+  attack_special         39% #######
+  attack_status           9% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: gholdengo(84 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  amoonguss            (Grass/Poison    100.0% HP) — neutral
+
+── OPPONENT BENCH THREATS ──
+  urshifurapidstrike   (Fighting/Water) 100% — best: highhorsepower (neutral)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, drainpunch ✓, ~Wood Hammer, ~Drum Beating
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected move: drainpunch
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected move: drainpunch
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your calyrexice: 0% 
+  Opp gholdengo: 100% 
+  Your bench: amoonguss(100%), kingambit(100%), tornadustherian(100%), chienpao(100%)
+  Opp bench: ~4 remaining

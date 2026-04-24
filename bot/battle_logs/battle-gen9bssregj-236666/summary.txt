@@ -1,0 +1,26 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236666
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   6
+Logged:  8 decisions
+Our team: urshifurapidstrike, fluttermane, dragonite, rillaboom, tornadustherian, incineroar
+Opp team: gholdengo, incineroar, urshifurapidstrike
+
+Routing: S1=7 (88%) S2=1 (12%)
+
+Surprises (1 total):
+  - [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+Turn-by-turn:
+  T 1: move shadowball                [S2] !
+  T 2: /choose move shadowball terastallize [S1] (55%)
+  T 2: /choose switch Urshifu         [S1] (79%)
+  T 3: /choose move surgingstrikes    [S1] (94%)
+  T 4: /choose move surgingstrikes    [S1] (100%)
+  T 5: /choose move surgingstrikes    [S1] (100%)
+  T 5: /choose switch Incineroar      [S1] (100%)
+  T 6: /choose move knockoff          [S1] (53%)
+
+Timestamp: 2026-04-20T12:39:54.168730

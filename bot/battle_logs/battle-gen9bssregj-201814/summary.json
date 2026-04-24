@@ -1,0 +1,80 @@
+{
+  "battle_tag": "battle-gen9bssregj-201814",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 7,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "ironhands",
+    "fluttermane",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens a 2HKO with Drain Punch, and Incineroar cannot effectively pressure it back. Switching to Flutter Mane provides an immunity to Drain Punch and forces the opponent to switch or risk taking heavy special damage."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO, fulfilling the primary decision priority."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since this is a speed tie and the opponent's Shadow Ball can 2HKO me while mine cannot OHKO them, staying in is too risky. Switching to Incineroar provides a safe pivot that resists both of their STAB types."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a significant offensive threat immediately. Since I am ahead in the damage exchange, taking the KO is the highest priority."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz guarantees an OHKO on the Flutter Mane, removing the threat immediately regardless of its speed or potential defensive play."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 30% HP and will be OHKOed by Urshifu's Close Combat or 2HKOed by Surging Strikes. Switching to Flutter Mane provides a safe pivot that resists Urshifu's STAB moves and threatens a potential KO."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed OHKO on Urshifu-Rapid-Strike, and since Flutter Mane outspeeds, there is no reason to switch or use a different move."
+    }
+  ]
+}

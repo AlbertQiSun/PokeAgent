@@ -1,0 +1,79 @@
+Battle: battle-gen9bssregj-201794
+Agent:  Hybrid
+Turn:   1
+System: S1
+Confidence: 100%
+Action: /choose switch Flutter Mane
+
+── BATTLE CONTEXT ──
+=== TURN 1 ANALYSIS ===
+Your tornadustherian vs opponent's incineroar
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓flareblitz           →  64.3- 75.3% → 2HKO
+  ~Flare Blitz          →  64.3- 75.3% → 2HKO
+  ~Knock Off            →  35.1- 41.6% → 3HKO
+  ~U-turn               →  12.3- 14.9% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        75% ##############
+  attack_special         10% #
+  switch                  9% #
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — resists STAB | SE STAB
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your tornadustherian: 0% [FNT]
+  Opp incineroar: 0% [FNT]
+  Your bench: gholdengo(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%), fluttermane(100%)
+  Opp bench: ~4 remaining

@@ -1,0 +1,95 @@
+Battle: battle-gen9bssregj-236678
+Agent:  Gemini
+Turn:   14
+System: LLM
+Action: move glaciallance
+
+── REASONING ──
+Calyrex-Ice can 3HKO Urshifu-Rapid, and since Urshifu's Aqua Jet only does ~14%, I can survive another hit to secure the KO. Staying in is optimal to remove the threat without wasting a switch.
+
+── BATTLE CONTEXT ──
+=== TURN 14 ANALYSIS ===
+Your calyrexice vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  glaciallance         Ice      PHYSICAL BP:120 →  32.0- 37.7% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  34.3- 40.0% (neutral) → 3HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  22.9- 26.9% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓aquajet              →  12.0- 14.3%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        57% ###########
+  attack_special         28% #####
+  switch                  7% #
+  setup                   7% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark        73.3% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   heavyslam ✓, drainpunch ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+│   - Unexpected move: heavyslam
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   aquajet ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+  [ironhands] Unexpected move: heavyslam
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your calyrexice: 45% 
+  Opp urshifurapidstrike: 23% 
+  Your bench: incineroar(73%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

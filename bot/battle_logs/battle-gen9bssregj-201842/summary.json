@@ -1,0 +1,103 @@
+{
+  "battle_tag": "battle-gen9bssregj-201842",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 10,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "chienpao",
+    "amoonguss",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "incineroar",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move uturn",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is a bulky pivot that will likely switch out or use Fake Out; U-turn allows me to deal chip damage while maintaining momentum and bringing in a more favorable matchup."
+    },
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at a disadvantage against Incineroar due to Intimidate and the threat of Flare Blitz. Switching into my own Incineroar allows me to neutralize the opponent's Incineroar with Intimidate and pivot safely."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 39% HP and will be outsped and KO'd by Incineroar's Flare Blitz next turn. Switching to Tornadus-Therian provides a safe pivot to preserve Calyrex-Ice for later while avoiding the immediate KO."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 46% and will be KO'd by Flare Blitz next turn, while Hurricane is only a 3HKO. Switching to my own Incineroar allows me to Intimidate the opponent and safely pivot or check their physical attackers."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Tornadus-Therian is a safe pivot to scout the Incineroar's next move and maintain momentum."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Incineroar and Hurricane does significant damage (up to 53.5%). Since I am at 80% HP, I can survive a Flare Blitz and guarantee a 2HKO on the following turn while maintaining momentum."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 22% and will be KO'd by any move from Incineroar, but Hurricane has a high chance to KO the 19% HP Incineroar. Since I outspeed, I should take the guaranteed opportunity to remove the opponent's Incineroar before fainting."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 22% and will be OHKOed by Wild Charge; switching to Flutter Mane provides an immunity to Iron Hands' Fighting-type moves and forces the opponent to respect the speed and offensive pressure."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is already fainted; I must send in Tornadus-Therian to handle the Iron Hands, as it resists Fighting-type moves and can pivot out or threaten with Hurricane."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is guaranteed to be OHKOed by Wild Charge, and since Incineroar provides Intimidate support and resists Ice Punch, it is the safest pivot to handle Iron Hands."
+    }
+  ]
+}

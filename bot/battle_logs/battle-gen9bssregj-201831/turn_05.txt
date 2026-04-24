@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-201831
+Agent:  Gemini
+Turn:   5
+System: LLM
+Action: switch fluttermane
+
+── REASONING ──
+Incineroar is at 54% HP and Iron Hands' Drain Punch will likely KO it next turn. Switching to Flutter Mane provides an immunity to Drain Punch and threatens Iron Hands with super-effective STAB moves.
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your incineroar vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →   7.4-  8.7% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →   8.7- 10.5% (resist)
+  flareblitz           Fire     PHYSICAL BP:120 →  32.3- 38.0% (neutral) → 3HKO
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ~Drain Punch          →  80.0- 94.1% (SE) → 2HKO
+  ~Wild Charge          →  47.6- 55.9% → 2HKO
+  ~Ice Punch            →  12.9- 15.3% (resist)
+  ~Swords Dance         →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        74% ##############
+  attack_status          10% ##
+  switch                  9% #
+  attack_special          7% #
+
+── SPEED CHECK ──
+  You outspeed: incineroar(60 base) > ironhands(50 base)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — immune to STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Swords Dance
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your incineroar: 54% 
+  Opp ironhands: 100% 
+  Your bench: fluttermane(100%), kingambit(100%), tornadustherian(100%), amoonguss(100%)
+  Opp bench: ~3 remaining

@@ -1,0 +1,95 @@
+Battle: battle-gen9bssregj-201752
+Agent:  Hybrid
+Turn:   11
+System: S1
+Confidence: 100%
+Action: /choose move hurricane
+
+── BATTLE CONTEXT ──
+=== TURN 11 ANALYSIS ===
+Your tornadustherian vs opponent's tornadustherian
+
+── YOUR MOVES vs TORNADUSTHERIAN ──
+  hurricane            Flying   SPECIAL  BP:110 →  50.0- 59.1% (neutral) → 2HKO
+  heatwave             Fire     SPECIAL  BP: 95 →  29.2- 34.4% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  20.8- 24.0% (neutral)
+  uturn                Bug      PHYSICAL BP: 70 →  11.0- 13.0% (resist)
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓uturn                →  11.0- 13.0% (resist)
+  ✓heatwave             →  29.2- 34.4%
+  ~Hurricane            →  66.9- 79.2% → 2HKO
+  ~Heat Wave            →  29.2- 34.4%
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 43% ########
+  attack_physical        24% ####
+  attack_special         22% ####
+  attack_status          11% ##
+
+── SPEED CHECK ──
+  Speed tie: both 121 base (50/50)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 29% — best: hurricane (neutral)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   fakeout ✓, wildcharge ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   uturn ✓, heatwave ✓, ~Hurricane, ~Heat Wave
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your tornadustherian: 58% 
+  Opp tornadustherian: 40% 
+  Your bench: gholdengo(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%)
+  Opp bench: ~4 remaining

@@ -1,0 +1,94 @@
+Battle: battle-gen9bssregj-236686
+Agent:  Gemini
+Turn:   6
+System: LLM
+Action: move flareblitz
+
+── REASONING ──
+Flare Blitz is a guaranteed OHKO on Rillaboom. Since I have a clear KO path, I must take it to remove the opponent's threat immediately.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your incineroar vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →  11.4- 13.7% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  28.0- 32.6% (neutral)
+  flareblitz           Fire     PHYSICAL BP:120 → 101.1-118.9% (2x SE) → OHKO
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓woodhammer           →  42.4- 49.4% (resist) → 3HKO
+  ~Wood Hammer          →  42.4- 49.4% (resist) → 3HKO
+  ~Drum Beating         →  28.2- 33.5% (resist)
+  ~U-turn               →  33.5- 39.4% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 49% #########
+  attack_physical        37% #######
+  attack_special         11% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > incineroar(60 base)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+  calyrexice           (Psychic/Ice      70.0% HP) — SE STAB
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 88% — best: fakeout (neutral)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Swords Dance
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your incineroar: 66% 
+  Opp rillaboom: 94% 
+  Your bench: fluttermane(100%), calyrexice(70%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

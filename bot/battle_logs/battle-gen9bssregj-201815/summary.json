@@ -1,0 +1,72 @@
+{
+  "battle_tag": "battle-gen9bssregj-201815",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 6,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "ironhands",
+    "fluttermane",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens a 2HKO with Drain Punch, and staying in to Flare Blitz is inefficient. Switching to Flutter Mane provides an immunity to Fighting-type moves and forces the opponent to respect a potential super-effective STAB attack."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO, fulfilling the primary decision priority."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since this is a speed tie and the opponent's Shadow Ball can 2HKO me while I only 2HKO them, staying in is a losing coinflip. Switching to Incineroar provides a safe pivot that resists both of the opponent's STAB types, forcing them to switch or risk a poor matchup."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a significant offensive threat immediately while Incineroar is still healthy enough to survive the recoil."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is threatened with an OHKO by Close Combat and a 2HKO by Surging Strikes, and it cannot effectively damage Urshifu. Switching to Flutter Mane provides a safe pivot that resists Urshifu's STAB moves and threatens a potential KO with Fairy-type STAB."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed OHKO on Urshifu-Rapid-Strike, and since I outspeed, I can secure the knockout before the opponent can act."
+    }
+  ]
+}

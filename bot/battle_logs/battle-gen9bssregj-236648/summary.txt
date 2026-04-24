@@ -1,0 +1,30 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236648
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   9
+Logged:  10 decisions
+Our team: urshifurapidstrike, rillaboom, tornadustherian, incineroar, calyrexice, fluttermane
+Opp team: tornadustherian, rillaboom, incineroar
+
+Routing: S1=7 (70%) S2=3 (30%)
+
+Surprises (3 total):
+  - PPO uncertainty: best action only 38% confidence (threshold 40%, entropy=1.69)
+  - PPO uncertainty: best action only 36% confidence (threshold 40%, entropy=1.72)
+  - PPO uncertainty: best action only 34% confidence (threshold 40%, entropy=1.72)
+
+Turn-by-turn:
+  T 1: /choose move hurricane         [S1] (41%)
+  T 2: move hurricane                 [S2] !
+  T 3: move hurricane                 [S2] !
+  T 4: move hurricane                 [S2] !
+  T 5: /choose move hurricane terastallize [S1] (53%)
+  T 6: /choose move hurricane         [S1] (61%)
+  T 7: /choose move hurricane         [S1] (60%)
+  T 7: /choose switch Calyrex         [S1] (67%)
+  T 8: /choose move glaciallance      [S1] (82%)
+  T 9: /choose move glaciallance      [S1] (73%)
+
+Timestamp: 2026-04-20T12:39:10.707912

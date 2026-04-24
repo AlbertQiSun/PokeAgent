@@ -1,0 +1,111 @@
+{
+  "battle_tag": "battle-gen9bssregj-201811",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 8,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 11,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "chienpao",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "incineroar",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move uturn",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar will likely attempt to pivot or use Fake Out; U-turn allows me to deal chip damage while maintaining momentum and bringing in a more favorable matchup to handle the Incineroar."
+    },
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at a disadvantage against Incineroar's Flare Blitz and Intimidate. Switching to my own Incineroar allows me to neutralize the opponent's Incineroar with Intimidate and pivot safely."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 44% HP and will be outsped and KO'd by Flare Blitz next turn. Switching to Tornadus-Therian provides a safe pivot to preserve Calyrex-Ice for later while avoiding the KO."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 48% HP and will be KO'd by Flare Blitz next turn, while Hurricane only 3HKOs. Switching to Incineroar provides an Intimidate drop and a resistance to the predicted Flare Blitz, preserving Tornadus for a potential Regenerator recovery later."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send out a new Pokemon. Tornadus-Therian is the safest pivot to handle Incineroar's Fire/Dark coverage while maintaining momentum with Regenerator."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is threatened by a 2HKO from Flare Blitz and cannot secure a KO on Incineroar. Switching to my own Incineroar allows me to utilize Intimidate to mitigate incoming damage and pivot safely."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is at 6% HP and will be OHKOed by Flare Blitz or 2HKOed by Knock Off, so it cannot stay in. Switching to Tornadus-Therian preserves the Flutter Mane for a potential late-game priority move or chip damage while bringing in a healthy pivot."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 30% HP, putting it well within range of Hurricane (45.3-53.5%). Since I outspeed, I can secure the KO this turn before Incineroar can use Flare Blitz to finish me off."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Urshifu-Rapid-Strike and Hurricane is a guaranteed OHKO, making it the optimal play to remove the threat immediately."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian has fainted, so I must send in a new Pokemon. Incineroar is the best choice to pivot into Urshifu-Rapid-Strike to utilize Intimidate and potentially force a switch or chip the opponent."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is at 6% HP and will be knocked out by any move, so I must use my priority/speed advantage to secure the KO on Urshifu before fainting."
+    }
+  ]
+}

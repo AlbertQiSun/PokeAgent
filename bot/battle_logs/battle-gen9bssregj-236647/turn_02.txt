@@ -1,0 +1,82 @@
+Battle: battle-gen9bssregj-236647
+Agent:  Hybrid
+Turn:   2
+System: S1
+Confidence: 100%
+Action: /choose switch Urshifu
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your rillaboom vs opponent's fluttermane
+
+── OPPONENT'S LIKELY MOVES vs RILLABOOM ──
+  ✓shadowball           →  67.4- 79.4% → 2HKO
+  ~Moonblast            →  60.0- 70.3% → 2HKO
+  ~Shadow Ball          →  67.4- 79.4% → 2HKO
+  ~Dazzling Gleam       →  50.9- 59.4% → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         54% ##########
+  setup                  28% #####
+  switch                  9% #
+  attack_status           5% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > rillaboom(85 base)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your rillaboom: 0% [FNT]
+  Opp fluttermane: 100% 
+  Your bench: annihilape(100%), ironhands(100%), urshifurapidstrike(100%), tornadustherian(100%)
+  Opp bench: ~5 remaining

@@ -1,0 +1,96 @@
+{
+  "battle_tag": "battle-gen9bssregj-201810",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 9,
+  "our_team": [
+    "incineroar",
+    "calyrexice",
+    "amoonguss",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "tornadustherian",
+    "fluttermane",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a strong 2HKO and Tornadus-Therian's Hurricane is only a 3HKO, allowing Incineroar to win the trade while forcing the opponent to either switch or take significant damage."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed 2HKO on Tornadus-Therian, and since I am ahead in the exchange and the opponent's Hurricane is only a 3HKO, attacking is the optimal play to secure the KO."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a major offensive threat immediately. Since I can secure the KO, I must prioritize attacking over switching."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 11% and will likely be KO'd by any move; switching to Amoonguss allows me to pivot into a bulky resist and potentially scout the opponent's next move while preserving my healthier teammates."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is guaranteed to be OHKOed by Flare Blitz, and switching to Incineroar provides a Fire-type resistance to safely absorb the hit while maintaining momentum."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar has fainted, so I must bring in a fresh threat. Calyrex-Ice provides a strong offensive presence and can handle the opponent's Incineroar effectively."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar outspeeds and threatens a 2HKO with Flare Blitz, while my High Horsepower is only a 2HKO after Intimidate. Switching to Amoonguss provides a safe pivot to absorb the hit and potentially force a switch or scout the opponent's next move."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is currently fainted (0% HP), so I must bring in a new Pokemon. Calyrex-Ice is a strong neutral option to handle Incineroar's pressure."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO on Incineroar and forces them to either switch or risk losing their primary pivot. Since I outspeed them after Intimidate or they are forced to switch, this is the most aggressive and optimal play to maintain momentum."
+    }
+  ]
+}

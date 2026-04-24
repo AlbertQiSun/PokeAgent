@@ -1,0 +1,85 @@
+Battle: battle-gen9bssregj-236684
+Agent:  Gemini
+Turn:   5
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Calyrex-Ice has fainted, so I must send in a new Pokemon. Incineroar provides Intimidate support to mitigate physical pressure from Tornadus-Therian and can pivot out with U-turn to maintain momentum.
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your calyrexice vs opponent's tornadustherian
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓knockoff             →  20.0- 24.0% (SE)
+  ~Hurricane            →  30.9- 36.6%
+  ~Heat Wave            →  36.0- 42.3% (SE) → 3HKO
+  ~Knock Off            →  20.0- 24.0% (SE)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        53% ##########
+  attack_special         24% ####
+  switch                 18% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: tornadustherian(121 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  tornadustherian      (Flying          100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Hurricane, ~Heat Wave, ~Knock Off
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your calyrexice: 0% [FNT]
+  Opp tornadustherian: 100% 
+  Your bench: incineroar(100%), kingambit(100%), chienpao(100%), tornadustherian(100%)
+  Opp bench: ~3 remaining

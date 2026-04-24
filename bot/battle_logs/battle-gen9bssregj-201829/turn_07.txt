@@ -1,0 +1,85 @@
+Battle: battle-gen9bssregj-201829
+Agent:  Gemini
+Turn:   7
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Calyrex-Ice has fainted, so I must send in a new Pokemon. Incineroar is the best choice to check Rillaboom due to Intimidate and its resistance to Grass-type moves.
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your calyrexice vs opponent's rillaboom
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓woodhammer           →  49.7- 58.9% → 2HKO
+  ~Wood Hammer          →  49.7- 58.9% → 2HKO
+  ~Drum Beating         →  33.7- 40.0% → 3HKO
+  ~U-turn               →  40.0- 47.4% (SE) → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        76% ###############
+  switch                  9% #
+  attack_special          7% #
+  setup                   6% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark        69.8% HP) — resists STAB | SE STAB
+  fluttermane          (Ghost/Fairy      45.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your calyrexice: 0% [FNT]
+  Opp rillaboom: 87% 
+  Your bench: incineroar(70%), fluttermane(45%), kingambit(100%), tornadustherian(100%), chienpao(100%)
+  Opp bench: ~3 remaining

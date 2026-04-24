@@ -1,0 +1,24 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201824
+==================================================
+Agent:   Gemini
+Result:  LOSS
+Turns:   9
+Logged:  11 decisions
+Our team: calyrexice, incineroar, amoonguss, chienpao, tornadustherian, gholdengo
+Opp team: rillaboom, urshifurapidstrike, tornadustherian
+
+Turn-by-turn:
+  T 1: move hurricane                 [LLM]
+  T 2: move hurricane                 [LLM]
+  T 2: switch incineroar              [LLM]
+  T 3: move flareblitz                [LLM]
+  T 4: switch amoonguss               [LLM]
+  T 5: switch incineroar              [LLM]
+  T 6: switch calyrexice              [LLM]
+  T 7: switch amoonguss               [LLM]
+  T 7: switch amoonguss               [LLM]
+  T 8: switch amoonguss               [LLM]
+  T 9: move glaciallance              [LLM]
+
+Timestamp: 2026-04-20T10:33:53.555429

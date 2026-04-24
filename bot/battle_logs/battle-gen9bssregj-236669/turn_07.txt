@@ -1,0 +1,83 @@
+Battle: battle-gen9bssregj-236669
+Agent:  Hybrid
+Turn:   7
+System: S1
+Confidence: 53%
+Action: /choose move woodhammer
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your rillaboom vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  drumbeating          Grass    PHYSICAL BP: 80 → 100.0-118.3% (2x SE) → OHKO
+  woodhammer           Grass    PHYSICAL BP:120 → 148.6-174.9% (2x SE) → OHKO
+  uturn                Bug      PHYSICAL BP: 70 →  14.3- 17.1% (resist)
+  knockoff             Dark     PHYSICAL BP: 65 →  13.7- 16.0% (resist)
+
+── OPPONENT'S LIKELY MOVES vs RILLABOOM ──
+  ✓closecombat          →  56.6- 66.9% → 2HKO
+  ✓uturn                →  45.1- 52.6% (SE) → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 52% ##########
+  attack_physical        40% #######
+  attack_special          7% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > rillaboom(85 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    Leftovers ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   closecombat ✓, uturn ✓, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your rillaboom: 100% 
+  Opp urshifurapidstrike: 18% 
+  Your bench: ironhands(100%), dragonite(100%), chiyu(100%)
+  Opp bench: ~3 remaining

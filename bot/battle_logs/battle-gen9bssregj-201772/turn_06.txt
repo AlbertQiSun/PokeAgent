@@ -1,0 +1,90 @@
+Battle: battle-gen9bssregj-201772
+Agent:  Gemini
+Turn:   6
+System: LLM
+Action: switch kingambit
+
+── REASONING ──
+Calyrex-Ice has fainted; I must send in a replacement. Kingambit is the best defensive pivot to handle Gholdengo's Ghost/Steel STABs while threatening back with Sucker Punch.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your calyrexice vs opponent's gholdengo
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓makeitrain           →  81.1- 96.0% (SE) → 2HKO
+  ~Make It Rain         →  81.1- 96.0% (SE) → 2HKO
+  ~Shadow Ball          →  54.9- 65.1% (SE) → 2HKO
+  ~Trick                →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         41% ########
+  setup                  28% #####
+  switch                 17% ###
+  attack_status           7% #
+  attack_physical         6% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: gholdengo(84 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  kingambit            (Dark/Steel       24.6% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   earthquake ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+│ ⚠ Surprises:
+│   - Unexpected move: earthquake
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [incineroar] Unexpected move: earthquake
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your calyrexice: 0% [FNT]
+  Opp gholdengo: 100% 
+  Your bench: fluttermane(100%), kingambit(25%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

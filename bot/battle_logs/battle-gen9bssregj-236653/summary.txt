@@ -1,0 +1,30 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236653
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   8
+Logged:  10 decisions
+Our team: urshifurapidstrike, rillaboom, calyrexice, tornadustherian, incineroar, fluttermane
+Opp team: ironhands, fluttermane, urshifurapidstrike
+
+Routing: S1=8 (80%) S2=2 (20%)
+
+Surprises (3 total):
+  - [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+  - [ironhands] Unexpected move: heavyslam
+  - PPO uncertainty: best action only 36% confidence (threshold 40%, entropy=1.18)
+
+Turn-by-turn:
+  T 1: /choose move hurricane terastallize [S1] (47%)
+  T 2: switch fluttermane             [S2] !
+  T 3: /choose move moonblast         [S1] (94%)
+  T 4: /choose move moonblast         [S1] (100%)
+  T 4: /choose switch Tornadus        [S1] (84%)
+  T 5: move hurricane                 [S2] !
+  T 5: /choose switch Calyrex         [S1] (100%)
+  T 6: /choose move glaciallance      [S1] (59%)
+  T 7: /choose move glaciallance      [S1] (85%)
+  T 8: /choose move glaciallance      [S1] (85%)
+
+Timestamp: 2026-04-20T12:39:23.791074

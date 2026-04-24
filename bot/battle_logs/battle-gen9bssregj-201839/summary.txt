@@ -1,0 +1,33 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201839
+==================================================
+Agent:   Gemini
+Result:  WIN
+Turns:   20
+Logged:  20 decisions
+Our team: incineroar, fluttermane, calyrexice, amoonguss, kingambit, chienpao
+Opp team: ironhands, fluttermane, rillaboom
+
+Turn-by-turn:
+  T 1: switch amoonguss               [LLM]
+  T 2: move spore                     [LLM]
+  T 3: move spore                     [LLM]
+  T 4: move spore                     [LLM]
+  T 5: move spore                     [LLM]
+  T 6: move spore                     [LLM]
+  T 7: move spore                     [LLM]
+  T 8: move spore                     [LLM]
+  T 9: move spore                     [LLM]
+  T10: move spore                     [LLM]
+  T11: move spore                     [LLM]
+  T12: move spore                     [LLM]
+  T13: move spore                     [LLM]
+  T14: move spore                     [LLM]
+  T15: move spore                     [LLM]
+  T16: move spore                     [LLM]
+  T17: move pollenpuff                [LLM]
+  T18: switch incineroar              [LLM]
+  T19: move flareblitz                [LLM]
+  T20: move flareblitz                [LLM]
+
+Timestamp: 2026-04-20T10:42:03.439989

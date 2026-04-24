@@ -1,0 +1,85 @@
+Battle: battle-gen9bssregj-236680
+Agent:  Gemini
+Turn:   22
+System: LLM
+Action: switch fluttermane
+
+── REASONING ──
+Amoonguss is threatened with an OHKO by Flare Blitz and cannot effectively damage Incineroar. Switching to Flutter Mane forces Incineroar to either switch out or risk taking significant damage from a special attacker.
+
+── BATTLE CONTEXT ──
+=== TURN 22 ANALYSIS ===
+Your amoonguss vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  spore                Grass    STATUS   BP:  0 →   0.0-  0.0% (neutral)
+  pollenpuff           Bug      SPECIAL  BP: 90 →  19.4- 22.9% (neutral)
+  ragepowder           Bug      STATUS   BP:  0 pri=2 →   0.0-  0.0% (neutral)
+  protect              Normal   STATUS   BP:  0 pri=4 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs AMOONGUSS ──
+  ✓flareblitz           → 119.6-140.7% (SE) → OHKO!
+  ✓knockoff             →  32.8- 38.6% → 3HKO
+  ✓partingshot          →   0.0-  0.0%
+  ✓fakeout              →  13.8- 15.9%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        49% #########
+  switch                 34% ######
+  attack_status          15% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: incineroar(60 base) > amoonguss(30 base)
+  Priority moves available: ragepowder, protect
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Locked:  NOT Choice-locked (4 moves seen)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, knockoff ✓, partingshot ✓, fakeout ✓
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your amoonguss: 100% [BRN]
+  Opp incineroar: 70% 
+  Your bench: fluttermane(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~3 remaining

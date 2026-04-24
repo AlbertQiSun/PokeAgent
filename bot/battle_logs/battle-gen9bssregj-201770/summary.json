@@ -1,0 +1,136 @@
+{
+  "battle_tag": "battle-gen9bssregj-201770",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 11,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 14,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "ironhands",
+    "incineroar",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens a 2HKO with Drain Punch, and Incineroar cannot effectively pressure it. Switching to Calyrex-Ice allows me to pivot into a bulky threat that resists Iron Hands' coverage and forces the opponent to respect a powerful STAB response."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and provides the best damage output against Iron Hands. Since Iron Hands cannot OHKO Calyrex-Ice, attacking is the optimal play to maintain momentum."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and provides the most consistent damage output against Iron Hands. Since Iron Hands is running Leftovers instead of Assault Vest, it is less bulky than anticipated, and I can secure the KO within two turns while taking minimal damage."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is at 15% HP, meaning Glacial Lance is a guaranteed KO regardless of its leftovers recovery. Attacking now secures the KO and removes the threat."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 22% and will be KO'd by Flare Blitz or even Knock Off. Switching to Incineroar allows me to Intimidate the opponent and safely pivot or check the physical threat."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since both Incineroars resist each other's primary attacks and are in a speed tie, Parting Shot is the best way to gain momentum, lower the opponent's stats, and bring in a fresh check like Kingambit safely."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 39% and risks being KO'd by a Flare Blitz or chipped down further; switching to Kingambit provides a safe resist to the opponent's STAB moves and allows me to maintain momentum."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is threatened by a 2HKO from Flare Blitz and cannot effectively damage Incineroar. Switching to my own Incineroar allows me to Intimidate the opponent and safely pivot or check their physical attackers."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is fainted, so I must send in a replacement. Kingambit is the best defensive pivot here as it resists the opponent's likely Flare Blitz and Knock Off, and can threaten back with Sucker Punch or Kowtow Cleave."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is threatened by a 2HKO from Flare Blitz and cannot KO Incineroar in return. Switching to Dragonite provides a bulky pivot that resists Fire-type moves, allowing me to preserve Kingambit for later while scouting the opponent's next move."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 22% HP and will be KOed by any of Urshifu's attacks, especially Surging Strikes. Switching to Kingambit allows me to tank the hit and threaten Urshifu while preserving my remaining team members."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is fainted, so I must send in a replacement. Flutter Mane is the best choice to outspeed and threaten Urshifu-Rapid-Strike with super-effective STAB or high neutral damage."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 22% and will be KOed by Urshifu's Close Combat next turn, while dealing negligible damage in return. Switching to Dragonite preserves the HP for a potential late-game trade or setup opportunity."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 3% HP and will be KOed by any move from Urshifu-Rapid-Strike. Switching to Dragonite preserves the potential for a revenge kill or defensive utility."
+    }
+  ]
+}

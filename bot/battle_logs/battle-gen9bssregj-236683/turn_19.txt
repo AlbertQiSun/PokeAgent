@@ -1,0 +1,91 @@
+Battle: battle-gen9bssregj-236683
+Agent:  Gemini
+Turn:   19
+System: LLM
+Action: move spore
+
+── REASONING ──
+The opponent's Urshifu is already asleep, so Spore is the optimal play to keep it incapacitated while I chip away or pivot. Since it is already asleep, I do not need to switch and can maintain momentum.
+
+── BATTLE CONTEXT ──
+=== TURN 19 ANALYSIS ===
+Your amoonguss vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  spore                Grass    STATUS   BP:  0 →   0.0-  0.0% (neutral)
+  pollenpuff           Bug      SPECIAL  BP: 90 →  13.7- 16.6% (resist)
+  ragepowder           Bug      STATUS   BP:  0 pri=2 →   0.0-  0.0% (neutral)
+  protect              Normal   STATUS   BP:  0 pri=4 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs AMOONGUSS ──
+  ✓aquajet              →  11.6- 13.8% (resist)
+  ✓closecombat          →  45.0- 52.9% (resist) → 3HKO
+  ✓surgingstrikes       →  22.2- 25.4% x3 (resist)
+  ✓uturn                →  26.5- 31.2%
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 56% ###########
+  attack_physical        42% ########
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > amoonguss(30 base)
+  Priority moves available: ragepowder, protect
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+  incineroar           (Fire/Dark        53.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    Leftovers ✓
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   heatwave ✓, ~Hurricane, ~Heat Wave, ~Knock Off
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    Leftovers ✓
+│ Locked:  NOT Choice-locked (4 moves seen)
+│ Tera:    ???
+│ Moves:   aquajet ✓, closecombat ✓, surgingstrikes ✓, uturn ✓
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your amoonguss: 36% 
+  Opp urshifurapidstrike: 68% [SLP]
+  Your bench: incineroar(53%), fluttermane(100%), calyrexice(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~3 remaining

@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-201770
+Agent:  Gemini
+Turn:   10
+System: LLM
+Action: switch dragonite
+
+── REASONING ──
+Calyrex-Ice is at 22% and will be KOed by Urshifu's Close Combat next turn, while dealing negligible damage in return. Switching to Dragonite preserves the HP for a potential late-game trade or setup opportunity.
+
+── BATTLE CONTEXT ──
+=== TURN 10 ANALYSIS ===
+Your calyrexice vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  glaciallance         Ice      PHYSICAL BP:120 →  32.0- 37.7% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  34.3- 40.0% (neutral) → 3HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  22.9- 26.9% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓closecombat          →  34.3- 40.6% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        45% #########
+  switch                 32% ######
+  setup                  18% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > calyrexice(50 base)
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 51% — best: highhorsepower (SE)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    leftovers ✓
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: leftovers (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: leftovers (expected Assault Vest)
+
+── HP STATUS ──
+  Your calyrexice: 22% 
+  Opp urshifurapidstrike: 100% 
+  Your bench: fluttermane(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

@@ -1,0 +1,184 @@
+{
+  "battle_tag": "battle-gen9bssregj-201839",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 20,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 20,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "amoonguss",
+    "kingambit",
+    "chienpao"
+  ],
+  "opp_team": [
+    "ironhands",
+    "fluttermane",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens a 2HKO with Drain Punch, and Incineroar cannot effectively pressure it. Switching to Amoonguss provides a safe pivot that resists Fighting-type moves and can threaten to put the opponent to sleep or force a switch."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is likely to stay in to fish for an Ice Punch KO. Spore is the highest value play to neutralize the threat immediately, as Amoonguss survives any single hit from Iron Hands this turn."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is already asleep, but since I cannot KO it and it threatens a 2HKO with Ice Punch, refreshing the sleep status or forcing a switch is the safest play to maintain momentum."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is already asleep (as indicated by the HP status), so Spore is a wasted turn. However, since the opponent is likely to switch out to wake up or reset, and I have no immediate KO, Spore is the safest play to catch a switch-in or maintain pressure while I evaluate the board state."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is a significant threat with Life Orb, and Spore is the best way to neutralize it immediately. Even if they switch, putting a potential pivot to sleep provides massive momentum for the rest of the match."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is already asleep, but Spore is the only move that provides utility here. Since I cannot KO it and switching would give the opponent a free turn, I will use Spore to ensure it stays asleep or to reset the sleep counter if it wakes up."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is a significant threat with Life Orb, and Spore is the most effective way to neutralize it immediately. Since Amoonguss survives any hit Iron Hands can deal, putting it to sleep provides a massive momentum swing."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is already asleep, so Spore is a safe play to keep it incapacitated while I maintain board control. Since it is already asleep, I am essentially fishing for a turn where it stays asleep, preventing it from using its Life Orb-boosted attacks."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is at 47% and likely staying in to finish off Amoonguss. Spore effectively neutralizes the threat, allowing me to gain momentum or switch safely next turn."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is already asleep, but since I cannot KO it and it is a threat, re-applying Spore ensures it stays incapacitated while I maintain board control."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is at 32% HP and is using Life Orb, meaning it will likely be KO'd by recoil or chip damage soon. Spore effectively removes it from the game without taking further damage, allowing me to maintain Amoonguss for redirection later."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is already asleep, but since I cannot KO it and it is a threat, re-applying Spore ensures it stays incapacitated while I chip it down or pivot safely next turn."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is already asleep, but Spore is the best way to maintain pressure or reset the sleep timer if they wake up, as Amoonguss has no meaningful offensive output against it."
+    },
+    {
+      "turn": 14,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is at 17% HP and likely to stay in to secure a KO on Amoonguss. Spore will neutralize the threat completely, allowing me to safely handle it next turn or pivot if necessary."
+    },
+    {
+      "turn": 15,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is already asleep (SLP), so Spore is a safe play to keep it incapacitated while I chip it down or prepare to switch if it wakes up."
+    },
+    {
+      "turn": 16,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is already asleep, so using Spore again is a safe way to maintain pressure or reset the sleep counter if they wake up, while avoiding any risk of taking damage."
+    },
+    {
+      "turn": 17,
+      "system": "LLM",
+      "action": "move pollenpuff",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is already asleep and at 17% HP. Pollen Puff will secure the KO this turn, removing the threat from the field."
+    },
+    {
+      "turn": 18,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss cannot threaten Flutter Mane and is being 3HKOed. Switching to Incineroar provides a safe pivot that resists both of Flutter Mane's STAB types, allowing me to scout for a Tera or force a switch."
+    },
+    {
+      "turn": 19,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a major threat immediately. Since I can secure the KO this turn, I should prioritize the attack over switching."
+    },
+    {
+      "turn": 20,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Rillaboom, satisfying the primary decision priority to secure a KO when available."
+    }
+  ]
+}

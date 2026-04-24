@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-201828
+Agent:  Gemini
+Turn:   43
+System: LLM
+Action: switch amoonguss
+
+── REASONING ──
+Incineroar is guaranteed to be OHKOed by Urshifu-Rapid-Strike's Close Combat. Switching to Amoonguss provides a resistance to Water-type moves and forces the opponent to deal with a defensive pivot.
+
+── BATTLE CONTEXT ──
+=== TURN 43 ANALYSIS ===
+Your incineroar vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →  10.3- 12.6% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  12.6- 14.9% (resist)
+  flareblitz           Fire     PHYSICAL BP:120 →  22.3- 26.9% (resist)
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓closecombat          → 117.1-137.6% (SE) → OHKO!
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        59% ###########
+  switch                 28% #####
+  attack_special          9% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > incineroar(60 base)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  amoonguss            (Grass/Poison    100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 86% — best: fakeout (neutral)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   hurricane ✓, heatwave ✓, ~Heat Wave, ~Knock Off
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your incineroar: 73% 
+  Opp urshifurapidstrike: 50% 
+  Your bench: tornadustherian(100%), chienpao(100%), kingambit(100%), amoonguss(100%)
+  Opp bench: ~4 remaining

@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-201787
+Agent:  Hybrid
+Turn:   6
+System: S1
+Confidence: 100%
+Action: /choose move makeitrain
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your gholdengo vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  makeitrain           Steel    SPECIAL  BP:120 →  30.0- 35.3% (resist)
+  shadowball           Ghost    SPECIAL  BP: 80 →  20.0- 23.5% (resist)
+  thunderbolt          Electric SPECIAL  BP: 90 →  30.0- 35.3% (neutral)
+  focusblast           Fighting SPECIAL  BP:120 →  80.0- 94.1% (2x SE) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs GHOLDENGO ──
+  ~Flare Blitz          → 103.7-121.6% (SE) → OHKO!
+  ~Knock Off            →  57.4- 67.3% (SE) → 2HKO
+  ~U-turn               →   4.9-  5.6% (resist)
+  ~Fake Out             →   0.0-  0.0% (IMMUNE)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        48% #########
+  attack_special         24% ####
+  attack_status          16% ###
+  setup                   6% #
+  switch                  5% #
+
+── SPEED CHECK ──
+  You outspeed: gholdengo(84 base) > incineroar(60 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your gholdengo: 25% 
+  Opp incineroar: 100% 
+  Your bench: ironhands(100%), rillaboom(100%), incineroar(100%)
+  Opp bench: ~3 remaining

@@ -1,0 +1,104 @@
+{
+  "battle_tag": "battle-gen9bssregj-201825",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 8,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 10,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "kingambit",
+    "chienpao",
+    "tornadustherian",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "urshifurapidstrike",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane outspeeds and 2HKOs Tornadus-Therian with Moonblast. Switching to Incineroar provides a safe pivot that resists Flutter Mane's STAB moves and can threaten it with Knock Off or U-turn."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, allowing me to remove a major offensive threat immediately regardless of the opponent's choice to stay in or switch."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar has fainted, so I must send in a replacement. Kingambit is the best choice to pressure Flutter Mane with Sucker Punch, as it resists Shadow Ball and can potentially pick up the KO on the weakened Flutter Mane."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Flutter Mane, securing the knockout regardless of the opponent's move choice."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 52% and will be KO'd by Urshifu's next two attacks while failing to secure a 3HKO. Switching to Tornadus-Therian provides a safe resist to Urshifu's STAB moves and maintains momentum."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Hurricane is a guaranteed OHKO on Urshifu-Rapid-Strike. Even if the opponent switches, Hurricane is a strong neutral move that punishes the switch-in, and I outspeed them regardless."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 25% HP and will be OHKOed by Iron Hands' Wild Charge, so switching to a healthier teammate is necessary to preserve momentum."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 6% HP and will be KO'd by any move from Iron Hands. Switching to Tornadus-Therian allows me to preserve the turn and potentially pivot or check the opponent with a resist."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian has fainted, so I must send in a new Pokemon. Kingambit is the best choice to handle Iron Hands due to its bulk and resistance to potential coverage moves."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 6% HP and will be KO'd by any move from Iron Hands. Switching to Amoonguss provides a defensive pivot to absorb the hit and potentially threaten with Spore or resist future attacks."
+    }
+  ]
+}

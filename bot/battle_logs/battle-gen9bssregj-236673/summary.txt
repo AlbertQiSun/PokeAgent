@@ -1,0 +1,21 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236673
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   5
+Logged:  6 decisions
+Our team: ironhands, kingambit, rillaboom, fluttermane, landorustherian, urshifurapidstrike
+Opp team: urshifurapidstrike, incineroar, rillaboom
+
+Routing: S1=6 (100%) S2=0 (0%)
+
+Turn-by-turn:
+  T 1: /choose move moonblast         [S1] (52%)
+  T 1: /choose switch Kingambit       [S1] (97%)
+  T 2: /choose move suckerpunch terastallize [S1] (63%)
+  T 3: /choose move suckerpunch       [S1] (95%)
+  T 4: /choose move suckerpunch       [S1] (89%)
+  T 5: /choose move suckerpunch       [S1] (91%)
+
+Timestamp: 2026-04-20T12:40:15.103062

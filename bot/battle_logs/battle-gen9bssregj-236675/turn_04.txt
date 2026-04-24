@@ -1,0 +1,87 @@
+Battle: battle-gen9bssregj-236675
+Agent:  Hybrid
+Turn:   4
+System: S1
+Confidence: 89%
+Action: /choose move surgingstrikes
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your urshifurapidstrike vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  17.1- 20.6% x3 (resist)
+  closecombat          Fighting PHYSICAL BP:120 →  51.4- 60.0% (neutral) → 2HKO
+  aquajet              Water    PHYSICAL BP: 40 pri=1 →   8.6- 10.3% (resist)
+  uturn                Bug      PHYSICAL BP: 70 →   9.7- 12.0% (resist)
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ✓surgingstrikes       →  17.1- 20.6% x3 (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        56% ###########
+  attack_special         27% #####
+  setup                  12% ##
+
+── SPEED CHECK ──
+  Speed tie: both 97 base (50/50)
+  Priority moves available: aquajet
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark       100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   surgingstrikes ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your urshifurapidstrike: 100% 
+  Opp urshifurapidstrike: 1% 
+  Your bench: ironhands(100%), rillaboom(100%), tornadustherian(100%), incineroar(100%)
+  Opp bench: ~3 remaining

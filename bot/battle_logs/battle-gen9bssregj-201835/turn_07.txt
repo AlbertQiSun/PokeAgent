@@ -1,0 +1,83 @@
+Battle: battle-gen9bssregj-201835
+Agent:  Gemini
+Turn:   7
+System: LLM
+Action: move hurricane
+
+── REASONING ──
+Hurricane is a guaranteed OHKO on Urshifu-Rapid-Strike, and since I outspeed, I should take the KO immediately to remove the threat.
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your tornadustherian vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  hurricane            Flying   SPECIAL  BP:110 → 132.0-155.4% (2x SE) → OHKO
+  heatwave             Fire     SPECIAL  BP: 95 →  18.9- 22.3% (resist)
+  knockoff             Dark     PHYSICAL BP: 65 →   7.4-  8.6% (resist)
+  uturn                Bug      PHYSICAL BP: 70 →   7.4-  9.1% (resist)
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ~Surging Strikes      →  48.7- 56.5% x3 → 2HKO
+  ~Close Combat         →  35.7- 42.2% (resist) → 3HKO
+  ~U-turn               →  14.3- 16.9% (resist)
+  ~Aqua Jet             →  25.3- 29.2%
+
+── OPPONENT ACTION PREDICTION ──
+  setup                  57% ###########
+  attack_physical        30% ######
+  attack_special          9% #
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > urshifurapidstrike(97 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your tornadustherian: 62% 
+  Opp urshifurapidstrike: 100% 
+  Your bench: incineroar(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~4 remaining

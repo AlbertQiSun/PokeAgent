@@ -1,0 +1,80 @@
+Battle: battle-gen9bssregj-201827
+Agent:  Gemini
+Turn:   4
+System: LLM
+Action: switch urshifurapidstrike
+
+── REASONING ──
+Incineroar is fainted, so I must send in a new Pokemon. Urshifu-Rapid-Strike resists the opponent's Urshifu's STAB moves and provides the best defensive pivot to handle the immediate threat.
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your incineroar vs opponent's urshifurapidstrike
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓closecombat          → 117.1-137.6% (SE) → OHKO!
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        52% ##########
+  switch                 43% ########
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+  urshifurapidstrike   (Fighting/Water   44.0% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your incineroar: 0% [FNT]
+  Opp urshifurapidstrike: 100% 
+  Your bench: calyrexice(100%), amoonguss(100%), chienpao(100%), urshifurapidstrike(44%), gholdengo(100%)
+  Opp bench: ~4 remaining

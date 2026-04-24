@@ -1,0 +1,81 @@
+Battle: battle-gen9bssregj-236695
+Agent:  Gemini
+Turn:   12
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Calyrex-Ice has fainted, so I must send in a new Pokemon. Incineroar is the best pivot to handle Tornadus-Therian's utility moves and provide Intimidate support for the rest of the team.
+
+── BATTLE CONTEXT ──
+=== TURN 12 ANALYSIS ===
+Your calyrexice vs opponent's tornadustherian
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓knockoff             →  20.0- 24.0% (SE)
+  ✓uturn                →  21.7- 25.7% (SE)
+  ✓heatwave             →  36.0- 42.3% (SE) → 3HKO
+  ~Hurricane            →  30.9- 36.6%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        46% #########
+  switch                 28% #####
+  attack_special         24% ####
+
+── SPEED CHECK ──
+  Opponent outspeeds: tornadustherian(121 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark        66.3% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Swords Dance
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Locked:  NOT Choice-locked (3 moves seen)
+│ Tera:    ???
+│ Moves:   knockoff ✓, uturn ✓, heatwave ✓, ~Hurricane
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your calyrexice: 0% [FNT]
+  Opp tornadustherian: 42% 
+  Your bench: incineroar(66%), kingambit(100%), tornadustherian(100%), amoonguss(100%)
+  Opp bench: ~3 remaining

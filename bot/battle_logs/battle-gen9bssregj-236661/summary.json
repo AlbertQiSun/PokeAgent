@@ -1,0 +1,98 @@
+{
+  "battle_tag": "battle-gen9bssregj-236661",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 7,
+  "s1_count": 8,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "primarina",
+    "urshifurapidstrike",
+    "dragonite",
+    "rillaboom",
+    "tornadustherian",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "tornadustherian",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.670805037021637,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.7081239223480225,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 0.9354323148727417,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move surgingstrikes terastallize",
+      "confidence": 0.47559654712677,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9974130988121033,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose switch Rillaboom",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move drumbeating",
+      "confidence": 0.5115301012992859,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move drumbeating",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S2",
+      "action": "switch primarina",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: lifeorb (expected Assault Vest)"
+      ],
+      "reasoning": "Rillaboom is at 41% and will be KOed by Iron Hands' Ice Punch or Drain Punch, and Drum Beating fails to secure a KO. Switching to Primarina allows me to preserve Rillaboom's priority for later while checking the Life Orb Iron Hands."
+    }
+  ]
+}

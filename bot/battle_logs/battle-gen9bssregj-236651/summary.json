@@ -1,0 +1,104 @@
+{
+  "battle_tag": "battle-gen9bssregj-236651",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 9,
+  "s1_count": 10,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "landorustherian",
+    "fluttermane",
+    "calyrexice",
+    "rillaboom",
+    "urshifurapidstrike",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "tornadustherian",
+    "fluttermane",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.8118035793304443,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.765791118144989,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.7238696217536926,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.6635853052139282,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.6288761496543884,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.43117502331733704,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.6070224642753601,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.42269188165664673,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose switch Landorus",
+      "confidence": 0.9431406259536743,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move earthquake terastallize",
+      "confidence": 0.5459920167922974,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

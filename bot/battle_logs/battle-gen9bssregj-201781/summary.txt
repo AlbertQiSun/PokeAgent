@@ -1,0 +1,23 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201781
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   6
+Logged:  8 decisions
+Our team: gholdengo, rillaboom, tornadustherian, urshifurapidstrike, incineroar, fluttermane
+Opp team: urshifurapidstrike, fluttermane, incineroar
+
+Routing: S1=8 (100%) S2=0 (0%)
+
+Turn-by-turn:
+  T 1: /choose move hurricane         [S1] (100%)
+  T 2: /choose move hurricane         [S1] (100%)
+  T 2: /choose switch Flutter Mane    [S1] (100%)
+  T 3: /choose move moonblast         [S1] (100%)
+  T 4: /choose move moonblast         [S1] (100%)
+  T 5: /choose move moonblast         [S1] (100%)
+  T 5: /choose switch Urshifu         [S1] (100%)
+  T 6: /choose move surgingstrikes    [S1] (100%)
+
+Timestamp: 2026-04-20T08:02:02.925778

@@ -1,0 +1,22 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236646
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   6
+Logged:  7 decisions
+Our team: chienpao, calyrexice, chiyu, urshifurapidstrike, fluttermane, dragonite
+Opp team: ironhands, urshifurapidstrike, incineroar
+
+Routing: S1=7 (100%) S2=0 (0%)
+
+Turn-by-turn:
+  T 1: /choose move moonblast         [S1] (65%)
+  T 2: /choose move moonblast         [S1] (62%)
+  T 3: /choose move moonblast         [S1] (68%)
+  T 3: /choose switch Calyrex         [S1] (99%)
+  T 4: /choose move glaciallance terastallize [S1] (64%)
+  T 5: /choose move glaciallance      [S1] (78%)
+  T 6: /choose move glaciallance      [S1] (73%)
+
+Timestamp: 2026-04-20T12:39:04.415522

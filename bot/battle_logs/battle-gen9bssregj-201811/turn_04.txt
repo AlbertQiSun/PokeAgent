@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-201811
+Agent:  Gemini
+Turn:   4
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Tornadus-Therian is threatened by a 2HKO from Flare Blitz and cannot secure a KO on Incineroar. Switching to my own Incineroar allows me to utilize Intimidate to mitigate incoming damage and pivot safely.
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your tornadustherian vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  hurricane            Flying   SPECIAL  BP:110 →  45.3- 53.5% (neutral) → 3HKO
+  heatwave             Fire     SPECIAL  BP: 95 →  12.9- 15.3% (resist)
+  knockoff             Dark     PHYSICAL BP: 65 →   8.2-  9.4% (resist)
+  uturn                Bug      PHYSICAL BP: 70 →  17.6- 21.2% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓flareblitz           →  64.3- 75.3% → 2HKO
+  ~Flare Blitz          →  64.3- 75.3% → 2HKO
+  ~Knock Off            →  35.1- 41.6% → 3HKO
+  ~U-turn               →  12.3- 14.9% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        61% ############
+  attack_special         15% ###
+  switch                 12% ##
+  attack_status           7% #
+  setup                   5% #
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your tornadustherian: 81% 
+  Opp incineroar: 67% 
+  Your bench: incineroar(100%), fluttermane(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~5 remaining

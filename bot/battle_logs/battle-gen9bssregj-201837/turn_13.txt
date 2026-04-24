@@ -1,0 +1,89 @@
+Battle: battle-gen9bssregj-201837
+Agent:  Gemini
+Turn:   13
+System: LLM
+Action: switch calyrexice
+
+── REASONING ──
+Incineroar is at 13% and will be OHKOed by Urshifu's Close Combat. Switching to Calyrex-Ice preserves Incineroar for a potential Intimidate pivot later and brings in a healthier threat.
+
+── BATTLE CONTEXT ──
+=== TURN 13 ANALYSIS ===
+Your incineroar vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →  10.3- 12.6% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  12.6- 14.9% (resist)
+  flareblitz           Fire     PHYSICAL BP:120 →  22.3- 26.9% (resist)
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓closecombat          → 117.1-137.6% (SE) → OHKO!
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        48% #########
+  setup                  34% ######
+  switch                 15% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > incineroar(60 base)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   psyshock ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected move: psyshock
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   hurricane ✓, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected move: psyshock
+
+── HP STATUS ──
+  Your incineroar: 13% 
+  Opp urshifurapidstrike: 100% [SLP]
+  Your bench: calyrexice(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

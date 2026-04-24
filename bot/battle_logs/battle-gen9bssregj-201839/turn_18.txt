@@ -1,0 +1,94 @@
+Battle: battle-gen9bssregj-201839
+Agent:  Gemini
+Turn:   18
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Amoonguss cannot threaten Flutter Mane and is being 3HKOed. Switching to Incineroar provides a safe pivot that resists both of Flutter Mane's STAB types, allowing me to scout for a Tera or force a switch.
+
+── BATTLE CONTEXT ──
+=== TURN 18 ANALYSIS ===
+Your amoonguss vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  spore                Grass    STATUS   BP:  0 →   0.0-  0.0% (neutral)
+  pollenpuff           Bug      SPECIAL  BP: 90 →   3.8-  4.6% (4x resist)
+  ragepowder           Bug      STATUS   BP:  0 pri=2 →   0.0-  0.0% (neutral)
+  protect              Normal   STATUS   BP:  0 pri=4 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs AMOONGUSS ──
+  ~Moonblast            →  24.3- 28.6% (resist)
+  ~Shadow Ball          →  41.3- 48.7% → 3HKO
+  ~Dazzling Gleam       →  20.6- 24.3% (resist)
+  ~Protect              →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  setup                  60% ###########
+  attack_special         26% #####
+  attack_status          12% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > amoonguss(30 base)
+  Priority moves available: ragepowder, protect
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+  incineroar           (Fire/Dark       100.0% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   drainpunch ✓, wildcharge ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your amoonguss: 54% 
+  Opp fluttermane: 100% 
+  Your bench: incineroar(100%), fluttermane(100%), calyrexice(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~4 remaining

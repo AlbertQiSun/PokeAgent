@@ -1,0 +1,80 @@
+{
+  "battle_tag": "battle-gen9bssregj-201823",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 7,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "tornadustherian",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "urshifurapidstrike",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is significantly slower than Flutter Mane and will take heavy damage from Shadow Ball before it can move. Switching to Incineroar allows me to safely absorb the special attack and potentially threaten with Intimidate or a pivot move."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a significant offensive threat immediately. Since I am faster than the opponent's switch-in options if they decide to pivot, taking the KO now is the highest priority."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is threatened with an OHKO by Close Combat and a 2HKO by Surging Strikes, and cannot meaningfully damage Urshifu-Rapid. Switching to Flutter Mane provides an immunity to the expected Fighting-type STAB moves and forces the opponent to respect a faster threat."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed OHKO on Urshifu-Rapid-Strike, and since I outspeed it, I can secure the knockout before it can make a move."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Tornadus-Therian and Moonblast is a guaranteed 2HKO. Since Tornadus cannot OHKO me, I should stay in and secure the damage to force a switch or KO."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Tornadus-Therian and Moonblast is a guaranteed 2HKO, which secures the kill before they can finish off my Flutter Mane."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Tornadus-Therian is at 8% HP, meaning Moonblast is a guaranteed KO regardless of damage rolls. Attacking secures the kill and removes the threat immediately."
+    }
+  ]
+}

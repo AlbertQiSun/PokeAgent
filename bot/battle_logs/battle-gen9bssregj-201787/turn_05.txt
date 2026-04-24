@@ -1,0 +1,86 @@
+Battle: battle-gen9bssregj-201787
+Agent:  Hybrid
+Turn:   5
+System: S1
+Confidence: 100%
+Action: /choose move makeitrain
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your gholdengo vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  makeitrain           Steel    SPECIAL  BP:120 →  29.3- 34.1% (resist)
+  shadowball           Ghost    SPECIAL  BP: 80 →  39.3- 46.3% (neutral) → 3HKO
+  thunderbolt          Electric SPECIAL  BP: 90 →  14.4- 17.0% (resist)
+  focusblast           Fighting SPECIAL  BP:120 →  38.9- 45.9% (neutral) → 3HKO
+
+── OPPONENT'S LIKELY MOVES vs GHOLDENGO ──
+  ✓wildcharge           →  61.7- 72.2% → 2HKO
+  ~Drain Punch          →   0.0-  0.0% (IMMUNE)
+  ~Wild Charge          →  61.7- 72.2% → 2HKO
+  ~Ice Punch            →  16.7- 19.8% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        73% ##############
+  switch                 18% ###
+  attack_special          6% #
+
+── SPEED CHECK ──
+  You outspeed: gholdengo(84 base) > ironhands(50 base)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your gholdengo: 100% 
+  Opp ironhands: 35% 
+  Your bench: ironhands(100%), rillaboom(100%), incineroar(100%)
+  Opp bench: ~4 remaining

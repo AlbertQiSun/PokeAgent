@@ -1,0 +1,64 @@
+{
+  "battle_tag": "battle-gen9bssregj-201819",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 5,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 5,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "tornadustherian",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "urshifurapidstrike",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is significantly slower than Flutter Mane and will take heavy damage from Shadow Ball before it can move. Switching to Incineroar allows me to safely pivot, potentially intimidate the opponent, and scout their intentions while preserving Calyrex-Ice for a better matchup."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, allowing me to remove a major offensive threat immediately without risking a switch."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is threatened with an OHKO by Close Combat and a 2HKO by Surging Strikes, making it unsafe to stay in. Flutter Mane provides a safe switch-in as it is immune to Urshifu's Fighting-type STAB and resists its Water-type STAB."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed OHKO on Urshifu-Rapid-Strike, and since I outspeed, I can secure the knockout before the opponent can make a move."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO, fulfilling the KO THREAT priority."
+    }
+  ]
+}

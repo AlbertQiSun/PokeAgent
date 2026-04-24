@@ -1,0 +1,85 @@
+Battle: battle-gen9bssregj-236648
+Agent:  Hybrid
+Turn:   7
+System: S1
+Confidence: 67%
+Action: /choose switch Calyrex
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your tornadustherian vs opponent's incineroar
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓knockoff             →  35.1- 41.6% → 3HKO
+  ~Flare Blitz          →  64.3- 75.3% → 2HKO
+  ~Knock Off            →  35.1- 41.6% → 3HKO
+  ~U-turn               →  12.3- 14.9% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        67% #############
+  attack_special         11% ##
+  switch                 10% #
+  setup                   6% #
+  attack_status           6% #
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Locked:  NOT Choice-locked (3 moves seen)
+│ Tera:    ???
+│ Moves:   hurricane ✓, knockoff ✓, heatwave ✓, ~Heat Wave
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your tornadustherian: 0% [FNT]
+  Opp incineroar: 67% 
+  Your bench: urshifurapidstrike(100%), rillaboom(100%), incineroar(100%), calyrexice(100%), fluttermane(100%)
+  Opp bench: ~3 remaining

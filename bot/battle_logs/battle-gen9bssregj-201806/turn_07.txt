@@ -1,0 +1,85 @@
+Battle: battle-gen9bssregj-201806
+Agent:  Gemini
+Turn:   7
+System: LLM
+Action: switch kingambit
+
+── REASONING ──
+Calyrex-Ice has fainted, so I must send in a replacement. Kingambit is the best choice to check Flutter Mane due to its resistance to Ghost and Fairy moves and its ability to threaten back with Sucker Punch.
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your calyrexice vs opponent's fluttermane
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓shadowball           →  56.0- 65.7% (SE) → 2HKO
+  ~Moonblast            →  32.6- 38.9% → 3HKO
+  ~Shadow Ball          →  56.0- 65.7% (SE) → 2HKO
+  ~Dazzling Gleam       →  28.0- 32.6%
+
+── OPPONENT ACTION PREDICTION ──
+  setup                  58% ###########
+  attack_special         32% ######
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  tornadustherian      (Flying          100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   wildcharge ✓, drainpunch ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your calyrexice: 0% [FNT]
+  Opp fluttermane: 100% 
+  Your bench: amoonguss(100%), chienpao(100%), kingambit(100%), tornadustherian(100%)
+  Opp bench: ~3 remaining

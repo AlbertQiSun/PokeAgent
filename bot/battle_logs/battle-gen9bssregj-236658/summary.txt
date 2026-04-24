@@ -1,0 +1,24 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236658
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   6
+Logged:  6 decisions
+Our team: fluttermane, tinglu, dragonite, urshifurapidstrike, calyrexice, rillaboom
+Opp team: ironhands, fluttermane, rillaboom
+
+Routing: S1=5 (83%) S2=1 (17%)
+
+Surprises (1 total):
+  - [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+Turn-by-turn:
+  T 1: /choose move fissure terastallize [S1] (56%)
+  T 2: switch fluttermane             [S2] !
+  T 3: /choose move moonblast         [S1] (95%)
+  T 4: /choose move moonblast         [S1] (98%)
+  T 5: /choose move moonblast         [S1] (96%)
+  T 6: /choose move moonblast         [S1] (96%)
+
+Timestamp: 2026-04-20T12:39:33.989485

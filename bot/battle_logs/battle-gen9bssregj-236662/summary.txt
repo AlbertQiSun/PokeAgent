@@ -1,0 +1,31 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236662
+==================================================
+Agent:   Hybrid
+Result:  LOSS
+Turns:   8
+Logged:  10 decisions
+Our team: ironhands, dragonite, rillaboom, urshifurapidstrike, incineroar, kingambit
+Opp team: rillaboom, incineroar, ironhands
+
+Routing: S1=6 (60%) S2=4 (40%)
+
+Surprises (4 total):
+  - PPO uncertainty: best action only 32% confidence (threshold 40%, entropy=1.83)
+  - PPO uncertainty: best action only 31% confidence (threshold 40%, entropy=1.84)
+  - PPO uncertainty: best action only 31% confidence (threshold 40%, entropy=1.77)
+  - [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+Turn-by-turn:
+  T 1: move firepunch                 [S2] !
+  T 2: move firepunch                 [S2] !
+  T 3: switch urshifurapidstrike      [S2] !
+  T 4: /choose move surgingstrikes terastallize [S1] (70%)
+  T 5: /choose move surgingstrikes    [S1] (65%)
+  T 6: /choose move surgingstrikes    [S1] (83%)
+  T 6: switch kingambit               [S2] !
+  T 7: /choose move suckerpunch       [S1] (91%)
+  T 7: /choose switch Dragonite       [S1] (100%)
+  T 8: /choose move dragonclaw        [S1] (47%)
+
+Timestamp: 2026-04-20T12:39:45.868455

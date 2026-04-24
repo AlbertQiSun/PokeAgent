@@ -1,0 +1,89 @@
+Battle: battle-gen9bssregj-236679
+Agent:  Gemini
+Turn:   8
+System: LLM
+Action: move knockoff
+
+── REASONING ──
+The opponent's Incineroar is at 21% HP, putting it well within range of Knock Off. This secures the KO while avoiding the chip damage of Flare Blitz recoil.
+
+── BATTLE CONTEXT ──
+=== TURN 8 ANALYSIS ===
+Your incineroar vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →  11.8- 14.1% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  28.8- 33.5% (neutral)
+  flareblitz           Fire     PHYSICAL BP:120 →  25.9- 30.6% (resist)
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓fakeout              →  11.8- 14.1%
+  ✓knockoff             →  14.1- 16.5% (resist)
+  ~Flare Blitz          →  34.7- 40.6% (resist) → 3HKO
+  ~Knock Off            →  14.1- 16.5% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        61% ############
+  switch                 17% ###
+  attack_special         15% ##
+
+── SPEED CHECK ──
+  Speed tie: both 60 base (50/50)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+  calyrexice           (Psychic/Ice      72.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   fakeout ✓, knockoff ✓, ~Flare Blitz, ~Knock Off
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Swords Dance
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your incineroar: 77% 
+  Opp incineroar: 21% 
+  Your bench: calyrexice(72%), amoonguss(100%), kingambit(100%), fluttermane(100%), tornadustherian(100%)
+  Opp bench: ~3 remaining

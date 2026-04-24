@@ -1,0 +1,72 @@
+{
+  "battle_tag": "battle-gen9bssregj-201805",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 5,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 6,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "fluttermane",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Rillaboom, satisfying the primary decision priority to secure a KO immediately."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a major offensive threat immediately. Since I can secure the KO, I must prioritize attacking over switching or utility moves."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar has fainted, and I need to bring in a check to Flutter Mane. Kingambit resists Fairy and Ghost moves, making it the safest switch-in to handle the remaining 10% HP of the opponent's Flutter Mane."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move shadowball",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Shadow Ball is a guaranteed OHKO on the opponent's Flutter Mane, securing the knockout regardless of the speed tie outcome."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move shadowball",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Tornadus-Therian and can 2HKO it with Shadow Ball. Since it cannot OHKO me, attacking is the optimal play to secure the KO and maintain momentum."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Tornadus-Therian and Moonblast is a guaranteed 2HKO, whereas their best move only 3HKOs me. Staying in to secure the KO is the optimal play according to the priority list."
+    }
+  ]
+}

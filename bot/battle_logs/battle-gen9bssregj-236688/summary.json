@@ -1,0 +1,120 @@
+{
+  "battle_tag": "battle-gen9bssregj-236688",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 10,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 12,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "tornadustherian",
+    "ironhands",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move knockoff",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Knock Off provides consistent chip damage and removes the opponent's item, which is highly valuable against an Assault Vest Tornadus-Therian. Since I am not in immediate danger of being KO'd, applying pressure is the optimal play."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a 2HKO on Tornadus-Therian, and since Incineroar is not in immediate danger of being OHKOed, maximizing damage output is the priority to force the Regenerator user out or secure the KO."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 9% HP, meaning Flare Blitz is a guaranteed KO. Securing the KO removes the opponent's Regenerator pivot and puts us at a numerical advantage."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 9% HP, meaning Flare Blitz will easily secure the KO regardless of its defensive investment, preventing it from using Regenerator to heal."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 2% HP and will be KOed by any move from Iron Hands; switching to Flutter Mane provides an immunity to Drain Punch and forces the opponent to respect a faster, high-damage threat."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO, making it the optimal play to remove the threat immediately."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is threatened with an OHKO by Flare Blitz and cannot secure a KO this turn. Switching into Incineroar allows me to absorb the hit with Intimidate and resist the Fire-type move, preserving Flutter Mane for later."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar has fainted, so I must send out a new Pokemon. Flutter Mane is the best choice to pressure the opponent's Incineroar and maintain offensive momentum."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens an OHKO with Flare Blitz and I cannot secure a KO this turn. Switching to Calyrex-Ice preserves Flutter Mane for later while bringing in a bulkier threat that can handle Incineroar's attacks better."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and the best play to pressure Incineroar. Even if Incineroar attacks, I survive the hit and can finish it off next turn, maintaining momentum."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Flutter Mane is the optimal choice to outspeed Incineroar and threaten it with STAB Moonblast."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens an OHKO with Flare Blitz and I cannot secure a KO this turn. Switching to Dragonite provides a bulky pivot that resists Fire-type moves, allowing me to safely navigate the turn."
+    }
+  ]
+}

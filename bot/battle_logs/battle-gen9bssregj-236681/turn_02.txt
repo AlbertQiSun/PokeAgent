@@ -1,0 +1,94 @@
+Battle: battle-gen9bssregj-236681
+Agent:  Gemini
+Turn:   2
+System: LLM
+Action: move highhorsepower
+
+── REASONING ──
+High Horsepower is a 2HKO on Iron Hands and provides super-effective damage, which is the most efficient way to remove the threat while staying ahead in the exchange.
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your calyrexice vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  glaciallance         Ice      PHYSICAL BP:120 →  45.9- 54.1% (neutral) → 2HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  48.5- 57.2% (2x SE) → 2HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  32.8- 38.4% (neutral) → 3HKO
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ~Drain Punch          →  23.4- 28.0%
+  ~Wild Charge          →  28.0- 33.1%
+  ~Ice Punch            →   7.4-  9.1% (resist)
+  ~Swords Dance         →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        82% ################
+  attack_special          7% #
+  switch                  5% #
+  attack_status           5% #
+
+── SPEED CHECK ──
+  Speed tie: both 50 base (50/50)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark       100.0% HP) — neutral
+  fluttermane          (Ghost/Fairy     100.0% HP) — immune to STAB | SE STAB
+
+── OPPONENT BENCH THREATS ──
+  rillaboom            (Grass) 100% — best: glaciallance (SE)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Swords Dance
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your calyrexice: 100% 
+  Opp ironhands: 53% 
+  Your bench: incineroar(100%), fluttermane(100%), kingambit(100%), tornadustherian(100%), amoonguss(100%)
+  Opp bench: ~5 remaining

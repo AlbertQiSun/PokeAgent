@@ -1,0 +1,27 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201770
+==================================================
+Agent:   Gemini
+Result:  LOSS
+Turns:   11
+Logged:  14 decisions
+Our team: incineroar, fluttermane, calyrexice, kingambit, chienpao, dragonite
+Opp team: ironhands, incineroar, urshifurapidstrike
+
+Turn-by-turn:
+  T 1: switch calyrexice              [LLM]
+  T 2: move highhorsepower            [LLM]
+  T 3: move highhorsepower            [LLM]
+  T 4: move glaciallance              [LLM]
+  T 5: switch incineroar              [LLM]
+  T 6: move partingshot               [LLM]
+  T 6: switch kingambit               [LLM]
+  T 7: switch incineroar              [LLM]
+  T 7: switch kingambit               [LLM]
+  T 8: switch dragonite               [LLM]
+  T 9: switch kingambit               [LLM]
+  T 9: switch fluttermane             [LLM]
+  T10: switch dragonite               [LLM]
+  T11: switch dragonite               [LLM]
+
+Timestamp: 2026-04-20T08:00:13.824689

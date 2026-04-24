@@ -1,0 +1,96 @@
+Battle: battle-gen9bssregj-201832
+Agent:  Gemini
+Turn:   16
+System: LLM
+Action: move spore
+
+── REASONING ──
+Iron Hands is already asleep, but Spore is the safest play to ensure it remains incapacitated while I chip it down or pivot, as it is the biggest immediate threat on the field.
+
+── BATTLE CONTEXT ──
+=== TURN 16 ANALYSIS ===
+Your amoonguss vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  spore                Grass    STATUS   BP:  0 →   0.0-  0.0% (neutral)
+  pollenpuff           Bug      SPECIAL  BP: 90 →   9.2- 10.9% (resist)
+  ragepowder           Bug      STATUS   BP:  0 pri=2 →   0.0-  0.0% (neutral)
+  protect              Normal   STATUS   BP:  0 pri=4 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs AMOONGUSS ──
+  ✓wildcharge           →  35.4- 41.8% (resist) → 3HKO
+  ~Drain Punch          →  29.6- 34.9% (resist)
+  ~Wild Charge          →  35.4- 41.8% (resist) → 3HKO
+  ~Ice Punch            →  79.4- 93.1% (SE) → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        65% #############
+  switch                 21% ####
+  attack_special         10% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: ironhands(50 base) > amoonguss(30 base)
+  Priority moves available: ragepowder, protect
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark        77.2% HP) — neutral
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 93% — best: pollenpuff (neutral)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your amoonguss: 78% 
+  Opp ironhands: 42% [SLP]
+  Your bench: incineroar(77%), calyrexice(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~5 remaining

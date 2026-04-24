@@ -1,0 +1,27 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201800
+==================================================
+Agent:   Hybrid
+Result:  LOSS
+Turns:   6
+Logged:  8 decisions
+Our team: gholdengo, rillaboom, tornadustherian, urshifurapidstrike, incineroar, fluttermane
+Opp team: ironhands, rillaboom, urshifurapidstrike
+
+Routing: S1=7 (88%) S2=1 (12%)
+
+Surprises (2 total):
+  - [ironhands] Unexpected item: leftovers (expected Assault Vest)
+  - [ironhands] Unexpected move: thunderpunch
+
+Turn-by-turn:
+  T 1: /choose move hurricane         [S1] (100%)
+  T 1: switch fluttermane             [S2] !
+  T 2: /choose move moonblast         [S1] (100%)
+  T 3: /choose move moonblast         [S1] (100%)
+  T 3: /choose switch Urshifu         [S1] (100%)
+  T 4: /choose move surgingstrikes    [S1] (100%)
+  T 5: /choose move surgingstrikes    [S1] (100%)
+  T 6: /choose move surgingstrikes    [S1] (100%)
+
+Timestamp: 2026-04-20T09:14:40.784487

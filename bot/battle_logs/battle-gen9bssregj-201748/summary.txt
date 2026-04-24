@@ -1,0 +1,34 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201748
+==================================================
+Agent:   Hybrid
+Result:  LOSS
+Turns:   14
+Logged:  16 decisions
+Our team: gholdengo, rillaboom, tornadustherian, urshifurapidstrike, incineroar, fluttermane
+Opp team: fluttermane, urshifurapidstrike, tornadustherian
+
+Routing: S1=15 (94%) S2=1 (6%)
+
+Surprises (1 total):
+  - [fluttermane] Unexpected move: psyshock
+
+Turn-by-turn:
+  T 1: /choose move hurricane         [S1] (100%)
+  T 2: switch incineroar              [S2] !
+  T 3: /choose move moonblast         [S1] (100%)
+  T 3: /choose switch Tornadus        [S1] (99%)
+  T 4: /choose move hurricane         [S1] (100%)
+  T 5: /choose move hurricane         [S1] (100%)
+  T 6: /choose move hurricane         [S1] (100%)
+  T 7: /choose move hurricane         [S1] (100%)
+  T 8: /choose move hurricane         [S1] (100%)
+  T 9: /choose move hurricane         [S1] (100%)
+  T10: /choose move hurricane         [S1] (100%)
+  T10: /choose switch Urshifu         [S1] (100%)
+  T11: /choose move surgingstrikes    [S1] (100%)
+  T12: /choose move surgingstrikes    [S1] (100%)
+  T13: /choose move surgingstrikes    [S1] (100%)
+  T14: /choose move surgingstrikes    [S1] (100%)
+
+Timestamp: 2026-04-20T07:58:54.688289

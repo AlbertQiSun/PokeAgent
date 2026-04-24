@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-236673
+Agent:  Hybrid
+Turn:   5
+System: S1
+Confidence: 91%
+Action: /choose move suckerpunch
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your kingambit vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  suckerpunch          Dark     PHYSICAL BP: 70 pri=1 →  34.9- 41.1% (neutral) → 3HKO
+  kowtowcleave         Dark     PHYSICAL BP: 85 →  42.3- 49.7% (neutral) → 3HKO
+  ironhead             Steel    PHYSICAL BP: 80 →  39.4- 46.9% (neutral) → 3HKO
+  swordsdance          Normal   STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs KINGAMBIT ──
+  ~Wood Hammer          →  30.9- 36.6% (resist)
+  ~Drum Beating         →  20.6- 24.6% (resist)
+  ~U-turn               →  24.6- 29.1%
+  ~Knock Off            →  11.4- 13.1% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        59% ###########
+  attack_special         20% ###
+  setup                  17% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > kingambit(50 base)
+  Priority moves available: suckerpunch
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   surgingstrikes ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your kingambit: 29% 
+  Opp rillaboom: 100% 
+  Your bench: ironhands(100%), rillaboom(100%), landorustherian(100%), urshifurapidstrike(100%)
+  Opp bench: ~3 remaining

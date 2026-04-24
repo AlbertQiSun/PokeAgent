@@ -1,0 +1,96 @@
+{
+  "battle_tag": "battle-gen9bssregj-201827",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 8,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 9,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "amoonguss",
+    "chienpao",
+    "urshifurapidstrike",
+    "gholdengo"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "urshifurapidstrike",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Rillaboom outspeeds and threatens a 2HKO with Wood Hammer, while Calyrex-Ice is too slow to secure the OHKO before taking significant damage. Switching to Incineroar provides an Intimidate drop and a resistance to Rillaboom's STAB moves, allowing for a safer pivot."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Rillaboom, satisfying the primary decision priority to take the KO when available."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch urshifurapidstrike",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is in range to be OHKOed by Close Combat or 2HKOed by Surging Strikes. Switching to my own Urshifu-Rapid-Strike provides a resistance to the opponent's Water-type moves and allows me to pivot or threaten back."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Urshifu is at 44% and will be KO'd by the opponent's Close Combat. Switching to Incineroar allows me to pivot safely while maintaining momentum, as Incineroar can handle the incoming hit better than my other options."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch urshifurapidstrike",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is fainted, so I must send in a new Pokemon. Urshifu-Rapid-Strike resists the opponent's Urshifu's STAB moves and provides the best defensive pivot to handle the immediate threat."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move closecombat",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since I am at 44% HP, I am in range of a 2HKO from the opponent's Close Combat. I must prioritize dealing maximum damage to secure a 2HKO on them before I go down, as switching out would likely result in a poor matchup against their backline."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid-Strike is at 7% HP and will be KO'd by any move from Iron Hands; switching to Calyrex-Ice preserves momentum and brings in a bulky attacker that can threaten the opponent."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and provides better damage than Glacial Lance against Iron Hands. Since I am ahead in the exchange and can secure the KO in two turns while surviving their attacks, I will stay in and attack."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands is at 3% HP, meaning any move will secure the KO. Glacial Lance is the most reliable option to finish the opponent and remove the threat immediately."
+    }
+  ]
+}

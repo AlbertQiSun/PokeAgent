@@ -1,0 +1,97 @@
+Battle: battle-gen9bssregj-201773
+Agent:  Gemini
+Turn:   22
+System: LLM
+Action: switch kingambit
+
+── REASONING ──
+Amoonguss is threatened by a 2HKO from Gholdengo and cannot damage it effectively. Switching to Kingambit provides a defensive pivot that resists Gholdengo's STAB moves and threatens it back.
+
+── BATTLE CONTEXT ──
+=== TURN 22 ANALYSIS ===
+Your amoonguss vs opponent's gholdengo
+
+── YOUR MOVES vs GHOLDENGO ──
+  spore                Grass    STATUS   BP:  0 →   0.0-  0.0% (neutral)
+  pollenpuff           Bug      SPECIAL  BP: 90 →   4.9-  5.6% (4x resist)
+  ragepowder           Bug      STATUS   BP:  0 pri=2 →   0.0-  0.0% (neutral)
+  protect              Normal   STATUS   BP:  0 pri=4 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs AMOONGUSS ──
+  ✓makeitrain           →  60.3- 70.9% → 2HKO
+  ✓shadowball           →  40.7- 47.6% → 3HKO
+  ~Make It Rain         →  60.3- 70.9% → 2HKO
+  ~Shadow Ball          →  40.7- 47.6% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 64% ############
+  attack_special         21% ####
+  attack_status          14% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: gholdengo(84 base) > amoonguss(30 base)
+  Priority moves available: ragepowder, protect
+
+── OPPONENT BENCH THREATS ──
+  urshifurapidstrike   (Fighting/Water) 100% — best: pollenpuff (resist)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   makeitrain ✓, shadowball ✓, ~Make It Rain, ~Shadow Ball
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, drainpunch ✓, ~Wood Hammer, ~Drum Beating
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected move: drainpunch
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected move: drainpunch
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your amoonguss: 81% 
+  Opp gholdengo: 96% 
+  Your bench: kingambit(100%), tornadustherian(100%), chienpao(100%)
+  Opp bench: ~4 remaining

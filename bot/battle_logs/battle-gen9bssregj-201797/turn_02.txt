@@ -1,0 +1,96 @@
+Battle: battle-gen9bssregj-201797
+Agent:  Hybrid
+Turn:   2
+System: S2
+Surprises: [fluttermane] Unexpected item: lifeorb (expected Booster Energy), [fluttermane] Unexpected move: thunderbolt
+Action: switch fluttermane
+
+── REASONING ──
+Tornadus-Therian is at 35% and faces a high probability of being OHKOed by Thunderbolt or Moonblast from a Life Orb Flutter Mane. Switching to my own Flutter Mane allows me to outspeed and threaten a KO or force a switch, preserving Tornadus for potential utility later.
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your tornadustherian vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  hurricane            Flying   SPECIAL  BP:110 →  40.0- 47.7% (neutral) → 3HKO
+  heatwave             Fire     SPECIAL  BP: 95 →  23.1- 27.7% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  34.6- 41.5% (neutral) → 3HKO
+  uturn                Bug      PHYSICAL BP: 70 →   9.2- 10.8% (4x resist)
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓thunderbolt          →  87.7-103.2% (SE) → 2HKO
+  ~Moonblast            →  69.5- 81.8% → 2HKO
+  ~Shadow Ball          →  58.4- 68.8% → 2HKO
+  ~Dazzling Gleam       →  58.4- 68.8% → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         54% ##########
+  attack_status          29% #####
+  switch                 11% ##
+  setup                   5% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > tornadustherian(121 base)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+  fluttermane          (Ghost/Fairy     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   thunderbolt ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Booster Energy)
+│   - Unexpected move: thunderbolt
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+  [fluttermane] Unexpected move: thunderbolt
+
+── HP STATUS ──
+  Your tornadustherian: 35% 
+  Opp fluttermane: 42% 
+  Your bench: gholdengo(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%), fluttermane(100%)
+  Opp bench: ~5 remaining

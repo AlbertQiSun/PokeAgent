@@ -1,0 +1,50 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201840
+==================================================
+Agent:   Gemini
+Result:  WIN
+Turns:   36
+Logged:  37 decisions
+Our team: incineroar, fluttermane, calyrexice, amoonguss, kingambit, chienpao
+Opp team: urshifurapidstrike, incineroar, rillaboom
+
+Turn-by-turn:
+  T 1: switch amoonguss               [LLM]
+  T 2: move spore                     [LLM]
+  T 3: move spore                     [LLM]
+  T 4: move spore                     [LLM]
+  T 5: move spore                     [LLM]
+  T 6: move spore                     [LLM]
+  T 7: switch incineroar              [LLM]
+  T 8: move partingshot               [LLM]
+  T 8: move knock off                 [LLM]
+  T 9: move highhorsepower            [LLM]
+  T10: move highhorsepower            [LLM]
+  T11: switch amoonguss               [LLM]
+  T12: move spore                     [LLM]
+  T13: move spore                     [LLM]
+  T14: move spore                     [LLM]
+  T15: move spore                     [LLM]
+  T16: move spore                     [LLM]
+  T17: move spore                     [LLM]
+  T18: move spore                     [LLM]
+  T19: move spore                     [LLM]
+  T20: move spore                     [LLM]
+  T21: move spore                     [LLM]
+  T22: move spore                     [LLM]
+  T23: move spore                     [LLM]
+  T24: move spore                     [LLM]
+  T25: move spore                     [LLM]
+  T26: move spore                     [LLM]
+  T27: move spore                     [LLM]
+  T28: move spore                     [LLM]
+  T29: move spore                     [LLM]
+  T30: move spore                     [LLM]
+  T31: move protect                   [LLM]
+  T32: move protect                   [LLM]
+  T33: move protect                   [LLM]
+  T34: move protect                   [LLM]
+  T35: switch incineroar              [LLM]
+  T36: move flareblitz                [LLM]
+
+Timestamp: 2026-04-20T10:43:03.911629

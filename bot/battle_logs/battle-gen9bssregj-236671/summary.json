@@ -1,0 +1,106 @@
+{
+  "battle_tag": "battle-gen9bssregj-236671",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 5,
+  "s2_count": 4,
+  "llm_count": 4,
+  "our_team": [
+    "ironhands",
+    "tornadustherian",
+    "fluttermane",
+    "kingambit",
+    "calyrexice",
+    "incineroar"
+  ],
+  "opp_team": [
+    "gholdengo",
+    "ironhands",
+    "fluttermane"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "move heatwave",
+      "confidence": -1,
+      "surprises": [
+        "[gholdengo] Unexpected item: airballoon (expected Choice Scarf)",
+        "PPO uncertainty: best action only 33% confidence (threshold 40%, entropy=1.73)"
+      ],
+      "reasoning": "Since Gholdengo is holding an Air Balloon, it is not locked into a move, but I outspeed it and Heat Wave is a guaranteed 2HKO. Attacking now secures the KO before it can threaten me with Make It Rain or Thunderbolt."
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "move heatwave",
+      "confidence": -1,
+      "surprises": [
+        "PPO uncertainty: best action only 28% confidence (threshold 40%, entropy=1.77)"
+      ],
+      "reasoning": "Gholdengo is holding an Air Balloon, meaning it is not Choice Scarfed and I outspeed it. Heat Wave is a guaranteed 2HKO, allowing me to secure the KO this turn or next while maintaining momentum."
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane terastallize",
+      "confidence": 0.435840368270874,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S2",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: leftovers (expected Assault Vest)",
+        "[ironhands] Unexpected move: thunderpunch"
+      ],
+      "reasoning": "Tornadus-Therian is already fainted, so I must bring in a check that resists Iron Hands' coverage. Calyrex-Ice resists Ice Punch and threatens a massive hit back, forcing the opponent to react to my offensive pressure."
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.7665376663208008,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.7063601016998291,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move heavyslam",
+      "confidence": 0.44834744930267334,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S2",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [
+        "[fluttermane] Unexpected item: lifeorb (expected Booster Energy)"
+      ],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in Kingambit to resist Flutter Mane's STAB moves and threaten a KO with Sucker Punch or Kowtow Cleave."
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move suckerpunch",
+      "confidence": 0.8028550744056702,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

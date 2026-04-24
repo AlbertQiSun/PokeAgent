@@ -1,0 +1,72 @@
+{
+  "battle_tag": "battle-gen9bssregj-201803",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 6,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "ironhands",
+    "fluttermane",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens a 2HKO with Drain Punch, and Incineroar cannot effectively pressure it back. Switching to Flutter Mane provides an immunity to Drain Punch and forces the opponent to switch or risk taking heavy damage from a Fairy STAB."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO, fulfilling the primary decision priority."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since we are in a speed tie and the opponent's Shadow Ball can 2HKO me while I only 2HKO them, staying in is a losing gamble. Switching to Incineroar provides a safe pivot that resists both of the opponent's STAB types."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a major offensive threat immediately. Since I can secure the KO, I must attack rather than switch."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a 2HKO on Tornadus-Therian, and since Incineroar is at 57%, staying in to deal significant damage is the best way to force the opponent to switch or lose their momentum."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 41% HP and Tornadus-Therian's Hurricane is a 3HKO, meaning I am likely to faint next turn. Flare Blitz has a high chance to KO the opponent (64.3-75.3% damage vs 47% HP), which is the priority to remove a threat before Incineroar goes down."
+    }
+  ]
+}

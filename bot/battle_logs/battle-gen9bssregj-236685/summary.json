@@ -1,0 +1,72 @@
+{
+  "battle_tag": "battle-gen9bssregj-236685",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 5,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 6,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "tornadustherian",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "ironhands",
+    "rillaboom",
+    "fluttermane"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and deals more damage than Glacial Lance due to the super-effective typing against Iron Hands. Since Iron Hands cannot OHKO Calyrex-Ice, attacking is the optimal play to secure the 2HKO."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed 2HKO on Iron Hands, and since I am faster or tied and can survive their attacks, I should press the advantage to remove the threat immediately."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Rillaboom. Since I can secure the KO this turn, I must attack to remove the threat immediately."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Incineroar is the best pivot to handle Flutter Mane due to its bulk and ability to threaten with Knock Off or U-turn."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a major offensive threat immediately. Since I can secure the KO, I must attack rather than switch."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Rillaboom, satisfying the primary decision priority to secure a KO when available."
+    }
+  ]
+}

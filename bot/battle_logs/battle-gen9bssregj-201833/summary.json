@@ -1,0 +1,88 @@
+{
+  "battle_tag": "battle-gen9bssregj-201833",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 8,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "chienpao",
+    "kingambit",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "ironhands",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is significantly slower than Flutter Mane and will be heavily damaged or KO'd by Shadow Ball before it can move. Switching to Incineroar allows me to safely pivot, potentially trigger Intimidate, and handle the special attack pressure."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, allowing me to remove a major offensive threat immediately without needing to switch."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, securing the knockout immediately and removing a major offensive threat from the opponent's team."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 14% and will be KO'd by any move from Iron Hands. Switching to Flutter Mane provides an immunity to Drain Punch and allows for a strong offensive response."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed OHKO on Iron Hands, and Flutter Mane outspeeds it, meaning I can secure the knockout before Iron Hands can use Wild Charge."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Rillaboom will likely use Wood Hammer or Drum Beating, which OHKO Flutter Mane. Switching to Incineroar provides an Intimidate drop and a resistance to Rillaboom's Grass STAB, preserving Flutter Mane for later."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar has fainted, so I must send in a replacement. Tornadus-Therian provides a safe pivot with Regenerator to scout Rillaboom's next move while resisting its Grass-type STAB."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move mysticalfire",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Rillaboom and Mystical Fire is a guaranteed OHKO, removing a major physical threat to my team without needing to switch."
+    }
+  ]
+}

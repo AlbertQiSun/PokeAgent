@@ -1,0 +1,90 @@
+Battle: battle-gen9bssregj-236667
+Agent:  Hybrid
+Turn:   3
+System: S2
+Surprises: [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+Action: switch calyrexice
+
+── REASONING ──
+Since Incineroar is fainted, I must send in a new Pokemon; Calyrex-Ice provides a solid defensive profile and offensive pressure against the remaining team.
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your incineroar vs opponent's fluttermane
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓moonblast            →  62.9- 74.1% → 2HKO
+  ~Shadow Ball          →  26.5- 31.2% (resist)
+  ~Dazzling Gleam       →  52.9- 62.4% → 2HKO
+  ~Protect              →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         71% ##############
+  attack_status          18% ###
+  switch                  6% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+  fluttermane          (Ghost/Fairy     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Booster Energy)
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your incineroar: 0% [FNT]
+  Opp fluttermane: 0% [FNT]
+  Your bench: fluttermane(100%), amoonguss(100%), urshifurapidstrike(100%), calyrexice(100%), rillaboom(100%)
+  Opp bench: ~3 remaining

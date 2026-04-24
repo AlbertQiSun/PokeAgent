@@ -1,0 +1,80 @@
+{
+  "battle_tag": "battle-gen9bssregj-201822",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 7,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "chienpao",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "urshifurapidstrike",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Rillaboom. Since I am faster than Rillaboom's base speed tier in this specific matchup (assuming Calyrex-Ice is running speed investment or Trick Room, but regardless, the priority is to secure the KO immediately to prevent further chip damage)."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 39% HP and will be KO'd by Surging Strikes or Close Combat. Switching to Incineroar provides an Intimidate drop to mitigate incoming damage and allows me to pivot or threaten the Urshifu-Rapid with better defensive typing."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is guaranteed to be OHKO'd by Urshifu-Rapid's Close Combat, so switching to Flutter Mane is necessary to avoid losing Incineroar for free. Flutter Mane is immune to Urshifu's Fighting-type STAB moves, providing a safe pivot."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed OHKO on Urshifu-Rapid-Strike, and since I outspeed and the opponent's Close Combat is immune, this is the optimal play to secure the KO."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Tornadus-Therian and Moonblast is a guaranteed 2HKO. Since I am not in danger of being OHKOed, attacking is the optimal play to secure momentum."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Tornadus-Therian and Moonblast is a guaranteed 2HKO, which is faster than the opponent's 3HKO potential. Staying in to secure the KO is the optimal play to maintain momentum."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 10% HP, meaning Moonblast is a guaranteed KO. Since I outspeed and can secure the kill this turn, attacking is the optimal play."
+    }
+  ]
+}

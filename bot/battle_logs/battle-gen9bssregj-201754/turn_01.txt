@@ -1,0 +1,87 @@
+Battle: battle-gen9bssregj-201754
+Agent:  Hybrid
+Turn:   1
+System: S1
+Confidence: 100%
+Action: /choose move icespinner
+
+── BATTLE CONTEXT ──
+=== TURN 1 ANALYSIS ===
+Your chienpao vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  icespinner           Ice      PHYSICAL BP: 80 →  18.2- 21.2% (resist)
+  sacredsword          Fighting PHYSICAL BP: 90 →  54.7- 64.1% (2x SE) → 2HKO
+  crunch               Dark     PHYSICAL BP: 80 →  18.2- 21.2% (resist)
+  suckerpunch          Dark     PHYSICAL BP: 70 pri=1 →  15.9- 18.8% (resist)
+
+── OPPONENT'S LIKELY MOVES vs CHIENPAO ──
+  ~Flare Blitz          → 127.7-150.3% (SE) → OHKO!
+  ~Knock Off            →  17.4- 20.6% (resist)
+  ~U-turn               →  50.3- 59.4% (SE) → 2HKO
+  ~Fake Out             →  14.8- 17.4%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_status          37% #######
+  attack_special         34% ######
+  attack_physical        17% ###
+  setup                   7% #
+
+── SPEED CHECK ──
+  You outspeed: chienpao(135 base) > incineroar(60 base)
+  Priority moves available: suckerpunch
+
+── SWITCH OPTIONS ──
+  gholdengo            (Steel/Ghost     100.0% HP) — neutral
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your chienpao: 100% 
+  Opp incineroar: 100% 
+  Your bench: gholdengo(100%), rillaboom(100%), tornadustherian(100%), urshifurapidstrike(100%), incineroar(100%)
+  Opp bench: ~5 remaining

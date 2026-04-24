@@ -1,0 +1,64 @@
+{
+  "battle_tag": "battle-gen9bssregj-236650",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 5,
+  "s1_count": 5,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "urshifurapidstrike",
+    "chienpao",
+    "rillaboom",
+    "dragonite",
+    "landorustherian",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "urshifurapidstrike",
+    "ironhands",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move earthquake terastallize",
+      "confidence": 0.49807220697402954,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move earthquake",
+      "confidence": 0.8563369512557983,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move earthquake",
+      "confidence": 0.7276751399040222,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move earthquake",
+      "confidence": 0.8532337546348572,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move earthquake",
+      "confidence": 0.8280535340309143,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

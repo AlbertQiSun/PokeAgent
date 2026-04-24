@@ -1,0 +1,85 @@
+Battle: battle-gen9bssregj-201819
+Agent:  Gemini
+Turn:   5
+System: LLM
+Action: move moonblast
+
+── REASONING ──
+I outspeed Iron Hands and Moonblast is a guaranteed OHKO, fulfilling the KO THREAT priority.
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your fluttermane vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  moonblast            Fairy    SPECIAL  BP: 95 → 141.9-166.8% (2x SE) → OHKO
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ~Drain Punch          →   0.0-  0.0% (IMMUNE)
+  ~Wild Charge          → 100.8-118.5% → OHKO!
+  ~Ice Punch            →  56.2- 66.2% → 2HKO
+  ~Swords Dance         →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        77% ###############
+  attack_status          11% ##
+  switch                  6% #
+  attack_special          6% #
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > ironhands(50 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+  incineroar           (Fire/Dark        55.9% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Swords Dance
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your fluttermane: 100% 
+  Opp ironhands: 100% 
+  Your bench: calyrexice(100%), incineroar(56%), kingambit(100%), tornadustherian(100%), amoonguss(100%)
+  Opp bench: ~3 remaining

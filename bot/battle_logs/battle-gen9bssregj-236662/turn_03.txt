@@ -1,0 +1,92 @@
+Battle: battle-gen9bssregj-236662
+Agent:  Hybrid
+Turn:   3
+System: S2
+Surprises: PPO uncertainty: best action only 31% confidence (threshold 40%, entropy=1.77)
+Action: switch urshifurapidstrike
+
+── REASONING ──
+Dragonite is at 33% HP and cannot secure a KO; switching to Urshifu-Rapid-Strike provides a superior defensive pivot that resists Incineroar's Flare Blitz while threatening a super-effective STAB response.
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your dragonite vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  extremespeed         Normal   PHYSICAL BP: 80 pri=2 →  27.1- 31.8% (neutral)
+  dragonclaw           Dragon   PHYSICAL BP: 80 →  40.6- 47.6% (neutral) → 3HKO
+  firepunch            Fire     PHYSICAL BP: 75 →  12.4- 14.7% (resist)
+  icepunch             Ice      PHYSICAL BP: 75 →  12.4- 14.7% (resist)
+
+── OPPONENT'S LIKELY MOVES vs DRAGONITE ──
+  ~Flare Blitz          →  25.3- 29.5% (resist)
+  ~Knock Off            →  27.7- 32.5%
+  ~U-turn               →   9.6- 11.4% (resist)
+  ~Fake Out             →  11.4- 13.9%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         40% #######
+  attack_physical        34% ######
+  attack_status          18% ###
+
+── SPEED CHECK ──
+  You outspeed: dragonite(80 base) > incineroar(60 base)
+  Priority moves available: extremespeed
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — resists STAB | SE STAB
+  kingambit            (Dark/Steel      100.0% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your dragonite: 33% 
+  Opp incineroar: 100% 
+  Your bench: ironhands(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%), kingambit(100%)
+  Opp bench: ~4 remaining

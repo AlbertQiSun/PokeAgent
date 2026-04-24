@@ -1,0 +1,90 @@
+Battle: battle-gen9bssregj-236693
+Agent:  Gemini
+Turn:   6
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Calyrex-Ice is at 18% HP and will be knocked out by any of Rillaboom's moves before it can attack. Switching to Incineroar provides an Intimidate drop to mitigate incoming damage and allows me to safely pivot or threaten the Rillaboom.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your calyrexice vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  glaciallance         Ice      PHYSICAL BP:120 → 143.4-169.1% (2x SE) → OHKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  18.9- 22.3% (resist)
+  iciclecrash          Ice      PHYSICAL BP: 85 → 102.3-120.6% (2x SE) → OHKO
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ~Wood Hammer          →  49.7- 58.9% → 2HKO
+  ~Drum Beating         →  33.7- 40.0% → 3HKO
+  ~U-turn               →  40.0- 47.4% (SE) → 3HKO
+  ~Knock Off            →  37.1- 44.0% (SE) → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        62% ############
+  setup                  19% ###
+  attack_special         15% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark        78.7% HP) — resists STAB | SE STAB
+  amoonguss            (Grass/Poison    100.0% HP) — 4x resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your calyrexice: 18% 
+  Opp rillaboom: 100% 
+  Your bench: incineroar(79%), fluttermane(100%), amoonguss(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~3 remaining

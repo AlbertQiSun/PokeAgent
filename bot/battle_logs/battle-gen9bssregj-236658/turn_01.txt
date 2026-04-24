@@ -1,0 +1,85 @@
+Battle: battle-gen9bssregj-236658
+Agent:  Hybrid
+Turn:   1
+System: S1
+Confidence: 56%
+Action: /choose move fissure terastallize
+
+── BATTLE CONTEXT ──
+=== TURN 1 ANALYSIS ===
+Your tinglu vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  fissure              Ground   PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+  ruination            Dark     SPECIAL  BP:  0 →   0.0-  0.0% (neutral)
+  stealthrock          Rock     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+  whirlwind            Normal   STATUS   BP:  0 pri=-6 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs TINGLU ──
+  ~Drain Punch          →  43.0- 50.4% (SE) → 3HKO
+  ~Wild Charge          →   0.0-  0.0% (IMMUNE)
+  ~Ice Punch            →  28.7- 33.5% (SE)
+  ~Fake Out             →   7.8-  9.1%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        81% ################
+  switch                  7% #
+  attack_status           7% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: ironhands(50 base) > tinglu(45 base)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — immune to STAB | SE STAB
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your tinglu: 100% 
+  Opp ironhands: 100% 
+  Your bench: fluttermane(100%), dragonite(100%), urshifurapidstrike(100%), calyrexice(100%), rillaboom(100%)
+  Opp bench: ~5 remaining

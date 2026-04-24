@@ -1,0 +1,80 @@
+{
+  "battle_tag": "battle-gen9bssregj-236646",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 7,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "chienpao",
+    "calyrexice",
+    "chiyu",
+    "urshifurapidstrike",
+    "fluttermane",
+    "dragonite"
+  ],
+  "opp_team": [
+    "ironhands",
+    "urshifurapidstrike",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.6523095369338989,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.6200471520423889,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.6844816207885742,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Calyrex",
+      "confidence": 0.9938639998435974,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move glaciallance terastallize",
+      "confidence": 0.637083113193512,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.7844595909118652,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.7251534461975098,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

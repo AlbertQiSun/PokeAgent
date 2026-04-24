@@ -1,0 +1,93 @@
+Battle: battle-gen9bssregj-201828
+Agent:  Gemini
+Turn:   14
+System: LLM
+Action: move protect
+
+── REASONING ──
+Tornadus-Therian is currently asleep (SLP), but since it is faster and carries Hurricane, I must use Protect to scout for a wake-up turn or a switch-out while avoiding a potential OHKO if it wakes up.
+
+── BATTLE CONTEXT ──
+=== TURN 14 ANALYSIS ===
+Your amoonguss vs opponent's tornadustherian
+
+── YOUR MOVES vs TORNADUSTHERIAN ──
+  spore                Grass    STATUS   BP:  0 →   0.0-  0.0% (neutral)
+  pollenpuff           Bug      SPECIAL  BP: 90 →  10.4- 12.3% (resist)
+  ragepowder           Bug      STATUS   BP:  0 pri=2 →   0.0-  0.0% (neutral)
+  protect              Normal   STATUS   BP:  0 pri=4 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs AMOONGUSS ──
+  ~Hurricane            →  92.1-108.5% (SE) → OHKO!
+  ~Heat Wave            →  53.4- 62.4% (SE) → 2HKO
+  ~Knock Off            →  19.0- 22.2%
+  ~U-turn               →  20.6- 24.3%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         42% ########
+  attack_status          32% ######
+  switch                 13% ##
+  attack_physical        10% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: tornadustherian(121 base) > amoonguss(30 base)
+  Priority moves available: ragepowder, protect
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark        63.9% HP) — neutral
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 88% — best: pollenpuff (neutral)
+  urshifurapidstrike   (Fighting/Water) 100% — best: pollenpuff (resist)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your amoonguss: 91% 
+  Opp tornadustherian: 100% [SLP]
+  Your bench: calyrexice(100%), incineroar(64%), tornadustherian(100%), chienpao(100%), kingambit(100%)
+  Opp bench: ~5 remaining

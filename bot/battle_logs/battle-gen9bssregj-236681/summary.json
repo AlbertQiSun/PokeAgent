@@ -1,0 +1,80 @@
+{
+  "battle_tag": "battle-gen9bssregj-236681",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 7,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "tornadustherian",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "ironhands",
+    "fluttermane"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Rillaboom. Even though Rillaboom outspeeds, Calyrex-Ice survives any hit it can throw, making this the optimal play to secure an immediate advantage."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO on Iron Hands and provides super-effective damage, which is the most efficient way to remove the threat while staying ahead in the exchange."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a 2HKO and Iron Hands is currently in range to be finished off quickly. Since I am faster or tied and Iron Hands cannot OHKO me, attacking is the optimal play to maintain momentum and remove the Life Orb threat."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice can OHKO Flutter Mane with Glacial Lance. Even though Flutter Mane is faster and might KO Calyrex-Ice with Shadow Ball, securing the KO on the active threat is the priority to prevent further damage and maintain momentum."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 31% HP and will be outsped and KO'd by Rillaboom's Wood Hammer. Switching to Incineroar allows me to resist the incoming Grass-type move and pivot safely while preserving Calyrex-Ice for a potential late-game cleanup."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Rillaboom, satisfying the primary decision priority to secure a KO when possible."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Rillaboom is at 1% HP and Flare Blitz is a guaranteed OHKO, securing the knockout immediately."
+    }
+  ]
+}

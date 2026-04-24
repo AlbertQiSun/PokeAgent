@@ -1,0 +1,87 @@
+Battle: battle-gen9bssregj-201823
+Agent:  Gemini
+Turn:   1
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Calyrex-Ice is significantly slower than Flutter Mane and will take heavy damage from Shadow Ball before it can move. Switching to Incineroar allows me to safely absorb the special attack and potentially threaten with Intimidate or a pivot move.
+
+── BATTLE CONTEXT ──
+=== TURN 1 ANALYSIS ===
+Your calyrexice vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  glaciallance         Ice      PHYSICAL BP:120 → 156.9-184.6% (neutral) → OHKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  83.1- 97.7% (neutral) → 2HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 → 111.5-131.5% (neutral) → OHKO
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ~Moonblast            →  32.6- 38.9% → 3HKO
+  ~Shadow Ball          →  56.0- 65.7% (SE) → 2HKO
+  ~Dazzling Gleam       →  28.0- 32.6%
+  ~Protect              →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  setup                  47% #########
+  attack_special         30% #####
+  attack_status          20% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark       100.0% HP) — resists STAB
+  fluttermane          (Ghost/Fairy     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your calyrexice: 100% 
+  Opp fluttermane: 100% 
+  Your bench: incineroar(100%), fluttermane(100%), kingambit(100%), tornadustherian(100%), amoonguss(100%)
+  Opp bench: ~5 remaining

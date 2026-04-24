@@ -1,0 +1,122 @@
+{
+  "battle_tag": "battle-gen9bssregj-236668",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 9,
+  "s1_count": 11,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "tornadustherian",
+    "chienpao",
+    "urshifurapidstrike",
+    "calyrexice",
+    "rillaboom",
+    "incineroar"
+  ],
+  "opp_team": [
+    "urshifurapidstrike",
+    "gholdengo",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane terastallize",
+      "confidence": 0.4897911250591278,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "move heatwave",
+      "confidence": -1,
+      "surprises": [
+        "[gholdengo] Unexpected item: airballoon (expected Choice Scarf)"
+      ],
+      "reasoning": "Since Gholdengo has an Air Balloon, it is not locked into a move, but I outspeed and can 2HKO it with Heat Wave. Attacking now secures the KO before it can threaten me with a 2HKO of its own."
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.438457727432251,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move uturn",
+      "confidence": 0.4652886688709259,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose switch Calyrex",
+      "confidence": 0.6456848382949829,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.502448320388794,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.6294666528701782,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose switch Tornadus",
+      "confidence": 0.849894642829895,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.793899416923523,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.7343188524246216,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose switch Incineroar",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move flareblitz",
+      "confidence": 0.9312310218811035,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

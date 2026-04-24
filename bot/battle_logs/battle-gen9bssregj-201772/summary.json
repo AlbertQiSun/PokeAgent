@@ -1,0 +1,96 @@
+{
+  "battle_tag": "battle-gen9bssregj-201772",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 9,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "incineroar",
+    "gholdengo"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, allowing me to remove a major threat immediately without risking a switch-in."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 53% and losing the mirror match-up; switching to Kingambit provides a safe pivot that resists the opponent's likely physical attacks and forces them to respect the threat of Sucker Punch or Kowtow Cleave."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is at 25% HP and cannot threaten Incineroar, while Incineroar threatens a 2HKO with Flare Blitz or a 3HKO with Earthquake. Switching to my own Incineroar allows me to Intimidate the opponent and safely pivot or tank hits, preserving Kingambit for a potential late-game Sucker Punch."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar has fainted, so I must send in a new Pokemon. Calyrex-Ice is the best pivot here as it can threaten the opponent's Incineroar with high damage while remaining bulky enough to handle potential follow-ups."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and Incineroar cannot OHKO Calyrex-Ice. Since I am ahead in the damage race and Incineroar is likely to stay in to threaten with Flare Blitz or pivot, attacking is the optimal play to secure the KO."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 6% HP, meaning High Horsepower will easily secure the KO regardless of Intimidate, preventing the opponent from pivoting or dealing further damage."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and Gholdengo's Air Balloon will be popped by the first hit, allowing me to secure the KO on the following turn while Gholdengo's Make It Rain is unlikely to OHKO Calyrex-Ice at 58% HP."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted; I must send in a replacement. Kingambit is the best defensive pivot to handle Gholdengo's Ghost/Steel STABs while threatening back with Sucker Punch."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move kowtowcleave",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kowtow Cleave has a high chance to KO Gholdengo (up to 101.9%) and is not reliant on the opponent attacking, unlike Sucker Punch. Since Gholdengo is at 100% and I am at 25%, securing the KO now is the priority to prevent further chip damage."
+    }
+  ]
+}

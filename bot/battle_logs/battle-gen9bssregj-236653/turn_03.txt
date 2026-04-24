@@ -1,0 +1,96 @@
+Battle: battle-gen9bssregj-236653
+Agent:  Hybrid
+Turn:   3
+System: S1
+Confidence: 94%
+Action: /choose move moonblast
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your fluttermane vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  moonblast            Fairy    SPECIAL  BP: 95 →  63.8- 75.4% (neutral) → 2HKO
+  shadowball           Ghost    SPECIAL  BP: 80 → 109.2-128.5% (2x SE) → OHKO
+  mysticalfire         Fire     SPECIAL  BP: 75 →  33.8- 40.0% (neutral) → 3HKO
+  psyshock             Psychic  SPECIAL  BP: 80 →  36.2- 42.3% (neutral) → 3HKO
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ~Moonblast            →  42.3- 50.0% → 3HKO
+  ~Shadow Ball          →  72.3- 85.4% (SE) → 2HKO
+  ~Dazzling Gleam       →  36.2- 42.3% → 3HKO
+  ~Protect              →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         35% #######
+  attack_status          30% #####
+  setup                  27% #####
+  switch                  6% #
+
+── SPEED CHECK ──
+  Speed tie: both 135 base (50/50)
+
+── SWITCH OPTIONS ──
+  tornadustherian      (Flying           54.3% HP) — neutral
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+
+── OPPONENT BENCH THREATS ──
+  ironhands            (Fighting/Electric) 40% — best: moonblast (SE)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   heavyslam ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+│   - Unexpected move: heavyslam
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+  [ironhands] Unexpected move: heavyslam
+
+── HP STATUS ──
+  Your fluttermane: 100% 
+  Opp fluttermane: 100% 
+  Your bench: urshifurapidstrike(100%), rillaboom(100%), calyrexice(100%), tornadustherian(54%), incineroar(100%)
+  Opp bench: ~5 remaining

@@ -1,0 +1,78 @@
+{
+  "battle_tag": "battle-gen9bssregj-236652",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 3,
+  "s2_count": 3,
+  "llm_count": 3,
+  "our_team": [
+    "urshifurapidstrike",
+    "rillaboom",
+    "tornadustherian",
+    "dragonite",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "tornadustherian",
+    "urshifurapidstrike",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.40413880348205566,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.43031176924705505,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S2",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [
+        "PPO uncertainty: best action only 39% confidence (threshold 40%, entropy=1.67)"
+      ],
+      "reasoning": "Since we are in a speed tie and Hurricane is a 2HKO, attacking is the optimal play to secure momentum or a KO before the opponent can pivot or heal, as switching out would concede the speed tie advantage."
+    },
+    {
+      "turn": 4,
+      "system": "S2",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [
+        "PPO uncertainty: best action only 34% confidence (threshold 40%, entropy=1.72)"
+      ],
+      "reasoning": "With Tornadus-Therian at 24% HP, it is likely to be KOed by any neutral hit; since I am in a speed tie, I must click Hurricane to attempt to secure the KO before being removed, as switching would result in taking chip damage on a healthy teammate without gaining a favorable position."
+    },
+    {
+      "turn": 5,
+      "system": "S2",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [
+        "PPO uncertainty: best action only 32% confidence (threshold 40%, entropy=1.75)"
+      ],
+      "reasoning": "My Tornadus-Therian is at 24% HP and the opponent's is at 11%. Since Hurricane is a guaranteed KO on the opponent and I am likely to be KO'd by any of their moves if I don't act first, I must prioritize the KO to remove their Tornadus-Therian immediately."
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move hurricane terastallize",
+      "confidence": 0.5321425199508667,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

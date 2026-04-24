@@ -1,0 +1,47 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201832
+==================================================
+Agent:   Gemini
+Result:  LOSS
+Turns:   30
+Logged:  34 decisions
+Our team: incineroar, calyrexice, amoonguss, kingambit, chienpao, dragonite
+Opp team: incineroar, ironhands, tornadustherian
+
+Turn-by-turn:
+  T 1: move partingshot               [LLM]
+  T 1: move knock off                 [LLM]
+  T 2: switch incineroar              [LLM]
+  T 3: move partingshot               [LLM]
+  T 3: switch amoonguss               [LLM]
+  T 4: move spore                     [LLM]
+  T 5: move spore                     [LLM]
+  T 6: move spore                     [LLM]
+  T 7: move spore                     [LLM]
+  T 8: move spore                     [LLM]
+  T 9: move spore                     [LLM]
+  T10: move spore                     [LLM]
+  T11: move spore                     [LLM]
+  T12: move spore                     [LLM]
+  T13: move spore                     [LLM]
+  T14: move spore                     [LLM]
+  T15: move spore                     [LLM]
+  T16: move spore                     [LLM]
+  T17: move spore                     [LLM]
+  T18: move spore                     [LLM]
+  T19: move spore                     [LLM]
+  T20: move spore                     [LLM]
+  T21: move spore                     [LLM]
+  T22: move protect                   [LLM]
+  T23: switch incineroar              [LLM]
+  T24: move flareblitz                [LLM]
+  T25: move flareblitz                [LLM]
+  T25: switch calyrexice              [LLM]
+  T26: move glaciallance              [LLM]
+  T27: switch amoonguss               [LLM]
+  T28: switch calyrexice              [LLM]
+  T29: switch amoonguss               [LLM]
+  T29: switch kingambit               [LLM]
+  T30: switch kingambit               [LLM]
+
+Timestamp: 2026-04-20T10:38:55.559205

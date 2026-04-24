@@ -1,0 +1,85 @@
+Battle: battle-gen9bssregj-201809
+Agent:  Gemini
+Turn:   5
+System: LLM
+Action: switch fluttermane
+
+── REASONING ──
+Incineroar is being threatened by Hurricane and Tornadus-Therian is likely to pivot or attack; switching to Flutter Mane provides a faster threat that can pressure Tornadus or force a switch.
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your incineroar vs opponent's tornadustherian
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ~Hurricane            →  45.3- 53.5% → 3HKO
+  ~Heat Wave            →  12.9- 15.3% (resist)
+  ~Knock Off            →   8.2-  9.4% (resist)
+  ~U-turn               →  17.6- 21.2%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_status          42% ########
+  attack_special         37% #######
+  switch                 10% ##
+  attack_physical        10% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: tornadustherian(121 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice      34.8% HP) — SE STAB
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    Leftovers ✓
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your incineroar: 61% 
+  Opp tornadustherian: 100% 
+  Your bench: calyrexice(35%), fluttermane(100%), kingambit(100%), chienpao(100%), amoonguss(100%)
+  Opp bench: ~4 remaining

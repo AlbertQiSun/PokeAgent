@@ -1,0 +1,95 @@
+Battle: battle-gen9bssregj-236681
+Agent:  Gemini
+Turn:   5
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Calyrex-Ice is at 31% HP and will be outsped and KO'd by Rillaboom's Wood Hammer. Switching to Incineroar allows me to resist the incoming Grass-type move and pivot safely while preserving Calyrex-Ice for a potential late-game cleanup.
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your calyrexice vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  glaciallance         Ice      PHYSICAL BP:120 → 143.4-169.1% (2x SE) → OHKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  18.9- 22.3% (resist)
+  iciclecrash          Ice      PHYSICAL BP: 85 → 102.3-120.6% (2x SE) → OHKO
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ~Wood Hammer          →  49.7- 58.9% → 2HKO
+  ~Drum Beating         →  33.7- 40.0% → 3HKO
+  ~U-turn               →  40.0- 47.4% (SE) → 3HKO
+  ~Knock Off            →  37.1- 44.0% (SE) → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        51% ##########
+  attack_special         36% #######
+  attack_status           6% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark       100.0% HP) — resists STAB | SE STAB
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your calyrexice: 31% 
+  Opp rillaboom: 100% 
+  Your bench: incineroar(100%), fluttermane(100%), kingambit(100%), tornadustherian(100%), amoonguss(100%)
+  Opp bench: ~3 remaining

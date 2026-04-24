@@ -1,0 +1,95 @@
+{
+  "battle_tag": "battle-gen9bssregj-201818",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 9,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "chienpao",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "ironhands",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens an OHKO with Wild Charge, and Tornadus-Therian cannot secure a KO. Switching to Flutter Mane provides an immunity to Iron Hands' potential Fake Out or Drain Punch while threatening it with STAB super-effective damage."
+    },
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is already fainted (0% HP), so I must switch to a healthy Pokemon. Tornadus-Therian is the safest pivot to check Iron Hands while maintaining momentum."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is threatened with an OHKO by Iron Hands' Wild Charge. Switching to Calyrex-Ice is the safest play to avoid losing Tornadus while maintaining a favorable matchup against Iron Hands."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and provides the most damage against Iron Hands. Since I am at 54% and Iron Hands' Life Orb Wild Charge is a 3HKO, I can safely secure the KO before they take me down."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 10% HP and will be KOed by any move from Incineroar. Switching to Tornadus-Therian preserves the Calyrex-Ice for a potential late-game revenge kill or chip damage while bringing in a healthy pivot."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 48% HP and will be KO'd by Flare Blitz next turn, while Hurricane is only a 3HKO. Switching to Incineroar provides an Intimidate drop and a fire-type resistance to pivot safely while preserving Tornadus for a potential Regenerator recovery later."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Tornadus-Therian is the safest pivot to scout the opponent's next move while maintaining momentum."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move uturn",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Incineroar and can pivot out to gain momentum while dealing chip damage, avoiding the 2HKO from Flare Blitz by switching to a more favorable defensive matchup."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 23% and will be KO'd by Flare Blitz next turn; switching to Incineroar provides an Intimidate drop and a safe pivot to preserve Tornadus for a potential Regenerator recovery later."
+    }
+  ]
+}

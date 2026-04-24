@@ -1,0 +1,93 @@
+Battle: battle-gen9bssregj-236662
+Agent:  Hybrid
+Turn:   2
+System: S2
+Surprises: PPO uncertainty: best action only 31% confidence (threshold 40%, entropy=1.84)
+Action: move firepunch
+
+── REASONING ──
+Rillaboom is at 42% HP, and Fire Punch is a guaranteed 2HKO that will secure the KO this turn or next, while Rillaboom's damage output is insufficient to threaten a KO on Dragonite.
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your dragonite vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  extremespeed         Normal   PHYSICAL BP: 80 pri=2 →  26.3- 30.9% (neutral)
+  dragonclaw           Dragon   PHYSICAL BP: 80 →  39.4- 46.3% (neutral) → 3HKO
+  firepunch            Fire     PHYSICAL BP: 75 →  49.1- 58.3% (2x SE) → 2HKO
+  icepunch             Ice      PHYSICAL BP: 75 →  49.1- 58.3% (2x SE) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs DRAGONITE ──
+  ✓knockoff             →  30.1- 35.5%
+  ~Wood Hammer          →  20.5- 24.1% (resist)
+  ~Drum Beating         →  13.9- 16.3% (resist)
+  ~U-turn               →  16.3- 18.7% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        62% ############
+  attack_special         15% ###
+  switch                 13% ##
+  setup                   7% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > dragonite(80 base)
+  Priority moves available: extremespeed
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+  kingambit            (Dark/Steel      100.0% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your dragonite: 73% 
+  Opp rillaboom: 42% 
+  Your bench: ironhands(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%), kingambit(100%)
+  Opp bench: ~5 remaining

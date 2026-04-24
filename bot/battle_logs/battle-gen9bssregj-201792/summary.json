@@ -1,0 +1,92 @@
+{
+  "battle_tag": "battle-gen9bssregj-201792",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 6,
+  "s1_count": 6,
+  "s2_count": 2,
+  "llm_count": 2,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "gholdengo"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9997739791870117,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "switch urshifurapidstrike",
+      "confidence": -1,
+      "surprises": [
+        "[fluttermane] Unexpected item: lifeorb (expected Booster Energy)",
+        "[fluttermane] Unexpected move: thunderbolt"
+      ],
+      "reasoning": "Tornadus-T is at 40% HP and faces a high probability of being OHKOed by Life Orb Thunderbolt, so I must pivot to a healthy teammate to preserve momentum."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 0.9995390772819519,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999994039535522,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S2",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [
+        "[gholdengo] Unexpected item: airballoon (expected Choice Scarf)"
+      ],
+      "reasoning": "Flutter Mane is at 28% and will be OHKOed by Make It Rain or 2HKOed by Shadow Ball, while Moonblast fails to secure a KO; switching to Tornadus-Therian preserves Flutter Mane for later and avoids a guaranteed loss."
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9990002512931824,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999963641166687,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

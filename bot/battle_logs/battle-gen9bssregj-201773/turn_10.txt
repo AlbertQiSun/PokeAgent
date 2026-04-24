@@ -1,0 +1,92 @@
+Battle: battle-gen9bssregj-201773
+Agent:  Gemini
+Turn:   10
+System: LLM
+Action: switch kingambit
+
+── REASONING ──
+Incineroar has fainted, so I must send in a new Pokemon. Kingambit is a strong offensive check to Gholdengo that resists its STAB moves and can threaten it back.
+
+── BATTLE CONTEXT ──
+=== TURN 10 ANALYSIS ===
+Your incineroar vs opponent's gholdengo
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓makeitrain           →  30.0- 35.3% (resist)
+  ~Make It Rain         →  30.0- 35.3% (resist)
+  ~Shadow Ball          →  20.0- 23.5% (resist)
+  ~Trick                →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         47% #########
+  switch                 29% #####
+  attack_status          12% ##
+  setup                   8% #
+  attack_physical         5% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: gholdengo(84 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+  amoonguss            (Grass/Poison     99.1% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, drainpunch ✓, ~Wood Hammer, ~Drum Beating
+│ Speed:   base 85
+│ ⚠ Surprises:
+│   - Unexpected move: drainpunch
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [rillaboom] Unexpected move: drainpunch
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your incineroar: 0% [FNT]
+  Opp gholdengo: 100% 
+  Your bench: calyrexice(100%), amoonguss(99%), kingambit(100%), tornadustherian(100%), chienpao(100%)
+  Opp bench: ~4 remaining

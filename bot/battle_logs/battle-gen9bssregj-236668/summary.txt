@@ -1,0 +1,30 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236668
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   9
+Logged:  12 decisions
+Our team: tornadustherian, chienpao, urshifurapidstrike, calyrexice, rillaboom, incineroar
+Opp team: urshifurapidstrike, gholdengo, rillaboom
+
+Routing: S1=11 (92%) S2=1 (8%)
+
+Surprises (1 total):
+  - [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+Turn-by-turn:
+  T 1: /choose move hurricane terastallize [S1] (49%)
+  T 2: move heatwave                  [S2] !
+  T 3: /choose move hurricane         [S1] (44%)
+  T 4: /choose move uturn             [S1] (47%)
+  T 4: /choose switch Calyrex         [S1] (65%)
+  T 5: /choose move glaciallance      [S1] (50%)
+  T 6: /choose move glaciallance      [S1] (63%)
+  T 6: /choose switch Tornadus        [S1] (85%)
+  T 7: /choose move hurricane         [S1] (79%)
+  T 8: /choose move hurricane         [S1] (73%)
+  T 8: /choose switch Incineroar      [S1] (100%)
+  T 9: /choose move flareblitz        [S1] (93%)
+
+Timestamp: 2026-04-20T12:40:00.191480

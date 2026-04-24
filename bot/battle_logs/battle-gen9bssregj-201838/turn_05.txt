@@ -1,0 +1,83 @@
+Battle: battle-gen9bssregj-201838
+Agent:  Gemini
+Turn:   5
+System: LLM
+Action: switch tornadustherian
+
+── REASONING ──
+Calyrex-Ice has fainted, so I must send in a new Pokemon. Tornadus-Therian is the best choice to check Rillaboom due to its Flying-type resistance to Grass moves and ability to threaten with Hurricane.
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your calyrexice vs opponent's rillaboom
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓woodhammer           →  49.7- 58.9% → 2HKO
+  ~Wood Hammer          →  49.7- 58.9% → 2HKO
+  ~Drum Beating         →  33.7- 40.0% → 3HKO
+  ~U-turn               →  40.0- 47.4% (SE) → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        79% ###############
+  switch                 10% ##
+  attack_special          5% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  tornadustherian      (Flying          100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your calyrexice: 0% [FNT]
+  Opp rillaboom: 99% 
+  Your bench: amoonguss(100%), chienpao(100%), kingambit(100%), tornadustherian(100%)
+  Opp bench: ~3 remaining

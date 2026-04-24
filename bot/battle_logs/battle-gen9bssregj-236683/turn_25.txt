@@ -1,0 +1,87 @@
+Battle: battle-gen9bssregj-236683
+Agent:  Gemini
+Turn:   25
+System: LLM
+Action: move glaciallance
+
+── REASONING ──
+Glacial Lance is a guaranteed 2HKO and deals significant damage. Since the opponent's Close Combat is also a 2HKO and they are likely to stay in to trade hits or pivot, attacking is the optimal play to maintain offensive pressure.
+
+── BATTLE CONTEXT ──
+=== TURN 25 ANALYSIS ===
+Your calyrexice vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  glaciallance         Ice      PHYSICAL BP:120 →  64.6- 76.0% (neutral) → 2HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  34.3- 40.0% (neutral) → 3HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  46.3- 54.3% (neutral) → 2HKO
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓aquajet              →  12.0- 14.3%
+  ✓closecombat          →  46.3- 54.3% → 2HKO
+  ✓surgingstrikes       →  24.0- 29.1% x3
+  ✓uturn                →  27.4- 32.6% (SE)
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 49% #########
+  attack_physical        41% ########
+  setup                   8% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark        53.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    Leftovers ✓
+│ Tera:    ???
+│ Moves:   knockoff ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   heatwave ✓, ~Hurricane, ~Heat Wave, ~Knock Off
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    Leftovers ✓
+│ Locked:  NOT Choice-locked (4 moves seen)
+│ Tera:    ???
+│ Moves:   aquajet ✓, closecombat ✓, surgingstrikes ✓, uturn ✓
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your calyrexice: 80% 
+  Opp urshifurapidstrike: 74% 
+  Your bench: incineroar(53%), fluttermane(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~3 remaining

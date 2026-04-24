@@ -1,0 +1,26 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236656
+==================================================
+Agent:   Hybrid
+Result:  LOSS
+Turns:   9
+Logged:  11 decisions
+Our team: fluttermane, rillaboom, urshifurapidstrike, calyrexice, tornadustherian, incineroar
+Opp team: rillaboom, fluttermane, urshifurapidstrike
+
+Routing: S1=11 (100%) S2=0 (0%)
+
+Turn-by-turn:
+  T 1: /choose move hurricane terastallize [S1] (55%)
+  T 2: /choose move hurricane         [S1] (60%)
+  T 3: /choose move hurricane         [S1] (44%)
+  T 3: /choose switch Flutter Mane    [S1] (69%)
+  T 4: /choose move moonblast         [S1] (97%)
+  T 5: /choose move moonblast         [S1] (100%)
+  T 6: /choose move moonblast         [S1] (100%)
+  T 6: /choose switch Calyrex         [S1] (100%)
+  T 7: /choose move glaciallance      [S1] (90%)
+  T 8: /choose move glaciallance      [S1] (86%)
+  T 9: /choose move glaciallance      [S1] (78%)
+
+Timestamp: 2026-04-20T12:39:29.877417

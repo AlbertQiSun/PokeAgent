@@ -1,0 +1,240 @@
+{
+  "battle_tag": "battle-gen9bssregj-236676",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 23,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 27,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "ironhands",
+    "incineroar",
+    "fluttermane"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens a 2HKO with Drain Punch and outspeeds Incineroar if it uses priority, so switching to Flutter Mane provides an immunity to the Fighting-type STAB and forces the opponent to respect the threat of a special attacker."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO. Since I am at 7% HP, I must secure the KO now to prevent the opponent from taking a prize."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is at 7% HP and will be KOed by any move from Incineroar. Switching to Incineroar allows me to safely pivot, absorb a potential Flare Blitz or Knock Off, and maintain momentum."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since both Incineroars are at a stalemate and neither can secure a quick KO, Parting Shot is the optimal play to lower the opponent's stats and gain momentum by bringing in a fresh teammate."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move knock off",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is at 100% HP and threatens a 2HKO, but Knock Off will remove its Booster Energy and deal significant damage, potentially putting it in range for a follow-up KO while disrupting its item-dependent power."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move shadowball",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since I am in a speed tie and can OHKO the opponent with Shadow Ball, I must go for the KO immediately to remove the threat, as my Flutter Mane is at 7% HP and will not survive another turn."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Flutter Mane has fainted, so I must bring in a new Pokemon. Incineroar is the safest switch-in to handle the opponent's Flutter Mane due to its bulk and ability to pivot or threaten with Knock Off."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane. Even if the opponent predicts the attack and switches, securing the KO on the active threat is the highest priority move."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since neither Incineroar can effectively KO the other, Parting Shot allows me to pivot out safely, lower the opponent's stats, and bring in a teammate to gain momentum."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Since both Incineroars resist each other and neither can secure a quick KO, Parting Shot is the optimal play to lower the opponent's stats and gain momentum by bringing in a stronger offensive threat."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move knock off",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent is likely to switch to avoid the mirror match, and Knock Off is the safest play to punish a switch-in while maintaining pressure on their Incineroar if they stay."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO on Incineroar, and since I am at 100% HP, I can survive a Flare Blitz and secure the KO on the following turn. Staying in is the optimal play to remove the opponent's primary defensive pivot."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Flutter Mane, and since I am currently faster or the opponent is forced to act, taking the KO immediately removes a significant threat without needing to switch."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO on Incineroar and is the most reliable way to remove it before it can pivot out or chip me further. Even if Incineroar uses Flare Blitz, I survive the hit and secure the KO on the following turn."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO on Incineroar and is the most reliable way to force it out or secure a KO. Since I am at 90% HP, I can survive a Flare Blitz and retaliate for massive damage."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is at 2% HP, meaning High Horsepower is a guaranteed KO. Even with Intimidate, this move will easily secure the knockout and remove the threat."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Incineroar is the best pivot to handle the opponent's Incineroar and scout their next move while maintaining defensive utility."
+    },
+    {
+      "turn": 14,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is the highest damage output move and has a high chance to KO the opponent's Incineroar given its low 27% HP, preventing them from pivoting out with Parting Shot."
+    },
+    {
+      "turn": 15,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is at 27% HP, and Flare Blitz is a guaranteed KO. Even with the resistance, the damage output is sufficient to remove their pivot from the field."
+    },
+    {
+      "turn": 16,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is at 27% HP, and Flare Blitz is guaranteed to KO it, removing their pivot and clearing the field."
+    },
+    {
+      "turn": 17,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is at 19% HP, meaning Flare Blitz is a guaranteed KO. Prioritizing the KO removes their pivot and Intimidate user immediately."
+    },
+    {
+      "turn": 18,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is at 12% HP, meaning Flare Blitz will secure the KO regardless of the speed tie, removing their pivot and gaining a significant advantage."
+    },
+    {
+      "turn": 19,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is at 6% HP, meaning Flare Blitz is a guaranteed KO regardless of the speed tie or potential defensive investment."
+    },
+    {
+      "turn": 20,
+      "system": "LLM",
+      "action": "move fakeout",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is at 1% HP, making Fake Out a guaranteed KO with priority, preventing any potential recovery or status play."
+    },
+    {
+      "turn": 21,
+      "system": "LLM",
+      "action": "move fakeout",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is at 1% HP, meaning any move will secure the KO. Fake Out is the safest choice as it has priority, ensuring we knock them out before they can potentially use Parting Shot or another move."
+    },
+    {
+      "turn": 22,
+      "system": "LLM",
+      "action": "move fakeout",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is at 1% HP, making Fake Out a guaranteed KO that bypasses the speed tie and prevents any potential counterplay."
+    },
+    {
+      "turn": 23,
+      "system": "LLM",
+      "action": "move fakeout",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Incineroar is at 1% HP, making Fake Out a guaranteed KO regardless of speed ties or potential defensive Tera."
+    }
+  ]
+}

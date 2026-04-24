@@ -1,0 +1,25 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236651
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   9
+Logged:  10 decisions
+Our team: landorustherian, fluttermane, calyrexice, rillaboom, urshifurapidstrike, tornadustherian
+Opp team: tornadustherian, fluttermane, urshifurapidstrike
+
+Routing: S1=10 (100%) S2=0 (0%)
+
+Turn-by-turn:
+  T 1: /choose move moonblast         [S1] (81%)
+  T 2: /choose move moonblast         [S1] (77%)
+  T 3: /choose move moonblast         [S1] (72%)
+  T 4: /choose move moonblast         [S1] (66%)
+  T 5: /choose move moonblast         [S1] (63%)
+  T 6: /choose move moonblast         [S1] (43%)
+  T 7: /choose move moonblast         [S1] (61%)
+  T 8: /choose move moonblast         [S1] (42%)
+  T 8: /choose switch Landorus        [S1] (94%)
+  T 9: /choose move earthquake terastallize [S1] (55%)
+
+Timestamp: 2026-04-20T12:39:15.638143

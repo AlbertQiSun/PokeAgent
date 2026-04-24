@@ -1,0 +1,28 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236657
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   8
+Logged:  10 decisions
+Our team: ironhands, dragonite, chienpao, landorustherian, fluttermane, urshifurapidstrike
+Opp team: ironhands, tornadustherian, incineroar
+
+Routing: S1=9 (90%) S2=1 (10%)
+
+Surprises (1 total):
+  - [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+Turn-by-turn:
+  T 1: /choose move earthquake        [S1] (47%)
+  T 2: move earthquake                [S2] !
+  T 3: /choose move earthquake        [S1] (49%)
+  T 4: /choose move earthquake        [S1] (49%)
+  T 4: /choose switch Flutter Mane    [S1] (68%)
+  T 5: /choose move moonblast         [S1] (86%)
+  T 6: /choose move moonblast         [S1] (82%)
+  T 7: /choose move moonblast         [S1] (64%)
+  T 7: /choose switch Urshifu         [S1] (100%)
+  T 8: /choose move surgingstrikes terastallize [S1] (60%)
+
+Timestamp: 2026-04-20T12:39:31.931875

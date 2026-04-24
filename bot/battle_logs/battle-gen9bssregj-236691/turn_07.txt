@@ -1,0 +1,90 @@
+Battle: battle-gen9bssregj-236691
+Agent:  Gemini
+Turn:   7
+System: LLM
+Action: move glaciallance
+
+── REASONING ──
+Glacial Lance is a guaranteed OHKO on Tornadus-Therian, and since I am faster than the opponent's potential switch-ins or can secure the kill regardless of their move, I should take the KO immediately.
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your calyrexice vs opponent's tornadustherian
+
+── YOUR MOVES vs TORNADUSTHERIAN ──
+  glaciallance         Ice      PHYSICAL BP:120 → 183.1-215.6% (2x SE) → OHKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →   0.0-  0.0% (IMMUNE)
+  iciclecrash          Ice      PHYSICAL BP: 85 → 130.5-153.9% (2x SE) → OHKO
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ~Hurricane            →  30.9- 36.6%
+  ~Heat Wave            →  36.0- 42.3% (SE) → 3HKO
+  ~Knock Off            →  20.0- 24.0% (SE)
+  ~U-turn               →  21.7- 25.7% (SE)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         51% ##########
+  attack_status          22% ####
+  attack_physical        14% ##
+  setup                  10% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: tornadustherian(121 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your calyrexice: 55% 
+  Opp tornadustherian: 100% 
+  Your bench: fluttermane(100%), kingambit(100%), tornadustherian(100%), amoonguss(100%)
+  Opp bench: ~3 remaining

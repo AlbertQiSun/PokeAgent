@@ -1,0 +1,106 @@
+{
+  "battle_tag": "battle-gen9bssregj-236657",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 8,
+  "s1_count": 9,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "ironhands",
+    "dragonite",
+    "chienpao",
+    "landorustherian",
+    "fluttermane",
+    "urshifurapidstrike"
+  ],
+  "opp_team": [
+    "ironhands",
+    "tornadustherian",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move earthquake",
+      "confidence": 0.465442419052124,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "move earthquake",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: lifeorb (expected Assault Vest)"
+      ],
+      "reasoning": "Iron Hands is at 16% HP, meaning Earthquake will secure the KO regardless of the Life Orb surprise. Since I outspeed and can finish the threat this turn, attacking is the priority."
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move earthquake",
+      "confidence": 0.48515623807907104,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move earthquake",
+      "confidence": 0.4931929111480713,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 0.6773757934570312,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.859494686126709,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.8200003504753113,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.6362795829772949,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move surgingstrikes terastallize",
+      "confidence": 0.597176194190979,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

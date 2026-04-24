@@ -1,0 +1,94 @@
+Battle: battle-gen9bssregj-201748
+Agent:  Hybrid
+Turn:   8
+System: S1
+Confidence: 100%
+Action: /choose move hurricane
+
+── BATTLE CONTEXT ──
+=== TURN 8 ANALYSIS ===
+Your tornadustherian vs opponent's tornadustherian
+
+── YOUR MOVES vs TORNADUSTHERIAN ──
+  hurricane            Flying   SPECIAL  BP:110 →  50.0- 59.1% (neutral) → 2HKO
+  heatwave             Fire     SPECIAL  BP: 95 →  29.2- 34.4% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  20.8- 24.0% (neutral)
+  uturn                Bug      PHYSICAL BP: 70 →  11.0- 13.0% (resist)
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓hurricane            →  66.9- 79.2% → 2HKO
+  ~Heat Wave            →  29.2- 34.4%
+  ~Knock Off            →  20.8- 24.0%
+  ~U-turn               →  11.0- 13.0% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         37% #######
+  attack_status          36% #######
+  switch                 17% ###
+  attack_physical        10% ##
+
+── SPEED CHECK ──
+  Speed tie: both 121 base (50/50)
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT BENCH THREATS ──
+  fluttermane          (Ghost/Fairy) 59% — best: hurricane (neutral)
+  urshifurapidstrike   (Fighting/Water) 100% — best: hurricane (SE)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   psyshock ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected move: psyshock
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   hurricane ✓, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   surgingstrikes ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected move: psyshock
+
+── HP STATUS ──
+  Your tornadustherian: 56% 
+  Opp tornadustherian: 5% 
+  Your bench: gholdengo(100%), rillaboom(100%), urshifurapidstrike(100%), incineroar(100%)
+  Opp bench: ~5 remaining

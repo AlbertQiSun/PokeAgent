@@ -1,0 +1,112 @@
+{
+  "battle_tag": "battle-gen9bssregj-236689",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 9,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 11,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "amoonguss",
+    "kingambit",
+    "chienpao",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "fluttermane",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Hurricane is a guaranteed OHKO on Rillaboom, and since I outspeed, I can remove the opponent's threat immediately without taking any damage."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane outspeeds and 2HKOs Tornadus-Therian. Switching to Incineroar provides a safe pivot that resists Flutter Mane's STAB moves and can threaten it with Knock Off or Intimidate support."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, allowing me to remove a major offensive threat immediately without risking a switch-in."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar has fainted, so I must send in a replacement. Kingambit is the best choice to threaten Flutter Mane with Sucker Punch, as it resists Shadow Ball and can pick off the low-HP Flutter Mane."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Flutter Mane, removing the opponent's fastest threat immediately regardless of their move choice."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 54% and will be outsped and 3HKOed by Urshifu-Rapid, while only dealing chip damage in return. Switching to Tornadus-Therian provides a safe pivot that resists Urshifu's STAB moves and maintains momentum."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Hurricane is a guaranteed OHKO on Urshifu-Rapid-Strike. Since I outspeed and have a guaranteed KO, I must take the kill immediately rather than switching."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 8% HP and will be KO'd by almost any chip damage or priority move. Since Hurricane is a guaranteed OHKO on Urshifu-Rapid-Strike, taking the guaranteed KO now is the optimal play to remove a major threat."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian has fainted, so I must send in a new Pokemon. Amoonguss is the best defensive pivot to handle Urshifu-Rapid-Strike's water/fighting coverage while providing utility."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is significantly slower and cannot secure a KO, while Urshifu-Rapid Strike threatens a 3HKO. Switching to Amoonguss provides a resistance to Water-type moves and allows for potential redirection or status support to handle the threat."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower has a higher damage output than Glacial Lance against Urshifu and provides a guaranteed KO given the opponent's 16% HP status, securing the kill before Urshifu can move."
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+Battle: battle-gen9bssregj-236657
+Agent:  Hybrid
+Turn:   2
+System: S2
+Surprises: [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+Action: move earthquake
+
+── REASONING ──
+Iron Hands is at 16% HP, meaning Earthquake will secure the KO regardless of the Life Orb surprise. Since I outspeed and can finish the threat this turn, attacking is the priority.
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your landorustherian vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  earthquake           Ground   PHYSICAL BP:100 →  67.7- 79.9% (2x SE) → 2HKO
+  uturn                Bug      PHYSICAL BP: 70 →   7.9-  9.2% (resist)
+  stealthrock          Rock     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+  rockslide            Rock     PHYSICAL BP: 75 →   8.3- 10.0% (resist)
+
+── OPPONENT'S LIKELY MOVES vs LANDORUSTHERIAN ──
+  ✓drainpunch           →  26.8- 31.7% (resist)
+  ~Drain Punch          →  26.8- 31.7% (resist)
+  ~Wild Charge          →   0.0-  0.0% (IMMUNE)
+  ~Ice Punch            → 143.3-168.9% (SE) → OHKO!
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        73% ##############
+  switch                 16% ###
+  attack_special          6% #
+  attack_status           5% #
+
+── SPEED CHECK ──
+  You outspeed: landorustherian(91 base) > ironhands(50 base)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy     100.0% HP) — immune to STAB | SE STAB
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your landorustherian: 87% 
+  Opp ironhands: 16% 
+  Your bench: ironhands(100%), dragonite(100%), chienpao(100%), fluttermane(100%), urshifurapidstrike(100%)
+  Opp bench: ~5 remaining

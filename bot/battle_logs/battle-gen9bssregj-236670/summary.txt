@@ -1,0 +1,24 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236670
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   5
+Logged:  6 decisions
+Our team: kingambit, dragonite, urshifurapidstrike, rillaboom, calyrexice, fluttermane
+Opp team: gholdengo, urshifurapidstrike, fluttermane
+
+Routing: S1=5 (83%) S2=1 (17%)
+
+Surprises (1 total):
+  - [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+Turn-by-turn:
+  T 1: switch kingambit               [S2] !
+  T 2: /choose move suckerpunch terastallize [S1] (51%)
+  T 3: /choose move suckerpunch       [S1] (87%)
+  T 3: /choose switch Calyrex         [S1] (86%)
+  T 4: /choose move glaciallance      [S1] (80%)
+  T 5: /choose move glaciallance      [S1] (64%)
+
+Timestamp: 2026-04-20T12:40:03.757071

@@ -1,0 +1,79 @@
+{
+  "battle_tag": "battle-gen9bssregj-236674",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 5,
+  "s1_count": 7,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "urshifurapidstrike",
+    "landorustherian",
+    "dragonite",
+    "fluttermane",
+    "rillaboom",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.513041079044342,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose switch Landorus",
+      "confidence": 0.8399815559387207,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move earthquake terastallize",
+      "confidence": 0.4697391390800476,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move earthquake",
+      "confidence": 0.799524188041687,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.942996621131897,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

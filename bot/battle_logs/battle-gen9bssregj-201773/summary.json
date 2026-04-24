@@ -1,0 +1,248 @@
+{
+  "battle_tag": "battle-gen9bssregj-201773",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 26,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 28,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "amoonguss",
+    "kingambit",
+    "tornadustherian",
+    "chienpao"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "urshifurapidstrike",
+    "gholdengo"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Rillaboom outspeeds and threatens a 2HKO with Wood Hammer, while Calyrex-Ice is too slow to secure the OHKO before taking significant damage. Switching to Incineroar provides an Intimidate drop and a resistance to Rillaboom's STAB moves, allowing me to pivot safely."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Rillaboom, allowing me to remove a major threat immediately and maintain momentum."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Rillaboom, removing a threat from the field regardless of whether they stay in or attempt to switch."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 14% and will be OHKOed by any of Urshifu's attacks. Switching to Amoonguss provides a resistance to Water and Fighting moves, allowing me to safely pivot and scout the opponent's next move."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Urshifu-Rapid Strike is a major threat, and Spore is the best way to neutralize it immediately. Since Amoonguss survives Close Combat comfortably, going for the sleep status is the highest-value play to gain momentum."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is currently asleep. Spore is the optimal play to keep it incapacitated or refresh the sleep counter, as Amoonguss can comfortably tank a Close Combat if it wakes up."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu is currently asleep. Spore is the optimal play to maintain sleep pressure or re-apply it if they wake up, as it forces them to stay in or switch out a compromised Pokemon."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid is currently asleep. Spore is the optimal play to maintain sleep pressure and prevent the opponent from acting, as they are likely to switch out to wake up or reset their position."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "The opponent's Urshifu-Rapid-Strike is already asleep, and since Amoonguss is slower, Spore is the safest play to keep it incapacitated if it wakes up, or to punish a stay-in play."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss cannot threaten Gholdengo and is being 2HKOed by Make It Rain. Switching to Incineroar provides a resistance to Gholdengo's STAB moves and allows for potential Intimidate support or a pivot to a better matchup."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar has fainted, so I must send in a new Pokemon. Kingambit is a strong offensive check to Gholdengo that resists its STAB moves and can threaten it back."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and Gholdengo's Air Balloon will be popped by the first hit, allowing me to secure the KO on the following turn while Gholdengo cannot OHKO me."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 35% HP and will be KO'd by Gholdengo's Make It Rain or Shadow Ball. Switching to Amoonguss preserves Calyrex-Ice for a potential late-game revenge kill while safely pivoting into a neutral target."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss cannot threaten Gholdengo and will be 2HKOed. Switching to Kingambit provides a resistance to Gholdengo's Ghost/Steel attacks and allows for a potential Sucker Punch or Knock Off to pressure the Gholdengo."
+    },
+    {
+      "turn": 14,
+      "system": "LLM",
+      "action": "switch amoonguss",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 0% HP and has fainted; I must send in Amoonguss to continue the battle."
+    },
+    {
+      "turn": 15,
+      "system": "LLM",
+      "action": "move protect",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Gholdengo is likely to attack with Make It Rain or switch out. Protecting allows me to scout the opponent's intent while preserving Amoonguss's HP, as I cannot threaten Gholdengo with any of my moves."
+    },
+    {
+      "turn": 16,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Gholdengo is likely to stay in to threaten a 2HKO with Make It Rain. Spore is the only way to neutralize this threat, as switching to a near-fainted Calyrex-Ice provides no defensive value."
+    },
+    {
+      "turn": 17,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Gholdengo is the biggest threat on the field and is likely to stay in or switch; Spore is the highest value play to neutralize it or whatever it switches into, as Amoonguss cannot effectively damage Gholdengo."
+    },
+    {
+      "turn": 18,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Gholdengo is likely to stay in to threaten the 2HKO, and Spore is the only way to neutralize it since I cannot KO it. Even if they switch, Spore forces them to deal with a sleep condition on their incoming Pokemon."
+    },
+    {
+      "turn": 19,
+      "system": "LLM",
+      "action": "move spore",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Gholdengo is not choice-locked and has an Air Balloon, meaning it will likely stay in to attack or switch out to avoid Spore. Spore is the highest value play as it forces a switch or neutralizes the Gholdengo if it stays in, and Amoonguss has no other viable offensive options against this matchup."
+    },
+    {
+      "turn": 20,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss cannot threaten Gholdengo and is being 2HKOed. Switching to Kingambit provides a resistance to Gholdengo's Ghost/Steel STABs and allows for a potential Sucker Punch or Kowtow Cleave to pressure the opponent."
+    },
+    {
+      "turn": 20,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a replacement. Kingambit is the best choice to handle Gholdengo as it resists both of Gholdengo's STAB moves and can threaten it with Sucker Punch or Kowtow Cleave."
+    },
+    {
+      "turn": 21,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss cannot threaten Gholdengo and is being 2HKOed. Switching to Kingambit provides a resistance to Shadow Ball and forces Gholdengo to respect Sucker Punch or potential Tera threats, gaining momentum."
+    },
+    {
+      "turn": 22,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is threatened by a 2HKO from Gholdengo and cannot damage it effectively. Switching to Kingambit provides a defensive pivot that resists Gholdengo's STAB moves and threatens it back."
+    },
+    {
+      "turn": 23,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss cannot threaten Gholdengo and is being 2HKOed by Make It Rain. Switching to Kingambit provides a resistance to Gholdengo's STAB moves and forces the opponent to respect Sucker Punch or potential Tera threats."
+    },
+    {
+      "turn": 24,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is at 39% and faces a 2HKO from Gholdengo's Make It Rain. Switching to Kingambit provides a resistance to Ghost and Steel moves, allowing me to pivot into a stronger offensive threat while preserving Amoonguss for potential redirection later."
+    },
+    {
+      "turn": 25,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is at 14% and will be KO'd by Gholdengo's next attack. Switching to Kingambit provides a resistance to Shadow Ball and allows me to threaten Gholdengo with Sucker Punch or Kowtow Cleave."
+    },
+    {
+      "turn": 26,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Amoonguss is at 2% HP and will be KOed by any move from Gholdengo. Switching to Kingambit preserves the turn and brings in a threat that resists Gholdengo's STAB moves."
+    }
+  ]
+}

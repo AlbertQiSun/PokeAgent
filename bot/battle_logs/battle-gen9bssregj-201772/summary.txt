@@ -1,0 +1,22 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201772
+==================================================
+Agent:   Gemini
+Result:  WIN
+Turns:   7
+Logged:  9 decisions
+Our team: incineroar, fluttermane, calyrexice, kingambit, chienpao, dragonite
+Opp team: fluttermane, incineroar, gholdengo
+
+Turn-by-turn:
+  T 1: move flareblitz                [LLM]
+  T 2: switch kingambit               [LLM]
+  T 3: switch incineroar              [LLM]
+  T 3: switch calyrexice              [LLM]
+  T 4: move highhorsepower            [LLM]
+  T 5: move highhorsepower            [LLM]
+  T 6: move highhorsepower            [LLM]
+  T 6: switch kingambit               [LLM]
+  T 7: move kowtowcleave              [LLM]
+
+Timestamp: 2026-04-20T08:00:41.972906

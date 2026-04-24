@@ -1,0 +1,32 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201752
+==================================================
+Agent:   Hybrid
+Result:  WIN
+Turns:   13
+Logged:  14 decisions
+Our team: gholdengo, rillaboom, tornadustherian, urshifurapidstrike, incineroar, fluttermane
+Opp team: tornadustherian, ironhands, incineroar
+
+Routing: S1=13 (93%) S2=1 (7%)
+
+Surprises (1 total):
+  - [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+Turn-by-turn:
+  T 1: /choose move hurricane         [S1] (100%)
+  T 2: /choose move hurricane         [S1] (100%)
+  T 3: /choose move hurricane         [S1] (100%)
+  T 4: /choose move hurricane         [S1] (100%)
+  T 5: /choose move hurricane         [S1] (100%)
+  T 6: switch fluttermane             [S2] !
+  T 6: /choose switch Tornadus        [S1] (99%)
+  T 7: /choose move hurricane         [S1] (100%)
+  T 8: /choose move hurricane         [S1] (100%)
+  T 9: /choose move hurricane         [S1] (100%)
+  T10: /choose move hurricane         [S1] (100%)
+  T11: /choose move hurricane         [S1] (100%)
+  T12: /choose move hurricane         [S1] (100%)
+  T13: /choose move hurricane         [S1] (100%)
+
+Timestamp: 2026-04-20T07:59:02.006643

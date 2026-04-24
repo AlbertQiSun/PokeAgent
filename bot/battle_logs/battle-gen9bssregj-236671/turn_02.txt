@@ -1,0 +1,94 @@
+Battle: battle-gen9bssregj-236671
+Agent:  Hybrid
+Turn:   2
+System: S2
+Surprises: PPO uncertainty: best action only 28% confidence (threshold 40%, entropy=1.77)
+Action: move heatwave
+
+── REASONING ──
+Gholdengo is holding an Air Balloon, meaning it is not Choice Scarfed and I outspeed it. Heat Wave is a guaranteed 2HKO, allowing me to secure the KO this turn or next while maintaining momentum.
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your tornadustherian vs opponent's gholdengo
+
+── YOUR MOVES vs GHOLDENGO ──
+  hurricane            Flying   SPECIAL  BP:110 →  23.5- 27.8% (resist)
+  heatwave             Fire     SPECIAL  BP: 95 →  54.9- 64.8% (2x SE) → 2HKO
+  knockoff             Dark     PHYSICAL BP: 65 →  33.3- 39.5% (2x SE) → 3HKO
+  uturn                Bug      PHYSICAL BP: 70 →   4.3-  4.9% (4x resist)
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓makeitrain           →  66.2- 77.9% → 2HKO
+  ~Make It Rain         →  66.2- 77.9% → 2HKO
+  ~Shadow Ball          →  44.2- 52.6% → 3HKO
+  ~Trick                →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         42% ########
+  attack_status          35% ######
+  switch                 13% ##
+  attack_physical         6% #
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > gholdengo(84 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+  kingambit            (Dark/Steel      100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your tornadustherian: 58% 
+  Opp gholdengo: 45% 
+  Your bench: ironhands(100%), fluttermane(100%), kingambit(100%), calyrexice(100%), incineroar(100%)
+  Opp bench: ~5 remaining

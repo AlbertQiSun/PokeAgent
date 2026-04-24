@@ -1,0 +1,82 @@
+Battle: battle-gen9bssregj-236673
+Agent:  Hybrid
+Turn:   2
+System: S1
+Confidence: 63%
+Action: /choose move suckerpunch terastallize
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your kingambit vs opponent's urshifurapidstrike
+
+── YOUR MOVES vs URSHIFURAPIDSTRIKE ──
+  suckerpunch          Dark     PHYSICAL BP: 70 pri=1 →  15.4- 18.3% (resist)
+  kowtowcleave         Dark     PHYSICAL BP: 85 →  18.9- 22.3% (resist)
+  ironhead             Steel    PHYSICAL BP: 80 →  17.7- 21.1% (resist)
+  swordsdance          Normal   STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs KINGAMBIT ──
+  ✓surgingstrikes       →  29.1- 34.3% x3
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        67% #############
+  attack_special         18% ###
+  switch                 10% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > kingambit(50 base)
+  Priority moves available: suckerpunch
+
+── SWITCH OPTIONS ──
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   surgingstrikes ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your kingambit: 100% 
+  Opp urshifurapidstrike: 1% 
+  Your bench: ironhands(100%), rillaboom(100%), landorustherian(100%), urshifurapidstrike(100%)
+  Opp bench: ~5 remaining

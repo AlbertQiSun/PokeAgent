@@ -1,0 +1,90 @@
+{
+  "battle_tag": "battle-gen9bssregj-201787",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 6,
+  "s1_count": 7,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "ironhands",
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "ironhands",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999976754188538,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999937415122986,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 0.7655269503593445,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999994039535522,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999998211860657,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S2",
+      "action": "switch gholdengo",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: lifeorb (expected Assault Vest)"
+      ],
+      "reasoning": "Urshifu-Rapid-Strike is already fainted, so I must bring in Gholdengo to safely pivot into a potential Wild Charge while maintaining momentum."
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move makeitrain",
+      "confidence": 0.9999989867210388,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move makeitrain",
+      "confidence": 0.9999947547912598,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

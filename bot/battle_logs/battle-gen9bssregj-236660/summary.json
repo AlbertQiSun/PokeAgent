@@ -1,0 +1,96 @@
+{
+  "battle_tag": "battle-gen9bssregj-236660",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 9,
+  "s2_count": 0,
+  "llm_count": 0,
+  "our_team": [
+    "garganacl",
+    "ironhands",
+    "urshifurapidstrike",
+    "calyrexice",
+    "rillaboom",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move glaciallance terastallize",
+      "confidence": 0.7051203846931458,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.5229636430740356,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.621002733707428,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Tornadus",
+      "confidence": 0.7006484270095825,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.8532079458236694,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.8093075156211853,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9481343626976013,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

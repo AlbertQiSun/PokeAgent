@@ -1,0 +1,87 @@
+Battle: battle-gen9bssregj-201796
+Agent:  Hybrid
+Turn:   3
+System: S1
+Confidence: 99%
+Action: /choose switch Tornadus
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your gholdengo vs opponent's fluttermane
+
+── OPPONENT'S LIKELY MOVES vs GHOLDENGO ──
+  ✓thunderbolt          →  41.4- 48.1% → 3HKO
+  ✓mysticalfire         →  69.1- 81.5% (SE) → 2HKO
+  ~Moonblast            →  32.7- 38.3% (resist) → 3HKO
+  ~Shadow Ball          → 110.5-130.2% (SE) → OHKO!
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         48% #########
+  switch                 41% ########
+  attack_status           5% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > gholdengo(84 base)
+
+── SWITCH OPTIONS ──
+  tornadustherian      (Flying           72.0% HP) — neutral
+  urshifurapidstrike   (Fighting/Water  100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    lifeorb ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   thunderbolt ✓, mysticalfire ✓, ~Moonblast, ~Shadow Ball
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Booster Energy)
+│   - Unexpected move: thunderbolt
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+  [fluttermane] Unexpected move: thunderbolt
+
+── HP STATUS ──
+  Your gholdengo: 0% [FNT]
+  Opp fluttermane: 71% 
+  Your bench: rillaboom(100%), tornadustherian(72%), urshifurapidstrike(100%), incineroar(100%), ironhands(100%)
+  Opp bench: ~5 remaining

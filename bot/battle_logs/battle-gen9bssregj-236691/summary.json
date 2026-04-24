@@ -1,0 +1,88 @@
+{
+  "battle_tag": "battle-gen9bssregj-236691",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 8,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "tornadustherian",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "urshifurapidstrike",
+    "rillaboom",
+    "tornadustherian"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is significantly slower than Urshifu-Rapid and takes heavy chip damage from its STAB moves; switching to Incineroar provides an Intimidate drop to mitigate incoming physical damage and safely pivot."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is guaranteed to be OHKO'd by Urshifu-Rapid-Strike's Close Combat, and switching to Flutter Mane provides an immunity to the Fighting-type STAB move while threatening a potential KO back."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Moonblast is a guaranteed OHKO on Urshifu-Rapid-Strike, and since I outspeed, I can secure the knockout before the opponent can make a move."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Rillaboom threatens an OHKO with Wood Hammer or Drum Beating, and Flutter Mane cannot guarantee a KO this turn. Switching to Incineroar provides a resistance to Rillaboom's STAB moves and allows for Intimidate to mitigate incoming damage."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Rillaboom, removing a significant threat from the field immediately. Since I am at 32% HP, securing the KO now is the highest priority to prevent Rillaboom from pivoting or dealing further chip damage."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar has fainted, so I must send in a replacement. Tornadus-Therian resists Rillaboom's Grass-type STAB moves and can pivot out or threaten with Hurricane."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Rillaboom, fulfilling the priority to secure the KO immediately despite being slower."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Tornadus-Therian, and since I am faster than the opponent's potential switch-ins or can secure the kill regardless of their move, I should take the KO immediately."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-201826
+Agent:  Gemini
+Turn:   9
+System: LLM
+Action: move moonblast
+
+── REASONING ──
+The opponent's Tornadus-Therian is at 11% HP, well within the range for Moonblast to secure a KO, which removes their pivot and prevents them from utilizing Regenerator.
+
+── BATTLE CONTEXT ──
+=== TURN 9 ANALYSIS ===
+Your fluttermane vs opponent's tornadustherian
+
+── YOUR MOVES vs TORNADUSTHERIAN ──
+  moonblast            Fairy    SPECIAL  BP: 95 →  53.2- 63.0% (neutral) → 2HKO
+  shadowball           Ghost    SPECIAL  BP: 80 →  44.8- 53.2% (neutral) → 3HKO
+  mysticalfire         Fire     SPECIAL  BP: 75 →  27.9- 33.1% (neutral)
+  psyshock             Psychic  SPECIAL  BP: 80 →  29.9- 35.1% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓hurricane            →  40.0- 47.7% → 3HKO
+  ✓knockoff             →  34.6- 41.5% → 3HKO
+  ~Heat Wave            →  23.1- 27.7%
+  ~Knock Off            →  34.6- 41.5% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        45% ########
+  attack_special         32% ######
+  switch                 14% ##
+  attack_status           9% #
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > tornadustherian(121 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   shadowball ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   hurricane ✓, knockoff ✓, ~Heat Wave, ~Knock Off
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your fluttermane: 29% 
+  Opp tornadustherian: 11% 
+  Your bench: gholdengo(100%), calyrexice(100%), amoonguss(100%), chienpao(100%)
+  Opp bench: ~3 remaining

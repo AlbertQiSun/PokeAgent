@@ -1,0 +1,100 @@
+Battle: battle-gen9bssregj-201839
+Agent:  Gemini
+Turn:   20
+System: LLM
+Action: move flareblitz
+
+── REASONING ──
+Flare Blitz is a guaranteed OHKO on Rillaboom, satisfying the primary decision priority to secure a KO when available.
+
+── BATTLE CONTEXT ──
+=== TURN 20 ANALYSIS ===
+Your incineroar vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →  11.4- 13.7% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →  28.0- 32.6% (neutral)
+  flareblitz           Fire     PHYSICAL BP:120 → 101.1-118.9% (2x SE) → OHKO
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ~Wood Hammer          →  42.4- 49.4% (resist) → 3HKO
+  ~Drum Beating         →  28.2- 33.5% (resist)
+  ~U-turn               →  33.5- 39.4% → 3HKO
+  ~Knock Off            →  15.3- 18.2% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  setup                  49% #########
+  attack_physical        40% ########
+  attack_special          8% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: rillaboom(85 base) > incineroar(60 base)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+  amoonguss            (Grass/Poison     87.3% HP) — 4x resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   psyshock ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected move: psyshock
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   drainpunch ✓, wildcharge ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected move: psyshock
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your incineroar: 79% 
+  Opp rillaboom: 100% 
+  Your bench: fluttermane(100%), calyrexice(100%), amoonguss(87%), kingambit(100%), chienpao(100%)
+  Opp bench: ~3 remaining

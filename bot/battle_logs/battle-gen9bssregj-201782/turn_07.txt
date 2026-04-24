@@ -1,0 +1,83 @@
+Battle: battle-gen9bssregj-201782
+Agent:  Hybrid
+Turn:   7
+System: S1
+Confidence: 100%
+Action: /choose move surgingstrikes
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your urshifurapidstrike vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  80.8- 96.9% x3 (neutral) → 2HKO
+  closecombat          Fighting PHYSICAL BP:120 →   0.0-  0.0% (IMMUNE)
+  aquajet              Water    PHYSICAL BP: 40 pri=1 →  42.3- 50.0% (neutral) → 3HKO
+  uturn                Bug      PHYSICAL BP: 70 →  11.5- 13.8% (4x resist)
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ✓moonblast            → 139.4-164.6% (SE) → OHKO!
+  ~Shadow Ball          →  58.9- 69.1% → 2HKO
+  ~Dazzling Gleam       → 118.3-138.9% (SE) → OHKO!
+  ~Protect              →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         43% ########
+  attack_status          30% ######
+  switch                 16% ###
+  setup                  10% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > urshifurapidstrike(97 base)
+  Priority moves available: aquajet
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   hurricane ✓, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your urshifurapidstrike: 100% 
+  Opp fluttermane: 23% 
+  Your bench: gholdengo(100%), rillaboom(100%), incineroar(100%)
+  Opp bench: ~4 remaining

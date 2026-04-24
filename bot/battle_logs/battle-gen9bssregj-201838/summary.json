@@ -1,0 +1,88 @@
+{
+  "battle_tag": "battle-gen9bssregj-201838",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 6,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 8,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "amoonguss",
+    "chienpao",
+    "kingambit",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "tornadustherian",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane outspeeds and 2HKOs Tornadus-Therian with Moonblast. Switching to Incineroar provides a safe pivot that resists Fairy-type moves and can threaten Flutter Mane with Knock Off or U-turn on the following turn."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane. Even though Incineroar is at low HP, securing the KO immediately is the priority to remove a major offensive threat."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar has fainted, so I must send in a replacement. Kingambit is the best choice to switch into Flutter Mane as it resists Moonblast and Shadow Ball, and can threaten a KO with Sucker Punch or Iron Head."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Flutter Mane. Since I can secure the KO this turn, I must attack immediately to remove the threat."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Tornadus-Therian, and since I have a clear path to KO, I must attack immediately to remove the threat."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at low HP and will be outsped and KO'd by Rillaboom's priority or standard moves, so I must use the guaranteed OHKO move now to remove the threat before Calyrex-Ice faints."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Tornadus-Therian is the best choice to check Rillaboom due to its Flying-type resistance to Grass moves and ability to threaten with Hurricane."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Hurricane is a guaranteed OHKO on Rillaboom, and since I outspeed, I should take the KO immediately to remove the threat and gain momentum."
+    }
+  ]
+}

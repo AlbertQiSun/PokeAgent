@@ -1,0 +1,152 @@
+{
+  "battle_tag": "battle-gen9bssregj-236678",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 14,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 16,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "ironhands",
+    "urshifurapidstrike",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens a 2HKO with Drain Punch, and staying in to Flare Blitz is inefficient. Switching to Flutter Mane provides an immunity to Drain Punch and forces the opponent to switch or risk a massive hit from a Fairy-type STAB."
+    },
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is already fainted (0% HP). Incineroar is the best pivot to handle Iron Hands, as it can use Intimidate to weaken physical attacks and threaten with Flare Blitz or U-turn."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is threatened with an OHKO by Drain Punch and cannot KO Iron Hands back. Switching to Calyrex-Ice preserves Incineroar for later utility while bringing in a threat that resists Iron Hands' coverage."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed 2HKO on Iron Hands, and since I am faster or tied and Iron Hands cannot OHKO me, attacking is the optimal play to maintain momentum and secure the KO."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is significantly slower than Urshifu-Rapid and cannot OHKO it, while Urshifu threatens a 3HKO with Surging Strikes or Close Combat. Switching to Incineroar allows me to Intimidate the Urshifu, reducing its damage output and providing a safe pivot to maintain momentum."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at a disadvantage against Urshifu-Rapid Strike and cannot secure a KO. Switching to Calyrex-Ice preserves Incineroar for potential Intimidate support later while bringing in a stronger offensive threat."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is significantly slower than Urshifu-Rapid and cannot secure a KO, while Urshifu threatens to chip away at Calyrex-Ice with Aqua Jet. Switching to Incineroar allows me to pivot, potentially trigger Intimidate, and safely handle the Urshifu while preserving Calyrex-Ice for a better matchup later."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is threatened with an OHKO by Drain Punch and cannot KO Iron Hands back. Switching to Calyrex-Ice preserves Incineroar for potential Intimidate utility later while bringing in a stronger offensive threat."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is in a 2HKO range against Iron Hands, and Glacial Lance provides the most immediate pressure. Since Iron Hands is at 82% and likely to switch or attack, staying in to deal significant damage is the optimal play to maintain momentum."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 28% HP and Iron Hands is at 16% HP. Glacial Lance is a guaranteed KO on Iron Hands, securing the kill before the opponent can use Drain Punch to recover health or KO me."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 28% HP and will be outsped and KO'd by Urshifu-Rapid Strike's Aqua Jet. Switching to Incineroar provides a safe pivot to absorb the hit and potentially intimidate the opponent."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar cannot KO Urshifu and will be 3HKO'd by Aqua Jet. Parting Shot allows me to pivot out safely, lowering Urshifu's attack to mitigate damage for my incoming teammate while maintaining momentum."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "move flare blitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar resists Rillaboom's primary STAB moves and Flare Blitz is a guaranteed 2HKO or better, allowing me to win the trade while Rillaboom is forced to stay in."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice can secure a guaranteed OHKO on Rillaboom with Glacial Lance. Since I am currently at 34% HP and Rillaboom is a threat, taking the KO now is the priority to remove their momentum."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 40% HP and Urshifu-Rapid is at 23%. Glacial Lance is a guaranteed 2HKO (or better given the chip damage potential) and Urshifu's Aqua Jet is not a threat to KO this turn. Staying in to secure the KO is the priority."
+    },
+    {
+      "turn": 14,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice can 3HKO Urshifu-Rapid, and since Urshifu's Aqua Jet only does ~14%, I can survive another hit to secure the KO. Staying in is optimal to remove the threat without wasting a switch."
+    }
+  ]
+}

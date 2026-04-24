@@ -1,0 +1,100 @@
+{
+  "battle_tag": "battle-gen9bssregj-236659",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 7,
+  "s1_count": 7,
+  "s2_count": 2,
+  "llm_count": 2,
+  "our_team": [
+    "incineroar",
+    "ironhands",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "urshifurapidstrike"
+  ],
+  "opp_team": [
+    "incineroar",
+    "tornadustherian",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.5842582583427429,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose switch Incineroar",
+      "confidence": 0.8158153295516968,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [
+        "PPO uncertainty: best action only 25% confidence (threshold 40%, entropy=1.90)"
+      ],
+      "reasoning": "With the opponent's Incineroar at 48%, Flare Blitz is a guaranteed 2HKO that secures momentum while minimizing the risk of a speed tie loss. This aggressive play forces the opponent to switch or lose their primary pivot."
+    },
+    {
+      "turn": 3,
+      "system": "S2",
+      "action": "switch urshifurapidstrike",
+      "confidence": -1,
+      "surprises": [
+        "PPO uncertainty: best action only 24% confidence (threshold 40%, entropy=1.90)"
+      ],
+      "reasoning": "The opponent's Incineroar is at 24% HP and likely to use Flare Blitz or pivot; switching to Urshifu-Rapid Strike allows me to threaten a KO with Surging Strikes while resisting their Fire-type attacks."
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move surgingstrikes terastallize",
+      "confidence": 0.6324637532234192,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9868096113204956,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose switch Incineroar",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move flareblitz",
+      "confidence": 0.717741847038269,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move knockoff",
+      "confidence": 0.5761989951133728,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

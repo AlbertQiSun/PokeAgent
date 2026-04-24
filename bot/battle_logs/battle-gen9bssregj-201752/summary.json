@@ -1,0 +1,138 @@
+{
+  "battle_tag": "battle-gen9bssregj-201752",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 13,
+  "s1_count": 13,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "tornadustherian",
+    "ironhands",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9998082518577576,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9997650980949402,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9997287392616272,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9995744228363037,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9996125102043152,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S2",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: lifeorb (expected Assault Vest)"
+      ],
+      "reasoning": "Tornadus-Therian is at 25% HP and will be OHKOed by Iron Hands' Wild Charge or 2HKOed by Ice Punch, while Hurricane fails to secure a KO. Switching to Flutter Mane provides a safe pivot as it is immune to Iron Hands' primary STAB moves and threatens a strong response."
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose switch Tornadus",
+      "confidence": 0.9884442090988159,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999983310699463,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999980330467224,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999980330467224,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 10,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999986886978149,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 11,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999986290931702,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 12,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999955892562866,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 13,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999935626983643,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

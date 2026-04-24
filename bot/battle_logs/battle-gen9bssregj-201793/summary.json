@@ -1,0 +1,118 @@
+{
+  "battle_tag": "battle-gen9bssregj-201793",
+  "agent": "Hybrid",
+  "result": "LOSS",
+  "turns": 9,
+  "s1_count": 8,
+  "s2_count": 3,
+  "llm_count": 3,
+  "our_team": [
+    "gholdengo",
+    "ironhands",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar"
+  ],
+  "opp_team": [
+    "gholdengo",
+    "ironhands",
+    "rillaboom"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "move heatwave",
+      "confidence": -1,
+      "surprises": [
+        "[gholdengo] Unexpected item: airballoon (expected Choice Scarf)"
+      ],
+      "reasoning": "Since Gholdengo is holding an Air Balloon, it is not locked into a move, but I outspeed it and can 2HKO with Heat Wave. Attacking now secures the momentum and forces the Balloon to pop immediately."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.999993622303009,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9999868273735046,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 0.9830999374389648,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999994039535522,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S2",
+      "action": "switch gholdengo",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: leftovers (expected Assault Vest)"
+      ],
+      "reasoning": "Iron Hands is running Leftovers instead of Assault Vest, making it bulkier and more dangerous to stay in against. Switching to Gholdengo provides a safe pivot that resists potential Fighting and Ice coverage while forcing the opponent to reveal their next move."
+    },
+    {
+      "turn": 6,
+      "system": "S2",
+      "action": "move shadowball",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected move: thunderpunch"
+      ],
+      "reasoning": "Iron Hands is running Leftovers instead of Assault Vest, making it less bulky than expected. Since I outspeed and Shadow Ball is a reliable 3HKO that avoids the potential recoil of Wild Charge, I will maintain pressure while staying in to force progress."
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999996423721313,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999995827674866,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999997615814209,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+Battle: battle-gen9bssregj-236694
+Agent:  Gemini
+Turn:   2
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+My Flutter Mane has fainted, so I must send out a new Pokemon. Incineroar is the best pivot to handle the low-HP opposing Flutter Mane while providing Intimidate support for the rest of the opponent's team.
+
+── BATTLE CONTEXT ──
+=== TURN 2 ANALYSIS ===
+Your fluttermane vs opponent's fluttermane
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓moonblast            →  42.3- 50.0% → 3HKO
+  ~Shadow Ball          →  72.3- 85.4% (SE) → 2HKO
+  ~Dazzling Gleam       →  36.2- 42.3% → 3HKO
+  ~Protect              →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         62% ############
+  attack_status          17% ###
+  switch                 15% ##
+
+── SPEED CHECK ──
+  Speed tie: both 135 base (50/50)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+  tornadustherian      (Flying          100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your fluttermane: 0% [FNT]
+  Opp fluttermane: 13% 
+  Your bench: calyrexice(100%), incineroar(100%), kingambit(100%), chienpao(100%), tornadustherian(100%)
+  Opp bench: ~5 remaining

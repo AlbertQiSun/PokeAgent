@@ -1,0 +1,160 @@
+{
+  "battle_tag": "battle-gen9bssregj-201834",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 13,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 17,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "tornadustherian",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "fluttermane",
+    "ironhands",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is significantly slower than Flutter Mane and will take heavy damage from Shadow Ball before it can move. Switching to Incineroar allows me to safely absorb the special attack and potentially threaten with Intimidate or a pivot move."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a significant offensive threat from the opponent's team immediately."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 57% and faces a 2HKO from Drain Punch, making it a liability to stay in. Switching to Flutter Mane provides an immunity to Iron Hands' Fighting-type STAB and forces the opponent to respect the threat of a faster special attacker."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move moonblast",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "I outspeed Iron Hands and Moonblast is a guaranteed OHKO, fulfilling the priority of taking a KO when available."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is threatened with an OHKO by Flare Blitz and cannot secure a KO this turn. Switching to Incineroar provides a safe resistance to Fire-type moves and allows for Intimidate support to mitigate physical pressure."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at low HP and cannot win the 1v1 trade; Parting Shot allows me to pivot out safely, lower the opponent's stats, and bring in a fresh counter to maintain momentum."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 43% and cannot win the speed tie or trade effectively against a healthy Incineroar. Switching to Calyrex-Ice preserves my Incineroar's Intimidate for later while bringing in a bulky threat that can handle the opponent's likely Flare Blitz or Knock Off."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is slower than Incineroar and will be 2HKOed by Flare Blitz while only dealing ~85% with High Horsepower. Switching to my own Incineroar allows me to Intimidate the opponent and safely pivot or check their physical attackers."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is low on health and cannot win the 1v1 trade; Parting Shot allows me to pivot safely into a healthier teammate while lowering the opponent's stats to gain momentum."
+    },
+    {
+      "turn": 8,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 26% and will likely be KO'd by any chip damage or a Flare Blitz, so I need to pivot to Flutter Mane to maintain momentum and threaten the opponent with its superior speed and special attack."
+    },
+    {
+      "turn": 9,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is guaranteed to be OHKO'd by Flare Blitz, and staying in results in a loss of momentum. Switching to Incineroar provides a resistance to Flare Blitz and allows me to pivot or intimidate the opponent."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at low HP and cannot win this duel; Parting Shot allows me to safely pivot into a healthier teammate while debuffing the opponent's offensive stats."
+    },
+    {
+      "turn": 10,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 20% and will likely be KO'd or forced out by the opponent's Incineroar; switching to Flutter Mane preserves momentum and threatens the opponent with high special attack pressure."
+    },
+    {
+      "turn": 11,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is guaranteed to be OHKO'd by Flare Blitz, and switching to Incineroar provides a necessary Fire-type resistance to tank the hit while preserving Flutter Mane for later."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "move partingshot",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 15% and will likely be KO'd by any attack; Parting Shot allows me to pivot out safely, lower the opponent's stats, and bring in a healthier teammate to maintain momentum."
+    },
+    {
+      "turn": 12,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "My Incineroar is at 15% and will likely be KO'd by any move from the opponent's Incineroar. Switching to Calyrex-Ice preserves my remaining HP and allows me to threaten the opponent with a bulky attacker."
+    },
+    {
+      "turn": 13,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO on Incineroar and deals significant damage. Since Incineroar is at 66% HP, this move is highly likely to secure the KO this turn or force a switch, maintaining offensive pressure."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236674
+==================================================
+Agent:   Hybrid
+Result:  LOSS
+Turns:   5
+Logged:  7 decisions
+Our team: urshifurapidstrike, landorustherian, dragonite, fluttermane, rillaboom, tornadustherian
+Opp team: rillaboom, urshifurapidstrike
+
+Routing: S1=7 (100%) S2=0 (0%)
+
+Turn-by-turn:
+  T 1: /choose move moonblast         [S1] (51%)
+  T 1: /choose switch Landorus        [S1] (84%)
+  T 2: /choose move earthquake terastallize [S1] (47%)
+  T 3: /choose move earthquake        [S1] (80%)
+  T 3: /choose switch Urshifu         [S1] (100%)
+  T 4: /choose move surgingstrikes    [S1] (94%)
+  T 5: /choose move surgingstrikes    [S1] (100%)
+
+Timestamp: 2026-04-20T12:40:16.236223

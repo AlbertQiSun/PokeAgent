@@ -1,0 +1,80 @@
+{
+  "battle_tag": "battle-gen9bssregj-201771",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 5,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 7,
+  "our_team": [
+    "incineroar",
+    "fluttermane",
+    "calyrexice",
+    "kingambit",
+    "chienpao",
+    "dragonite"
+  ],
+  "opp_team": [
+    "gholdengo",
+    "fluttermane",
+    "incineroar"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Gholdengo, and since Gholdengo is holding an Air Balloon, it is not immune to Fire-type moves. Taking the KO immediately removes a significant threat from the opponent's team."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Gholdengo is at 4% HP and Flare Blitz is a guaranteed OHKO. Even with the Air Balloon, Flare Blitz will connect and secure the KO."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move flareblitz",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flare Blitz is a guaranteed OHKO on Flutter Mane, removing a major offensive threat immediately. Since I am currently at 49% HP, securing the KO is the highest priority to prevent the opponent from potentially finishing me off next turn."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar has fainted, so I must send in a replacement. Kingambit is the optimal choice here as it resists Flutter Mane's STAB moves and can threaten it with Sucker Punch if it stays in."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch calyrexice",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Kingambit is threatened by a 2HKO from Flare Blitz and cannot deal significant damage to Incineroar due to Intimidate and type resistance. Switching to Calyrex-Ice preserves Kingambit for later and forces the opponent to deal with a much higher threat."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch kingambit",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a replacement. Kingambit is the optimal choice to resist Incineroar's Flare Blitz and Knock Off, providing a safe defensive pivot."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch dragonite",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar threatens a 2HKO with Flare Blitz while Kingambit deals negligible damage due to Intimidate and resistance. Switching to Dragonite provides a safe pivot that resists Fire-type moves and maintains momentum."
+    }
+  ]
+}

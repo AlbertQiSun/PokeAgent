@@ -1,0 +1,56 @@
+{
+  "battle_tag": "battle-gen9bssregj-236682",
+  "agent": "Gemini",
+  "result": "WIN",
+  "turns": 4,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 4,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "chienpao",
+    "amoonguss"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "tornadustherian",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Rillaboom. Even though Rillaboom outspeeds, it cannot OHKO Calyrex-Ice, making this the optimal play to secure an immediate advantage."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Glacial Lance is a guaranteed OHKO on Tornadus-Therian. Even though Tornadus outspeeds, Calyrex-Ice survives any of its moves, making this the optimal play to secure the KO."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and deals significantly more damage than Glacial Lance due to the type advantage, ensuring I secure the KO on Iron Hands before it can drain punch back."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 20% HP and will be KO'd by almost any move from Tornadus-Therian. Since Glacial Lance is a guaranteed OHKO, attacking now secures the KO before Calyrex-Ice faints, preventing the opponent from gaining further momentum."
+    }
+  ]
+}

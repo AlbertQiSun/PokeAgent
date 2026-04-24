@@ -1,0 +1,139 @@
+{
+  "battle_tag": "battle-gen9bssregj-201756",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 12,
+  "s1_count": 13,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "gholdengo",
+    "rillaboom",
+    "tornadustherian",
+    "urshifurapidstrike",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "rillaboom",
+    "incineroar",
+    "ironhands"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9998131990432739,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9997014403343201,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move hurricane",
+      "confidence": 0.9992144107818604,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Flutter Mane",
+      "confidence": 0.9999919533729553,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999985098838806,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9999997615814209,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S2",
+      "action": "switch urshifurapidstrike",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: lifeorb (expected Assault Vest)",
+        "[ironhands] Unexpected move: heavyslam"
+      ],
+      "reasoning": "Flutter Mane has fainted, so I must bring in a fresh check to Iron Hands; Urshifu-Rapid-Strike resists Heavy Slam and can threaten to finish off the weakened Iron Hands with priority or STAB moves."
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999992251396179,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999998807907104,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999992251396179,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 9,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.999998927116394,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 10,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999985098838806,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 11,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.9999983310699463,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 12,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.999998927116394,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

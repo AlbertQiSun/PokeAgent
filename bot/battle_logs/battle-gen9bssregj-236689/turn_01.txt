@@ -1,0 +1,91 @@
+Battle: battle-gen9bssregj-236689
+Agent:  Gemini
+Turn:   1
+System: LLM
+Action: move hurricane
+
+── REASONING ──
+Hurricane is a guaranteed OHKO on Rillaboom, and since I outspeed, I can remove the opponent's threat immediately without taking any damage.
+
+── BATTLE CONTEXT ──
+=== TURN 1 ANALYSIS ===
+Your tornadustherian vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  hurricane            Flying   SPECIAL  BP:110 → 113.7-133.7% (2x SE) → OHKO
+  heatwave             Fire     SPECIAL  BP: 95 →  65.7- 77.1% (2x SE) → 2HKO
+  knockoff             Dark     PHYSICAL BP: 65 →  16.0- 18.9% (neutral)
+  uturn                Bug      PHYSICAL BP: 70 →  34.9- 41.1% (2x SE) → 3HKO
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ~Wood Hammer          →  51.9- 61.7% (resist) → 2HKO
+  ~Drum Beating         →  35.1- 41.6% (resist) → 3HKO
+  ~U-turn               →  20.1- 24.0% (resist)
+  ~Knock Off            →  38.3- 45.5% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        66% #############
+  setup                  14% ##
+  attack_special         12% ##
+  attack_status           5% #
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > rillaboom(85 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+  incineroar           (Fire/Dark       100.0% HP) — resists STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your tornadustherian: 100% 
+  Opp rillaboom: 100% 
+  Your bench: calyrexice(100%), incineroar(100%), amoonguss(100%), kingambit(100%), chienpao(100%)
+  Opp bench: ~5 remaining

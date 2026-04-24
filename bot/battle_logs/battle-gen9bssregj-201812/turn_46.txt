@@ -1,0 +1,96 @@
+Battle: battle-gen9bssregj-201812
+Agent:  Gemini
+Turn:   46
+System: LLM
+Action: move flareblitz
+
+── REASONING ──
+Flare Blitz is a guaranteed OHKO on Flutter Mane. Even if the opponent switches, securing the KO on the active threat is the highest priority move to maintain momentum.
+
+── BATTLE CONTEXT ──
+=== TURN 46 ANALYSIS ===
+Your incineroar vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  fakeout              Normal   PHYSICAL BP: 40 pri=3 →   0.0-  0.0% (IMMUNE)
+  knockoff             Dark     PHYSICAL BP: 65 →  60.0- 70.8% (neutral) → 2HKO
+  flareblitz           Fire     PHYSICAL BP:120 → 110.0-129.2% (neutral) → OHKO
+  partingshot          Dark     STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ✓psyshock             →   0.0-  0.0% (IMMUNE)
+  ~Moonblast            →  48.2- 57.1% → 2HKO
+  ~Shadow Ball          →  20.0- 24.1% (resist)
+  ~Dazzling Gleam       →  40.6- 48.2% → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 50% ##########
+  attack_special         39% #######
+  attack_status           7% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > incineroar(60 base)
+  Priority moves available: fakeout
+
+── SWITCH OPTIONS ──
+  amoonguss            (Grass/Poison    100.0% HP) — resists STAB
+  calyrexice           (Psychic/Ice      70.0% HP) — neutral
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 71% — best: fakeout (neutral)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   psyshock ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected move: psyshock
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected move: psyshock
+
+── HP STATUS ──
+  Your incineroar: 40% 
+  Opp fluttermane: 100% 
+  Your bench: calyrexice(70%), amoonguss(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

@@ -1,0 +1,84 @@
+Battle: battle-gen9bssregj-201842
+Agent:  Gemini
+Turn:   6
+System: LLM
+Action: switch tornadustherian
+
+── REASONING ──
+Flutter Mane is already fainted; I must send in Tornadus-Therian to handle the Iron Hands, as it resists Fighting-type moves and can pivot out or threaten with Hurricane.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your fluttermane vs opponent's ironhands
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ✓wildcharge           → 130.8-153.8% → OHKO!
+  ~Drain Punch          →   0.0-  0.0% (IMMUNE)
+  ~Wild Charge          → 130.8-153.8% → OHKO!
+  ~Ice Punch            →  73.1- 85.4% → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        56% ###########
+  switch                 40% #######
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > ironhands(50 base)
+
+── SWITCH OPTIONS ──
+  tornadustherian      (Flying           54.8% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your fluttermane: 0% [FNT]
+  Opp ironhands: 78% 
+  Your bench: incineroar(100%), chienpao(100%), amoonguss(100%), tornadustherian(55%)
+  Opp bench: ~4 remaining

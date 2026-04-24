@@ -1,0 +1,95 @@
+Battle: battle-gen9bssregj-201792
+Agent:  Hybrid
+Turn:   4
+System: S2
+Surprises: [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+Action: switch tornadustherian
+
+── REASONING ──
+Flutter Mane is at 28% and will be OHKOed by Make It Rain or 2HKOed by Shadow Ball, while Moonblast fails to secure a KO; switching to Tornadus-Therian preserves Flutter Mane for later and avoids a guaranteed loss.
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your fluttermane vs opponent's gholdengo
+
+── YOUR MOVES vs GHOLDENGO ──
+  moonblast            Fairy    SPECIAL  BP: 95 →  37.7- 44.4% (resist) → 3HKO
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ~Make It Rain         → 105.4-124.6% (SE) → OHKO!
+  ~Shadow Ball          →  71.5- 84.6% (SE) → 2HKO
+  ~Trick                →   0.0-  0.0%
+  ~Thunderbolt          →  26.2- 31.5%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         48% #########
+  attack_status          32% ######
+  setup                  10% #
+  switch                  5% #
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > gholdengo(84 base)
+
+── SWITCH OPTIONS ──
+  tornadustherian      (Flying           73.1% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   thunderbolt ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Booster Energy)
+│   - Unexpected move: thunderbolt
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+  [fluttermane] Unexpected move: thunderbolt
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your fluttermane: 28% 
+  Opp gholdengo: 100% 
+  Your bench: gholdengo(100%), rillaboom(100%), tornadustherian(73%), incineroar(100%)
+  Opp bench: ~4 remaining

@@ -1,0 +1,93 @@
+Battle: battle-gen9bssregj-236672
+Agent:  Hybrid
+Turn:   3
+System: S2
+Surprises: [fluttermane] Unexpected item: lifeorb (expected Booster Energy), [fluttermane] Unexpected move: thunderbolt
+Action: switch incineroar
+
+── REASONING ──
+Tornadus-Therian has already fainted, so I must bring in Incineroar to safely pivot or threaten the Life Orb Flutter Mane with its bulk and Intimidate.
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your tornadustherian vs opponent's fluttermane
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓thunderbolt          →  87.7-103.2% (SE) → 2HKO
+  ~Moonblast            →  69.5- 81.8% → 2HKO
+  ~Shadow Ball          →  58.4- 68.8% → 2HKO
+  ~Dazzling Gleam       →  58.4- 68.8% → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         43% ########
+  setup                  36% #######
+  switch                 10% ##
+  attack_status           6% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > tornadustherian(121 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+  incineroar           (Fire/Dark       100.0% HP) — resists STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   thunderbolt ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Booster Energy)
+│   - Unexpected move: thunderbolt
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   woodhammer ✓, ~Wood Hammer, ~Drum Beating, ~U-turn
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+  [fluttermane] Unexpected move: thunderbolt
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your tornadustherian: 0% [FNT]
+  Opp fluttermane: 97% 
+  Your bench: fluttermane(100%), rillaboom(100%), urshifurapidstrike(100%), calyrexice(100%), incineroar(100%)
+  Opp bench: ~4 remaining

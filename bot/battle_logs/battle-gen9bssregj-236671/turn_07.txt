@@ -1,0 +1,97 @@
+Battle: battle-gen9bssregj-236671
+Agent:  Hybrid
+Turn:   7
+System: S1
+Confidence: 80%
+Action: /choose move suckerpunch
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your kingambit vs opponent's fluttermane
+
+── YOUR MOVES vs FLUTTERMANE ──
+  suckerpunch          Dark     PHYSICAL BP: 70 pri=1 →  75.4- 89.2% (neutral) → 2HKO
+  kowtowcleave         Dark     PHYSICAL BP: 85 →  91.5-107.7% (neutral) → 2HKO
+  ironhead             Steel    PHYSICAL BP: 80 → 173.1-203.8% (2x SE) → OHKO
+  swordsdance          Normal   STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs KINGAMBIT ──
+  ✓mysticalfire         →  68.6- 80.6% (SE) → 2HKO
+  ~Moonblast            →  64.6- 76.0% → 2HKO
+  ~Shadow Ball          →  26.9- 32.0% (resist)
+  ~Dazzling Gleam       →  54.3- 64.0% → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         31% ######
+  switch                 23% ####
+  setup                  22% ####
+  attack_status          22% ####
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > kingambit(50 base)
+  Priority moves available: suckerpunch
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   mysticalfire ✓, ~Moonblast, ~Shadow Ball, ~Dazzling Gleam
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Booster Energy)
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    leftovers ✓
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   thunderpunch ✓, drainpunch ✓, ~Drain Punch, ~Wild Charge
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: leftovers (expected Assault Vest)
+│   - Unexpected move: thunderpunch
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+  [ironhands] Unexpected item: leftovers (expected Assault Vest)
+  [ironhands] Unexpected move: thunderpunch
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your kingambit: 100% 
+  Opp fluttermane: 91% 
+  Your bench: ironhands(100%), fluttermane(100%), incineroar(100%)
+  Opp bench: ~3 remaining

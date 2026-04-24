@@ -1,0 +1,82 @@
+Battle: battle-gen9bssregj-201770
+Agent:  Gemini
+Turn:   9
+System: LLM
+Action: switch fluttermane
+
+── REASONING ──
+Kingambit is fainted, so I must send in a replacement. Flutter Mane is the best choice to outspeed and threaten Urshifu-Rapid-Strike with super-effective STAB or high neutral damage.
+
+── BATTLE CONTEXT ──
+=== TURN 9 ANALYSIS ===
+Your kingambit vs opponent's urshifurapidstrike
+
+── OPPONENT'S LIKELY MOVES vs KINGAMBIT ──
+  ✓closecombat          → 172.0-202.9% (SE) → OHKO!
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        54% ##########
+  switch                 33% ######
+  setup                  10% ##
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > kingambit(50 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice      22.2% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    leftovers ✓
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: leftovers (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: leftovers (expected Assault Vest)
+
+── HP STATUS ──
+  Your kingambit: 0% [FNT]
+  Opp urshifurapidstrike: 100% 
+  Your bench: fluttermane(100%), calyrexice(22%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

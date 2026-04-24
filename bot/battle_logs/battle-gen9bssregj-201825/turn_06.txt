@@ -1,0 +1,87 @@
+Battle: battle-gen9bssregj-201825
+Agent:  Gemini
+Turn:   6
+System: LLM
+Action: switch calyrexice
+
+── REASONING ──
+Tornadus-Therian is at 25% HP and will be OHKOed by Iron Hands' Wild Charge, so switching to a healthier teammate is necessary to preserve momentum.
+
+── BATTLE CONTEXT ──
+=== TURN 6 ANALYSIS ===
+Your tornadustherian vs opponent's ironhands
+
+── YOUR MOVES vs IRONHANDS ──
+  hurricane            Flying   SPECIAL  BP:110 →  44.5- 52.4% (neutral) → 3HKO
+  heatwave             Fire     SPECIAL  BP: 95 →  25.8- 30.1% (neutral)
+  knockoff             Dark     PHYSICAL BP: 65 →   5.2-  6.1% (resist)
+  uturn                Bug      PHYSICAL BP: 70 →   5.2-  6.6% (resist)
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ~Drain Punch          →  24.7- 28.6% (resist)
+  ~Wild Charge          → 117.5-138.3% (SE) → OHKO!
+  ~Ice Punch            →  65.6- 77.3% (SE) → 2HKO
+  ~Swords Dance         →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        76% ###############
+  attack_status          10% #
+  attack_special          7% #
+  switch                  6% #
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > ironhands(50 base)
+
+── SWITCH OPTIONS ──
+  calyrexice           (Psychic/Ice      51.7% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Swords Dance
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   closecombat ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your tornadustherian: 25% 
+  Opp ironhands: 100% 
+  Your bench: calyrexice(52%), kingambit(100%), chienpao(100%), amoonguss(100%)
+  Opp bench: ~3 remaining

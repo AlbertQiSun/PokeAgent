@@ -1,0 +1,109 @@
+{
+  "battle_tag": "battle-gen9bssregj-236653",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 8,
+  "s1_count": 8,
+  "s2_count": 2,
+  "llm_count": 2,
+  "our_team": [
+    "urshifurapidstrike",
+    "rillaboom",
+    "calyrexice",
+    "tornadustherian",
+    "incineroar",
+    "fluttermane"
+  ],
+  "opp_team": [
+    "ironhands",
+    "fluttermane",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S1",
+      "action": "/choose move hurricane terastallize",
+      "confidence": 0.4656379520893097,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 2,
+      "system": "S2",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [
+        "[ironhands] Unexpected item: lifeorb (expected Assault Vest)",
+        "[ironhands] Unexpected move: heavyslam"
+      ],
+      "reasoning": "Tornadus-Therian is at 21% HP and faces an OHKO from Wild Charge; switching to Flutter Mane provides an immunity to Iron Hands' potential Fighting-type moves and threatens a KO with STAB Fairy moves."
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9400156736373901,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move moonblast",
+      "confidence": 0.9960026741027832,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose switch Tornadus",
+      "confidence": 0.835569441318512,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 5,
+      "system": "S2",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [
+        "PPO uncertainty: best action only 36% confidence (threshold 40%, entropy=1.18)"
+      ],
+      "reasoning": "Flutter Mane is at 20% HP, meaning Hurricane is a guaranteed KO regardless of the damage range. Attacking secures the KO and removes the immediate threat without needing to switch."
+    },
+    {
+      "turn": 5,
+      "system": "S1",
+      "action": "/choose switch Calyrex",
+      "confidence": 1.0,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 6,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.5864816904067993,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 7,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.8521610498428345,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 8,
+      "system": "S1",
+      "action": "/choose move glaciallance",
+      "confidence": 0.8524614572525024,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

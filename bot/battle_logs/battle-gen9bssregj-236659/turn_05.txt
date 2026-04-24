@@ -1,0 +1,79 @@
+Battle: battle-gen9bssregj-236659
+Agent:  Hybrid
+Turn:   5
+System: S1
+Confidence: 100%
+Action: /choose switch Incineroar
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your urshifurapidstrike vs opponent's tornadustherian
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ✓hurricane            → 132.0-155.4% (SE) → OHKO!
+  ~Heat Wave            →  18.9- 22.3% (resist)
+  ~Knock Off            →   7.4-  8.6% (resist)
+  ~U-turn               →   7.4-  9.1% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         54% ##########
+  attack_physical        19% ###
+  switch                 17% ###
+  attack_status           9% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: tornadustherian(121 base) > urshifurapidstrike(97 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark        78.7% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   hurricane ✓, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your urshifurapidstrike: 0% [FNT]
+  Opp tornadustherian: 27% 
+  Your bench: incineroar(79%), ironhands(100%), calyrexice(100%), kingambit(100%)
+  Opp bench: ~4 remaining

@@ -1,0 +1,66 @@
+{
+  "battle_tag": "battle-gen9bssregj-236675",
+  "agent": "Hybrid",
+  "result": "WIN",
+  "turns": 4,
+  "s1_count": 4,
+  "s2_count": 1,
+  "llm_count": 1,
+  "our_team": [
+    "fluttermane",
+    "urshifurapidstrike",
+    "ironhands",
+    "rillaboom",
+    "tornadustherian",
+    "incineroar"
+  ],
+  "opp_team": [
+    "gholdengo",
+    "fluttermane",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "S2",
+      "action": "move shadowball",
+      "confidence": -1,
+      "surprises": [
+        "[gholdengo] Unexpected item: airballoon (expected Choice Scarf)"
+      ],
+      "reasoning": "Despite the Air Balloon surprise, I outspeed Gholdengo and Shadow Ball is a guaranteed OHKO, fulfilling the primary decision priority of taking the KO."
+    },
+    {
+      "turn": 2,
+      "system": "S1",
+      "action": "/choose move shadowball terastallize",
+      "confidence": 0.5641440749168396,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose move shadowball",
+      "confidence": 0.5428268313407898,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 3,
+      "system": "S1",
+      "action": "/choose switch Urshifu",
+      "confidence": 0.9636319279670715,
+      "surprises": [],
+      "reasoning": ""
+    },
+    {
+      "turn": 4,
+      "system": "S1",
+      "action": "/choose move surgingstrikes",
+      "confidence": 0.8909385800361633,
+      "surprises": [],
+      "reasoning": ""
+    }
+  ]
+}

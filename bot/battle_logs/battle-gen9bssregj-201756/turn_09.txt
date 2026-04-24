@@ -1,0 +1,98 @@
+Battle: battle-gen9bssregj-201756
+Agent:  Hybrid
+Turn:   9
+System: S1
+Confidence: 100%
+Action: /choose move surgingstrikes
+
+── BATTLE CONTEXT ──
+=== TURN 9 ANALYSIS ===
+Your urshifurapidstrike vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  18.9- 22.3% x3 (resist)
+  closecombat          Fighting PHYSICAL BP:120 →  56.6- 66.9% (neutral) → 2HKO
+  aquajet              Water    PHYSICAL BP: 40 pri=1 →   9.7- 11.4% (resist)
+  uturn                Bug      PHYSICAL BP: 70 →  45.1- 52.6% (2x SE) → 3HKO
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ✓uturn                →  14.3- 17.1% (resist)
+  ✓knockoff             →  13.7- 16.0% (resist)
+  ~Wood Hammer          → 148.6-174.9% (SE) → OHKO!
+  ~Drum Beating         → 100.0-118.3% (SE) → OHKO!
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        59% ###########
+  switch                 26% #####
+  attack_special         10% #
+
+── SPEED CHECK ──
+  You outspeed: urshifurapidstrike(97 base) > rillaboom(85 base)
+  Priority moves available: aquajet
+
+── OPPONENT BENCH THREATS ──
+  incineroar           (Fire/Dark) 53% — best: surgingstrikes (SE)
+  ironhands            (Fighting/Electric) 9% — best: surgingstrikes (neutral)
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, knockoff ✓, ~Flare Blitz, ~Knock Off
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   heavyslam ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+│   - Unexpected move: heavyslam
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   uturn ✓, knockoff ✓, ~Wood Hammer, ~Drum Beating
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+  [ironhands] Unexpected move: heavyslam
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your urshifurapidstrike: 70% 
+  Opp rillaboom: 15% 
+  Your bench: gholdengo(100%), rillaboom(100%), incineroar(100%)
+  Opp bench: ~5 remaining

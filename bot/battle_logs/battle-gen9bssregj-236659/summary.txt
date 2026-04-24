@@ -1,0 +1,28 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-236659
+==================================================
+Agent:   Hybrid
+Result:  LOSS
+Turns:   7
+Logged:  9 decisions
+Our team: incineroar, ironhands, fluttermane, calyrexice, kingambit, urshifurapidstrike
+Opp team: incineroar, tornadustherian, urshifurapidstrike
+
+Routing: S1=7 (78%) S2=2 (22%)
+
+Surprises (2 total):
+  - PPO uncertainty: best action only 25% confidence (threshold 40%, entropy=1.90)
+  - PPO uncertainty: best action only 24% confidence (threshold 40%, entropy=1.90)
+
+Turn-by-turn:
+  T 1: /choose move moonblast         [S1] (58%)
+  T 1: /choose switch Incineroar      [S1] (82%)
+  T 2: move flareblitz                [S2] !
+  T 3: switch urshifurapidstrike      [S2] !
+  T 4: /choose move surgingstrikes terastallize [S1] (63%)
+  T 5: /choose move surgingstrikes    [S1] (99%)
+  T 5: /choose switch Incineroar      [S1] (100%)
+  T 6: /choose move flareblitz        [S1] (72%)
+  T 7: /choose move knockoff          [S1] (58%)
+
+Timestamp: 2026-04-20T12:39:37.089244

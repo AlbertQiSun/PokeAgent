@@ -1,0 +1,81 @@
+Battle: battle-gen9bssregj-201754
+Agent:  Hybrid
+Turn:   10
+System: S1
+Confidence: 100%
+Action: /choose move surgingstrikes
+
+── BATTLE CONTEXT ──
+=== TURN 10 ANALYSIS ===
+Your urshifurapidstrike vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  surgingstrikes       Water    PHYSICAL BP: 25 →  79.4- 93.5% x3 (2x SE) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs URSHIFURAPIDSTRIKE ──
+  ✓flareblitz           →  30.3- 35.4% (resist)
+  ✓fakeout              →  10.3- 12.6%
+  ~Flare Blitz          →  30.3- 35.4% (resist)
+  ~Knock Off            →  12.6- 14.9% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  switch                 68% #############
+  attack_physical        25% ####
+
+── SPEED CHECK ──
+  You outspeed: urshifurapidstrike(97 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  gholdengo            (Steel/Ghost     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Locked:  NOT Choice-locked (2 moves seen)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, fakeout ✓, ~Flare Blitz, ~Knock Off
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  regenerator ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   aquajet ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your urshifurapidstrike: 67% 
+  Opp incineroar: 71% 
+  Your bench: gholdengo(100%), rillaboom(100%), tornadustherian(100%), incineroar(100%)
+  Opp bench: ~3 remaining

@@ -1,0 +1,88 @@
+Battle: battle-gen9bssregj-201804
+Agent:  Gemini
+Turn:   3
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Rillaboom threatens an OHKO with Wood Hammer or Drum Beating, and Flutter Mane cannot guarantee a KO this turn. Switching to Incineroar provides a safe pivot that resists Rillaboom's STAB moves and provides Intimidate support.
+
+── BATTLE CONTEXT ──
+=== TURN 3 ANALYSIS ===
+Your fluttermane vs opponent's rillaboom
+
+── YOUR MOVES vs RILLABOOM ──
+  moonblast            Fairy    SPECIAL  BP: 95 →  89.7-105.7% (neutral) → 2HKO
+
+── OPPONENT'S LIKELY MOVES vs FLUTTERMANE ──
+  ~Wood Hammer          → 179.2-210.8% → OHKO!
+  ~Drum Beating         → 120.0-141.5% → OHKO!
+  ~U-turn               →  16.9- 20.8% (resist)
+  ~Knock Off            →  65.4- 76.9% → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        66% #############
+  attack_special         14% ##
+  setup                  11% ##
+  attack_status           5% #
+
+── SPEED CHECK ──
+  You outspeed: fluttermane(135 base) > rillaboom(85 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark       100.0% HP) — resists STAB | SE STAB
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── FIELD ──
+  Terrain: GRASSY_TERRAIN
+
+── HP STATUS ──
+  Your fluttermane: 100% 
+  Opp rillaboom: 100% 
+  Your bench: incineroar(100%), calyrexice(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

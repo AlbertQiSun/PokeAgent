@@ -1,0 +1,77 @@
+Battle: battle-gen9bssregj-201811
+Agent:  Gemini
+Turn:   7
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Tornadus-Therian has fainted, so I must send in a new Pokemon. Incineroar is the best choice to pivot into Urshifu-Rapid-Strike to utilize Intimidate and potentially force a switch or chip the opponent.
+
+── BATTLE CONTEXT ──
+=== TURN 7 ANALYSIS ===
+Your tornadustherian vs opponent's urshifurapidstrike
+
+── OPPONENT'S LIKELY MOVES vs TORNADUSTHERIAN ──
+  ✓surgingstrikes       →  48.7- 56.5% x3 → 2HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        55% ###########
+  setup                  27% #####
+  switch                 13% ##
+
+── SPEED CHECK ──
+  You outspeed: tornadustherian(121 base) > urshifurapidstrike(97 base)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy       6.1% HP) — immune to STAB | SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   surgingstrikes ✓, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your tornadustherian: 0% [FNT]
+  Opp urshifurapidstrike: 100% 
+  Your bench: incineroar(100%), fluttermane(6%), kingambit(100%), chienpao(100%)
+  Opp bench: ~4 remaining

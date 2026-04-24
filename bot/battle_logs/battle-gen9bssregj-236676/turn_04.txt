@@ -1,0 +1,87 @@
+Battle: battle-gen9bssregj-236676
+Agent:  Gemini
+Turn:   4
+System: LLM
+Action: move knock off
+
+── REASONING ──
+Flutter Mane is at 100% HP and threatens a 2HKO, but Knock Off will remove its Booster Energy and deal significant damage, potentially putting it in range for a follow-up KO while disrupting its item-dependent power.
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your incineroar vs opponent's fluttermane
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ~Moonblast            →  48.2- 57.1% → 2HKO
+  ~Shadow Ball          →  20.0- 24.1% (resist)
+  ~Dazzling Gleam       →  40.6- 48.2% → 3HKO
+  ~Protect              →   0.0-  0.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_special         36% #######
+  setup                  29% #####
+  attack_status          27% #####
+  switch                  5% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: fluttermane(135 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  fluttermane          (Ghost/Fairy       6.9% HP) — SE STAB
+  calyrexice           (Psychic/Ice     100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    Booster Energy ✓
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   wildcharge ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: lifeorb (expected Assault Vest)
+
+── HP STATUS ──
+  Your incineroar: 70% 
+  Opp fluttermane: 100% 
+  Your bench: fluttermane(7%), calyrexice(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~4 remaining

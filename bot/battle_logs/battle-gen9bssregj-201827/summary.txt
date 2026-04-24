@@ -1,0 +1,22 @@
+==================================================
+  BATTLE SUMMARY: battle-gen9bssregj-201827
+==================================================
+Agent:   Gemini
+Result:  WIN
+Turns:   8
+Logged:  9 decisions
+Our team: calyrexice, incineroar, amoonguss, chienpao, urshifurapidstrike, gholdengo
+Opp team: rillaboom, urshifurapidstrike, ironhands
+
+Turn-by-turn:
+  T 1: switch incineroar              [LLM]
+  T 2: move flareblitz                [LLM]
+  T 3: switch urshifurapidstrike      [LLM]
+  T 4: switch incineroar              [LLM]
+  T 4: switch urshifurapidstrike      [LLM]
+  T 5: move closecombat               [LLM]
+  T 6: switch calyrexice              [LLM]
+  T 7: move highhorsepower            [LLM]
+  T 8: move glaciallance              [LLM]
+
+Timestamp: 2026-04-20T10:34:37.881742

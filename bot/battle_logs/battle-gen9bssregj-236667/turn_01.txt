@@ -1,0 +1,93 @@
+Battle: battle-gen9bssregj-236667
+Agent:  Hybrid
+Turn:   1
+System: S2
+Surprises: [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+Action: switch incineroar
+
+── REASONING ──
+Since Gholdengo has an Air Balloon, High Horsepower will not hit it this turn, and staying in risks taking a heavy hit from Make It Rain. Switching to Incineroar allows me to resist Gholdengo's special attacks and potentially pop the balloon with a follow-up move or pivot.
+
+── BATTLE CONTEXT ──
+=== TURN 1 ANALYSIS ===
+Your calyrexice vs opponent's gholdengo
+
+── YOUR MOVES vs GHOLDENGO ──
+  glaciallance         Ice      PHYSICAL BP:120 →  36.4- 43.2% (resist) → 3HKO
+  highhorsepower       Ground   PHYSICAL BP: 95 →  77.8- 92.0% (2x SE) → 2HKO
+  iciclecrash          Ice      PHYSICAL BP: 85 →  25.9- 30.9% (resist)
+  heavyslam            Steel    PHYSICAL BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ~Make It Rain         →  81.1- 96.0% (SE) → 2HKO
+  ~Shadow Ball          →  54.9- 65.1% (SE) → 2HKO
+  ~Trick                →   0.0-  0.0%
+  ~Thunderbolt          →  20.6- 24.0%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_status          48% #########
+  attack_special         28% #####
+  setup                  19% ###
+
+── SPEED CHECK ──
+  Opponent outspeeds: gholdengo(84 base) > calyrexice(50 base)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark       100.0% HP) — resists STAB | SE STAB
+  fluttermane          (Ghost/Fairy     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your calyrexice: 100% 
+  Opp gholdengo: 100% 
+  Your bench: fluttermane(100%), amoonguss(100%), urshifurapidstrike(100%), incineroar(100%), rillaboom(100%)
+  Opp bench: ~5 remaining

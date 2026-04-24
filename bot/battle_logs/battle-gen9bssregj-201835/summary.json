@@ -1,0 +1,103 @@
+{
+  "battle_tag": "battle-gen9bssregj-201835",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 10,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "chienpao",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "incineroar",
+    "urshifurapidstrike"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "move uturn",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar will likely pivot or use Fake Out; U-turn allows me to deal chip damage while maintaining momentum and bringing in a better check to Incineroar."
+    },
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar provides an Intimidate drop to mitigate physical pressure and offers a safe pivot against the opponent's Incineroar, preserving Tornadus-Therian's health for later use."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 41% and will be outsped and KOed by Flare Blitz next turn. Switching to Tornadus-Therian allows me to preserve Calyrex-Ice for later while checking Incineroar's momentum."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 46% HP and will be KO'd by Flare Blitz next turn. Switching to Incineroar allows me to utilize Intimidate to mitigate incoming physical damage and pivot safely while preserving Tornadus for a potential Regenerator recovery later."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Tornadus-Therian is a safe pivot that resists Incineroar's Flare Blitz and can threaten it with momentum or chip damage."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian outspeeds Incineroar and Hurricane deals significant chip damage (45-53%). Since Incineroar's Flare Blitz is a 2HKO and I am at 80% HP, I can safely attack to force progress before pivoting out."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 29% and will be KO'd by Flare Blitz, so switching to Flutter Mane preserves Tornadus's Regenerator ability for later while bringing in a faster threat."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane has fainted, so I must send in a new Pokemon. Incineroar is the best choice to pivot into the opponent's Incineroar to neutralize its attack with Intimidate and scout its next move."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Incineroar is at 29% HP, and Hurricane is guaranteed to KO it this turn. Since I outspeed, I should take the guaranteed KO rather than switching."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "move hurricane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Hurricane is a guaranteed OHKO on Urshifu-Rapid-Strike, and since I outspeed, I should take the KO immediately to remove the threat."
+    }
+  ]
+}

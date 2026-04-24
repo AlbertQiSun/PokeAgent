@@ -1,0 +1,93 @@
+Battle: battle-gen9bssregj-201771
+Agent:  Gemini
+Turn:   5
+System: LLM
+Action: switch dragonite
+
+── REASONING ──
+Incineroar threatens a 2HKO with Flare Blitz while Kingambit deals negligible damage due to Intimidate and resistance. Switching to Dragonite provides a safe pivot that resists Fire-type moves and maintains momentum.
+
+── BATTLE CONTEXT ──
+=== TURN 5 ANALYSIS ===
+Your kingambit vs opponent's incineroar
+
+── YOUR MOVES vs INCINEROAR ──
+  suckerpunch          Dark     PHYSICAL BP: 70 pri=1 →  17.6- 21.2% (resist)
+  kowtowcleave         Dark     PHYSICAL BP: 85 →  21.8- 25.3% (resist)
+  ironhead             Steel    PHYSICAL BP: 80 →  20.0- 24.1% (resist)
+  swordsdance          Normal   STATUS   BP:  0 →   0.0-  0.0% (neutral)
+
+── OPPONENT'S LIKELY MOVES vs KINGAMBIT ──
+  ✓flareblitz           →  76.6- 89.7% (SE) → 2HKO
+  ~Flare Blitz          →  76.6- 89.7% (SE) → 2HKO
+  ~Knock Off            →  10.3- 12.6% (resist)
+  ~U-turn               →  14.9- 17.7%
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        59% ###########
+  switch                 20% ###
+  attack_special         13% ##
+  attack_status           5% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: incineroar(60 base) > kingambit(50 base)
+  Priority moves available: suckerpunch
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  protosynthesis ✓
+│ Item:    lifeorb ✓
+│ Tera:    ???
+│ Moves:   moonblast ✓, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+│ ⚠ Surprises:
+│   - Unexpected item: lifeorb (expected Booster Energy)
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  goodasgold ✓
+│ Item:    airballoon ✓
+│ Tera:    ???
+│ Moves:   makeitrain ✓, ~Make It Rain, ~Shadow Ball, ~Trick
+│ Speed:   base 84
+│ ⚠ Surprises:
+│   - Unexpected item: airballoon (expected Choice Scarf)
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [fluttermane] Unexpected item: lifeorb (expected Booster Energy)
+  [gholdengo] Unexpected item: airballoon (expected Choice Scarf)
+
+── HP STATUS ──
+  Your kingambit: 100% 
+  Opp incineroar: 60% 
+  Your bench: fluttermane(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~3 remaining

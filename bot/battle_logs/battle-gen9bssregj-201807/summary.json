@@ -1,0 +1,95 @@
+{
+  "battle_tag": "battle-gen9bssregj-201807",
+  "agent": "Gemini",
+  "result": "LOSS",
+  "turns": 7,
+  "s1_count": 0,
+  "s2_count": 0,
+  "llm_count": 9,
+  "our_team": [
+    "calyrexice",
+    "incineroar",
+    "fluttermane",
+    "kingambit",
+    "chienpao",
+    "tornadustherian"
+  ],
+  "opp_team": [
+    "ironhands",
+    "fluttermane"
+  ],
+  "decisions": [
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch fluttermane",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Iron Hands threatens an OHKO with Wild Charge, and Tornadus-Therian cannot secure a KO. Switching to Flutter Mane provides an immunity to Iron Hands' primary STAB moves and forces the opponent to respect a faster, high-damage threat."
+    },
+    {
+      "turn": 1,
+      "system": "LLM",
+      "action": "switch tornadustherian",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Flutter Mane is already fainted (0% HP), so I must switch to a healthy Pokemon. Tornadus-Therian is the safest pivot to scout the Iron Hands' next move while resisting its Fighting-type coverage."
+    },
+    {
+      "turn": 2,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is threatened with an OHKO by Iron Hands' Wild Charge. Switching to Incineroar provides an Intimidate drop to mitigate physical damage and offers a safer pivot point against Iron Hands."
+    },
+    {
+      "turn": 3,
+      "system": "LLM",
+      "action": "move highhorsepower",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "High Horsepower is a 2HKO and deals significantly more damage than Glacial Lance due to the type advantage against Iron Hands. Since Iron Hands is running Life Orb and cannot OHKO Calyrex-Ice, I will secure the 2HKO before the opponent can recover HP or switch."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "move glaciallance",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice is at 14% HP and will be KO'd by any attack from Flutter Mane. Since Glacial Lance is a guaranteed OHKO, I must take the shot now to remove the threat before Calyrex-Ice faints."
+    },
+    {
+      "turn": 4,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Calyrex-Ice has fainted, so I must send in a new Pokemon. Incineroar is the best choice to pivot into Flutter Mane to threaten it with Intimidate and potential Knock Off or Flare Blitz pressure."
+    },
+    {
+      "turn": 5,
+      "system": "LLM",
+      "action": "move knockoff",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Knock Off removes Flutter Mane's Booster Energy, significantly weakening its offensive presence and utility for the rest of the match while dealing meaningful chip damage."
+    },
+    {
+      "turn": 6,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is in 2HKO range of Flutter Mane's Moonblast and is slower, making it a liability to stay in. Switching to Incineroar provides a safe pivot to handle the special attack and potentially threaten with Knock Off or Intimidate support."
+    },
+    {
+      "turn": 7,
+      "system": "LLM",
+      "action": "switch incineroar",
+      "confidence": -1,
+      "surprises": [],
+      "reasoning": "Tornadus-Therian is at 23% and will be KO'd by Flutter Mane's Moonblast or Shadow Ball. Switching to Incineroar allows me to tank the special hit and potentially pivot or threaten with Knock Off."
+    }
+  ]
+}

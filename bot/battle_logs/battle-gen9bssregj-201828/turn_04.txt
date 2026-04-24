@@ -1,0 +1,83 @@
+Battle: battle-gen9bssregj-201828
+Agent:  Gemini
+Turn:   4
+System: LLM
+Action: switch amoonguss
+
+── REASONING ──
+Urshifu-Rapid-Strike threatens an OHKO or 2HKO on Incineroar with its STAB moves, and Incineroar cannot KO back. Amoonguss resists both Surging Strikes and Aqua Jet, making it the safest switch-in to neutralize the threat.
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your incineroar vs opponent's urshifurapidstrike
+
+── OPPONENT'S LIKELY MOVES vs INCINEROAR ──
+  ~Surging Strikes      →  79.4- 93.5% x3 (SE) → 2HKO
+  ~Close Combat         → 117.1-137.6% (SE) → OHKO!
+  ~U-turn               →  22.9- 27.1%
+  ~Aqua Jet             →  40.6- 48.2% (SE) → 3HKO
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        49% #########
+  attack_special         22% ####
+  switch                 18% ###
+  setup                   6% #
+  attack_status           5% #
+
+── SPEED CHECK ──
+  Opponent outspeeds: urshifurapidstrike(97 base) > incineroar(60 base)
+
+── SWITCH OPTIONS ──
+  amoonguss            (Grass/Poison    100.0% HP) — resists STAB | SE STAB
+  calyrexice           (Psychic/Ice     100.0% HP) — SE STAB
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  intimidate ✓
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   flareblitz ✓, ~Flare Blitz, ~Knock Off, ~U-turn
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  ~Quark Drive (KB estimate, 50%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Drain Punch, ~Wild Charge, ~Ice Punch, ~Fake Out
+│ Speed:   base 50
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ tornadustherian (Flying) ─
+│ Ability:  ~Regenerator (KB estimate, 40%)
+│ Item:    ~Assault Vest (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Hurricane, ~Heat Wave, ~Knock Off, ~U-turn
+│ Speed:   base 121
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  unseenfist ✓
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+── HP STATUS ──
+  Your incineroar: 64% 
+  Opp urshifurapidstrike: 100% 
+  Your bench: calyrexice(100%), tornadustherian(100%), chienpao(100%), kingambit(100%), amoonguss(100%)
+  Opp bench: ~5 remaining

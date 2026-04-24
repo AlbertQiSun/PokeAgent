@@ -1,0 +1,85 @@
+Battle: battle-gen9bssregj-201774
+Agent:  Gemini
+Turn:   4
+System: LLM
+Action: switch incineroar
+
+── REASONING ──
+Calyrex-Ice has fainted, so I must send in a new Pokemon. Incineroar provides Intimidate to weaken Iron Hands' physical attacks and can pivot or threaten with Flare Blitz.
+
+── BATTLE CONTEXT ──
+=== TURN 4 ANALYSIS ===
+Your calyrexice vs opponent's ironhands
+
+── OPPONENT'S LIKELY MOVES vs CALYREXICE ──
+  ✓drainpunch           →  23.4- 28.0%
+  ~Drain Punch          →  23.4- 28.0%
+  ~Wild Charge          →  28.0- 33.1%
+  ~Ice Punch            →   7.4-  9.1% (resist)
+
+── OPPONENT ACTION PREDICTION ──
+  attack_physical        79% ###############
+  switch                 13% ##
+
+── SPEED CHECK ──
+  Speed tie: both 50 base (50/50)
+
+── SWITCH OPTIONS ──
+  incineroar           (Fire/Dark       100.0% HP) — neutral
+  kingambit            (Dark/Steel      100.0% HP) — neutral
+
+── OPPONENT SCOUTING NOTEBOOK ──
+OPPONENT NOTEBOOK
+┌─ fluttermane (Ghost/Fairy) ─
+│ Ability:  ~Protosynthesis (KB estimate, 45%)
+│ Item:    ~Booster Energy (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Moonblast, ~Shadow Ball, ~Dazzling Gleam, ~Protect
+│ Speed:   base 135
+└─
+┌─ gholdengo (Steel/Ghost) ─
+│ Ability:  ~Good as Gold (KB estimate, 35%)
+│ Item:    ~Choice Scarf (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Make It Rain, ~Shadow Ball, ~Trick, ~Thunderbolt
+│ Speed:   base 84
+└─
+┌─ incineroar (Fire/Dark) ─
+│ Ability:  ~Intimidate (KB estimate, 35%)
+│ Item:    ~Safety Goggles (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Flare Blitz, ~Knock Off, ~U-turn, ~Fake Out
+│ Speed:   base 60
+└─
+┌─ ironhands (Fighting/Electric) ─
+│ Ability:  quarkdrive ✓
+│ Item:    leftovers ✓
+│ Tera:    ???
+│ Moves:   drainpunch ✓, ~Drain Punch, ~Wild Charge, ~Ice Punch
+│ Speed:   base 50
+│ ⚠ Surprises:
+│   - Unexpected item: leftovers (expected Assault Vest)
+└─
+┌─ rillaboom (Grass) ─
+│ Ability:  ~Grassy Surge (KB estimate, 40%)
+│ Item:    ~Choice Band (KB estimate)
+│ Tera:    ???
+│ Moves:   ~Wood Hammer, ~Drum Beating, ~U-turn, ~Knock Off
+│ Speed:   base 85
+└─
+┌─ urshifu (Fighting/Dark) ─
+│ Ability:  ???
+│ Item:    ???
+│ Tera:    ???
+│ Moves:   ???, ???, ???, ???
+│ Speed:   base 97
+└─
+
+⚠ ACTIVE SURPRISES:
+  [ironhands] Unexpected item: leftovers (expected Assault Vest)
+
+── HP STATUS ──
+  Your calyrexice: 0% [FNT]
+  Opp ironhands: 31% 
+  Your bench: incineroar(100%), amoonguss(100%), kingambit(100%), chienpao(100%), dragonite(100%)
+  Opp bench: ~5 remaining
