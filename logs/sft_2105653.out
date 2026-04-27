@@ -1,0 +1,25 @@
+============================================
+  PokeAgent SFT Training
+  Model:     /gpfsnyu/scratch/qs2196/.cache/models/Qwen3-8B
+  Node:      gpu191.shanghai.nyu.edu
+  GPU:       NVIDIA H20
+  Job ID:    2105653
+  Started:   Sun Apr 26 05:00:22 CST 2026
+============================================
+
+==================================================
+  SFT Training: /gpfsnyu/scratch/qs2196/.cache/models/Qwen3-8B
+==================================================
+  Data:       sft_data.jsonl
+  Epochs:     3
+  Batch size: 4
+  LR:         0.0001
+  LoRA rank:  16
+  Device:     cpu (torch.float32)
+
+Loading tokenizer...
+Loading model...
+  Trainable: 43,646,976 / 8,234,382,336 (0.53%)
+Loaded 48,969 training samples from sft_data.jsonl
+  Train: 46,520  Eval: 2,449
+Finished: Sun Apr 26 05:00:51 CST 2026

@@ -1,0 +1,40 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:51,  3.57it/s]Loading weights:  15%|█▌        | 60/399 [00:00<00:01, 199.83it/s]Loading weights:  24%|██▎       | 94/399 [00:00<00:01, 210.66it/s]Loading weights:  31%|███       | 123/399 [00:00<00:01, 226.53it/s]Loading weights:  38%|███▊      | 151/399 [00:00<00:01, 229.43it/s]Loading weights:  45%|████▍     | 178/399 [00:00<00:00, 234.43it/s]Loading weights:  51%|█████     | 204/399 [00:01<00:00, 223.44it/s]Loading weights:  57%|█████▋    | 228/399 [00:01<00:00, 221.30it/s]Loading weights:  64%|██████▎   | 254/399 [00:01<00:00, 226.86it/s]Loading weights:  70%|██████▉   | 279/399 [00:01<00:00, 211.16it/s]Loading weights:  78%|███████▊  | 312/399 [00:01<00:00, 237.15it/s]Loading weights:  85%|████████▌ | 340/399 [00:01<00:00, 231.77it/s]Loading weights:  92%|█████████▏| 367/399 [00:01<00:00, 236.77it/s]Loading weights:  98%|█████████▊| 392/399 [00:01<00:00, 239.91it/s]Loading weights: 100%|██████████| 399/399 [00:01<00:00, 221.01it/s]
+[transformers] warmup_ratio is deprecated and will be removed in v5.2. Use `warmup_steps` instead.
+Map:   0%|          | 0/46520 [00:00<?, ? examples/s]Map:   1%|          | 423/46520 [00:00<00:11, 4150.15 examples/s]Map:   2%|▏         | 1000/46520 [00:00<00:10, 4231.40 examples/s]Map:   4%|▍         | 1847/46520 [00:00<00:07, 5963.28 examples/s]Map:   6%|▌         | 2677/46520 [00:00<00:06, 6822.81 examples/s]Map:   8%|▊         | 3512/46520 [00:00<00:05, 7348.89 examples/s]Map:   9%|▉         | 4333/46520 [00:00<00:05, 7632.11 examples/s]Map:  11%|█         | 5169/46520 [00:00<00:05, 7863.96 examples/s]Map:  13%|█▎        | 6004/46520 [00:00<00:05, 8013.64 examples/s]Map:  15%|█▍        | 6853/46520 [00:00<00:04, 8157.19 examples/s]Map:  17%|█▋        | 7685/46520 [00:01<00:04, 8204.23 examples/s]Map:  19%|█▉        | 8911/46520 [00:01<00:04, 8188.07 examples/s]Map:  21%|██        | 9747/46520 [00:01<00:04, 8233.48 examples/s]Map:  23%|██▎       | 10578/46520 [00:01<00:04, 8254.06 examples/s]Map:  25%|██▍       | 11425/46520 [00:01<00:04, 8276.98 examples/s]Map:  27%|██▋       | 12675/46520 [00:01<00:04, 8293.58 examples/s]Map:  29%|██▉       | 13512/46520 [00:01<00:03, 8310.56 examples/s]Map:  32%|███▏      | 14770/46520 [00:01<00:03, 8333.83 examples/s]Map:  34%|███▎      | 15604/46520 [00:01<00:03, 8334.65 examples/s]Map:  36%|███▌      | 16853/46520 [00:02<00:03, 8192.59 examples/s]Map:  38%|███▊      | 17687/46520 [00:02<00:03, 8227.60 examples/s]Map:  40%|███▉      | 18521/46520 [00:02<00:03, 8255.39 examples/s]Map:  42%|████▏     | 19353/46520 [00:02<00:03, 8269.17 examples/s]Map:  43%|████▎     | 20186/46520 [00:02<00:03, 8284.76 examples/s]Map:  45%|████▌     | 21022/46520 [00:02<00:03, 8303.30 examples/s]Map:  47%|████▋     | 21874/46520 [00:02<00:02, 8362.88 examples/s]Map:  50%|████▉     | 23121/46520 [00:02<00:02, 8340.68 examples/s]Map:  52%|█████▏    | 23971/46520 [00:02<00:02, 8379.20 examples/s]Map:  54%|█████▍    | 25219/46520 [00:03<00:02, 8355.23 examples/s]Map:  57%|█████▋    | 26478/46520 [00:03<00:02, 8365.64 examples/s]Map:  60%|█████▉    | 27739/46520 [00:03<00:02, 8376.89 examples/s]Map:  62%|██████▏   | 28993/46520 [00:03<00:02, 8366.74 examples/s]Map:  65%|██████▌   | 30240/46520 [00:03<00:01, 8348.47 examples/s]Map:  68%|██████▊   | 31427/46520 [00:03<00:01, 8186.06 examples/s]Map:  69%|██████▉   | 32261/46520 [00:04<00:01, 8218.77 examples/s]Map:  72%|███████▏  | 33487/46520 [00:04<00:01, 8198.88 examples/s]Map:  74%|███████▍  | 34324/46520 [00:04<00:01, 8236.10 examples/s]Map:  76%|███████▌  | 35155/46520 [00:04<00:01, 8252.95 examples/s]Map:  77%|███████▋  | 36000/46520 [00:04<00:01, 8283.68 examples/s]Map:  79%|███████▉  | 36852/46520 [00:04<00:01, 8346.93 examples/s]Map:  82%|████████▏ | 38095/46520 [00:04<00:01, 8318.23 examples/s]Map:  84%|████████▎ | 38942/46520 [00:04<00:00, 8354.29 examples/s]Map:  86%|████████▋ | 40186/46520 [00:04<00:00, 8328.97 examples/s]Map:  89%|████████▉ | 41444/46520 [00:05<00:00, 8345.92 examples/s]Map:  92%|█████████▏| 42701/46520 [00:05<00:00, 8354.30 examples/s]Map:  94%|█████████▍| 43955/46520 [00:05<00:00, 8352.09 examples/s]Map:  96%|█████████▋| 44792/46520 [00:05<00:00, 8352.99 examples/s]Map:  99%|█████████▉| 46031/46520 [00:05<00:00, 8318.72 examples/s]Map: 100%|██████████| 46520/46520 [00:05<00:00, 8142.31 examples/s]
+Map:   0%|          | 0/2449 [00:00<?, ? examples/s]Map:  35%|███▍      | 850/2449 [00:00<00:00, 8460.85 examples/s]Map:  85%|████████▌ | 2085/2449 [00:00<00:00, 8298.95 examples/s]Map: 100%|██████████| 2449/2449 [00:00<00:00, 8309.51 examples/s]
+[RANK 0] Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+Traceback (most recent call last):
+  File "/gpfsnyu/scratch/qs2196/PokeAgent/bot/train_sft.py", line 268, in <module>
+    train(args)
+  File "/gpfsnyu/scratch/qs2196/PokeAgent/bot/train_sft.py", line 187, in train
+    trainer = SFTTrainer(
+              ^^^^^^^^^^^
+  File "/gpfsnyu/scratch/qs2196/.conda/envs/pokemon/lib/python3.11/site-packages/trl/trainer/sft_trainer.py", line 990, in __init__
+    super().__init__(
+  File "/gpfsnyu/scratch/qs2196/.conda/envs/pokemon/lib/python3.11/site-packages/transformers/trainer.py", line 480, in __init__
+    self._move_model_to_device(model, args.device)
+  File "/gpfsnyu/scratch/qs2196/.conda/envs/pokemon/lib/python3.11/site-packages/transformers/trainer.py", line 4415, in _move_model_to_device
+    model = model.to(device)
+            ^^^^^^^^^^^^^^^^
+  File "/gpfsnyu/scratch/qs2196/.conda/envs/pokemon/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1343, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/gpfsnyu/scratch/qs2196/.conda/envs/pokemon/lib/python3.11/site-packages/torch/nn/modules/module.py", line 903, in _apply
+    module._apply(fn)
+  File "/gpfsnyu/scratch/qs2196/.conda/envs/pokemon/lib/python3.11/site-packages/torch/nn/modules/module.py", line 903, in _apply
+    module._apply(fn)
+  File "/gpfsnyu/scratch/qs2196/.conda/envs/pokemon/lib/python3.11/site-packages/torch/nn/modules/module.py", line 903, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/gpfsnyu/scratch/qs2196/.conda/envs/pokemon/lib/python3.11/site-packages/torch/nn/modules/module.py", line 930, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/gpfsnyu/scratch/qs2196/.conda/envs/pokemon/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1329, in convert
+    return t.to(
+           ^^^^^
+RuntimeError: CUDA error: uncorrectable ECC error encountered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+

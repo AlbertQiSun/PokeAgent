@@ -1,0 +1,27 @@
+============================================
+  PokeAgent SFT Training
+  Model:     /gpfsnyu/scratch/qs2196/.cache/models/Qwen3-8B
+  Node:      gpu196.shanghai.nyu.edu
+  GPU:       NVIDIA GeForce RTX 4090 D
+  Job ID:    2105686
+  Started:   Sun Apr 26 07:29:55 CST 2026
+============================================
+
+==================================================
+  SFT Training: /gpfsnyu/scratch/qs2196/.cache/models/Qwen3-8B
+==================================================
+  Data:       sft_data.jsonl
+  Epochs:     3
+  Batch size: 4
+  LR:         0.0001
+  LoRA rank:  16
+  Device:     cuda (torch.float16)
+
+Loading tokenizer...
+Loading model...
+  Trainable: 43,646,976 / 8,234,382,336 (0.53%)
+Loaded 48,969 training samples from sft_data.jsonl
+  Train: 46,520  Eval: 2,449
+
+Starting training...
+Finished: Sun Apr 26 07:31:17 CST 2026
